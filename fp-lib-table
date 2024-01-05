@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Tiny_Scarab")(type "KiCad")(uri "${KIPRJMOD}/Tiny_Scarab.pretty")(options "")(descr ""))
+)
