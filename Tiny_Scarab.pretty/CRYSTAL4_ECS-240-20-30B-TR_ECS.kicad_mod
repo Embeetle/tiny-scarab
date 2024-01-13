@@ -42,7 +42,7 @@
   (pad "2" smd rect (at -1.1 1.849999) (size 1.2446 1.6002) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4c127f30-8b6c-48e1-9684-b43618d3e7c4))
   (pad "3" smd rect (at 1.1 1.849999) (size 1.2446 1.6002) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 761ef96a-6981-4948-8b85-38d44d45e222))
   (pad "4" smd rect (at 1.1 -1.849999) (size 1.2446 1.6002) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 8d2ba862-41f3-42f7-98e6-db7adbe02bb3))
-  (model "${KICAD7_3RD_PARTY}/3dmodels/ECS-240-20-30B-TR.step"
+  (model "${KIPRJMOD}/3d_models/ECS-240-20-30B-TR.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

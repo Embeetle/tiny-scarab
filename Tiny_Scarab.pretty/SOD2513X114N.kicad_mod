@@ -45,4 +45,9 @@
     (solder_mask_margin 0.102) (tstamp a28830ba-8558-43f6-bed0-26e6f1efadb4))
   (pad "2" smd roundrect (at 1.1 0) (size 0.8 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.06)
     (solder_mask_margin 0.102) (tstamp 2d231e43-7999-45f3-8480-ac164324af57))
+  (model "${KIPRJMOD}/3d_models/D_SOD-323.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

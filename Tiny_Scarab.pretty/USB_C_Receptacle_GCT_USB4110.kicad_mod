@@ -117,12 +117,7 @@
     (thermal_bridge_angle 45) (tstamp 97ac0569-f3e9-4353-9d81-7e19ee95a7c3))
   (pad "S1" smd roundrect (at 5.11 0.825) (size 2.18 2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.125)
     (thermal_bridge_angle 45) (tstamp 442fb513-612c-4404-a6a0-af03eaddab33))
-  (model "${KICAD7_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4110.wrl" hide
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
-  (model "${KICAD7_3RD_PARTY}/3dmodels/USB4110GFA.step"
+  (model "${KIPRJMOD}/3d_models/USB4110GFA.step"
     (offset (xyz 0 2.5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
