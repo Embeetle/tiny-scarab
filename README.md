@@ -18,7 +18,7 @@ It's a merge of the <a href="https://embeetle.com/#supported-hardware/wch/probes
 
 This merge results in a very convenient development board that requires no external wires to get started. Just plug the **Tiny Scarab** in your computer with a USB-C cable and you're good to go:
 
-<img src="https://github.com/Embeetle/tiny-scarab/assets/19362684/eac923f7-183c-4a2e-beb7-30c92c9e0428" width="400">
+<img src="https://github.com/Embeetle/tiny-scarab/assets/19362684/5433562a-a2f2-4a67-80d9-aade71c5e43a" width="400">
 
 ## 2. Comparison with `CH32V003F4P6-EVT-R0-1v1` board
 
