@@ -3,7 +3,9 @@
 # Production Files
 
 On this page, we cover how to output all the required production files from the KiCAD project. All production files will be in the `output/` folder when finished:
-- [`output.zip`](https://github.com/Embeetle/tiny-scarab/output.zip)
+- [`output.zip`]()
+
+[![Download zip](https://custom-icon-badges.demolab.com/badge/-Download-blue?style=for-the-badge&logo=download&logoColor=white "Download zip")](https://github.com/Embeetle/tiny-scarab/output.zip)
 
 
 &nbsp;<br>
