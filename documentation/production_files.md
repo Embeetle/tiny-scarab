@@ -58,12 +58,18 @@ Below is the BOM file trimmed down to the essential columns:
 | 31       | 1       | XTAL2                                                                                                     |           | ECS Inc.                            | `ECS-240-20-30B-TR`    | DigiKey      | `XC1122TR-ND`             |
 
 
-Please note that the capacitors and resistors got a special **MPN** code. Their MPN code doesn't represent a *Manufacturer Part Number*, but rather a *Generic Part Number* as specified by the Eurocircuits specifications:
+Please note that the capacitors and resistors got a special **MPN** code. Their MPN code doesn't represent a *Manufacturer Part Number*, but rather a *Generic Part Number*. More on that in the next paragraph.
+
+
+&nbsp;<br>
+## 2. Generic Part Numbers
+
+For some components - like (most of) the resistors and capacitors - it doesn't make sense to give specific part numbers to your board manufacturer. If you want a `0402` sized `1k` resistor, you probably don't care what brand it is. Let the board manufacturer choose what they have in stock. For this reason, Eurocircuits came up with *'Generic Part Numbers'*:
 
  - [Eurocircuits Generic Capacitors](https://www.eurocircuits.com/generic-components/generic-capacitors/)
  - [Eurocircuits Generic Resistors](https://www.eurocircuits.com/generic-components/generic-resistors/)
 
-This means that your board manufacturer (eg. Eurocircuits) doesn't have to source a specific resistor or capacitor. Instead, the board manufacturer is free to choose as long as the resistor/capacitor has the correct value. Below is a table of the Generic Components used in the Tiny Scarab board:
+Below is a table of the Generic Components used in the Tiny Scarab board:
 
 
 | **MPN/GPN**            | **Value** | **Tol%** | **Voltage** | **Dielectric** | **Description**                                         |
