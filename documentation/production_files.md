@@ -4,51 +4,89 @@
 
 ## 1. BOM
 
-The BOM (Bill Of Materials) files `tiny-scarab.csv` and `tiny-scarab.xml` can be generated in the KiCAD Schematic Editor by clicking `Tools` > `Generate BOM`:
-
-<img width="400" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/a2b37f38-c881-4602-8dc7-6ffaf24ca673">
-
-KiCAD then generates these two BOM files in the toplevel folder. I move them to the `output/` subfolder. You can click them below to access them directly:
+KiCAD outputs two BOM (Bill of Materials) files:
 
 - [`tiny-scarab.csv`](../output/tiny-scarab.csv)
 - [`tiny-scarab.xml`](../output/tiny-scarab.xml)
 
-Or you can just observe the table below:
+They can be generated in the KiCAD Schematic Editor by clicking `Tools` > `Generate BOM`:
+
+<img width="400" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/a2b37f38-c881-4602-8dc7-6ffaf24ca673">
+
+KiCAD then generates these two BOM files in the toplevel folder. I moved them to the `output/` subfolder to keep the toplevel folder tidy.
+
+Below is the BOM file trimmed down to the essential columns:
+
+ - **Manufacturer**
+ - **MPN** (Manufacturer Part Number)
+ - **Supplier**
+ - **SPN** (Supplier Part Number)
 
 
-| **Item** | **Qty** | **Reference(s)**                                                                                          | **Value** | **MPN**                | **Manufacturer**                    | **SPN**                   | **Supplier** |
-|----------|---------|-----------------------------------------------------------------------------------------------------------|-----------|------------------------|-------------------------------------|---------------------------|--------------|
-| 1        | 23      | C1, C2, C3, C4, C5, C6, C7, C8, C13, C14, C15, C19, C20, C21, C22, C23, C26, C27, C28, C29, C33, C34, C36 | 100n      | `GPC0402104-16`        |                                     |                           |              |
-| 2        | 4       | C9, C11, C12, C16                                                                                         | 1u        | `GPC0402105-16`        |                                     |                           |              |
-| 3        | 2       | C10, C17                                                                                                  | 10u       | `GPC0402106-6.3`       |                                     |                           |              |
-| 4        | 9       | C18, C30, C31, C32, C35, C37, C38, C39, C40                                                               | 10u       | `GPC0805106`           |                                     |                           |              |
-| 5        | 1       | D1                                                                                                        |           | `SMAJ5.0A`             | Littelfuse Inc.                     | `SMAJ5.0ALFTR-ND`         | DigiKey      |
-| 6        | 1       | D2                                                                                                        |           | `SMAZ5V6-TP`           | Micro Commercial Co                 | `SMAZ5V6-TPMSTR-ND`       | DigiKey      |
-| 7        | 2       | D3, D4                                                                                                    |           | `CDSOD323-T05LC`       | Bourns                              | `CDSOD323-T05LCTR-ND`     | DigiKey      |
-| 8        | 1       | D5                                                                                                        |           | `SD103AWS`             | ANBON SEMICONDUCTOR (INT'L) LIMITED | `4530-SD103AWSTR-ND`      | DigiKey      |
-| 9        | 1       | F1                                                                                                        |           | `SF-1206F100-2`        | Bourns Inc.                         | `SF-1206F100-2TR-ND`      | DigiKey      |
-| 10       | 1       | F2                                                                                                        |           | `0402L050SLKR`         | Littelfuse Inc.                     | `F5759TR-ND`              | DigiKey      |
-| 11       | 1       | J1                                                                                                        |           | `USB4110-GF-A`         | GCT                                 | `2073-USB4110-GF-A-2-ND`  | DigiKey      |
-| 12       | 2       | J3, J4                                                                                                    |           | `10129383-914001ALF`   | Amphenol ICC (FCI)                  | `10129383-914001ALF-ND`   | DigiKey      |
-| 13       | 4       | LED1, LED2, LED3, LED4                                                                                    |           | `150060GS55040`        | Wurth Elektronik                    | `732-12014-2-ND`          | DigiKey      |
-| 14       | 3       | Q1, Q2, Q3                                                                                                |           | `IRLML2502TRPBF`       | Infineon Technologies               | `IRLML2502TRPBFTR-ND`     | DigiKey      |
-| 15       | 2       | R1, R2                                                                                                    | 5k1       | `GPR04025K1`           |                                     |                           |              |
-| 16       | 2       | R3, R25                                                                                                   | 200       | `GPR0402200R`          |                                     |                           |              |
-| 17       | 2       | R4, R6                                                                                                    | 270       | `GPR0402270R`          |                                     |                           |              |
-| 18       | 4       | R8, R17, R18, R19                                                                                         | 0         | `GPR04020R`            |                                     |                           |              |
-| 19       | 3       | R10, R12, R24                                                                                             | 1k        | `GPR04021K`            |                                     |                           |              |
-| 20       | 1       | R11                                                                                                       | 100k      | `GPR0402100K`          |                                     |                           |              |
-| 21       | 1       | R13                                                                                                       | 130       | `GPR0402130R`          |                                     |                           |              |
-| 22       | 1       | R14                                                                                                       | 20        | `GPR040220R`           |                                     |                           |              |
-| 23       | 3       | R15, R16, R23                                                                                             | 10k       | `GPR040210K`           |                                     |                           |              |
-| 24       | 1       | R22                                                                                                       | 470       | `GPR0402470R`          |                                     |                           |              |
-| 25       | 4       | SW1, SW2, SW3, SW4                                                                                        |           | `PTS636 SL43 SMTR LFS` | C&K                                 | `CKN12309-2-ND`           | DigiKey      |
-| 26       | 1       | SW5                                                                                                       |           | `SLW-883935-2A-D`      | CUI Devices                         | `2223-SLW-883935-2A-D-ND` | DigiKey      |
-| 27       | 1       | U1                                                                                                        |           | `MCP1825ST-3302E/DB`   | Microchip Technology                | `MCP1825ST-3302E/DBTR-ND` | DigiKey      |
-| 28       | 1       | U2                                                                                                        |           | `CH32V305FBP6`         | WCH                                 | `1005004329064488`        | AliExpress   |
-| 29       | 1       | U3                                                                                                        |           | `CH32V003F4P6`         | WCH                                 | `1005005036714708`        | AliExpress   |
-| 30       | 1       | XTAL1                                                                                                     |           | `FL1200156`            | Diodes Incorporated                 | `FL1200156-ND`            | DigiKey      |
-| 31       | 1       | XTAL2                                                                                                     |           | `ECS-240-20-30B-TR`    | ECS Inc.                            | `XC1122TR-ND`             | DigiKey      |
+| **Item** | **Qty** | **Reference(s)**                                                                                          | **Value** | **Manufacturer**                    | **MPN**                | **Supplier** | **SPN**                   |
+|----------|---------|-----------------------------------------------------------------------------------------------------------|-----------|-------------------------------------|------------------------|--------------|---------------------------|
+| 1        | 23      | C1, C2, C3, C4, C5, C6, C7, C8, C13, C14, C15, C19, C20, C21, C22, C23, C26, C27, C28, C29, C33, C34, C36 | 100n      |                                     | `GPC0402104-16`        |              |                           |
+| 2        | 4       | C9, C11, C12, C16                                                                                         | 1u        |                                     | `GPC0402105-16`        |              |                           |
+| 3        | 2       | C10, C17                                                                                                  | 10u       |                                     | `GPC0402106-6.3`       |              |                           |
+| 4        | 9       | C18, C30, C31, C32, C35, C37, C38, C39, C40                                                               | 10u       |                                     | `GPC0805106`           |              |                           |
+| 5        | 1       | D1                                                                                                        |           | Littelfuse Inc.                     | `SMAJ5.0A`             | DigiKey      | `SMAJ5.0ALFTR-ND`         |
+| 6        | 1       | D2                                                                                                        |           | Micro Commercial Co                 | `SMAZ5V6-TP`           | DigiKey      | `SMAZ5V6-TPMSTR-ND`       |
+| 7        | 2       | D3, D4                                                                                                    |           | Bourns                              | `CDSOD323-T05LC`       | DigiKey      | `CDSOD323-T05LCTR-ND`     |
+| 8        | 1       | D5                                                                                                        |           | ANBON SEMICONDUCTOR (INT'L) LIMITED | `SD103AWS`             | DigiKey      | `4530-SD103AWSTR-ND`      |
+| 9        | 1       | F1                                                                                                        |           | Bourns Inc.                         | `SF-1206F100-2`        | DigiKey      | `SF-1206F100-2TR-ND`      |
+| 10       | 1       | F2                                                                                                        |           | Littelfuse Inc.                     | `0402L050SLKR`         | DigiKey      | `F5759TR-ND`              |
+| 11       | 1       | J1                                                                                                        |           | GCT                                 | `USB4110-GF-A`         | DigiKey      | `2073-USB4110-GF-A-2-ND`  |
+| 12       | 2       | J3, J4                                                                                                    |           | Amphenol ICC (FCI)                  | `10129383-914001ALF`   | DigiKey      | `10129383-914001ALF-ND`   |
+| 13       | 4       | LED1, LED2, LED3, LED4                                                                                    |           | Wurth Elektronik                    | `150060GS55040`        | DigiKey      | `732-12014-2-ND`          |
+| 14       | 3       | Q1, Q2, Q3                                                                                                |           | Infineon Technologies               | `IRLML2502TRPBF`       | DigiKey      | `IRLML2502TRPBFTR-ND`     |
+| 15       | 2       | R1, R2                                                                                                    | 5k1       |                                     | `GPR04025K1`           |              |                           |
+| 16       | 2       | R3, R25                                                                                                   | 200       |                                     | `GPR0402200R`          |              |                           |
+| 17       | 2       | R4, R6                                                                                                    | 270       |                                     | `GPR0402270R`          |              |                           |
+| 18       | 4       | R8, R17, R18, R19                                                                                         | 0         |                                     | `GPR04020R`            |              |                           |
+| 19       | 3       | R10, R12, R24                                                                                             | 1k        |                                     | `GPR04021K`            |              |                           |
+| 20       | 1       | R11                                                                                                       | 100k      |                                     | `GPR0402100K`          |              |                           |
+| 21       | 1       | R13                                                                                                       | 130       |                                     | `GPR0402130R`          |              |                           |
+| 22       | 1       | R14                                                                                                       | 20        |                                     | `GPR040220R`           |              |                           |
+| 23       | 3       | R15, R16, R23                                                                                             | 10k       |                                     | `GPR040210K`           |              |                           |
+| 24       | 1       | R22                                                                                                       | 470       |                                     | `GPR0402470R`          |              |                           |
+| 25       | 4       | SW1, SW2, SW3, SW4                                                                                        |           | C&K                                 | `PTS636 SL43 SMTR LFS` | DigiKey      | `CKN12309-2-ND`           |
+| 26       | 1       | SW5                                                                                                       |           | CUI Devices                         | `SLW-883935-2A-D`      | DigiKey      | `2223-SLW-883935-2A-D-ND` |
+| 27       | 1       | U1                                                                                                        |           | Microchip Technology                | `MCP1825ST-3302E/DB`   | DigiKey      | `MCP1825ST-3302E/DBTR-ND` |
+| 28       | 1       | U2                                                                                                        |           | WCH                                 | `CH32V305FBP6`         | AliExpress   | `1005004329064488`        |
+| 29       | 1       | U3                                                                                                        |           | WCH                                 | `CH32V003F4P6`         | AliExpress   | `1005005036714708`        |
+| 30       | 1       | XTAL1                                                                                                     |           | Diodes Incorporated                 | `FL1200156`            | DigiKey      | `FL1200156-ND`            |
+| 31       | 1       | XTAL2                                                                                                     |           | ECS Inc.                            | `ECS-240-20-30B-TR`    | DigiKey      | `XC1122TR-ND`             |
+
+
+Please note that the capacitors and resistors got a special **MPN** code. Their MPN code doesn't represent a *Manufacturer Part Number*, but rather a *Generic Part Number* as specified by the Eurocircuits specifications:
+
+ - [Eurocircuits Generic Capacitors](https://www.eurocircuits.com/generic-components/generic-capacitors/)
+ - [Eurocircuits Generic Resistors](https://www.eurocircuits.com/generic-components/generic-resistors/)
+
+This means that your board manufacturer (eg. Eurocircuits) doesn't have to source a specific resistor or capacitor. Instead, the board manufacturer is free to choose as long as the resistor/capacitor has the correct value. Below is a table of the Generic Components used in the Tiny Scarab board:
+
+
+| **MPN/GPN**            | **Value** | **Tol%** | **Voltage** | **Dielectric** | **Description**                                         |
+|------------------------|-----------|----------|-------------|----------------|---------------------------------------------------------|
+| `GPC0402104-16`        | 100n      | 10%      | 16V         | X7R            | 0.1µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric) |
+| `GPC0402105-16`        | 1u        | 10%      | 16V         | X5R            | 1µF ±10% 16V Ceramic Capacitor X5R 0402 (1005 Metric)   |
+| `GPC0402106-6.3`       | 10u       | 20%      | 6.3V        | X5R            | 10µF ±20% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric) |
+| `GPC0805106`           | 10u       | 10%      | 10V         | X7R            | 10 µF ±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric) |
+
+
+| **MPN/GPN**            | **Value** | **Tol%** | **Power**   | **Voltage**    | **Description**                                                                             |
+|------------------------|-----------|----------|-------------|----------------|---------------------------------------------------------------------------------------------|
+| `GPR04025K1`           | 5k1       | 1%       | 62.5mW      | 50V            | SMD Chip Resistor, 5.1 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose |
+| `GPR0402200R`          | 200       | 1%       | 62.5mW      | 50V            | SMD Chip Resistor, 200 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose  |
+| `GPR0402270R`          | 270       | 1%       | 62.5mW      | 50V            | SMD Chip Resistor, 270 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose  |
+| `GPR04020R`            | 0         |          | 100mW       |                | SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose   |
+| `GPR04021K`            | 1k        | 1%       | 62.5mW      | 50V            | SMD Chip Resistor, 1 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose   |
+| `GPR0402100K`          | 100k      | 1%       | 62.5mW      | 50V            | SMD Chip Resistor, 100 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose |
+| `GPR0402130R`          | 130       | 1%       | 62.5mW      | 50V            | SMD Chip Resistor, 130 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose  |
+| `GPR040220R`           | 20        | 1%       | 62.5mW      | 50V            | SMD Chip Resistor, 20 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose   |
+| `GPR040210K`           | 10k       | 1%       | 62.5mW      | 50V            | SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose  |
+| `GPR0402470R`          | 470       | 1%       | 62.5mW      | 50V            | SMD Chip Resistor, 470 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose  |
+
 
 &nbsp;<br>
 <a href="../README.md#index"><img width="24" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/7eef998b-278f-46d1-8f7c-8e4333ccd19c"> GO BACK</a>
