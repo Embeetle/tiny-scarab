@@ -31,3 +31,6 @@ The PCB Layout is stored in a single file: `tiny-scarab.kicad_pcb`.
 ## <img width="24" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/f06540f0-08be-4fc5-86cf-60528deadd96"> KiCAD Project
 
 The entire KiCAD project is represented by `tiny-scarab.kicad_pro`. This file tells KiCAD how to open the project and where to find all the files.
+
+&nbsp;<br>
+<a href="../README.md"><img width="24" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/7eef998b-278f-46d1-8f7c-8e4333ccd19c"> GO BACK</a>
