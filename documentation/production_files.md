@@ -12,11 +12,24 @@ The Gerber Files specify the layout of copper tracks, vias, solder masks, and ot
 
 The following window appears:
 
-<img width="600" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/aba4294d-9814-47b1-8691-7afbc32a4692">
+<img width="700" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/aba4294d-9814-47b1-8691-7afbc32a4692">
 
 I left everything in the default value, except for `Subtract soldermask from silkscreen`. I checked that option to ensure no silkscreen ends up on the copper pads. Set the Output directory to `output/` and click `Plot` at the bottom of the window. Now you should have the following files in `output/`:
 
 <img width="600" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/71873e7c-9385-4a44-aeba-1eec324a8e3b">
+
+- [`tiny-scarab-B_Cu.gbr`](../output/tiny-scarab-B_Cu.gbr)
+- [`tiny-scarab-B_Mask.gbr`](../output/tiny-scarab-B_Mask.gbr)
+- [`tiny-scarab-B_Paste.gbr`](../output/tiny-scarab-B_Paste.gbr)
+- [`tiny-scarab-B_Silkscreen.gbr`](../output/tiny-scarab-B_Silkscreen.gbr)
+- [`tiny-scarab-Edge_Cuts.gbr`](../output/tiny-scarab-Edge_Cuts.gbr)
+- [`tiny-scarab-F_Cu.gbr`](../output/tiny-scarab-F_Cu.gbr)
+- [`tiny-scarab-F_Mask.gbr`](../output/tiny-scarab-F_Mask.gbr)
+- [`tiny-scarab-F_Paste.gbr`](../output/tiny-scarab-F_Paste.gbr)
+- [`tiny-scarab-F_Silkscreen.gbr`](../output/tiny-scarab-F_Silkscreen.gbr)
+- [`tiny-scarab-In1_Cu.gbr`](../output/tiny-scarab-In1_Cu.gbr)
+- [`tiny-scarab-In2_Cu.gbr`](../output/tiny-scarab-In2_Cu.gbr)
+- [`tiny-scarab-job.gbrjob`](../output/tiny-scarab-job.gbrjob)
 
 ## 2. Drill Files
 
@@ -24,8 +37,16 @@ The Drill Files specify all the drill holes in the board. Click `Generate Drill 
 
 <img width="600" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/f971f83d-d349-4f99-85cd-cc5e1674ea15">
 
+Again, I left everything in the default state, except for the Drill Units. I put them to `mm`. Make sure the output directory is set to `output/` and click the `Generate Drill File` button at the bottom. Then click also the `Generate Map File`. Now you should end up with the following output files:
 
-## 1. BOM
+<img width="600" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/078638bb-590e-450c-8941-374365d94b01">
+
+- [`tiny-scarab-NPTH.drl`](../output/tiny-scarab-NPTH.drl)
+- [`tiny-scarab-NPTH-drl_map.gbr`](../output/tiny-scarab-NPTH-drl_map.gbr)
+- [`tiny-scarab-PTH.drl`](../output/tiny-scarab-PTH.drl)
+- [`tiny-scarab-PTH-drl_map.gbr`](../output/tiny-scarab-PTH-drl_map.gbr)
+
+## 3. BOM
 
 KiCAD outputs two BOM (Bill of Materials) files:
 
