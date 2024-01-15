@@ -23,3 +23,6 @@ Launch KiCAD and open the `tiny-scarab.kicad_pro` file:
 That's it. Now you can work in the **Tiny Scarab** project in KiCAD:
 
 <img width="230" alt="open_project_05" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/15353730-c33c-47b5-ada0-df01d78f6852">
+
+&nbsp;<br>
+<a href="../README.md"><img width="24" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/7eef998b-278f-46d1-8f7c-8e4333ccd19c"> GO BACK</a>
