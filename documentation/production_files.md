@@ -4,6 +4,7 @@
 
 On this page, we cover how to output all the required production files from the KiCAD project. All production files will be in the `output/` folder when finished.
 
+&nbsp;<br>
 ## 1. Gerber Files
 
 The Gerber Files specify the layout of copper tracks, vias, solder masks, and other components. To generate them, open the PCB Layout from your KiCAD project. Then click `File` > `Fabrication Outputs` > `Gerbers`:
@@ -15,8 +16,6 @@ The following window appears:
 <img width="700" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/aba4294d-9814-47b1-8691-7afbc32a4692">
 
 I left everything in the default value, except for `Subtract soldermask from silkscreen`. I checked that option to ensure no silkscreen ends up on the copper pads. Set the Output directory to `output/` and click `Plot` at the bottom of the window. Now you should have the following files in `output/`:
-
-<img width="600" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/71873e7c-9385-4a44-aeba-1eec324a8e3b">
 
 - [`tiny-scarab-B_Cu.gbr`](../output/tiny-scarab-B_Cu.gbr)
 - [`tiny-scarab-B_Mask.gbr`](../output/tiny-scarab-B_Mask.gbr)
@@ -31,6 +30,7 @@ I left everything in the default value, except for `Subtract soldermask from sil
 - [`tiny-scarab-In2_Cu.gbr`](../output/tiny-scarab-In2_Cu.gbr)
 - [`tiny-scarab-job.gbrjob`](../output/tiny-scarab-job.gbrjob)
 
+&nbsp;<br>
 ## 2. Drill Files
 
 The Drill Files specify all the drill holes in the board. Click `Generate Drill Files...` in the bottom-right corner of the previous window. Another popup window comes on top now:
@@ -39,13 +39,12 @@ The Drill Files specify all the drill holes in the board. Click `Generate Drill 
 
 Again, I left everything in the default state, except for the Drill Units. I put them to `mm`. Make sure the output directory is set to `output/` and click the `Generate Drill File` button at the bottom. Then click also the `Generate Map File`. Now you should end up with the following output files:
 
-<img width="600" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/078638bb-590e-450c-8941-374365d94b01">
-
 - [`tiny-scarab-NPTH.drl`](../output/tiny-scarab-NPTH.drl)
 - [`tiny-scarab-NPTH-drl_map.gbr`](../output/tiny-scarab-NPTH-drl_map.gbr)
 - [`tiny-scarab-PTH.drl`](../output/tiny-scarab-PTH.drl)
 - [`tiny-scarab-PTH-drl_map.gbr`](../output/tiny-scarab-PTH-drl_map.gbr)
 
+&nbsp;<br>
 ## 3. BOM
 
 KiCAD outputs two BOM (Bill of Materials) files:
@@ -106,7 +105,7 @@ Please note that the capacitors and resistors got a special **MPN** code. Their 
 
 
 &nbsp;<br>
-## 2. Generic Part Numbers
+### Generic Part Numbers
 
 For some components - like (most of) the resistors and capacitors - it doesn't make sense to give specific part numbers to your board manufacturer. If you want a `0402` sized `1k` resistor, you probably don't care what brand it is. Let the board manufacturer choose what they have in stock. For this reason, Eurocircuits came up with *'Generic Part Numbers'*:
 
@@ -115,7 +114,7 @@ For some components - like (most of) the resistors and capacitors - it doesn't m
 
 Below is a table of the Generic Components used in the Tiny Scarab board:
 
-### Generic Capacitors
+#### Generic Capacitors
 
 | **MPN/GPN**            | **Value** | **Tol%** | **Voltage** | **Dielectric** | **Description**                                         |
 |------------------------|-----------|----------|-------------|----------------|---------------------------------------------------------|
@@ -125,7 +124,7 @@ Below is a table of the Generic Components used in the Tiny Scarab board:
 | `GPC0805106`           | 10u       | 10%      | 10V         | X7R            | 10 µF ±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric) |
 
 
-### Generic Resistors
+#### Generic Resistors
 
 | **MPN/GPN**            | **Value** | **Tol%** | **Power**   | **Voltage**    | **Description**                                                                             |
 |------------------------|-----------|----------|-------------|----------------|---------------------------------------------------------------------------------------------|
@@ -139,6 +138,22 @@ Below is a table of the Generic Components used in the Tiny Scarab board:
 | `GPR040220R`           | 20        | 1%       | 62.5mW      | 50V            | SMD Chip Resistor, 20 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose   |
 | `GPR040210K`           | 10k       | 1%       | 62.5mW      | 50V            | SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose  |
 | `GPR0402470R`          | 470       | 1%       | 62.5mW      | 50V            | SMD Chip Resistor, 470 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose  |
+
+&nbsp;<br>
+## 4. Component Placement File
+
+The Component Placement File specifies where each component must be placed as well as its rotation. Click `File` > `Fabrication Outputs` > `Component Placement File`:
+
+<img width="400" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/c1ce2ba6-2be8-4be1-81e7-73c1e3df238b">
+
+Make sure the output directory is set to `output/`. I selected `csv` for the format, `mm` for the units and `Single file for board` because I only have components on the top side of the PCB:
+
+<img width="400" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/7fd13245-4d97-4a83-b29f-578cd033f318">
+
+Click the button `Generate Position File`. You should now get this result:
+
+- [`tiny-scarab-all-pos.csv`](../output/tiny-scarab-all-pos.csv)
+
 
 
 &nbsp;<br>
