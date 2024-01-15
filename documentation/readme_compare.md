@@ -11,3 +11,6 @@ The exceptions are:
 - Pins `PA1` and `PA2` are used to drive the crystal. The `CH32V003F4P6-EVT-R0-1v1` board still breaks them out to the pin headers, but you then have to remove the crystal and solder two 0R resistors. We don't expect our users will make any modifications to the board, so we decided to leave out that option. The corresponing pins on the pin headers are just tied to `GND`.
 
 - Pins `PD1`, `PD5`, `PD6` and `PD7` are connected to the `CH32V305FBP6` chip for flash and debug purposes (the `CH32V305FBP6` is the heart of the on-board `WCH-LinkE-R0-1v3` flash/debug probe). It is safer not to connect them to the pin headers.
+
+&nbsp;<br>
+<a href="../README.md"><img width="24" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/7eef998b-278f-46d1-8f7c-8e4333ccd19c"> GO BACK</a>
