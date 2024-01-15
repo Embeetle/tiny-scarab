@@ -6,6 +6,9 @@ On this page, we cover how to output all the required production files from the 
 
 <a href="https://raw.githubusercontent.com/Embeetle/tiny-scarab/main/output.zip"><img width="24" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/2217c6c9-1fad-4934-8090-661ed2869178"> output.zip</a>
 
+&nbsp;<br>
+> <img width="24" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/817717b1-4ce0-4db8-a528-a57d349b6e21">  *WARNING:*
+*There's a potential source of confusion in the production files. If you decide not to read the whole page, at least read the part about the [Generic Part Numbers](#generic-part-numbers)*
 
 
 &nbsp;<br>
