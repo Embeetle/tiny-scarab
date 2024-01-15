@@ -29,6 +29,6 @@ There's no need to wire up anything. Just plug the Tiny Scarab in your computer 
 
 - **Software**
   - [Flash/Debug Probe Firmware](documentation/readme_flash_debug_probe_firmware.md)
-  - Target MCU
+  - [Target MCU Firmware](documentation/readme_target_mcu_firmware.md)
 
 
