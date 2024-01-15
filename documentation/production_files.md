@@ -109,8 +109,8 @@ Please note that the capacitors and resistors got a special **MPN** code. Their 
 
 For some components - like (most of) the resistors and capacitors - it doesn't make sense to give specific part numbers to your board manufacturer. If you want a `0402` sized `1k` resistor, you probably don't care what brand it is. Let the board manufacturer choose what they have in stock. For this reason, Eurocircuits came up with *'Generic Part Numbers'*:
 
- - [Eurocircuits Generic Capacitors](https://www.eurocircuits.com/generic-components/generic-capacitors/)
- - [Eurocircuits Generic Resistors](https://www.eurocircuits.com/generic-components/generic-resistors/)
+ - <a href="https://www.eurocircuits.com/generic-components/generic-capacitors/" target="_blank">Eurocircuits Generic Capacitors</a>
+ - <a href="https://www.eurocircuits.com/generic-components/generic-resistors/" target="_blank">Eurocircuits Generic Resistors</a>
 
 Below is a table of the Generic Components used in the Tiny Scarab board:
 
