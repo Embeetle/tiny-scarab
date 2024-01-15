@@ -2,6 +2,29 @@
 
 # Production Files
 
+On this page, we cover how to output all the required production files from the KiCAD project. All production files will be in the `output/` folder when finished.
+
+## 1. Gerber Files
+
+The Gerber Files specify the layout of copper tracks, vias, solder masks, and other components. To generate them, open the PCB Layout from your KiCAD project. Then click `File` > `Fabrication Outputs` > `Gerbers`:
+
+<img width="300" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/64948d99-f300-4e62-b19a-73a3d4b9f682">
+
+The following window appears:
+
+<img width="600" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/aba4294d-9814-47b1-8691-7afbc32a4692">
+
+I left everything in the default value, except for `Subtract soldermask from silkscreen`. I checked that option to ensure no silkscreen ends up on the copper pads. Set the Output directory to `output/` and click `Plot` at the bottom of the window. Now you should have the following files in `output/`:
+
+<img width="600" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/71873e7c-9385-4a44-aeba-1eec324a8e3b">
+
+## 2. Drill Files
+
+The Drill Files specify all the drill holes in the board. Click `Generate Drill Files...` in the bottom-right corner of the previous window. Another popup window comes on top now:
+
+<img width="600" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/f971f83d-d349-4f99-85cd-cc5e1674ea15">
+
+
 ## 1. BOM
 
 KiCAD outputs two BOM (Bill of Materials) files:
