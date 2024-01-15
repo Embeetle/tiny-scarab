@@ -5,7 +5,7 @@ The **Tiny Scarab** is an open source hardware project launched by <a href="http
 The Beetle Boards will get special attention in Embeetle IDE. The're the perfect candidates to discover the capabilities of this IDE. Being open source, they're also a great option for your next hardware project.
 
 &nbsp;<br>
-## 1. Overview
+## Overview
 
 The **Tiny Scarab** is a microcontroller development board based on the 10-cent RISC-V `CH32V003F4P6` MCU from WCH:
 
@@ -17,21 +17,17 @@ The Tiny Scarab merges the <a href="https://embeetle.com/#supported-hardware/wch
 
 There's no need to wire up anything. Just plug the Tiny Scarab in your computer and start coding!
 
-## 2. Further reading
-
-Learn more about the hard- and software for the Tiny Scarab board:
+&nbsp;<br>
+## Index
 
 - **Hardware**
   - [Open Tiny Scarab in KiCAD](documentation/readme_open_project.md)
-  - KiCAD files
-  - Comparison Tiny Scarab vs CH32V003F4P6-EVT-R0-1v1
+  - [A Deeper Dive in the KiCAD Files](documentation/readme_deeper_dive_kicad_files.md)
+  - [Tiny Scarab Pinout and Features](documentation/readme_pinout_and_features.md)
+  - [Tiny Scarab vs CH32V003F4P6-EVT-R0-1v1 - a Comparison](documentation/readme_compare.md)
 
 - **Software**
   - Flash/Debug Probe Firmware
   - Target MCU
 
-&nbsp;<br>
-That's it. Now you can work in the **Tiny Scarab** project in KiCAD:
-
-<img width="230" alt="open_project_05" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/15353730-c33c-47b5-ada0-df01d78f6852">
 
