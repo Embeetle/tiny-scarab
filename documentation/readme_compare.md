@@ -1,3 +1,5 @@
+<a href="../README.md"><img width="24" alt="open_project_01" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/640d8577-87b5-481d-8511-f9ecea8db5e7"> HOME</a>
+
 # Tiny Scarab vs CH32V003F4P6-EVT-R0-1v1 - a Comparison
 
 With a few exceptions, the Tiny Scarab pinout is identical to the `CH32V003F4P6-EVT-R0-1v1` development board:
