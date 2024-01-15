@@ -1,0 +1,2367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\krist\Documents\beetle_boards\tiny-scarab\tiny-scarab.kicad_sch</source>
+    <date>15/01/2024 18:58:37</date>
+    <tool>Eeschema 7.0.10</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Tiny Scarab</title>
+        <company>Embeetle</company>
+        <rev>0.1</rev>
+        <date>2024-01-04</date>
+        <source>tiny-scarab.kicad_sch</source>
+        <comment number="1" value="https://embeetle.com/tiny-scarab"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/USB/" tstamps="/99c48f54-1f97-4ff9-8db4-28f0cf987802/">
+      <title_block>
+        <title>Tiny Scarab</title>
+        <company>Embeetle</company>
+        <rev>0.1</rev>
+        <date>2024-01-04</date>
+        <source>USB.kicad_sch</source>
+        <comment number="1" value="https://embeetle.com/tiny-scarab"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/WCH-LinkE-R0-1v3/" tstamps="/90393844-9805-4207-88e8-abd4029c5b43/">
+      <title_block>
+        <title>Tiny Scarab</title>
+        <company>Embeetle</company>
+        <rev>0.1</rev>
+        <date>2024-01-04</date>
+        <source>WCH-LinkE-R0-1v3.kicad_sch</source>
+        <comment number="1" value="https://embeetle.com/tiny-scarab"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C26">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">GPC0402104-25</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GPC0402104-25"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>424bf709-061b-413b-973d-7956058cf9a0</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">GPC0402104-25</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GPC0402104-25"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6bd68c71-72ef-4c2a-afe7-2a8e51bb3339</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">GPC0402104-25</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GPC0402104-25"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d18dad20-28ec-4763-bb0e-06938b29f400</tstamps>
+    </comp>
+    <comp ref="C29">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">GPC0402104-25</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GPC0402104-25"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3ccf398c-0212-4d34-8119-39ccc2f842d6</tstamps>
+    </comp>
+    <comp ref="C30">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GPC0805106</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GPC0805106"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a994a39-15cc-40c9-a9e1-a2ffd16ae80c</tstamps>
+    </comp>
+    <comp ref="C31">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GPC0805106</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GPC0805106"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca457965-2235-427a-93a9-abd326ac3220</tstamps>
+    </comp>
+    <comp ref="C32">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GPC0805106</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GPC0805106"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f7a75134-487f-426c-a59e-024562c42929</tstamps>
+    </comp>
+    <comp ref="C33">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">GPC0402104-25</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GPC0402104-25"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>552eec94-2978-4492-8612-b2b6ee69c38f</tstamps>
+    </comp>
+    <comp ref="C34">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">GPC0402104-25</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GPC0402104-25"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>311f3862-68c6-4781-a733-9c64662411ee</tstamps>
+    </comp>
+    <comp ref="C35">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GPC0805106</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GPC0805106"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4e146796-f276-40cd-9cb0-cda00fba7277</tstamps>
+    </comp>
+    <comp ref="C36">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">GPC0402104-25</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GPC0402104-25"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1118c7d8-d982-4712-8c74-eb498947f437</tstamps>
+    </comp>
+    <comp ref="C37">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GPC0805106</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GPC0805106"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>058807cb-2c72-4783-9031-f88aee47c3d0</tstamps>
+    </comp>
+    <comp ref="C38">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GPC0805106</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GPC0805106"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5270a59e-978e-42e8-ad93-45dcf008afe4</tstamps>
+    </comp>
+    <comp ref="C39">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GPC0805106</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GPC0805106"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aeed6235-3a3b-4577-acb4-07540b5ee33b</tstamps>
+    </comp>
+    <comp ref="C40">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GPC0805106</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GPC0805106"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9bcf19e8-9b0d-41a3-9443-2ef9addbabe0</tstamps>
+    </comp>
+    <comp ref="F2">
+      <value>~</value>
+      <footprint>Tiny_Scarab:0402L050SLKR</footprint>
+      <fields>
+        <field name="MPN">0402L050SLKR</field>
+        <field name="Manufacturer">Littelfuse Inc.</field>
+        <field name="SPN">F5759TR-ND</field>
+        <field name="Supplier">DigiKey</field>
+      </fields>
+      <libsource lib="Device" part="Polyfuse_Small" description="Resettable fuse, polymeric positive temperature coefficient, small symbol"/>
+      <property name="Manufacturer" value="Littelfuse Inc."/>
+      <property name="MPN" value="0402L050SLKR"/>
+      <property name="Supplier" value="DigiKey"/>
+      <property name="SPN" value="F5759TR-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
+      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient, small symbol"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2936fa41-2614-46d6-9eef-bdbdd48dd7ff</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_02x07_Odd_Even</value>
+      <footprint>Tiny_Scarab:PinHeader_2x07_P2.54mm_Vertical_SMD_10129383-914001ALF</footprint>
+      <datasheet>https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/10129383.pdf</datasheet>
+      <fields>
+        <field name="MPN">10129383-914001ALF</field>
+        <field name="Manufacturer">Amphenol ICC (FCI)</field>
+        <field name="SPN">10129383-914001ALF-ND</field>
+        <field name="Supplier">DigiKey</field>
+      </fields>
+      <libsource lib="Tiny_Scarab" part="Conn_02x07_Odd_Even" description="Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="Amphenol ICC (FCI)"/>
+      <property name="MPN" value="10129383-914001ALF"/>
+      <property name="Supplier" value="DigiKey"/>
+      <property name="SPN" value="10129383-914001ALF-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>65b33c27-9529-469c-9f5c-17ac0bff4678</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_02x07_Odd_Even</value>
+      <footprint>Tiny_Scarab:PinHeader_2x07_P2.54mm_Vertical_SMD_10129383-914001ALF</footprint>
+      <datasheet>https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/10129383.pdf</datasheet>
+      <fields>
+        <field name="MPN">10129383-914001ALF</field>
+        <field name="Manufacturer">Amphenol ICC (FCI)</field>
+        <field name="SPN">10129383-914001ALF-ND</field>
+        <field name="Supplier">DigiKey</field>
+      </fields>
+      <libsource lib="Tiny_Scarab" part="Conn_02x07_Odd_Even" description="Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="Amphenol ICC (FCI)"/>
+      <property name="MPN" value="10129383-914001ALF"/>
+      <property name="Supplier" value="DigiKey"/>
+      <property name="SPN" value="10129383-914001ALF-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b684c40-3109-4d6a-873b-28ecf2e28931</tstamps>
+    </comp>
+    <comp ref="LED4">
+      <value>~</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">150060GS55040</field>
+        <field name="Manufacturer">Würth Elektronik</field>
+        <field name="SPN">732-12014-2-ND</field>
+        <field name="Supplier">DigiKey</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Manufacturer" value="Würth Elektronik"/>
+      <property name="MPN" value="150060GS55040"/>
+      <property name="Supplier" value="DigiKey"/>
+      <property name="SPN" value="732-12014-2-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fa898dfb-6fbc-4d27-87cb-5d8e4003f699</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>~</value>
+      <footprint>Tiny_Scarab:SOT-23</footprint>
+      <fields>
+        <field name="MPN">IRLML2502TRPBF</field>
+        <field name="Manufacturer">Infineon Technologies</field>
+        <field name="SPN">IRLML2502TRPBFTR-ND</field>
+        <field name="Supplier">DigiKey</field>
+      </fields>
+      <libsource lib="Tiny_Scarab" part="IRLML2502TRPBF" description="N-Channel 20 V 4.2A (Ta) 1.25W (Ta) Surface Mount Micro3™/SOT-23"/>
+      <property name="Manufacturer" value="Infineon Technologies"/>
+      <property name="MPN" value="IRLML2502TRPBF"/>
+      <property name="Supplier" value="DigiKey"/>
+      <property name="SPN" value="IRLML2502TRPBFTR-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
+      <property name="ki_description" value="N-Channel 20 V 4.2A (Ta) 1.25W (Ta) Surface Mount Micro3™/SOT-23"/>
+      <property name="ki_keywords" value="N-Channel HEXFET MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7ff902a1-77d0-4343-86fe-5f1ff2573d19</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">GPR0402470R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="GPR0402470R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b215d17-172a-4933-bf42-bfef20eb6b2f</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">GPR040210K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="GPR040210K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7be32b3-21ee-4524-86c8-944d9b26fdec</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">GPR04021K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="GPR04021K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>56033146-b017-4679-851d-d6030f3b7965</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>200</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">GPR0402200R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="GPR0402200R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b0b7624d-05fb-447b-b1d0-bcb8df56a7c7</tstamps>
+    </comp>
+    <comp ref="SW4">
+      <value>~</value>
+      <footprint>Tiny_Scarab:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx43SMTRLFS</footprint>
+      <datasheet>https://www.ckswitches.com/media/2779/pts636.pdf</datasheet>
+      <fields>
+        <field name="MPN">PTS636 SL43 SMTR LFS</field>
+        <field name="Manufacturer">C&amp;K</field>
+        <field name="SPN">CKN12309-2-ND</field>
+        <field name="Supplier">DigiKey</field>
+      </fields>
+      <libsource lib="Tiny_Scarab" part="PTS636_SL43_SMTR_LFS" description="Push button switch, generic, two pins"/>
+      <property name="Manufacturer" value="C&amp;K"/>
+      <property name="MPN" value="PTS636 SL43 SMTR LFS"/>
+      <property name="Supplier" value="DigiKey"/>
+      <property name="SPN" value="CKN12309-2-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3ca481dc-c3ae-4dd8-9eae-944c09b448c8</tstamps>
+    </comp>
+    <comp ref="SW5">
+      <value>~</value>
+      <footprint>Tiny_Scarab:SLW-883935-2A-D</footprint>
+      <datasheet>https://www.cuidevices.com/product/resource/digikeypdf/slw-883935-2a-d.pdf</datasheet>
+      <fields>
+        <field name="MPN">SLW-883935-2A-D</field>
+        <field name="Manufacturer">CUI Devices</field>
+        <field name="SPN">2223-SLW-883935-2A-D-ND</field>
+        <field name="Supplier">DigiKey</field>
+      </fields>
+      <libsource lib="Tiny_Scarab" part="SLW-883935-2A-D" description="Slide Switch SPDT Through Hole"/>
+      <property name="Manufacturer" value="CUI Devices"/>
+      <property name="MPN" value="SLW-883935-2A-D"/>
+      <property name="Supplier" value="DigiKey"/>
+      <property name="SPN" value="2223-SLW-883935-2A-D-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
+      <property name="ki_description" value="Slide Switch SPDT Through Hole"/>
+      <property name="ki_keywords" value="Slide Switch SPDT Through Hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4aad5842-3177-4a30-94a5-bfaf0965d8aa</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>~</value>
+      <footprint>Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm</footprint>
+      <fields>
+        <field name="MPN">CH32V003F4P6</field>
+        <field name="Manufacturer">WCH</field>
+        <field name="SPN">1005005036714708</field>
+        <field name="Supplier">AliExpress</field>
+      </fields>
+      <libsource lib="Tiny_Scarab" part="CH32V003F4P6" description="32-bit general-purpose RISC-V MCU"/>
+      <property name="Manufacturer" value="WCH"/>
+      <property name="MPN" value="CH32V003F4P6"/>
+      <property name="Supplier" value="AliExpress"/>
+      <property name="SPN" value="1005005036714708"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
+      <property name="ki_description" value="32-bit general-purpose RISC-V MCU"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f561331b-5ff2-45b6-858f-f3bbda753ec4</tstamps>
+    </comp>
+    <comp ref="XTAL2">
+      <value>ECS-240-20-30B-TR</value>
+      <footprint>Tiny_Scarab:CRYSTAL4_ECS-240-20-30B-TR_ECS</footprint>
+      <datasheet>https://ecsxtal.com/store/pdf/ecx_53b.pdf</datasheet>
+      <fields>
+        <field name="MPN">ECS-240-20-30B-TR</field>
+        <field name="Manufacturer">ECS Inc.</field>
+        <field name="SPN">XC1122TR-ND</field>
+        <field name="Supplier">DigiKey</field>
+      </fields>
+      <libsource lib="Tiny_Scarab" part="ECS-240-20-30B-TR" description=""/>
+      <property name="Manufacturer" value="ECS Inc."/>
+      <property name="MPN" value="ECS-240-20-30B-TR"/>
+      <property name="Supplier" value="DigiKey"/>
+      <property name="SPN" value="XC1122TR-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
+      <property name="ki_keywords" value="ECS-240-20-30B-TR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b0941e6-f83a-4c54-b34e-04feaea481ca</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">GPC0402104-16</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GPC0402104-16"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/USB/" tstamps="/99c48f54-1f97-4ff9-8db4-28f0cf987802/"/>
+      <tstamps>2ce25be5-48ef-4ea4-b9d8-fe7147b9c116</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">GPC0402104-16</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GPC0402104-16"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/USB/" tstamps="/99c48f54-1f97-4ff9-8db4-28f0cf987802/"/>
+      <tstamps>775a881f-c34e-4ff0-8e34-e44317b224dd</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">GPC0402104-16</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GPC0402104-16"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/USB/" tstamps="/99c48f54-1f97-4ff9-8db4-28f0cf987802/"/>
+      <tstamps>f4d4f4d0-5c65-46d6-8caa-a1b4de5e86fa</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">GPC0402104-16</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GPC0402104-16"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/USB/" tstamps="/99c48f54-1f97-4ff9-8db4-28f0cf987802/"/>
+      <tstamps>cb49e6b1-9cbf-4646-8feb-edece1cf5bd9</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">GPC0402104-16</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GPC0402104-16"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/USB/" tstamps="/99c48f54-1f97-4ff9-8db4-28f0cf987802/"/>
+      <tstamps>37fb79c3-8c25-4f6c-bd91-c759e4bae975</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">GPC0402104-16</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GPC0402104-16"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/USB/" tstamps="/99c48f54-1f97-4ff9-8db4-28f0cf987802/"/>
+      <tstamps>58d7dc99-b4f5-49ac-a681-b552f60776db</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">GPC0402104-16</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GPC0402104-16"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/USB/" tstamps="/99c48f54-1f97-4ff9-8db4-28f0cf987802/"/>
+      <tstamps>3912c436-e965-4cd7-ad6c-541d9f13dd6b</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">GPC0402104-25</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GPC0402104-25"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/USB/" tstamps="/99c48f54-1f97-4ff9-8db4-28f0cf987802/"/>
+      <tstamps>42ca1dc1-2778-44e3-9aba-3d5a91da85a1</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">GPC0402105-16</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GPC0402105-16"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/USB/" tstamps="/99c48f54-1f97-4ff9-8db4-28f0cf987802/"/>
+      <tstamps>a436a8b4-d1fc-433b-a24e-5eb3aff8b5f0</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">GPC0402106-6.3</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GPC0402106-6.3"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/USB/" tstamps="/99c48f54-1f97-4ff9-8db4-28f0cf987802/"/>
+      <tstamps>588f5fb5-cd03-434c-95f4-e2f9283dc136</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">GPC0402105-16</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GPC0402105-16"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/USB/" tstamps="/99c48f54-1f97-4ff9-8db4-28f0cf987802/"/>
+      <tstamps>63332b20-7b7a-433c-95ad-1be536034d82</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">GPC0402105-16</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GPC0402105-16"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/USB/" tstamps="/99c48f54-1f97-4ff9-8db4-28f0cf987802/"/>
+      <tstamps>6e796a0c-c1a7-4eb5-86c5-8422616594a2</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">GPC0402104-25</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GPC0402104-25"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/USB/" tstamps="/99c48f54-1f97-4ff9-8db4-28f0cf987802/"/>
+      <tstamps>6cd7f266-b12a-4618-b90b-57618b6fa00a</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">GPC0402104-16</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GPC0402104-16"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/USB/" tstamps="/99c48f54-1f97-4ff9-8db4-28f0cf987802/"/>
+      <tstamps>7e936131-da8e-4716-b18f-b13d75094c16</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">GPC0402104-25</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GPC0402104-25"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/USB/" tstamps="/99c48f54-1f97-4ff9-8db4-28f0cf987802/"/>
+      <tstamps>f5d81ec5-d10c-4515-adbe-a9538e130d07</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">GPC0402105-16</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GPC0402105-16"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/USB/" tstamps="/99c48f54-1f97-4ff9-8db4-28f0cf987802/"/>
+      <tstamps>be774678-b359-426a-8c76-b94e142319fe</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">GPC0402106-6.3</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GPC0402106-6.3"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/USB/" tstamps="/99c48f54-1f97-4ff9-8db4-28f0cf987802/"/>
+      <tstamps>797fb5d4-3cc3-471d-871f-1605c7ba9c81</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>~</value>
+      <footprint>Tiny_Scarab:D_SMA</footprint>
+      <datasheet>https://www.littelfuse.com/media?resourcetype=datasheets&amp;itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&amp;filename=smaj-datasheet</datasheet>
+      <fields>
+        <field name="MPN">SMAJ5.0A</field>
+        <field name="Manufacturer">Littelfuse Inc.</field>
+        <field name="SPN">SMAJ5.0ALFTR-ND</field>
+        <field name="Supplier">DigiKey</field>
+      </fields>
+      <libsource lib="Tiny_Scarab" part="SMAJ5.0A" description="400W unidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"/>
+      <property name="Manufacturer" value="Littelfuse Inc."/>
+      <property name="MPN" value="SMAJ5.0A"/>
+      <property name="Supplier" value="DigiKey"/>
+      <property name="SPN" value="SMAJ5.0ALFTR-ND"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <property name="ki_description" value="400W unidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"/>
+      <property name="ki_keywords" value="unidirectional diode TVS voltage suppressor"/>
+      <sheetpath names="/USB/" tstamps="/99c48f54-1f97-4ff9-8db4-28f0cf987802/"/>
+      <tstamps>39ba5d0e-f783-4f0f-8d33-a418015e107c</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>~</value>
+      <footprint>Tiny_Scarab:D_SMA</footprint>
+      <fields>
+        <field name="MPN">SMAZ5V6-TP</field>
+        <field name="Manufacturer">Micro Commercial Co</field>
+        <field name="SPN">SMAZ5V6-TPMSTR-ND</field>
+        <field name="Supplier">DigiKey</field>
+      </fields>
+      <libsource lib="Tiny_Scarab" part="SMAZ5V6-TP" description="DIODE ZENER 5.6V 1W DO214AC"/>
+      <property name="Manufacturer" value="Micro Commercial Co"/>
+      <property name="MPN" value="SMAZ5V6-TP"/>
+      <property name="Supplier" value="DigiKey"/>
+      <property name="SPN" value="SMAZ5V6-TPMSTR-ND"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <property name="ki_description" value="DIODE ZENER 5.6V 1W DO214AC"/>
+      <property name="ki_keywords" value="unidirectional diode Zener"/>
+      <sheetpath names="/USB/" tstamps="/99c48f54-1f97-4ff9-8db4-28f0cf987802/"/>
+      <tstamps>cca6f55d-1eb6-43fa-aae2-fdb1b4aa03d4</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>~</value>
+      <footprint>Tiny_Scarab:SOD2513X114N</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/CDSOD323-TxxLC.pdf</datasheet>
+      <fields>
+        <field name="MPN">CDSOD323-T05LC</field>
+        <field name="Manufacturer">Bourns</field>
+        <field name="SPN">CDSOD323-T05LCTR-ND</field>
+        <field name="Supplier">DigiKey</field>
+      </fields>
+      <libsource lib="Tiny_Scarab" part="CDSOD323-T05LC" description="TVS DIODE 5VWM 18.3VC SOD323 IPC-7351B STANDARD"/>
+      <property name="Manufacturer" value="Bourns"/>
+      <property name="MPN" value="CDSOD323-T05LC"/>
+      <property name="Supplier" value="DigiKey"/>
+      <property name="SPN" value="CDSOD323-T05LCTR-ND"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <property name="ki_description" value="TVS DIODE 5VWM 18.3VC SOD323 IPC-7351B STANDARD"/>
+      <sheetpath names="/USB/" tstamps="/99c48f54-1f97-4ff9-8db4-28f0cf987802/"/>
+      <tstamps>2c9f2e24-e140-4c89-8ffe-b2d1b833b820</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>~</value>
+      <footprint>Tiny_Scarab:SOD2513X114N</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/CDSOD323-TxxLC.pdf</datasheet>
+      <fields>
+        <field name="MPN">CDSOD323-T05LC</field>
+        <field name="Manufacturer">Bourns</field>
+        <field name="SPN">CDSOD323-T05LCTR-ND</field>
+        <field name="Supplier">DigiKey</field>
+      </fields>
+      <libsource lib="Tiny_Scarab" part="CDSOD323-T05LC" description="TVS DIODE 5VWM 18.3VC SOD323 IPC-7351B STANDARD"/>
+      <property name="Manufacturer" value="Bourns"/>
+      <property name="MPN" value="CDSOD323-T05LC"/>
+      <property name="Supplier" value="DigiKey"/>
+      <property name="SPN" value="CDSOD323-T05LCTR-ND"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <property name="ki_description" value="TVS DIODE 5VWM 18.3VC SOD323 IPC-7351B STANDARD"/>
+      <sheetpath names="/USB/" tstamps="/99c48f54-1f97-4ff9-8db4-28f0cf987802/"/>
+      <tstamps>edc777c0-7ce2-4492-9d1d-02dbcbd63289</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>~</value>
+      <footprint>Tiny_Scarab:D_SOD-323</footprint>
+      <fields>
+        <field name="MPN">SD103AWS</field>
+        <field name="Manufacturer">ANBON SEMICONDUCTOR (INT'L) LIMITED</field>
+        <field name="SPN">4530-SD103AWSTR-ND</field>
+        <field name="Supplier">DigiKey</field>
+      </fields>
+      <libsource lib="Tiny_Scarab" part="SD103AWS" description="Schottky diode"/>
+      <property name="Manufacturer" value="ANBON SEMICONDUCTOR (INT'L) LIMITED"/>
+      <property name="MPN" value="SD103AWS"/>
+      <property name="Supplier" value="DigiKey"/>
+      <property name="SPN" value="4530-SD103AWSTR-ND"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <property name="ki_description" value="Schottky diode"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/USB/" tstamps="/99c48f54-1f97-4ff9-8db4-28f0cf987802/"/>
+      <tstamps>26ecde9f-a652-468c-9346-979421ec42b5</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>~</value>
+      <footprint>Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">SF-1206F100-2</field>
+        <field name="Manufacturer">Bourns Inc.</field>
+        <field name="SPN">SF-1206F100-2TR-ND</field>
+        <field name="Supplier">DigiKey</field>
+      </fields>
+      <libsource lib="Tiny_Scarab" part="SF-1206F100-2" description="FUSE BOARD MOUNT 1A 63VDC 1206"/>
+      <property name="Manufacturer" value="Bourns Inc."/>
+      <property name="MPN" value="SF-1206F100-2"/>
+      <property name="Supplier" value="DigiKey"/>
+      <property name="SPN" value="SF-1206F100-2TR-ND"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <property name="ki_description" value="FUSE BOARD MOUNT 1A 63VDC 1206"/>
+      <sheetpath names="/USB/" tstamps="/99c48f54-1f97-4ff9-8db4-28f0cf987802/"/>
+      <tstamps>257a6874-c300-4c7f-9a17-1b72e2b7b95e</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>USB_C_Receptacle_USB2.0</value>
+      <footprint>Tiny_Scarab:USB_C_Receptacle_GCT_USB4110</footprint>
+      <datasheet>https://gct.co/files/drawings/usb4110.pdf</datasheet>
+      <fields>
+        <field name="MPN">USB4110-GF-A</field>
+        <field name="Manufacturer">GCT</field>
+        <field name="SPN">2073-USB4110-GF-A-2-ND</field>
+        <field name="Supplier">DigiKey</field>
+      </fields>
+      <libsource lib="Tiny_Scarab" part="USB_C_Receptacle_USB2.0" description="USB 2.0-only Type-C Receptacle connector"/>
+      <property name="Manufacturer" value="GCT"/>
+      <property name="MPN" value="USB4110-GF-A"/>
+      <property name="Supplier" value="DigiKey"/>
+      <property name="SPN" value="2073-USB4110-GF-A-2-ND"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <property name="ki_description" value="USB 2.0-only Type-C Receptacle connector"/>
+      <property name="ki_keywords" value="usb universal serial bus type-C USB2.0"/>
+      <sheetpath names="/USB/" tstamps="/99c48f54-1f97-4ff9-8db4-28f0cf987802/"/>
+      <tstamps>f7cdf249-1193-470c-bad8-0d4017f083a5</tstamps>
+    </comp>
+    <comp ref="LED1">
+      <value>~</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">150060GS55040</field>
+        <field name="Manufacturer">Würth Elektronik</field>
+        <field name="SPN">732-12014-2-ND</field>
+        <field name="Supplier">DigiKey</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Manufacturer" value="Würth Elektronik"/>
+      <property name="MPN" value="150060GS55040"/>
+      <property name="Supplier" value="DigiKey"/>
+      <property name="SPN" value="732-12014-2-ND"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/USB/" tstamps="/99c48f54-1f97-4ff9-8db4-28f0cf987802/"/>
+      <tstamps>0f9d0eea-19ee-444f-b8d8-fce893dd07f8</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">GPR04025K1</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="GPR04025K1"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/USB/" tstamps="/99c48f54-1f97-4ff9-8db4-28f0cf987802/"/>
+      <tstamps>f568ad71-f5ce-45fb-b78e-3a5f3824a723</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">GPR04025K1</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="GPR04025K1"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/USB/" tstamps="/99c48f54-1f97-4ff9-8db4-28f0cf987802/"/>
+      <tstamps>7e2c8ee3-6b95-4ae6-8323-32f6fbb0a6e0</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>200</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">GPR0402200R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="GPR0402200R"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/USB/" tstamps="/99c48f54-1f97-4ff9-8db4-28f0cf987802/"/>
+      <tstamps>9863662c-cee5-43b0-9e79-e5b42419eb43</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>~</value>
+      <footprint>Tiny_Scarab:SOT-223-3_TabPin2</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/devicedoc/22056b.pdf</datasheet>
+      <fields>
+        <field name="MPN">MCP1825ST-3302E/DB</field>
+        <field name="Manufacturer">Microchip Technology</field>
+        <field name="SPN">MCP1825ST-3302E/DBTR-ND</field>
+        <field name="Supplier">DigiKey</field>
+      </fields>
+      <libsource lib="Tiny_Scarab" part="MCP1825ST-3302E/DB" description="500mA, Low-Voltage, Low Quiescent Current LDO Regulator, SOT-223, TO-220, TO-263"/>
+      <property name="Manufacturer" value="Microchip Technology"/>
+      <property name="MPN" value="MCP1825ST-3302E/DB"/>
+      <property name="Supplier" value="DigiKey"/>
+      <property name="SPN" value="MCP1825ST-3302E/DBTR-ND"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <property name="ki_description" value="500mA, Low-Voltage, Low Quiescent Current LDO Regulator, SOT-223, TO-220, TO-263"/>
+      <property name="ki_keywords" value="regulator linear ldo"/>
+      <sheetpath names="/USB/" tstamps="/99c48f54-1f97-4ff9-8db4-28f0cf987802/"/>
+      <tstamps>fa81780a-1e3f-4b26-b5cc-9c421143281c</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GPC0805106</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GPC0805106"/>
+      <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
+      <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/WCH-LinkE-R0-1v3/" tstamps="/90393844-9805-4207-88e8-abd4029c5b43/"/>
+      <tstamps>39528744-58c7-4022-a1bc-9fb4d1eec06c</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">GPC0402104-25</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GPC0402104-25"/>
+      <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
+      <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/WCH-LinkE-R0-1v3/" tstamps="/90393844-9805-4207-88e8-abd4029c5b43/"/>
+      <tstamps>077d1251-77d2-4d92-b3ed-55de1d718afe</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">GPC0402104-25</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GPC0402104-25"/>
+      <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
+      <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/WCH-LinkE-R0-1v3/" tstamps="/90393844-9805-4207-88e8-abd4029c5b43/"/>
+      <tstamps>bf0276ef-305e-4d31-861e-30523f3a97ae</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">GPC0402104-25</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GPC0402104-25"/>
+      <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
+      <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/WCH-LinkE-R0-1v3/" tstamps="/90393844-9805-4207-88e8-abd4029c5b43/"/>
+      <tstamps>8f0acf67-5f74-409a-9393-29af6fcad340</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">GPC0402104-25</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GPC0402104-25"/>
+      <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
+      <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/WCH-LinkE-R0-1v3/" tstamps="/90393844-9805-4207-88e8-abd4029c5b43/"/>
+      <tstamps>8e6fb256-a226-4a11-a35b-63762b755115</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">GPC0402104-25</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GPC0402104-25"/>
+      <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
+      <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/WCH-LinkE-R0-1v3/" tstamps="/90393844-9805-4207-88e8-abd4029c5b43/"/>
+      <tstamps>d1b35038-54b9-4d57-b931-176adc68bab4</tstamps>
+    </comp>
+    <comp ref="LED2">
+      <value>~</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">150060YS55040</field>
+        <field name="Manufacturer">Würth Elektronik</field>
+        <field name="SPN">732-12018-2-ND</field>
+        <field name="Supplier">DigiKey</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Manufacturer" value="Würth Elektronik"/>
+      <property name="MPN" value="150060YS55040"/>
+      <property name="Supplier" value="DigiKey"/>
+      <property name="SPN" value="732-12018-2-ND"/>
+      <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
+      <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/WCH-LinkE-R0-1v3/" tstamps="/90393844-9805-4207-88e8-abd4029c5b43/"/>
+      <tstamps>111dead7-559d-4f34-a166-65361b34f70c</tstamps>
+    </comp>
+    <comp ref="LED3">
+      <value>~</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">150060BS55040</field>
+        <field name="Manufacturer">Würth Elektronik</field>
+        <field name="SPN">732-12013-2-ND</field>
+        <field name="Supplier">DigiKey</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Manufacturer" value="Würth Elektronik"/>
+      <property name="MPN" value="150060BS55040"/>
+      <property name="Supplier" value="DigiKey"/>
+      <property name="SPN" value="732-12013-2-ND"/>
+      <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
+      <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/WCH-LinkE-R0-1v3/" tstamps="/90393844-9805-4207-88e8-abd4029c5b43/"/>
+      <tstamps>77951d9d-c8ae-46b4-bc19-1ce07956e459</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>~</value>
+      <footprint>Tiny_Scarab:SOT-23</footprint>
+      <fields>
+        <field name="MPN">IRLML2502TRPBF</field>
+        <field name="Manufacturer">Infineon Technologies</field>
+        <field name="SPN">IRLML2502TRPBFTR-ND</field>
+        <field name="Supplier">DigiKey</field>
+      </fields>
+      <libsource lib="Tiny_Scarab" part="IRLML2502TRPBF" description="N-Channel 20 V 4.2A (Ta) 1.25W (Ta) Surface Mount Micro3™/SOT-23"/>
+      <property name="Manufacturer" value="Infineon Technologies"/>
+      <property name="MPN" value="IRLML2502TRPBF"/>
+      <property name="Supplier" value="DigiKey"/>
+      <property name="SPN" value="IRLML2502TRPBFTR-ND"/>
+      <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
+      <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
+      <property name="ki_description" value="N-Channel 20 V 4.2A (Ta) 1.25W (Ta) Surface Mount Micro3™/SOT-23"/>
+      <property name="ki_keywords" value="N-Channel HEXFET MOSFET"/>
+      <sheetpath names="/WCH-LinkE-R0-1v3/" tstamps="/90393844-9805-4207-88e8-abd4029c5b43/"/>
+      <tstamps>f081c0b9-f926-4974-a8e4-dc015b504bd3</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>~</value>
+      <footprint>Tiny_Scarab:SOT-23</footprint>
+      <fields>
+        <field name="MPN">IRLML2502TRPBF</field>
+        <field name="Manufacturer">Infineon Technologies</field>
+        <field name="SPN">IRLML2502TRPBFTR-ND</field>
+        <field name="Supplier">DigiKey</field>
+      </fields>
+      <libsource lib="Tiny_Scarab" part="IRLML2502TRPBF" description="N-Channel 20 V 4.2A (Ta) 1.25W (Ta) Surface Mount Micro3™/SOT-23"/>
+      <property name="Manufacturer" value="Infineon Technologies"/>
+      <property name="MPN" value="IRLML2502TRPBF"/>
+      <property name="Supplier" value="DigiKey"/>
+      <property name="SPN" value="IRLML2502TRPBFTR-ND"/>
+      <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
+      <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
+      <property name="ki_description" value="N-Channel 20 V 4.2A (Ta) 1.25W (Ta) Surface Mount Micro3™/SOT-23"/>
+      <property name="ki_keywords" value="N-Channel HEXFET MOSFET"/>
+      <sheetpath names="/WCH-LinkE-R0-1v3/" tstamps="/90393844-9805-4207-88e8-abd4029c5b43/"/>
+      <tstamps>0bbdc0ed-7c2f-4de6-8123-0c1683903830</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>270</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">GPR0402270R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="GPR0402270R"/>
+      <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
+      <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/WCH-LinkE-R0-1v3/" tstamps="/90393844-9805-4207-88e8-abd4029c5b43/"/>
+      <tstamps>f3a6f3e9-b5cf-42f2-acfd-306638aa2baf</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>270</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">GPR0402270R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="GPR0402270R"/>
+      <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
+      <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/WCH-LinkE-R0-1v3/" tstamps="/90393844-9805-4207-88e8-abd4029c5b43/"/>
+      <tstamps>eed685e3-9298-4ad1-b152-c8d36ee3af1e</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">GPR04020R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="GPR04020R"/>
+      <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
+      <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/WCH-LinkE-R0-1v3/" tstamps="/90393844-9805-4207-88e8-abd4029c5b43/"/>
+      <tstamps>eb263126-dee1-4311-a14f-c6c90f45a308</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">GPR04021K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="GPR04021K"/>
+      <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
+      <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/WCH-LinkE-R0-1v3/" tstamps="/90393844-9805-4207-88e8-abd4029c5b43/"/>
+      <tstamps>cad7d494-d6d9-4487-b046-b32cc45596f2</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">GPR0402100K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="GPR0402100K"/>
+      <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
+      <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/WCH-LinkE-R0-1v3/" tstamps="/90393844-9805-4207-88e8-abd4029c5b43/"/>
+      <tstamps>deebd046-6846-4659-ab93-3e6cf54645a7</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">GPR04021K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="GPR04021K"/>
+      <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
+      <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/WCH-LinkE-R0-1v3/" tstamps="/90393844-9805-4207-88e8-abd4029c5b43/"/>
+      <tstamps>dd4a6031-6de7-490e-b7d5-6cef779225f3</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>130</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">GPR0402130R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="GPR0402130R"/>
+      <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
+      <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/WCH-LinkE-R0-1v3/" tstamps="/90393844-9805-4207-88e8-abd4029c5b43/"/>
+      <tstamps>ef6e2892-ddb4-4616-872d-baf3e64068dd</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>20</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">GPR040220R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="GPR040220R"/>
+      <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
+      <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/WCH-LinkE-R0-1v3/" tstamps="/90393844-9805-4207-88e8-abd4029c5b43/"/>
+      <tstamps>641741d1-e54e-42af-8545-328ca925c120</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">GPR040210K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="GPR040210K"/>
+      <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
+      <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/WCH-LinkE-R0-1v3/" tstamps="/90393844-9805-4207-88e8-abd4029c5b43/"/>
+      <tstamps>5cf70e35-d2e5-402a-a4d5-578986e4e0e3</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">GPR040210K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="GPR040210K"/>
+      <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
+      <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/WCH-LinkE-R0-1v3/" tstamps="/90393844-9805-4207-88e8-abd4029c5b43/"/>
+      <tstamps>43379c95-d065-400e-8844-ed2ac0e1ef2d</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">GPR04020R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="GPR04020R"/>
+      <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
+      <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/WCH-LinkE-R0-1v3/" tstamps="/90393844-9805-4207-88e8-abd4029c5b43/"/>
+      <tstamps>920f3f4f-ff47-4edd-bac9-711c312abf12</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">GPR04020R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="GPR04020R"/>
+      <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
+      <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/WCH-LinkE-R0-1v3/" tstamps="/90393844-9805-4207-88e8-abd4029c5b43/"/>
+      <tstamps>7e88ba50-854b-4462-bb7b-db22830047f3</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="MPN">GPR04020R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="GPR04020R"/>
+      <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
+      <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/WCH-LinkE-R0-1v3/" tstamps="/90393844-9805-4207-88e8-abd4029c5b43/"/>
+      <tstamps>8873ffc8-e648-4455-bcf0-88ec07a3a922</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>PTS636_SL43_SMTR_LFS</value>
+      <footprint>Tiny_Scarab:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx43SMTRLFS</footprint>
+      <datasheet>https://www.ckswitches.com/media/2779/pts636.pdf</datasheet>
+      <fields>
+        <field name="MPN">PTS636 SL43 SMTR LFS</field>
+        <field name="Manufacturer">C&amp;K</field>
+        <field name="SPN">CKN12309-2-ND</field>
+        <field name="Supplier">DigiKey</field>
+      </fields>
+      <libsource lib="Tiny_Scarab" part="PTS636_SL43_SMTR_LFS" description="Push button switch, generic, two pins"/>
+      <property name="Manufacturer" value="C&amp;K"/>
+      <property name="MPN" value="PTS636 SL43 SMTR LFS"/>
+      <property name="Supplier" value="DigiKey"/>
+      <property name="SPN" value="CKN12309-2-ND"/>
+      <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
+      <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/WCH-LinkE-R0-1v3/" tstamps="/90393844-9805-4207-88e8-abd4029c5b43/"/>
+      <tstamps>226ebe60-7ae8-4b06-b5c8-f72dea1a359a</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>~</value>
+      <footprint>Tiny_Scarab:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx43SMTRLFS</footprint>
+      <datasheet>https://www.ckswitches.com/media/2779/pts636.pdf</datasheet>
+      <fields>
+        <field name="MPN">PTS636 SL43 SMTR LFS</field>
+        <field name="Manufacturer">C&amp;K</field>
+        <field name="SPN">CKN12309-2-ND</field>
+        <field name="Supplier">DigiKey</field>
+      </fields>
+      <libsource lib="Tiny_Scarab" part="PTS636_SL43_SMTR_LFS" description="Push button switch, generic, two pins"/>
+      <property name="Manufacturer" value="C&amp;K"/>
+      <property name="MPN" value="PTS636 SL43 SMTR LFS"/>
+      <property name="Supplier" value="DigiKey"/>
+      <property name="SPN" value="CKN12309-2-ND"/>
+      <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
+      <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/WCH-LinkE-R0-1v3/" tstamps="/90393844-9805-4207-88e8-abd4029c5b43/"/>
+      <tstamps>5299f716-7b67-4464-a50a-776e489eb632</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>~</value>
+      <footprint>Tiny_Scarab:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx43SMTRLFS</footprint>
+      <datasheet>https://www.ckswitches.com/media/2779/pts636.pdf</datasheet>
+      <fields>
+        <field name="MPN">PTS636 SL43 SMTR LFS</field>
+        <field name="Manufacturer">C&amp;K</field>
+        <field name="SPN">CKN12309-2-ND</field>
+        <field name="Supplier">DigiKey</field>
+      </fields>
+      <libsource lib="Tiny_Scarab" part="PTS636_SL43_SMTR_LFS" description="Push button switch, generic, two pins"/>
+      <property name="Manufacturer" value="C&amp;K"/>
+      <property name="MPN" value="PTS636 SL43 SMTR LFS"/>
+      <property name="Supplier" value="DigiKey"/>
+      <property name="SPN" value="CKN12309-2-ND"/>
+      <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
+      <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/WCH-LinkE-R0-1v3/" tstamps="/90393844-9805-4207-88e8-abd4029c5b43/"/>
+      <tstamps>cc8c4d38-78ef-4ea8-bc90-80a35e4c25b4</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>~</value>
+      <footprint>Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm</footprint>
+      <fields>
+        <field name="MPN">CH32V305FBP6</field>
+        <field name="Manufacturer">WCH</field>
+        <field name="SPN">1005004329064488</field>
+        <field name="Supplier">AliExpress</field>
+      </fields>
+      <libsource lib="Tiny_Scarab" part="CH32V305FBP6" description="32-bit Interconnectivity RISC-V MCU"/>
+      <property name="Manufacturer" value="WCH"/>
+      <property name="MPN" value="CH32V305FBP6"/>
+      <property name="Supplier" value="AliExpress"/>
+      <property name="SPN" value="1005004329064488"/>
+      <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
+      <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
+      <property name="ki_description" value="32-bit Interconnectivity RISC-V MCU"/>
+      <sheetpath names="/WCH-LinkE-R0-1v3/" tstamps="/90393844-9805-4207-88e8-abd4029c5b43/"/>
+      <tstamps>87979f2b-b7ee-4864-9be3-9c144f2b9e75</tstamps>
+    </comp>
+    <comp ref="XTAL1">
+      <value>Crystal_GND24</value>
+      <footprint>Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm</footprint>
+      <fields>
+        <field name="MPN">FL1200156</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="SPN">FL1200156-ND</field>
+        <field name="Supplier">DigiKey</field>
+      </fields>
+      <libsource lib="Device" part="Crystal_GND24" description="Four pin crystal, GND on pins 2 and 4"/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="MPN" value="FL1200156"/>
+      <property name="Supplier" value="DigiKey"/>
+      <property name="SPN" value="FL1200156-ND"/>
+      <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
+      <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
+      <property name="ki_description" value="Four pin crystal, GND on pins 2 and 4"/>
+      <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
+      <sheetpath names="/WCH-LinkE-R0-1v3/" tstamps="/90393844-9805-4207-88e8-abd4029c5b43/"/>
+      <tstamps>ec6f7668-2ecb-4906-8f6e-14b8a9bc8ea9</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal_GND24">
+      <description>Four pin crystal, GND on pins 2 and 4</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND24</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Polyfuse_Small">
+      <description>Resettable fuse, polymeric positive temperature coefficient, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tiny_Scarab" part="CDSOD323-T05LC">
+      <description>TVS DIODE 5VWM 18.3VC SOD323 IPC-7351B STANDARD</description>
+      <docs>https://www.bourns.com/docs/Product-Datasheets/CDSOD323-TxxLC.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">CDSOD323-T05LC</field>
+        <field name="Footprint">Tiny_Scarab:SOD2513X114N</field>
+        <field name="Datasheet">https://www.bourns.com/docs/Product-Datasheets/CDSOD323-TxxLC.pdf</field>
+        <field name="Manufacturer">Bourns</field>
+        <field name="MPN">CDSOD323-T05LC</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="SPN">CDSOD323-T05LCTR-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tiny_Scarab" part="CH32V003F4P6">
+      <description>32-bit general-purpose RISC-V MCU</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CH32V003F4P6</field>
+        <field name="Footprint">Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PD4" type="bidirectional"/>
+        <pin num="2" name="PD5" type="bidirectional"/>
+        <pin num="3" name="PD6" type="bidirectional"/>
+        <pin num="4" name="PD7" type="bidirectional"/>
+        <pin num="5" name="PA1" type="bidirectional"/>
+        <pin num="6" name="PA2" type="bidirectional"/>
+        <pin num="7" name="VSS" type="power_in"/>
+        <pin num="8" name="PD0" type="bidirectional"/>
+        <pin num="9" name="VDD" type="power_in"/>
+        <pin num="10" name="PC0" type="bidirectional"/>
+        <pin num="11" name="PC1" type="bidirectional"/>
+        <pin num="12" name="PC2" type="bidirectional"/>
+        <pin num="13" name="PC3" type="bidirectional"/>
+        <pin num="14" name="PC4" type="bidirectional"/>
+        <pin num="15" name="PC5" type="bidirectional"/>
+        <pin num="16" name="PC6" type="bidirectional"/>
+        <pin num="17" name="PC7" type="bidirectional"/>
+        <pin num="18" name="PD1" type="bidirectional"/>
+        <pin num="19" name="PD2" type="bidirectional"/>
+        <pin num="20" name="PD3" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tiny_Scarab" part="CH32V305FBP6">
+      <description>32-bit Interconnectivity RISC-V MCU</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CH32V305FBP6</field>
+        <field name="Footprint">Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NRST" type="input"/>
+        <pin num="2" name="PA5" type="bidirectional"/>
+        <pin num="3" name="PB10" type="bidirectional"/>
+        <pin num="4" name="PB11" type="bidirectional"/>
+        <pin num="5" name="PB12" type="bidirectional"/>
+        <pin num="6" name="PB13" type="bidirectional"/>
+        <pin num="7" name="PB14" type="bidirectional"/>
+        <pin num="8" name="PB15" type="bidirectional"/>
+        <pin num="9" name="PC6" type="bidirectional"/>
+        <pin num="10" name="PC7" type="bidirectional"/>
+        <pin num="11" name="PC8" type="bidirectional"/>
+        <pin num="12" name="PC9" type="bidirectional"/>
+        <pin num="13" name="PA9" type="bidirectional"/>
+        <pin num="14" name="VDD" type="power_in"/>
+        <pin num="15" name="PA14" type="bidirectional"/>
+        <pin num="16" name="PB6" type="bidirectional"/>
+        <pin num="17" name="PB7" type="bidirectional"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="19" name="PD0" type="bidirectional"/>
+        <pin num="20" name="PD1" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tiny_Scarab" part="Conn_02x07_Odd_Even">
+      <description>Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/10129383.pdf</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x07_Odd_Even</field>
+        <field name="Footprint">Tiny_Scarab:PinHeader_2x07_P2.54mm_Vertical_SMD_10129383-914001ALF</field>
+        <field name="Datasheet">https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/10129383.pdf</field>
+        <field name="Manufacturer">Amphenol ICC (FCI)</field>
+        <field name="MPN">10129383-914001ALF</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="SPN">10129383-914001ALF-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tiny_Scarab" part="ECS-240-20-30B-TR">
+      <docs>https://ecsxtal.com/store/pdf/ecx_53b.pdf</docs>
+      <footprints>
+        <fp>CRYSTAL4_ECS-240-20-30B-TR_ECS</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">XTAL</field>
+        <field name="Value">ECS-240-20-30B-TR</field>
+        <field name="Footprint">Tiny_Scarab:CRYSTAL4_ECS-240-20-30B-TR_ECS</field>
+        <field name="Datasheet">https://ecsxtal.com/store/pdf/ecx_53b.pdf</field>
+        <field name="Manufacturer">ECS Inc.</field>
+        <field name="MPN">ECS-240-20-30B-TR</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="SPN">XC1122TR-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tiny_Scarab" part="IRLML2502TRPBF">
+      <description>N-Channel 20 V 4.2A (Ta) 1.25W (Ta) Surface Mount Micro3™/SOT-23</description>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRLML2502TRPBF</field>
+        <field name="Footprint">Tiny_Scarab:SOT-23</field>
+        <field name="Manufacturer">Infineon Technologies</field>
+        <field name="MPN">IRLML2502TRPBF</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="SPN">IRLML2502TRPBFTR-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tiny_Scarab" part="MCP1825ST-3302E/DB">
+      <description>500mA, Low-Voltage, Low Quiescent Current LDO Regulator, SOT-223, TO-220, TO-263</description>
+      <docs>http://ww1.microchip.com/downloads/en/devicedoc/22056b.pdf</docs>
+      <footprints>
+        <fp>SOT?223*TabPin2*</fp>
+        <fp>TO?220*</fp>
+        <fp>TO?263*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP1825ST-3302E/DB</field>
+        <field name="Footprint">Tiny_Scarab:SOT-223-3_TabPin2</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/devicedoc/22056b.pdf</field>
+        <field name="Manufacturer">Microchip Technology</field>
+        <field name="MPN">MCP1825ST-3302E/DB</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="SPN">MCP1825ST-3302E/DBTR-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VI" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VO" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tiny_Scarab" part="PTS636_SL43_SMTR_LFS">
+      <description>Push button switch, generic, two pins</description>
+      <docs>https://www.ckswitches.com/media/2779/pts636.pdf</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">PTS636_SL43_SMTR_LFS</field>
+        <field name="Footprint">Tiny_Scarab:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx43SMTRLFS</field>
+        <field name="Datasheet">https://www.ckswitches.com/media/2779/pts636.pdf</field>
+        <field name="Manufacturer">C&amp;K</field>
+        <field name="MPN">PTS636 SL43 SMTR LFS</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="SPN">CKN12309-2-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tiny_Scarab" part="SD103AWS">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SD103AWS</field>
+        <field name="Footprint">Tiny_Scarab:D_SOD-323</field>
+        <field name="Datasheet">~</field>
+        <field name="Manufacturer">ANBON SEMICONDUCTOR (INT'L) LIMITED</field>
+        <field name="MPN">SD103AWS</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="SPN">4530-SD103AWSTR-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tiny_Scarab" part="SF-1206F100-2">
+      <description>FUSE BOARD MOUNT 1A 63VDC 1206</description>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">SF-1206F100-2</field>
+        <field name="Footprint">Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder</field>
+        <field name="Manufacturer">Bourns Inc.</field>
+        <field name="MPN">SF-1206F100-2</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="SPN">SF-1206F100-2TR-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tiny_Scarab" part="SLW-883935-2A-D">
+      <description>Slide Switch SPDT Through Hole</description>
+      <docs>https://www.cuidevices.com/product/resource/digikeypdf/slw-883935-2a-d.pdf</docs>
+      <footprints>
+        <fp>SW*DPDT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SLW-883935-2A-D</field>
+        <field name="Footprint">Tiny_Scarab:SLW-883935-2A-D</field>
+        <field name="Datasheet">https://www.cuidevices.com/product/resource/digikeypdf/slw-883935-2a-d.pdf</field>
+        <field name="Manufacturer">CUI Devices</field>
+        <field name="MPN">SLW-883935-2A-D</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="SPN">2223-SLW-883935-2A-D-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tiny_Scarab" part="SMAJ5.0A">
+      <description>400W unidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)</description>
+      <docs>https://www.littelfuse.com/media?resourcetype=datasheets&amp;itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&amp;filename=smaj-datasheet</docs>
+      <footprints>
+        <fp>D*SMA*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SMAJ5.0A</field>
+        <field name="Footprint">Tiny_Scarab:D_SMA</field>
+        <field name="Datasheet">https://www.littelfuse.com/media?resourcetype=datasheets&amp;itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&amp;filename=smaj-datasheet</field>
+        <field name="Manufacturer">Littelfuse Inc.</field>
+        <field name="MPN">SMAJ5.0A</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="SPN">SMAJ5.0ALFTR-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tiny_Scarab" part="SMAZ5V6-TP">
+      <description>DIODE ZENER 5.6V 1W DO214AC</description>
+      <footprints>
+        <fp>D*SMA*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SMAZ5V6-TP</field>
+        <field name="Footprint">Tiny_Scarab:D_SMA</field>
+        <field name="Manufacturer">Micro Commercial Co</field>
+        <field name="MPN">SMAZ5V6-TP</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="SPN">SMAZ5V6-TPMSTR-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tiny_Scarab" part="Screw_Hole">
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Hole</field>
+        <field name="Footprint">Tiny_Scarab:Screw_Hole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tiny_Scarab" part="TC2050-IDC-NL-WCH-LinkE-R0-1v3">
+      <description>Tag Connect TC2050-IDC-NL cable: ribbon connector fits on WCH-LinkE-R0-1v3 probe, plug-of-nails on TC2050-NL-FP Footprint.</description>
+      <docs>https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2050-IDC-NL_Datasheet_8.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Footprint">Tiny_Scarab:Tag-Connect_TC2050-IDC-NL_2x05_P1.27mm_Vertical_with_bottom_clip</field>
+        <field name="Datasheet">https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2050-IDC-NL_Datasheet_8.pdf</field>
+        <field name="Manufacturer">Tag-Connect LLC</field>
+        <field name="MPN">TC2050-IDC-NL</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="SPN">TC2050-IDC-NL-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="5V" type="power_out"/>
+        <pin num="2" name="RST" type="output"/>
+        <pin num="3" name="3V3" type="power_out"/>
+        <pin num="4" name="TDI" type="input"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="TDO" type="output"/>
+        <pin num="7" name="TMS/SWDIO" type="bidirectional"/>
+        <pin num="8" name="TX" type="output"/>
+        <pin num="9" name="TCK/SWCLK" type="output"/>
+        <pin num="10" name="RX" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tiny_Scarab" part="USB_C_Receptacle_USB2.0">
+      <description>USB 2.0-only Type-C Receptacle connector</description>
+      <docs>https://gct.co/files/drawings/usb4110.pdf</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle_USB2.0</field>
+        <field name="Footprint">Tiny_Scarab:USB_C_Receptacle_GCT_USB4110</field>
+        <field name="Datasheet">https://gct.co/files/drawings/usb4110.pdf</field>
+        <field name="Manufacturer">GCT</field>
+        <field name="MPN">USB4110-GF-A</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="SPN">2073-USB4110-GF-A-2-ND</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="D+" type="bidirectional"/>
+        <pin num="A7" name="D-" type="bidirectional"/>
+        <pin num="A8" name="SBU1" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="D+" type="bidirectional"/>
+        <pin num="B7" name="D-" type="bidirectional"/>
+        <pin num="B8" name="SBU2" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Tiny_Scarab">
+      <uri>C:\Users\krist\Documents\beetle_boards\tiny-scarab/Tiny_Scarab.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="LED2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="LED3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="SW5" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="VO" pintype="power_out"/>
+      <node ref="U2" pin="14" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="LED4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="SW5" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="3" name="/PC0">
+      <node ref="J3" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="U3" pin="10" pinfunction="PC0" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/PC1">
+      <node ref="J4" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="U3" pin="11" pinfunction="PC1" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/PC2">
+      <node ref="J4" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="U3" pin="12" pinfunction="PC2" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/PC3">
+      <node ref="J4" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="U3" pin="13" pinfunction="PC3" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/PC4">
+      <node ref="J4" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="U3" pin="14" pinfunction="PC4" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/PC5">
+      <node ref="J4" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="U3" pin="15" pinfunction="PC5" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/PC6">
+      <node ref="J4" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U3" pin="16" pinfunction="PC6" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/PC7">
+      <node ref="J4" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U3" pin="17" pinfunction="PC7" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/PD0">
+      <node ref="J3" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="PD0" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/PD2">
+      <node ref="J4" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U3" pin="19" pinfunction="PD2" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/PD3">
+      <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U3" pin="20" pinfunction="PD3" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/PD4">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="PD4" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/RST_IN">
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="NRST" pintype="input"/>
+    </net>
+    <net code="16" name="/RST_OUT">
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="PC8" pintype="bidirectional"/>
+      <node ref="U3" pin="4" pinfunction="PD7" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/RX">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="PD5" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/SWCLK_IN">
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U2" pin="15" pinfunction="PA14" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/SWDIO_IN">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="PA9" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/SWDIO_OUT">
+      <node ref="U3" pin="18" pinfunction="PD1" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/TX">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="PD6" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/USB/CC1">
+      <node ref="J1" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="/USB/CC2">
+      <node ref="J1" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="/USB/VBUS">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="A4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J1" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J1" pin="B4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J1" pin="B9" pinfunction="VBUS" pintype="passive"/>
+    </net>
+    <net code="25" name="/USB_N">
+      <node ref="D3" pin="1" pintype="passive"/>
+      <node ref="J1" pin="A7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="J1" pin="B7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U2" pin="16" pinfunction="PB6" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="/USB_P">
+      <node ref="D4" pin="1" pintype="passive"/>
+      <node ref="J1" pin="A6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="J1" pin="B6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U2" pin="17" pinfunction="PB7" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="/WCH-LinkE-R0-1v3/IAP">
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="PC7" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="/WCH-LinkE-R0-1v3/LED_CON">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="PC9" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="/WCH-LinkE-R0-1v3/ModeS">
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="SW3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="30" name="/WCH-LinkE-R0-1v3/PB13">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="PB13" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="/WCH-LinkE-R0-1v3/PC6">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="PC6" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="/WCH-LinkE-R0-1v3/PD0">
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="U2" pin="19" pinfunction="PD0" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="/WCH-LinkE-R0-1v3/PD1">
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="U2" pin="20" pinfunction="PD1" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="/XI">
+      <node ref="U3" pin="5" pinfunction="PA1" pintype="bidirectional"/>
+      <node ref="XTAL2" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="35" name="/XO">
+      <node ref="U3" pin="6" pinfunction="PA2" pintype="bidirectional"/>
+      <node ref="XTAL2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="36" name="GND">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="C31" pin="2" pintype="passive"/>
+      <node ref="C32" pin="2" pintype="passive"/>
+      <node ref="C33" pin="2" pintype="passive"/>
+      <node ref="C34" pin="2" pintype="passive"/>
+      <node ref="C35" pin="2" pintype="passive"/>
+      <node ref="C36" pin="2" pintype="passive"/>
+      <node ref="C37" pin="2" pintype="passive"/>
+      <node ref="C38" pin="2" pintype="passive"/>
+      <node ref="C39" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C40" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="D3" pin="2" pintype="passive"/>
+      <node ref="D4" pin="2" pintype="passive"/>
+      <node ref="J1" pin="A1" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="A12" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="B1" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="B12" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J3" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J3" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J3" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="J3" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J3" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J3" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J4" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="LED1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="18" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="7" pinfunction="VSS" pintype="power_in"/>
+      <node ref="XTAL1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="XTAL1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="XTAL2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="XTAL2" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(C24-Pad2)">
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="XTAL1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(C25-Pad2)">
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="XTAL1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(C29-Pad1)">
+      <node ref="C29" pin="1" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="SW4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(LED1-A)">
+      <node ref="LED1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(LED2-K)">
+      <node ref="LED2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(LED3-K)">
+      <node ref="LED3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(LED4-K)">
+      <node ref="LED4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(Q1-D)">
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(Q1-G)">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(Q2-D)">
+      <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(Q3-D)">
+      <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(Q3-G)">
+      <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(SW5-B)">
+      <node ref="F2" pin="1" pintype="passive"/>
+      <node ref="SW5" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(U2-PB10)">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="PB10" pintype="bidirectional"/>
+    </net>
+    <net code="51" name="Net-(U2-PB11)">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="PB11" pintype="bidirectional"/>
+    </net>
+    <net code="52" name="VDD">
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="C31" pin="1" pintype="passive"/>
+      <node ref="C32" pin="1" pintype="passive"/>
+      <node ref="C33" pin="1" pintype="passive"/>
+      <node ref="C34" pin="1" pintype="passive"/>
+      <node ref="C35" pin="1" pintype="passive"/>
+      <node ref="C36" pin="1" pintype="passive"/>
+      <node ref="C37" pin="1" pintype="passive"/>
+      <node ref="C38" pin="1" pintype="passive"/>
+      <node ref="C39" pin="1" pintype="passive"/>
+      <node ref="C40" pin="1" pintype="passive"/>
+      <node ref="F2" pin="2" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="U3" pin="9" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="53" name="unconnected-(J1-SBU1-PadA8)">
+      <node ref="J1" pin="A8" pinfunction="SBU1" pintype="bidirectional"/>
+    </net>
+    <net code="54" name="unconnected-(J1-SBU2-PadB8)">
+      <node ref="J1" pin="B8" pinfunction="SBU2" pintype="bidirectional"/>
+    </net>
+    <net code="60" name="unconnected-(U2-PA5-Pad2)">
+      <node ref="U2" pin="2" pinfunction="PA5" pintype="bidirectional"/>
+    </net>
+    <net code="61" name="unconnected-(U2-PB12-Pad5)">
+      <node ref="U2" pin="5" pinfunction="PB12" pintype="bidirectional"/>
+    </net>
+    <net code="62" name="unconnected-(U2-PB14-Pad7)">
+      <node ref="U2" pin="7" pinfunction="PB14" pintype="bidirectional"/>
+    </net>
+    <net code="63" name="unconnected-(U2-PB15-Pad8)">
+      <node ref="U2" pin="8" pinfunction="PB15" pintype="bidirectional"/>
+    </net>
+  </nets>
+</export>
