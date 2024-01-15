@@ -13,4 +13,4 @@ The exceptions are:
 - Pins `PD1`, `PD5`, `PD6` and `PD7` are connected to the `CH32V305FBP6` chip for flash and debug purposes (the `CH32V305FBP6` is the heart of the on-board `WCH-LinkE-R0-1v3` flash/debug probe). It is safer not to connect them to the pin headers.
 
 &nbsp;<br>
-<a href="../README.md"><img width="24" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/7eef998b-278f-46d1-8f7c-8e4333ccd19c"> GO BACK</a>
+<a href="../README.md#index"><img width="24" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/7eef998b-278f-46d1-8f7c-8e4333ccd19c"> GO BACK</a>
