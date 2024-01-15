@@ -2,7 +2,9 @@
 
 # Production Files
 
-On this page, we cover how to output all the required production files from the KiCAD project. All production files will be in the `output/` folder when finished.
+On this page, we cover how to output all the required production files from the KiCAD project. All production files will be in the `output/` folder when finished:
+- [`output.zip`](../output.zip)
+
 
 &nbsp;<br>
 ## 1. Gerber Files
