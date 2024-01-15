@@ -71,6 +71,7 @@ For some components - like (most of) the resistors and capacitors - it doesn't m
 
 Below is a table of the Generic Components used in the Tiny Scarab board:
 
+### Generic Capacitors
 
 | **MPN/GPN**            | **Value** | **Tol%** | **Voltage** | **Dielectric** | **Description**                                         |
 |------------------------|-----------|----------|-------------|----------------|---------------------------------------------------------|
@@ -79,6 +80,8 @@ Below is a table of the Generic Components used in the Tiny Scarab board:
 | `GPC0402106-6.3`       | 10u       | 20%      | 6.3V        | X5R            | 10µF ±20% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric) |
 | `GPC0805106`           | 10u       | 10%      | 10V         | X7R            | 10 µF ±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric) |
 
+
+### Generic Resistors
 
 | **MPN/GPN**            | **Value** | **Tol%** | **Power**   | **Voltage**    | **Description**                                                                             |
 |------------------------|-----------|----------|-------------|----------------|---------------------------------------------------------------------------------------------|
