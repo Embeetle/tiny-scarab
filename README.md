@@ -22,7 +22,7 @@ There's no need to wire up anything. Just plug the Tiny Scarab in your computer 
 Learn more about the hard- and software for the Tiny Scarab board:
 
 - **Hardware**
-  - Open Tiny Scarab in KiCAD
+  - [Open Tiny Scarab in KiCAD](documentation/readme_open_project.md)
   - KiCAD files
   - Comparison Tiny Scarab vs CH32V003F4P6-EVT-R0-1v1
 
