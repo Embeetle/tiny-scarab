@@ -148,7 +148,7 @@ The Component Placement File specifies where each component must be placed as we
 
 Make sure the output directory is set to `output/`. I selected `csv` for the format, `mm` for the units and `Single file for board` because I only have components on the top side of the PCB:
 
-<img width="400" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/7fd13245-4d97-4a83-b29f-578cd033f318">
+<img width="500" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/7fd13245-4d97-4a83-b29f-578cd033f318">
 
 Click the button `Generate Position File`. You should now get this result:
 
