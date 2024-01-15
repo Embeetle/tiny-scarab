@@ -10,8 +10,8 @@ The BOM (Bill Of Materials) files `tiny-scarab.csv` and `tiny-scarab.xml` can be
 
 KiCAD then generates these two BOM files in the toplevel folder. I move them to the `output/` subfolder. You can click them below to access them directly:
 
-- [`tiny-scarab.csv`](output/tiny-scarab.csv)
-- [`tiny-scarab.xml`](output/tiny-scarab.xml)
+- [`tiny-scarab.csv`](../output/tiny-scarab.csv)
+- [`tiny-scarab.xml`](../output/tiny-scarab.xml)
 
 Or you can just observe the table below:
 
