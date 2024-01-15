@@ -25,6 +25,7 @@ There's no need to wire up anything. Just plug the Tiny Scarab in your computer 
   - [A Deeper Dive in the KiCAD Files](documentation/readme_deeper_dive_kicad_files.md)
   - [Tiny Scarab Pinout and Features](documentation/readme_pinout_and_features.md)
   - [Tiny Scarab vs CH32V003F4P6-EVT-R0-1v1 - a Comparison](documentation/readme_compare.md)
+  - [Production Files](documentation/production_files.md)
 
 - **Software**
   - Flash/Debug Probe Firmware
