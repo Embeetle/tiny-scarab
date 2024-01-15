@@ -1,6 +1,6 @@
 # Tiny Scarab
 
-<img width="100" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/e0cdd4a1-5d5b-47df-a8c9-bfc94e6a3e78"> The **Tiny Scarab** is an open source hardware project launched by <a href="https://embeetle.com/" target="_blank">Embeetle</a> - the clean and efficient IDE for microcontroller programming. It's the first in the series of **Beetle Boards**. Expect more to show up in the months ahead.
+The **Tiny Scarab** is an open source hardware project launched by <a href="https://embeetle.com/" target="_blank"><img width="24" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/e0cdd4a1-5d5b-47df-a8c9-bfc94e6a3e78" style="float:left"> Embeetle</a>, in collaboration with <a href="https://devheads.io/" target="_blank"><img width="24" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/80b0f2b4-92b5-459e-b805-48252bfecde0" style="float:left"> DevHeads</a>. It's the first in the series of Beetle Boards. Expect more to show up in the months ahead!
 
 The Beetle Boards will get special attention in Embeetle IDE. The're the perfect candidates to discover the capabilities of this IDE. Being open source, they're also a great option for your next hardware project.
 
