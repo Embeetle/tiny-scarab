@@ -121,17 +121,17 @@
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.39999999999999997,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.25,
         "min_track_width": 0.19999999999999998,
         "min_via_annular_width": 0.09999999999999999,
         "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -565,7 +565,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "tiny-scarab.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -616,6 +616,14 @@
     [
       "90393844-9805-4207-88e8-abd4029c5b43",
       "WCH-LinkE-R0-1v3"
+    ],
+    [
+      "481ed0a2-b40b-451f-8f8b-138317026240",
+      "Voltage-selection"
+    ],
+    [
+      "d0c4b0c3-1e7e-4a4c-add3-8d4a3a10843d",
+      "Target-MCU"
     ]
   ],
   "text_variables": {}

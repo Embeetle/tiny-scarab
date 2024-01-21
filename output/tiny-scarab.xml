@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Users\krist\Documents\beetle_boards\tiny-scarab\tiny-scarab.kicad_sch</source>
-    <date>15/01/2024 18:58:37</date>
+    <date>17/01/2024 18:16:43</date>
     <tool>Eeschema 7.0.10</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -64,10 +64,14 @@
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
       <fields>
-        <field name="MPN">GPC0402104-25</field>
+        <field name="JLCPCB Part #">C1525</field>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="Manufacturer">Samsung electro-mechanics</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="GPC0402104-25"/>
+      <property name="Manufacturer" value="Samsung electro-mechanics"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB Part #" value="C1525"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -79,10 +83,14 @@
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
       <fields>
-        <field name="MPN">GPC0402104-25</field>
+        <field name="JLCPCB Part #">C1525</field>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="Manufacturer">Samsung electro-mechanics</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="GPC0402104-25"/>
+      <property name="Manufacturer" value="Samsung electro-mechanics"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB Part #" value="C1525"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -94,10 +102,14 @@
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
       <fields>
-        <field name="MPN">GPC0402104-25</field>
+        <field name="JLCPCB Part #">C1525</field>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="Manufacturer">Samsung electro-mechanics</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="GPC0402104-25"/>
+      <property name="Manufacturer" value="Samsung electro-mechanics"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB Part #" value="C1525"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -109,10 +121,14 @@
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
       <fields>
-        <field name="MPN">GPC0402104-25</field>
+        <field name="JLCPCB Part #">C1525</field>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="Manufacturer">Samsung electro-mechanics</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="GPC0402104-25"/>
+      <property name="Manufacturer" value="Samsung electro-mechanics"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB Part #" value="C1525"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -124,10 +140,14 @@
       <value>10u</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="MPN">GPC0805106</field>
+        <field name="JLCPCB Part #">C15850</field>
+        <field name="MPN">CL21A106KAYNNNE</field>
+        <field name="Manufacturer">Samsung electro-mechanics</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="GPC0805106"/>
+      <property name="Manufacturer" value="Samsung electro-mechanics"/>
+      <property name="MPN" value="CL21A106KAYNNNE"/>
+      <property name="JLCPCB Part #" value="C15850"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -139,10 +159,14 @@
       <value>10u</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="MPN">GPC0805106</field>
+        <field name="JLCPCB Part #">C15850</field>
+        <field name="MPN">CL21A106KAYNNNE</field>
+        <field name="Manufacturer">Samsung electro-mechanics</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="GPC0805106"/>
+      <property name="Manufacturer" value="Samsung electro-mechanics"/>
+      <property name="MPN" value="CL21A106KAYNNNE"/>
+      <property name="JLCPCB Part #" value="C15850"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -154,10 +178,14 @@
       <value>10u</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="MPN">GPC0805106</field>
+        <field name="JLCPCB Part #">C15850</field>
+        <field name="MPN">CL21A106KAYNNNE</field>
+        <field name="Manufacturer">Samsung electro-mechanics</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="GPC0805106"/>
+      <property name="Manufacturer" value="Samsung electro-mechanics"/>
+      <property name="MPN" value="CL21A106KAYNNNE"/>
+      <property name="JLCPCB Part #" value="C15850"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -169,10 +197,14 @@
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
       <fields>
-        <field name="MPN">GPC0402104-25</field>
+        <field name="JLCPCB Part #">C1525</field>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="Manufacturer">Samsung electro-mechanics</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="GPC0402104-25"/>
+      <property name="Manufacturer" value="Samsung electro-mechanics"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB Part #" value="C1525"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -184,10 +216,14 @@
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
       <fields>
-        <field name="MPN">GPC0402104-25</field>
+        <field name="JLCPCB Part #">C1525</field>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="Manufacturer">Samsung electro-mechanics</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="GPC0402104-25"/>
+      <property name="Manufacturer" value="Samsung electro-mechanics"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB Part #" value="C1525"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -199,10 +235,14 @@
       <value>10u</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="MPN">GPC0805106</field>
+        <field name="JLCPCB Part #">C15850</field>
+        <field name="MPN">CL21A106KAYNNNE</field>
+        <field name="Manufacturer">Samsung electro-mechanics</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="GPC0805106"/>
+      <property name="Manufacturer" value="Samsung electro-mechanics"/>
+      <property name="MPN" value="CL21A106KAYNNNE"/>
+      <property name="JLCPCB Part #" value="C15850"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -214,10 +254,14 @@
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
       <fields>
-        <field name="MPN">GPC0402104-25</field>
+        <field name="JLCPCB Part #">C1525</field>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="Manufacturer">Samsung electro-mechanics</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="GPC0402104-25"/>
+      <property name="Manufacturer" value="Samsung electro-mechanics"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB Part #" value="C1525"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -229,10 +273,14 @@
       <value>10u</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="MPN">GPC0805106</field>
+        <field name="JLCPCB Part #">C15850</field>
+        <field name="MPN">CL21A106KAYNNNE</field>
+        <field name="Manufacturer">Samsung electro-mechanics</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="GPC0805106"/>
+      <property name="Manufacturer" value="Samsung electro-mechanics"/>
+      <property name="MPN" value="CL21A106KAYNNNE"/>
+      <property name="JLCPCB Part #" value="C15850"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -244,10 +292,14 @@
       <value>10u</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="MPN">GPC0805106</field>
+        <field name="JLCPCB Part #">C15850</field>
+        <field name="MPN">CL21A106KAYNNNE</field>
+        <field name="Manufacturer">Samsung electro-mechanics</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="GPC0805106"/>
+      <property name="Manufacturer" value="Samsung electro-mechanics"/>
+      <property name="MPN" value="CL21A106KAYNNNE"/>
+      <property name="JLCPCB Part #" value="C15850"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -259,10 +311,14 @@
       <value>10u</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="MPN">GPC0805106</field>
+        <field name="JLCPCB Part #">C15850</field>
+        <field name="MPN">CL21A106KAYNNNE</field>
+        <field name="Manufacturer">Samsung electro-mechanics</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="GPC0805106"/>
+      <property name="Manufacturer" value="Samsung electro-mechanics"/>
+      <property name="MPN" value="CL21A106KAYNNNE"/>
+      <property name="JLCPCB Part #" value="C15850"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -274,10 +330,14 @@
       <value>10u</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="MPN">GPC0805106</field>
+        <field name="JLCPCB Part #">C15850</field>
+        <field name="MPN">CL21A106KAYNNNE</field>
+        <field name="Manufacturer">Samsung electro-mechanics</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="GPC0805106"/>
+      <property name="Manufacturer" value="Samsung electro-mechanics"/>
+      <property name="MPN" value="CL21A106KAYNNNE"/>
+      <property name="JLCPCB Part #" value="C15850"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -289,6 +349,7 @@
       <value>~</value>
       <footprint>Tiny_Scarab:0402L050SLKR</footprint>
       <fields>
+        <field name="JLCPCB Part #">C206938</field>
         <field name="MPN">0402L050SLKR</field>
         <field name="Manufacturer">Littelfuse Inc.</field>
         <field name="SPN">F5759TR-ND</field>
@@ -299,6 +360,7 @@
       <property name="MPN" value="0402L050SLKR"/>
       <property name="Supplier" value="DigiKey"/>
       <property name="SPN" value="F5759TR-ND"/>
+      <property name="JLCPCB Part #" value="C206938"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
       <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient, small symbol"/>
@@ -375,6 +437,7 @@
       <value>~</value>
       <footprint>Tiny_Scarab:SOT-23</footprint>
       <fields>
+        <field name="JLCPCB Part #">C2589</field>
         <field name="MPN">IRLML2502TRPBF</field>
         <field name="Manufacturer">Infineon Technologies</field>
         <field name="SPN">IRLML2502TRPBFTR-ND</field>
@@ -385,6 +448,7 @@
       <property name="MPN" value="IRLML2502TRPBF"/>
       <property name="Supplier" value="DigiKey"/>
       <property name="SPN" value="IRLML2502TRPBFTR-ND"/>
+      <property name="JLCPCB Part #" value="C2589"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
       <property name="ki_description" value="N-Channel 20 V 4.2A (Ta) 1.25W (Ta) Surface Mount Micro3™/SOT-23"/>
@@ -392,14 +456,37 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>7ff902a1-77d0-4343-86fe-5f1ff2573d19</tstamps>
     </comp>
+    <comp ref="R21">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="JLCPCB Part #">C25076</field>
+        <field name="MPN">0402WGF1000TCE</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="MPN" value="0402WGF1000TCE"/>
+      <property name="JLCPCB Part #" value="C25076"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>80353052-1eb2-4766-aa94-ecb3bffac888</tstamps>
+    </comp>
     <comp ref="R22">
       <value>470</value>
       <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <fields>
-        <field name="MPN">GPR0402470R</field>
+        <field name="JLCPCB Part #">C25117</field>
+        <field name="MPN">0402WGF4700TCE</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MPN" value="GPR0402470R"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="MPN" value="0402WGF4700TCE"/>
+      <property name="JLCPCB Part #" value="C25117"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -411,10 +498,14 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <fields>
-        <field name="MPN">GPR040210K</field>
+        <field name="JLCPCB Part #">C25744</field>
+        <field name="MPN">0402WGF1002TCE</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MPN" value="GPR040210K"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="MPN" value="0402WGF1002TCE"/>
+      <property name="JLCPCB Part #" value="C25744"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -438,13 +529,17 @@
       <tstamps>56033146-b017-4679-851d-d6030f3b7965</tstamps>
     </comp>
     <comp ref="R25">
-      <value>200</value>
+      <value>100</value>
       <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <fields>
-        <field name="MPN">GPR0402200R</field>
+        <field name="JLCPCB Part #">C25076</field>
+        <field name="MPN">0402WGF1000TCE</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MPN" value="GPR0402200R"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="MPN" value="0402WGF1000TCE"/>
+      <property name="JLCPCB Part #" value="C25076"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -457,6 +552,7 @@
       <footprint>Tiny_Scarab:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx43SMTRLFS</footprint>
       <datasheet>https://www.ckswitches.com/media/2779/pts636.pdf</datasheet>
       <fields>
+        <field name="JLCPCB Part #">C2800576</field>
         <field name="MPN">PTS636 SL43 SMTR LFS</field>
         <field name="Manufacturer">C&amp;K</field>
         <field name="SPN">CKN12309-2-ND</field>
@@ -467,6 +563,7 @@
       <property name="MPN" value="PTS636 SL43 SMTR LFS"/>
       <property name="Supplier" value="DigiKey"/>
       <property name="SPN" value="CKN12309-2-ND"/>
+      <property name="JLCPCB Part #" value="C2800576"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
       <property name="ki_description" value="Push button switch, generic, two pins"/>
@@ -500,6 +597,7 @@
       <value>~</value>
       <footprint>Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm</footprint>
       <fields>
+        <field name="JLCPCB Part #">C5187096</field>
         <field name="MPN">CH32V003F4P6</field>
         <field name="Manufacturer">WCH</field>
         <field name="SPN">1005005036714708</field>
@@ -510,6 +608,7 @@
       <property name="MPN" value="CH32V003F4P6"/>
       <property name="Supplier" value="AliExpress"/>
       <property name="SPN" value="1005005036714708"/>
+      <property name="JLCPCB Part #" value="C5187096"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
       <property name="ki_description" value="32-bit general-purpose RISC-V MCU"/>
@@ -517,10 +616,11 @@
       <tstamps>f561331b-5ff2-45b6-858f-f3bbda753ec4</tstamps>
     </comp>
     <comp ref="XTAL2">
-      <value>ECS-240-20-30B-TR</value>
+      <value>~</value>
       <footprint>Tiny_Scarab:CRYSTAL4_ECS-240-20-30B-TR_ECS</footprint>
       <datasheet>https://ecsxtal.com/store/pdf/ecx_53b.pdf</datasheet>
       <fields>
+        <field name="JLCPCB Part #">C2450113</field>
         <field name="MPN">ECS-240-20-30B-TR</field>
         <field name="Manufacturer">ECS Inc.</field>
         <field name="SPN">XC1122TR-ND</field>
@@ -531,6 +631,7 @@
       <property name="MPN" value="ECS-240-20-30B-TR"/>
       <property name="Supplier" value="DigiKey"/>
       <property name="SPN" value="XC1122TR-ND"/>
+      <property name="JLCPCB Part #" value="C2450113"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="tiny-scarab.kicad_sch"/>
       <property name="ki_keywords" value="ECS-240-20-30B-TR"/>
@@ -541,10 +642,14 @@
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
       <fields>
-        <field name="MPN">GPC0402104-16</field>
+        <field name="JLCPCB Part #">C1525</field>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="Manufacturer">Samsung electro-mechanics</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="GPC0402104-16"/>
+      <property name="Manufacturer" value="Samsung electro-mechanics"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB Part #" value="C1525"/>
       <property name="Sheetname" value="USB"/>
       <property name="Sheetfile" value="USB.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -556,10 +661,14 @@
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
       <fields>
-        <field name="MPN">GPC0402104-16</field>
+        <field name="JLCPCB Part #">C1525</field>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="Manufacturer">Samsung electro-mechanics</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="GPC0402104-16"/>
+      <property name="Manufacturer" value="Samsung electro-mechanics"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB Part #" value="C1525"/>
       <property name="Sheetname" value="USB"/>
       <property name="Sheetfile" value="USB.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -571,10 +680,14 @@
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
       <fields>
-        <field name="MPN">GPC0402104-16</field>
+        <field name="JLCPCB Part #">C1525</field>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="Manufacturer">Samsung electro-mechanics</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="GPC0402104-16"/>
+      <property name="Manufacturer" value="Samsung electro-mechanics"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB Part #" value="C1525"/>
       <property name="Sheetname" value="USB"/>
       <property name="Sheetfile" value="USB.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -586,10 +699,14 @@
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
       <fields>
-        <field name="MPN">GPC0402104-16</field>
+        <field name="JLCPCB Part #">C1525</field>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="Manufacturer">Samsung electro-mechanics</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="GPC0402104-16"/>
+      <property name="Manufacturer" value="Samsung electro-mechanics"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB Part #" value="C1525"/>
       <property name="Sheetname" value="USB"/>
       <property name="Sheetfile" value="USB.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -601,10 +718,14 @@
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
       <fields>
-        <field name="MPN">GPC0402104-16</field>
+        <field name="JLCPCB Part #">C1525</field>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="Manufacturer">Samsung electro-mechanics</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="GPC0402104-16"/>
+      <property name="Manufacturer" value="Samsung electro-mechanics"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB Part #" value="C1525"/>
       <property name="Sheetname" value="USB"/>
       <property name="Sheetfile" value="USB.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -616,10 +737,14 @@
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
       <fields>
-        <field name="MPN">GPC0402104-16</field>
+        <field name="JLCPCB Part #">C1525</field>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="Manufacturer">Samsung electro-mechanics</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="GPC0402104-16"/>
+      <property name="Manufacturer" value="Samsung electro-mechanics"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB Part #" value="C1525"/>
       <property name="Sheetname" value="USB"/>
       <property name="Sheetfile" value="USB.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -631,10 +756,14 @@
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
       <fields>
-        <field name="MPN">GPC0402104-16</field>
+        <field name="JLCPCB Part #">C1525</field>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="Manufacturer">Samsung electro-mechanics</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="GPC0402104-16"/>
+      <property name="Manufacturer" value="Samsung electro-mechanics"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB Part #" value="C1525"/>
       <property name="Sheetname" value="USB"/>
       <property name="Sheetfile" value="USB.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -646,10 +775,14 @@
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
       <fields>
-        <field name="MPN">GPC0402104-25</field>
+        <field name="JLCPCB Part #">C1525</field>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="Manufacturer">Samsung electro-mechanics</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="GPC0402104-25"/>
+      <property name="Manufacturer" value="Samsung electro-mechanics"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB Part #" value="C1525"/>
       <property name="Sheetname" value="USB"/>
       <property name="Sheetfile" value="USB.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -661,10 +794,14 @@
       <value>1u</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
       <fields>
-        <field name="MPN">GPC0402105-16</field>
+        <field name="JLCPCB Part #">C52923</field>
+        <field name="MPN">CL05A105KA5NQNC</field>
+        <field name="Manufacturer">Samsung electro-mechanics</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="GPC0402105-16"/>
+      <property name="Manufacturer" value="Samsung electro-mechanics"/>
+      <property name="MPN" value="CL05A105KA5NQNC"/>
+      <property name="JLCPCB Part #" value="C52923"/>
       <property name="Sheetname" value="USB"/>
       <property name="Sheetfile" value="USB.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -676,10 +813,14 @@
       <value>10u</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
       <fields>
-        <field name="MPN">GPC0402106-6.3</field>
+        <field name="JLCPCB Part #">C15525</field>
+        <field name="MPN">CL05A106MQ5NUNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="GPC0402106-6.3"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL05A106MQ5NUNC"/>
+      <property name="JLCPCB Part #" value="C15525"/>
       <property name="Sheetname" value="USB"/>
       <property name="Sheetfile" value="USB.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -691,10 +832,14 @@
       <value>1u</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
       <fields>
-        <field name="MPN">GPC0402105-16</field>
+        <field name="JLCPCB Part #">C52923</field>
+        <field name="MPN">CL05A105KA5NQNC</field>
+        <field name="Manufacturer">Samsung electro-mechanics</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="GPC0402105-16"/>
+      <property name="Manufacturer" value="Samsung electro-mechanics"/>
+      <property name="MPN" value="CL05A105KA5NQNC"/>
+      <property name="JLCPCB Part #" value="C52923"/>
       <property name="Sheetname" value="USB"/>
       <property name="Sheetfile" value="USB.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -706,10 +851,14 @@
       <value>1u</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
       <fields>
-        <field name="MPN">GPC0402105-16</field>
+        <field name="JLCPCB Part #">C52923</field>
+        <field name="MPN">CL05A105KA5NQNC</field>
+        <field name="Manufacturer">Samsung electro-mechanics</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="GPC0402105-16"/>
+      <property name="Manufacturer" value="Samsung electro-mechanics"/>
+      <property name="MPN" value="CL05A105KA5NQNC"/>
+      <property name="JLCPCB Part #" value="C52923"/>
       <property name="Sheetname" value="USB"/>
       <property name="Sheetfile" value="USB.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -721,10 +870,14 @@
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
       <fields>
-        <field name="MPN">GPC0402104-25</field>
+        <field name="JLCPCB Part #">C1525</field>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="Manufacturer">Samsung electro-mechanics</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="GPC0402104-25"/>
+      <property name="Manufacturer" value="Samsung electro-mechanics"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB Part #" value="C1525"/>
       <property name="Sheetname" value="USB"/>
       <property name="Sheetfile" value="USB.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -736,10 +889,14 @@
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
       <fields>
-        <field name="MPN">GPC0402104-16</field>
+        <field name="JLCPCB Part #">C1525</field>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="Manufacturer">Samsung electro-mechanics</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="GPC0402104-16"/>
+      <property name="Manufacturer" value="Samsung electro-mechanics"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB Part #" value="C1525"/>
       <property name="Sheetname" value="USB"/>
       <property name="Sheetfile" value="USB.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -751,10 +908,14 @@
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
       <fields>
-        <field name="MPN">GPC0402104-25</field>
+        <field name="JLCPCB Part #">C1525</field>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="Manufacturer">Samsung electro-mechanics</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="GPC0402104-25"/>
+      <property name="Manufacturer" value="Samsung electro-mechanics"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB Part #" value="C1525"/>
       <property name="Sheetname" value="USB"/>
       <property name="Sheetfile" value="USB.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -766,10 +927,14 @@
       <value>1u</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
       <fields>
-        <field name="MPN">GPC0402105-16</field>
+        <field name="JLCPCB Part #">C52923</field>
+        <field name="MPN">CL05A105KA5NQNC</field>
+        <field name="Manufacturer">Samsung electro-mechanics</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="GPC0402105-16"/>
+      <property name="Manufacturer" value="Samsung electro-mechanics"/>
+      <property name="MPN" value="CL05A105KA5NQNC"/>
+      <property name="JLCPCB Part #" value="C52923"/>
       <property name="Sheetname" value="USB"/>
       <property name="Sheetfile" value="USB.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -781,10 +946,14 @@
       <value>10u</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
       <fields>
-        <field name="MPN">GPC0402106-6.3</field>
+        <field name="JLCPCB Part #">C15525</field>
+        <field name="MPN">CL05A106MQ5NUNC</field>
+        <field name="Manufacturer">Samsung electro-mechanics</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="GPC0402106-6.3"/>
+      <property name="Manufacturer" value="Samsung electro-mechanics"/>
+      <property name="MPN" value="CL05A106MQ5NUNC"/>
+      <property name="JLCPCB Part #" value="C15525"/>
       <property name="Sheetname" value="USB"/>
       <property name="Sheetfile" value="USB.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -797,6 +966,7 @@
       <footprint>Tiny_Scarab:D_SMA</footprint>
       <datasheet>https://www.littelfuse.com/media?resourcetype=datasheets&amp;itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&amp;filename=smaj-datasheet</datasheet>
       <fields>
+        <field name="JLCPCB Part #">C83329</field>
         <field name="MPN">SMAJ5.0A</field>
         <field name="Manufacturer">Littelfuse Inc.</field>
         <field name="SPN">SMAJ5.0ALFTR-ND</field>
@@ -807,6 +977,7 @@
       <property name="MPN" value="SMAJ5.0A"/>
       <property name="Supplier" value="DigiKey"/>
       <property name="SPN" value="SMAJ5.0ALFTR-ND"/>
+      <property name="JLCPCB Part #" value="C83329"/>
       <property name="Sheetname" value="USB"/>
       <property name="Sheetfile" value="USB.kicad_sch"/>
       <property name="ki_description" value="400W unidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"/>
@@ -818,6 +989,7 @@
       <value>~</value>
       <footprint>Tiny_Scarab:D_SMA</footprint>
       <fields>
+        <field name="JLCPCB Part #">C7083180</field>
         <field name="MPN">SMAZ5V6-TP</field>
         <field name="Manufacturer">Micro Commercial Co</field>
         <field name="SPN">SMAZ5V6-TPMSTR-ND</field>
@@ -828,6 +1000,7 @@
       <property name="MPN" value="SMAZ5V6-TP"/>
       <property name="Supplier" value="DigiKey"/>
       <property name="SPN" value="SMAZ5V6-TPMSTR-ND"/>
+      <property name="JLCPCB Part #" value="C7083180"/>
       <property name="Sheetname" value="USB"/>
       <property name="Sheetfile" value="USB.kicad_sch"/>
       <property name="ki_description" value="DIODE ZENER 5.6V 1W DO214AC"/>
@@ -840,6 +1013,7 @@
       <footprint>Tiny_Scarab:SOD2513X114N</footprint>
       <datasheet>https://www.bourns.com/docs/Product-Datasheets/CDSOD323-TxxLC.pdf</datasheet>
       <fields>
+        <field name="JLCPCB Part #">C840637</field>
         <field name="MPN">CDSOD323-T05LC</field>
         <field name="Manufacturer">Bourns</field>
         <field name="SPN">CDSOD323-T05LCTR-ND</field>
@@ -850,6 +1024,7 @@
       <property name="MPN" value="CDSOD323-T05LC"/>
       <property name="Supplier" value="DigiKey"/>
       <property name="SPN" value="CDSOD323-T05LCTR-ND"/>
+      <property name="JLCPCB Part #" value="C840637"/>
       <property name="Sheetname" value="USB"/>
       <property name="Sheetfile" value="USB.kicad_sch"/>
       <property name="ki_description" value="TVS DIODE 5VWM 18.3VC SOD323 IPC-7351B STANDARD"/>
@@ -881,6 +1056,7 @@
       <value>~</value>
       <footprint>Tiny_Scarab:D_SOD-323</footprint>
       <fields>
+        <field name="JLCPCB Part #">C397613</field>
         <field name="MPN">SD103AWS</field>
         <field name="Manufacturer">ANBON SEMICONDUCTOR (INT'L) LIMITED</field>
         <field name="SPN">4530-SD103AWSTR-ND</field>
@@ -891,6 +1067,7 @@
       <property name="MPN" value="SD103AWS"/>
       <property name="Supplier" value="DigiKey"/>
       <property name="SPN" value="4530-SD103AWSTR-ND"/>
+      <property name="JLCPCB Part #" value="C397613"/>
       <property name="Sheetname" value="USB"/>
       <property name="Sheetfile" value="USB.kicad_sch"/>
       <property name="ki_description" value="Schottky diode"/>
@@ -923,6 +1100,7 @@
       <footprint>Tiny_Scarab:USB_C_Receptacle_GCT_USB4110</footprint>
       <datasheet>https://gct.co/files/drawings/usb4110.pdf</datasheet>
       <fields>
+        <field name="JLCPCB Part #">C5143397</field>
         <field name="MPN">USB4110-GF-A</field>
         <field name="Manufacturer">GCT</field>
         <field name="SPN">2073-USB4110-GF-A-2-ND</field>
@@ -933,6 +1111,7 @@
       <property name="MPN" value="USB4110-GF-A"/>
       <property name="Supplier" value="DigiKey"/>
       <property name="SPN" value="2073-USB4110-GF-A-2-ND"/>
+      <property name="JLCPCB Part #" value="C5143397"/>
       <property name="Sheetname" value="USB"/>
       <property name="Sheetfile" value="USB.kicad_sch"/>
       <property name="ki_description" value="USB 2.0-only Type-C Receptacle connector"/>
@@ -965,10 +1144,14 @@
       <value>5k1</value>
       <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <fields>
-        <field name="MPN">GPR04025K1</field>
+        <field name="JLCPCB Part #">C25905</field>
+        <field name="MPN">0402WGF5101TCE</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MPN" value="GPR04025K1"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="MPN" value="0402WGF5101TCE"/>
+      <property name="JLCPCB Part #" value="C25905"/>
       <property name="Sheetname" value="USB"/>
       <property name="Sheetfile" value="USB.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -980,10 +1163,14 @@
       <value>5k1</value>
       <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <fields>
-        <field name="MPN">GPR04025K1</field>
+        <field name="JLCPCB Part #">C25905</field>
+        <field name="MPN">0402WGF5101TCE</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MPN" value="GPR04025K1"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="MPN" value="0402WGF5101TCE"/>
+      <property name="JLCPCB Part #" value="C25905"/>
       <property name="Sheetname" value="USB"/>
       <property name="Sheetfile" value="USB.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -992,13 +1179,17 @@
       <tstamps>7e2c8ee3-6b95-4ae6-8323-32f6fbb0a6e0</tstamps>
     </comp>
     <comp ref="R3">
-      <value>200</value>
+      <value>100</value>
       <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <fields>
-        <field name="MPN">GPR0402200R</field>
+        <field name="JLCPCB Part #">C25076</field>
+        <field name="MPN">0402WGF1000TCE</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MPN" value="GPR0402200R"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="MPN" value="0402WGF1000TCE"/>
+      <property name="JLCPCB Part #" value="C25076"/>
       <property name="Sheetname" value="USB"/>
       <property name="Sheetfile" value="USB.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1006,11 +1197,31 @@
       <sheetpath names="/USB/" tstamps="/99c48f54-1f97-4ff9-8db4-28f0cf987802/"/>
       <tstamps>9863662c-cee5-43b0-9e79-e5b42419eb43</tstamps>
     </comp>
+    <comp ref="R20">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="JLCPCB Part #">C25076</field>
+        <field name="MPN">0402WGF1000TCE</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="MPN" value="0402WGF1000TCE"/>
+      <property name="JLCPCB Part #" value="C25076"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/USB/" tstamps="/99c48f54-1f97-4ff9-8db4-28f0cf987802/"/>
+      <tstamps>e436baea-5815-434e-ba5f-ff4336a82cc0</tstamps>
+    </comp>
     <comp ref="U1">
       <value>~</value>
       <footprint>Tiny_Scarab:SOT-223-3_TabPin2</footprint>
       <datasheet>http://ww1.microchip.com/downloads/en/devicedoc/22056b.pdf</datasheet>
       <fields>
+        <field name="JLCPCB Part #">C145411</field>
         <field name="MPN">MCP1825ST-3302E/DB</field>
         <field name="Manufacturer">Microchip Technology</field>
         <field name="SPN">MCP1825ST-3302E/DBTR-ND</field>
@@ -1021,6 +1232,7 @@
       <property name="MPN" value="MCP1825ST-3302E/DB"/>
       <property name="Supplier" value="DigiKey"/>
       <property name="SPN" value="MCP1825ST-3302E/DBTR-ND"/>
+      <property name="JLCPCB Part #" value="C145411"/>
       <property name="Sheetname" value="USB"/>
       <property name="Sheetfile" value="USB.kicad_sch"/>
       <property name="ki_description" value="500mA, Low-Voltage, Low Quiescent Current LDO Regulator, SOT-223, TO-220, TO-263"/>
@@ -1032,10 +1244,14 @@
       <value>10u</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="MPN">GPC0805106</field>
+        <field name="JLCPCB Part #">C15850</field>
+        <field name="MPN">CL21A106KAYNNNE</field>
+        <field name="Manufacturer">Samsung electro-mechanics</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="GPC0805106"/>
+      <property name="Manufacturer" value="Samsung electro-mechanics"/>
+      <property name="MPN" value="CL21A106KAYNNNE"/>
+      <property name="JLCPCB Part #" value="C15850"/>
       <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
       <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -1047,10 +1263,14 @@
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
       <fields>
-        <field name="MPN">GPC0402104-25</field>
+        <field name="JLCPCB Part #">C1525</field>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="Manufacturer">Samsung electro-mechanics</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="GPC0402104-25"/>
+      <property name="Manufacturer" value="Samsung electro-mechanics"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB Part #" value="C1525"/>
       <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
       <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -1062,10 +1282,14 @@
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
       <fields>
-        <field name="MPN">GPC0402104-25</field>
+        <field name="JLCPCB Part #">C1525</field>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="Manufacturer">Samsung electro-mechanics</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="GPC0402104-25"/>
+      <property name="Manufacturer" value="Samsung electro-mechanics"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB Part #" value="C1525"/>
       <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
       <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -1077,10 +1301,14 @@
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
       <fields>
-        <field name="MPN">GPC0402104-25</field>
+        <field name="JLCPCB Part #">C1525</field>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="Manufacturer">Samsung electro-mechanics</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="GPC0402104-25"/>
+      <property name="Manufacturer" value="Samsung electro-mechanics"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB Part #" value="C1525"/>
       <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
       <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -1092,10 +1320,14 @@
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
       <fields>
-        <field name="MPN">GPC0402104-25</field>
+        <field name="JLCPCB Part #">C1525</field>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="Manufacturer">Samsung electro-mechanics</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="GPC0402104-25"/>
+      <property name="Manufacturer" value="Samsung electro-mechanics"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB Part #" value="C1525"/>
       <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
       <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -1107,10 +1339,14 @@
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
       <fields>
-        <field name="MPN">GPC0402104-25</field>
+        <field name="JLCPCB Part #">C1525</field>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="Manufacturer">Samsung electro-mechanics</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="GPC0402104-25"/>
+      <property name="Manufacturer" value="Samsung electro-mechanics"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB Part #" value="C1525"/>
       <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
       <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -1164,6 +1400,7 @@
       <value>~</value>
       <footprint>Tiny_Scarab:SOT-23</footprint>
       <fields>
+        <field name="JLCPCB Part #">C2589</field>
         <field name="MPN">IRLML2502TRPBF</field>
         <field name="Manufacturer">Infineon Technologies</field>
         <field name="SPN">IRLML2502TRPBFTR-ND</field>
@@ -1174,6 +1411,7 @@
       <property name="MPN" value="IRLML2502TRPBF"/>
       <property name="Supplier" value="DigiKey"/>
       <property name="SPN" value="IRLML2502TRPBFTR-ND"/>
+      <property name="JLCPCB Part #" value="C2589"/>
       <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
       <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
       <property name="ki_description" value="N-Channel 20 V 4.2A (Ta) 1.25W (Ta) Surface Mount Micro3™/SOT-23"/>
@@ -1185,6 +1423,7 @@
       <value>~</value>
       <footprint>Tiny_Scarab:SOT-23</footprint>
       <fields>
+        <field name="JLCPCB Part #">C2589</field>
         <field name="MPN">IRLML2502TRPBF</field>
         <field name="Manufacturer">Infineon Technologies</field>
         <field name="SPN">IRLML2502TRPBFTR-ND</field>
@@ -1195,6 +1434,7 @@
       <property name="MPN" value="IRLML2502TRPBF"/>
       <property name="Supplier" value="DigiKey"/>
       <property name="SPN" value="IRLML2502TRPBFTR-ND"/>
+      <property name="JLCPCB Part #" value="C2589"/>
       <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
       <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
       <property name="ki_description" value="N-Channel 20 V 4.2A (Ta) 1.25W (Ta) Surface Mount Micro3™/SOT-23"/>
@@ -1203,13 +1443,17 @@
       <tstamps>0bbdc0ed-7c2f-4de6-8123-0c1683903830</tstamps>
     </comp>
     <comp ref="R4">
-      <value>270</value>
+      <value>220</value>
       <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <fields>
-        <field name="MPN">GPR0402270R</field>
+        <field name="JLCPCB Part #">C25091</field>
+        <field name="MPN">0402WGF2200TCE</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MPN" value="GPR0402270R"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="MPN" value="0402WGF2200TCE"/>
+      <property name="JLCPCB Part #" value="C25091"/>
       <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
       <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1218,13 +1462,17 @@
       <tstamps>f3a6f3e9-b5cf-42f2-acfd-306638aa2baf</tstamps>
     </comp>
     <comp ref="R6">
-      <value>270</value>
+      <value>220</value>
       <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <fields>
-        <field name="MPN">GPR0402270R</field>
+        <field name="JLCPCB Part #">C25091</field>
+        <field name="MPN">0402WGF2200TCE</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MPN" value="GPR0402270R"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="MPN" value="0402WGF2200TCE"/>
+      <property name="JLCPCB Part #" value="C25091"/>
       <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
       <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1236,10 +1484,14 @@
       <value>0</value>
       <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <fields>
-        <field name="MPN">GPR04020R</field>
+        <field name="JLCPCB Part #">C17168</field>
+        <field name="MPN">0402WGF0000TCE</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MPN" value="GPR04020R"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="MPN" value="0402WGF0000TCE"/>
+      <property name="JLCPCB Part #" value="C17168"/>
       <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
       <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1251,10 +1503,14 @@
       <value>1k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <fields>
-        <field name="MPN">GPR04021K</field>
+        <field name="JLCPCB Part #">C11702</field>
+        <field name="MPN">0402WGF1001TCE</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MPN" value="GPR04021K"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="MPN" value="0402WGF1001TCE"/>
+      <property name="JLCPCB Part #" value="C11702"/>
       <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
       <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1266,10 +1522,14 @@
       <value>100k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <fields>
-        <field name="MPN">GPR0402100K</field>
+        <field name="JLCPCB Part #">C25741</field>
+        <field name="MPN">0402WGF1003TCE</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MPN" value="GPR0402100K"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="MPN" value="0402WGF1003TCE"/>
+      <property name="JLCPCB Part #" value="C25741"/>
       <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
       <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1281,10 +1541,14 @@
       <value>1k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <fields>
-        <field name="MPN">GPR04021K</field>
+        <field name="JLCPCB Part #">C11702</field>
+        <field name="MPN">0402WGF1001TCE</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MPN" value="GPR04021K"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="MPN" value="0402WGF1001TCE"/>
+      <property name="JLCPCB Part #" value="C11702"/>
       <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
       <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1293,13 +1557,17 @@
       <tstamps>dd4a6031-6de7-490e-b7d5-6cef779225f3</tstamps>
     </comp>
     <comp ref="R13">
-      <value>130</value>
+      <value>120</value>
       <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <fields>
-        <field name="MPN">GPR0402130R</field>
+        <field name="JLCPCB Part #">C25079</field>
+        <field name="MPN">0402WGF1200TCE</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MPN" value="GPR0402130R"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="MPN" value="0402WGF1200TCE"/>
+      <property name="JLCPCB Part #" value="C25079"/>
       <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
       <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1308,13 +1576,17 @@
       <tstamps>ef6e2892-ddb4-4616-872d-baf3e64068dd</tstamps>
     </comp>
     <comp ref="R14">
-      <value>20</value>
+      <value>22</value>
       <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <fields>
-        <field name="MPN">GPR040220R</field>
+        <field name="JLCPCB Part #">C25092</field>
+        <field name="MPN">0402WGF220JTCE</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MPN" value="GPR040220R"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="MPN" value="0402WGF220JTCE"/>
+      <property name="JLCPCB Part #" value="C25092"/>
       <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
       <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1326,10 +1598,14 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <fields>
-        <field name="MPN">GPR040210K</field>
+        <field name="JLCPCB Part #">C25744</field>
+        <field name="MPN">0402WGF1002TCE</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MPN" value="GPR040210K"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="MPN" value="0402WGF1002TCE"/>
+      <property name="JLCPCB Part #" value="C25744"/>
       <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
       <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1341,10 +1617,14 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <fields>
-        <field name="MPN">GPR040210K</field>
+        <field name="JLCPCB Part #">C25744</field>
+        <field name="MPN">0402WGF1002TCE</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MPN" value="GPR040210K"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="MPN" value="0402WGF1002TCE"/>
+      <property name="JLCPCB Part #" value="C25744"/>
       <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
       <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1356,10 +1636,14 @@
       <value>0</value>
       <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <fields>
-        <field name="MPN">GPR04020R</field>
+        <field name="JLCPCB Part #">C17168</field>
+        <field name="MPN">0402WGF0000TCE</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MPN" value="GPR04020R"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="MPN" value="0402WGF0000TCE"/>
+      <property name="JLCPCB Part #" value="C17168"/>
       <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
       <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1371,10 +1655,14 @@
       <value>0</value>
       <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <fields>
-        <field name="MPN">GPR04020R</field>
+        <field name="JLCPCB Part #">C17168</field>
+        <field name="MPN">0402WGF0000TCE</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MPN" value="GPR04020R"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="MPN" value="0402WGF0000TCE"/>
+      <property name="JLCPCB Part #" value="C17168"/>
       <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
       <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1386,10 +1674,14 @@
       <value>0</value>
       <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <fields>
-        <field name="MPN">GPR04020R</field>
+        <field name="JLCPCB Part #">C17168</field>
+        <field name="MPN">0402WGF0000TCE</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MPN" value="GPR04020R"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="MPN" value="0402WGF0000TCE"/>
+      <property name="JLCPCB Part #" value="C17168"/>
       <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
       <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1402,6 +1694,7 @@
       <footprint>Tiny_Scarab:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx43SMTRLFS</footprint>
       <datasheet>https://www.ckswitches.com/media/2779/pts636.pdf</datasheet>
       <fields>
+        <field name="JLCPCB Part #">C2800576</field>
         <field name="MPN">PTS636 SL43 SMTR LFS</field>
         <field name="Manufacturer">C&amp;K</field>
         <field name="SPN">CKN12309-2-ND</field>
@@ -1412,6 +1705,7 @@
       <property name="MPN" value="PTS636 SL43 SMTR LFS"/>
       <property name="Supplier" value="DigiKey"/>
       <property name="SPN" value="CKN12309-2-ND"/>
+      <property name="JLCPCB Part #" value="C2800576"/>
       <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
       <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
       <property name="ki_description" value="Push button switch, generic, two pins"/>
@@ -1424,6 +1718,7 @@
       <footprint>Tiny_Scarab:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx43SMTRLFS</footprint>
       <datasheet>https://www.ckswitches.com/media/2779/pts636.pdf</datasheet>
       <fields>
+        <field name="JLCPCB Part #">C2800576</field>
         <field name="MPN">PTS636 SL43 SMTR LFS</field>
         <field name="Manufacturer">C&amp;K</field>
         <field name="SPN">CKN12309-2-ND</field>
@@ -1434,6 +1729,7 @@
       <property name="MPN" value="PTS636 SL43 SMTR LFS"/>
       <property name="Supplier" value="DigiKey"/>
       <property name="SPN" value="CKN12309-2-ND"/>
+      <property name="JLCPCB Part #" value="C2800576"/>
       <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
       <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
       <property name="ki_description" value="Push button switch, generic, two pins"/>
@@ -1446,6 +1742,7 @@
       <footprint>Tiny_Scarab:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx43SMTRLFS</footprint>
       <datasheet>https://www.ckswitches.com/media/2779/pts636.pdf</datasheet>
       <fields>
+        <field name="JLCPCB Part #">C2800576</field>
         <field name="MPN">PTS636 SL43 SMTR LFS</field>
         <field name="Manufacturer">C&amp;K</field>
         <field name="SPN">CKN12309-2-ND</field>
@@ -1456,6 +1753,7 @@
       <property name="MPN" value="PTS636 SL43 SMTR LFS"/>
       <property name="Supplier" value="DigiKey"/>
       <property name="SPN" value="CKN12309-2-ND"/>
+      <property name="JLCPCB Part #" value="C2800576"/>
       <property name="Sheetname" value="WCH-LinkE-R0-1v3"/>
       <property name="Sheetfile" value="WCH-LinkE-R0-1v3.kicad_sch"/>
       <property name="ki_description" value="Push button switch, generic, two pins"/>
@@ -1484,7 +1782,7 @@
       <tstamps>87979f2b-b7ee-4864-9be3-9c144f2b9e75</tstamps>
     </comp>
     <comp ref="XTAL1">
-      <value>Crystal_GND24</value>
+      <value>~</value>
       <footprint>Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm</footprint>
       <fields>
         <field name="MPN">FL1200156</field>
@@ -2274,7 +2572,7 @@
     </net>
     <net code="40" name="Net-(LED1-A)">
       <node ref="LED1" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
     </net>
     <net code="41" name="Net-(LED2-K)">
       <node ref="LED2" pin="1" pinfunction="K" pintype="passive"/>
@@ -2303,25 +2601,33 @@
     </net>
     <net code="47" name="Net-(Q3-D)">
       <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
-      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
     </net>
     <net code="48" name="Net-(Q3-G)">
       <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R24" pin="1" pintype="passive"/>
     </net>
-    <net code="49" name="Net-(SW5-B)">
+    <net code="49" name="Net-(R20-Pad1)">
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(R21-Pad1)">
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(SW5-B)">
       <node ref="F2" pin="1" pintype="passive"/>
       <node ref="SW5" pin="2" pinfunction="B" pintype="passive"/>
     </net>
-    <net code="50" name="Net-(U2-PB10)">
+    <net code="52" name="Net-(U2-PB10)">
       <node ref="R4" pin="2" pintype="passive"/>
       <node ref="U2" pin="3" pinfunction="PB10" pintype="bidirectional"/>
     </net>
-    <net code="51" name="Net-(U2-PB11)">
+    <net code="53" name="Net-(U2-PB11)">
       <node ref="R6" pin="2" pintype="passive"/>
       <node ref="U2" pin="4" pinfunction="PB11" pintype="bidirectional"/>
     </net>
-    <net code="52" name="VDD">
+    <net code="54" name="VDD">
       <node ref="C26" pin="1" pintype="passive"/>
       <node ref="C27" pin="1" pintype="passive"/>
       <node ref="C28" pin="1" pintype="passive"/>
@@ -2345,22 +2651,22 @@
       <node ref="R23" pin="2" pintype="passive"/>
       <node ref="U3" pin="9" pinfunction="VDD" pintype="power_in"/>
     </net>
-    <net code="53" name="unconnected-(J1-SBU1-PadA8)">
+    <net code="55" name="unconnected-(J1-SBU1-PadA8)">
       <node ref="J1" pin="A8" pinfunction="SBU1" pintype="bidirectional"/>
     </net>
-    <net code="54" name="unconnected-(J1-SBU2-PadB8)">
+    <net code="56" name="unconnected-(J1-SBU2-PadB8)">
       <node ref="J1" pin="B8" pinfunction="SBU2" pintype="bidirectional"/>
     </net>
-    <net code="60" name="unconnected-(U2-PA5-Pad2)">
+    <net code="62" name="unconnected-(U2-PA5-Pad2)">
       <node ref="U2" pin="2" pinfunction="PA5" pintype="bidirectional"/>
     </net>
-    <net code="61" name="unconnected-(U2-PB12-Pad5)">
+    <net code="63" name="unconnected-(U2-PB12-Pad5)">
       <node ref="U2" pin="5" pinfunction="PB12" pintype="bidirectional"/>
     </net>
-    <net code="62" name="unconnected-(U2-PB14-Pad7)">
+    <net code="64" name="unconnected-(U2-PB14-Pad7)">
       <node ref="U2" pin="7" pinfunction="PB14" pintype="bidirectional"/>
     </net>
-    <net code="63" name="unconnected-(U2-PB15-Pad8)">
+    <net code="65" name="unconnected-(U2-PB15-Pad8)">
       <node ref="U2" pin="8" pinfunction="PB15" pintype="bidirectional"/>
     </net>
   </nets>
