@@ -21,6 +21,7 @@ There's no need to wire up anything. Just plug the Tiny Scarab in your computer 
 ## Index
 
 - **Hardware**
+  - [Open Tiny Scarab Schematic](tiny-scarab.pdf)
   - [Open Tiny Scarab in KiCAD](documentation/readme_open_project.md)
   - [A Deeper Dive in the KiCAD Files](documentation/readme_deeper_dive_kicad_files.md)
   - [Tiny Scarab Pinout and Features](documentation/readme_pinout_and_features.md)
