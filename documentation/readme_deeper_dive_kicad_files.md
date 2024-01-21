@@ -18,9 +18,9 @@ Then what are `fp-lib-table` and `sym-lib-table` for? These files simply help Ki
 &nbsp;<br>
 ## <img width="24" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/700a40ca-2f0f-42db-b38c-136012c5b887"> KiCAD Schematic Pages
 
-The Tiny Scarab KiCAD project consists of three schematic pages. The root page is `tiny-scarab.kicad_sch` - it has the same name as the project file `tiny-scarab.kicad_pro` (which represents the entire project). Then there is the `USB.kicad_sch` page and `WCH-LinkE-R0-1v3.kicad_sch`. You can view these pages from within the Schematic Editor in KiCAD:
+The Tiny Scarab KiCAD project consists of several schematic pages. The root page is `tiny-scarab.kicad_sch` - it has the same name as the project file `tiny-scarab.kicad_pro` (which represents the entire project). Then there is the `USB.kicad_sch`, `WCH-LinkE-R0-1v3.kicad_sch` and two more. You can view these pages from within the Schematic Editor in KiCAD:
 
-<img width="300" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/f7df5988-e797-43f1-a00e-d72eee18f62c">
+<img width="300" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/095dba98-b6cf-4477-bdc9-2030523d3563">
 
 &nbsp;<br>
 ## <img width="24" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/1df25eac-82e7-4247-9bed-7e46277bb1cb"> KiCAD PCB Layout
