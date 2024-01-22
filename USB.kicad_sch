@@ -1938,7 +1938,7 @@
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid 5e4020dc-d9b9-4787-a03b-7d465b0253b9)
   )
-  (text "3V3 Conversion" (at 67.31 69.85 0)
+  (text "3V3 Conversion" (at 63.5 69.85 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid 63d6c30b-e339-4911-8f27-1519955b6563)
   )
@@ -1947,7 +1947,7 @@
     (uuid 6669e81d-a0b5-474a-af03-6ed8b85eeae8)
   )
   (text "Convert 5V to 3V3 with\na linear voltage regulator.\nDiode D6 should protect\nagainst reverse voltages.\n"
-    (at 67.31 80.01 0)
+    (at 63.5 80.01 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 69866c90-74b5-411b-b7e7-283fc9b65caa)
   )
@@ -1972,7 +1972,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ee8a1b6c-c162-40cf-8891-f9ac989a4232)
   )
-  (text "Provide plenty of capacitors on\nthe 5V line.\n" (at 13.97 101.6 0)
+  (text "Provide plenty of capacitors on the 5V line.\nThe capacitors below are placed just after\nthe AP2141WG-7 chip overcurrent protection\nchip."
+    (at 13.97 106.68 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid faffc2ff-406d-4188-9fa7-c12989c9670d)
   )
@@ -2008,6 +2009,10 @@
   (label "CC2" (at 46.99 54.61 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 834b0805-7a24-45b6-bb82-76e869c74d69)
+  )
+  (label "FLG" (at 125.73 54.61 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 8da95c7e-70e2-4922-8018-59cf45efcc9f)
   )
   (label "USB_N" (at 58.42 60.96 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -2109,7 +2114,7 @@
   (symbol (lib_id "Tiny_Scarab:SD103AWS") (at 119.38 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 26ecde9f-a652-468c-9346-979421ec42b5)
-    (property "Reference" "D5" (at 119.38 71.12 0)
+    (property "Reference" "D2" (at 119.38 71.12 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 119.0625 69.85 0)
@@ -2141,7 +2146,7 @@
     (instances
       (project "tiny-scarab"
         (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/99c48f54-1f97-4ff9-8db4-28f0cf987802"
-          (reference "D5") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -2282,7 +2287,7 @@
   (symbol (lib_id "Device:R") (at 193.04 40.64 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 31252ad2-dfc9-41ea-bdb9-d4385ccd320e)
-    (property "Reference" "R20" (at 193.04 40.64 90)
+    (property "Reference" "R4" (at 193.04 40.64 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 195.58 41.91 90)
@@ -2308,7 +2313,7 @@
     (instances
       (project "tiny-scarab"
         (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/99c48f54-1f97-4ff9-8db4-28f0cf987802"
-          (reference "R20") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -2722,7 +2727,7 @@
   (symbol (lib_id "Device:R") (at 144.78 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6ec36308-855f-4555-8cd2-63a5c12ca52d)
-    (property "Reference" "R29" (at 144.78 45.72 90)
+    (property "Reference" "R2" (at 144.78 45.72 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "200" (at 147.32 45.72 90)
@@ -2748,7 +2753,7 @@
     (instances
       (project "tiny-scarab"
         (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/99c48f54-1f97-4ff9-8db4-28f0cf987802"
-          (reference "R29") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -2817,7 +2822,7 @@
   (symbol (lib_id "Device:R") (at 175.26 58.42 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7e2c8ee3-6b95-4ae6-8323-32f6fbb0a6e0)
-    (property "Reference" "R2" (at 175.26 58.42 90)
+    (property "Reference" "R6" (at 175.26 58.42 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5k1" (at 175.26 60.96 90)
@@ -2843,7 +2848,7 @@
     (instances
       (project "tiny-scarab"
         (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/99c48f54-1f97-4ff9-8db4-28f0cf987802"
-          (reference "R2") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -2937,7 +2942,7 @@
   (symbol (lib_id "Device:R") (at 139.7 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8b8fa35b-4eb6-47f2-9a1f-c8e7c20a642f)
-    (property "Reference" "R28" (at 139.7 45.72 90)
+    (property "Reference" "R1" (at 139.7 45.72 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 137.16 45.72 90)
@@ -2963,7 +2968,7 @@
     (instances
       (project "tiny-scarab"
         (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/99c48f54-1f97-4ff9-8db4-28f0cf987802"
-          (reference "R28") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -3323,7 +3328,7 @@
   (symbol (lib_id "Tiny_Scarab:AP2141WG-7") (at 115.57 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e75e1e01-6479-4ec1-b7cf-067de5e8d9f4)
-    (property "Reference" "U4" (at 115.57 41.91 0)
+    (property "Reference" "U1" (at 115.57 41.91 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AP2141WG-7" (at 115.57 44.45 0)
@@ -3352,7 +3357,7 @@
     (instances
       (project "tiny-scarab"
         (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/99c48f54-1f97-4ff9-8db4-28f0cf987802"
-          (reference "U4") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -3506,7 +3511,7 @@
   (symbol (lib_id "Device:R") (at 175.26 55.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f568ad71-f5ce-45fb-b78e-3a5f3824a723)
-    (property "Reference" "R1" (at 175.26 55.88 90)
+    (property "Reference" "R5" (at 175.26 55.88 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5k1" (at 175.26 53.34 90)
@@ -3532,7 +3537,7 @@
     (instances
       (project "tiny-scarab"
         (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/99c48f54-1f97-4ff9-8db4-28f0cf987802"
-          (reference "R1") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -3601,7 +3606,7 @@
   (symbol (lib_id "Tiny_Scarab:LED_RED_CSL0902UT") (at 133.35 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f7f0f568-9380-485d-9199-3d61507d3e6a)
-    (property "Reference" "LED5" (at 133.35 52.07 0)
+    (property "Reference" "LED2" (at 133.35 52.07 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "RED" (at 133.35 57.15 0)
@@ -3633,7 +3638,7 @@
     (instances
       (project "tiny-scarab"
         (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/99c48f54-1f97-4ff9-8db4-28f0cf987802"
-          (reference "LED5") (unit 1)
+          (reference "LED2") (unit 1)
         )
       )
     )
@@ -3642,7 +3647,7 @@
   (symbol (lib_id "Tiny_Scarab:MCP1825ST-3302E/DB") (at 119.38 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fa81780a-1e3f-4b26-b5cc-9c421143281c)
-    (property "Reference" "U1" (at 119.38 78.74 0)
+    (property "Reference" "U2" (at 119.38 78.74 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 119.38 81.28 0)
@@ -3675,7 +3680,7 @@
     (instances
       (project "tiny-scarab"
         (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/99c48f54-1f97-4ff9-8db4-28f0cf987802"
-          (reference "U1") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
