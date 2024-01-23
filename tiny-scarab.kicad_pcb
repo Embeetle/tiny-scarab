@@ -1942,7 +1942,7 @@
     (property "ki_description" "32-bit Interconnectivity RISC-V MCU")
     (path "/90393844-9805-4207-88e8-abd4029c5b43/87979f2b-b7ee-4864-9be3-9c144f2b9e75")
     (attr smd)
-    (fp_text reference "U1003" (at 0 0 180) (layer "F.SilkS") hide
+    (fp_text reference "U3" (at 0 0 180) (layer "F.SilkS") hide
         (effects (font (size 0.5 0.5) (thickness 0.125)))
       (tstamp cc6390f2-875f-419d-a57f-dc4aebd92d53)
     )
@@ -8061,7 +8061,7 @@
     (property "ki_description" "32-bit general-purpose RISC-V MCU")
     (path "/d0c4b0c3-1e7e-4a4c-add3-8d4a3a10843d/0c1162de-f031-42bb-a257-6b60c510bc4d")
     (attr smd)
-    (fp_text reference "U1004" (at 0.0635 0 90) (layer "F.SilkS") hide
+    (fp_text reference "U4" (at 0.0635 0 90) (layer "F.SilkS") hide
         (effects (font (size 0.5 0.5) (thickness 0.125)))
       (tstamp e372e282-4db5-4eff-857c-495607c18744)
     )

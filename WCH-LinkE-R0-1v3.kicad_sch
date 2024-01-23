@@ -2595,7 +2595,7 @@
   (symbol (lib_id "Tiny_Scarab:CH32V305FBP6") (at 171.45 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 87979f2b-b7ee-4864-9be3-9c144f2b9e75)
-    (property "Reference" "U1003" (at 180.34 22.86 0)
+    (property "Reference" "U3" (at 180.34 22.86 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 168.91 22.86 0)
@@ -2645,7 +2645,7 @@
     (instances
       (project "tiny-scarab"
         (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/90393844-9805-4207-88e8-abd4029c5b43"
-          (reference "U1003") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
