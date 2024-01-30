@@ -6,7 +6,7 @@
     (property "Value" "CONN_PIN_HEADER_02x07" (at 0 -10.16 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Tiny_Scarab:PinHeader_2x07_P2.54mm_Vertical_SMD_10129383-914001ALF" (at 1.27 21.59 0)
+    (property "Footprint" "Tiny_Scarab:CONN_PIN_HEADER_2x07_P2.54mm_Vertical_SMD" (at 1.27 21.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at -1.27 21.59 0)

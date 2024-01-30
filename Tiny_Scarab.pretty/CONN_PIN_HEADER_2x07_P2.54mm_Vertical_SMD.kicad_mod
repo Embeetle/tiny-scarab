@@ -1,4 +1,4 @@
-(footprint "PinHeader_2x07_P2.54mm_Vertical_SMD_10129383-914001ALF" (version 20221018) (generator pcbnew)
+(footprint "CONN_PIN_HEADER_2x07_P2.54mm_Vertical_SMD" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "surface-mounted straight pin header, 2x07, 2.54mm pitch, double rows")
   (tags "Surface mounted pin header SMD 2x07 2.54mm double row")
