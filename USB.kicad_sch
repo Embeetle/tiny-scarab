@@ -6,10 +6,11 @@
 
   (title_block
     (title "Tiny Scarab")
-    (date "2024-01-04")
-    (rev "0.1")
+    (date "2024-01-30")
+    (rev "0.2")
     (company "Embeetle")
     (comment 1 "https://embeetle.com/tiny-scarab")
+    (comment 2 "https://github.com/Embeetle/tiny-scarab")
   )
 
   (lib_symbols

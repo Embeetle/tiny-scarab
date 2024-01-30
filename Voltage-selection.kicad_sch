@@ -4,6 +4,15 @@
 
   (paper "A5")
 
+  (title_block
+    (title "Tiny Scarab")
+    (date "2024-01-30")
+    (rev "0.2")
+    (company "Embeetle")
+    (comment 1 "https://embeetle.com/tiny-scarab")
+    (comment 2 "https://github.com/Embeetle/tiny-scarab")
+  )
+
   (lib_symbols
     (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
