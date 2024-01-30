@@ -1803,7 +1803,7 @@
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid e2bf5e81-ff71-45cc-b8ff-3c313ce66f81)
   )
-  (text "The WCH-LinkE-R0-1v3 on-board probe\nmust be flashed when used for the first\ntime with an external probe, through J2:\n- SWCLK_IN\n- SWDIO_CH32V305\n- RST_CH32V305\nFrom then onwards, the USB signals\ngive access to the on-board probe."
+  (text "The WCH-LinkE-R0-1v3 on-board probe\nmust be flashed when used for the first\ntime with an external probe, through J2:\n- SWCLK_CH32V305\n- SWDIO_CH32V305\n- RST_CH32V305\nFrom then onwards, the USB signals\ngive access to the on-board probe."
     (at 13.97 77.47 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f969c44c-59ad-4e87-8a02-c4a2e6f5f58f)
@@ -1885,7 +1885,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 531e0c9e-95c9-4366-9b2f-b1355e085c0b)
   )
-  (label "SWCLK_IN" (at 57.15 115.57 180) (fields_autoplaced)
+  (label "SWCLK_CH32V305" (at 57.15 115.57 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 533b9079-41b9-4913-9fac-297750aa6ca7)
   )
@@ -4406,7 +4406,7 @@
     (property "Sheetfile" "WCH-LinkE-R0-1v3.kicad_sch" (at 58.42 131.3946 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (pin "SWCLK_IN" input (at 58.42 115.57 180)
+    (pin "SWCLK_CH32V305" input (at 58.42 115.57 180)
       (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left))
       (uuid c649d732-69e9-4fac-a385-3fbb5e51a653)
     )
