@@ -1,5 +1,4 @@
 (sym_lib_table
   (version 7)
   (lib (name "Tiny_Scarab")(type "KiCad")(uri "${KIPRJMOD}/Tiny_Scarab.kicad_sym")(options "")(descr ""))
-  (lib (name "Tiny_Scarab_Old")(type "KiCad")(uri "${KIPRJMOD}/Tiny_Scarab_Old.kicad_sym")(options "")(descr ""))
 )
