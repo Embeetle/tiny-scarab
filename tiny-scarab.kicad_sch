@@ -1803,7 +1803,7 @@
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid e2bf5e81-ff71-45cc-b8ff-3c313ce66f81)
   )
-  (text "The WCH-LinkE-R0-1v3 on-board probe\nmust be flashed when used for the first\ntime with an external probe, through J2:\n- SWCLK_IN\n- SWDIO_IN\n- RST_CH32V305\nFrom then onwards, the USB signals\ngive access to the on-board probe."
+  (text "The WCH-LinkE-R0-1v3 on-board probe\nmust be flashed when used for the first\ntime with an external probe, through J2:\n- SWCLK_IN\n- SWDIO_CH32V305\n- RST_CH32V305\nFrom then onwards, the USB signals\ngive access to the on-board probe."
     (at 13.97 77.47 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f969c44c-59ad-4e87-8a02-c4a2e6f5f58f)
@@ -1813,7 +1813,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 09e84e3f-0d5c-417c-82ba-a70ee946a4f8)
   )
-  (label "SWDIO_IN" (at 57.15 118.11 180) (fields_autoplaced)
+  (label "SWDIO_CH32V305" (at 57.15 118.11 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 0b29df08-9a10-44c8-816d-9fe852176c11)
   )
@@ -4410,7 +4410,7 @@
       (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left))
       (uuid c649d732-69e9-4fac-a385-3fbb5e51a653)
     )
-    (pin "SWDIO_IN" bidirectional (at 58.42 118.11 180)
+    (pin "SWDIO_CH32V305" bidirectional (at 58.42 118.11 180)
       (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left))
       (uuid 7a1e74b7-b2ff-4e63-8b13-5e4109832a94)
     )
