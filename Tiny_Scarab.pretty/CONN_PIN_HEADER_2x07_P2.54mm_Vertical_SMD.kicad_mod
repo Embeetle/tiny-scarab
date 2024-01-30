@@ -1,7 +1,6 @@
 (footprint "CONN_PIN_HEADER_2x07_P2.54mm_Vertical_SMD" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (descr "surface-mounted straight pin header, 2x07, 2.54mm pitch, double rows")
-  (tags "Surface mounted pin header SMD 2x07 2.54mm double row")
+  (descr "SMD straight pin header, 02x07, 2.54mm pitch")
   (attr smd)
   (fp_text reference "REF**" (at 0 -9.95) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))

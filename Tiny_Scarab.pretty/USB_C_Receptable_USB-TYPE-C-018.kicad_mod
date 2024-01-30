@@ -1,5 +1,6 @@
 (footprint "USB_C_Receptable_USB-TYPE-C-018" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
+  (descr "USB connector for CONN_USB_C_RECEPTABLE_USB2.0")
   (attr through_hole)
   (fp_text reference "REF**" (at -3.175 -5.207 unlocked) (layer "F.SilkS")
       (effects (font (size 0.5 0.5) (thickness 0.125)))

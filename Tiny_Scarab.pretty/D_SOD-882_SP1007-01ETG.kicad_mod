@@ -1,5 +1,6 @@
 (footprint "D_SOD-882_SP1007-01ETG" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
+  (descr "SOD-882 for TVS_SP1007-01ETG")
   (attr smd)
   (fp_text reference "REF**" (at 0 -1.143) (layer "F.SilkS")
       (effects (font (size 0.5 0.5) (thickness 0.125)))

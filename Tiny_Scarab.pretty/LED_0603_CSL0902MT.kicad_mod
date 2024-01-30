@@ -1,6 +1,6 @@
 (footprint "LED_0603_CSL0902MT" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (descr "LED SMD 0603")
+  (descr "LED SMD 0603 yellow-green")
   (tags "LED")
   (attr smd)
   (fp_text reference "REF**" (at 0 -1.778) (layer "F.SilkS")

@@ -1,5 +1,6 @@
 (footprint "SW_Slide_SPDT_ALPSALPINE_SSSS2" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
+  (descr "Switch SMD for SW_SSSS213202")
   (attr smd)
   (fp_text reference "REF**" (at 0 -3.81) (layer "F.SilkS")
       (effects (font (size 0.5 0.5) (thickness 0.125) bold))

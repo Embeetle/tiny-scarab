@@ -1,6 +1,6 @@
 (footprint "CRYSTAL-SMD5032-4P" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (tags "ECS-240-20-30B-TR ")
+  (descr "SMD5032-4P for XTAL_SX5B12.000F2020F30")
   (attr smd)
   (fp_text reference "REF**" (at 0 -1.2065 unlocked) (layer "F.SilkS")
       (effects (font (size 0.5 0.5) (thickness 0.125)))

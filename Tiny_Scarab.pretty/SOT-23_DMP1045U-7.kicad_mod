@@ -1,6 +1,6 @@
 (footprint "SOT-23_DMP1045U-7" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+  (descr "SOT, 3 pins for PMOS_DMP1045U-7")
   (tags "SOT TO_SOT_SMD")
   (attr smd)
   (fp_text reference "REF**" (at 0 -2.0955) (layer "F.SilkS")

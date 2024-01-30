@@ -1,5 +1,6 @@
 (footprint "SW_Tactile_SPST_NO_Straight_ALPSALPINE_SKRP" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
+  (descr "Switch SMD for ALPSALPINE SKRP series")
   (attr smd)
   (fp_text reference "REF**" (at 0.0635 0 unlocked) (layer "F.SilkS")
       (effects (font (size 0.5 0.5) (thickness 0.125)))
