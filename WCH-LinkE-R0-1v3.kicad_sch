@@ -2083,7 +2083,7 @@
   (symbol (lib_id "Device:C") (at 146.05 30.48 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 077d1251-77d2-4d92-b3ed-55de1d718afe)
-    (property "Reference" "C23" (at 146.05 27.94 0)
+    (property "Reference" "C25" (at 146.05 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 146.05 33.02 0)
@@ -2104,12 +2104,15 @@
     (property "JLCPCB Part #" "C1525" (at 146.05 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Comment" "16V 100nF X7R ±10% 0402" (at 146.05 30.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 1596d7ac-343c-4958-b678-ac7e46ead03a))
     (pin "2" (uuid 4bb99ea3-481f-4c42-9254-d0e55e197758))
     (instances
       (project "tiny-scarab"
         (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/90393844-9805-4207-88e8-abd4029c5b43"
-          (reference "C23") (unit 1)
+          (reference "C25") (unit 1)
         )
       )
     )
@@ -2362,7 +2365,7 @@
   (symbol (lib_id "Device:C") (at 95.25 59.69 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 39528744-58c7-4022-a1bc-9fb4d1eec06c)
-    (property "Reference" "C18" (at 95.25 57.15 0)
+    (property "Reference" "C20" (at 95.25 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 95.25 62.23 0)
@@ -2391,7 +2394,7 @@
     (instances
       (project "tiny-scarab"
         (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/90393844-9805-4207-88e8-abd4029c5b43"
-          (reference "C18") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
     )
@@ -2904,7 +2907,7 @@
   (symbol (lib_id "Device:C") (at 77.47 128.27 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8e6fb256-a226-4a11-a35b-63762b755115)
-    (property "Reference" "C24" (at 77.47 125.73 0)
+    (property "Reference" "C26" (at 77.47 125.73 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 77.47 130.81 0)
@@ -2925,12 +2928,15 @@
     (property "JLCPCB Part #" "C1525" (at 77.47 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Comment" "16V 100nF X7R ±10% 0402" (at 77.47 128.27 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid c4ba65c2-0b92-477c-beae-f458eea57d9a))
     (pin "2" (uuid 81b5d927-4365-4ff0-8b4a-c6828b25a3eb))
     (instances
       (project "tiny-scarab"
         (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/90393844-9805-4207-88e8-abd4029c5b43"
-          (reference "C24") (unit 1)
+          (reference "C26") (unit 1)
         )
       )
     )
@@ -2939,7 +2945,7 @@
   (symbol (lib_id "Device:C") (at 135.89 30.48 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8f0acf67-5f74-409a-9393-29af6fcad340)
-    (property "Reference" "C21" (at 135.89 27.94 0)
+    (property "Reference" "C23" (at 135.89 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 135.89 33.02 0)
@@ -2960,12 +2966,15 @@
     (property "JLCPCB Part #" "C1525" (at 135.89 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Comment" "16V 100nF X7R ±10% 0402" (at 135.89 30.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 882930d2-e1dc-4e84-8b8d-2c6ed20f45fb))
     (pin "2" (uuid ea1d5a82-87f0-417c-9b2b-0f4c858c1727))
     (instances
       (project "tiny-scarab"
         (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/90393844-9805-4207-88e8-abd4029c5b43"
-          (reference "C21") (unit 1)
+          (reference "C23") (unit 1)
         )
       )
     )
@@ -3009,7 +3018,7 @@
   (symbol (lib_id "Device:C") (at 99.06 101.6 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9ba0aae3-593c-4f9e-a1f4-79809a6e7f0a)
-    (property "Reference" "C27" (at 100.33 100.33 90)
+    (property "Reference" "C29" (at 100.33 100.33 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "22p" (at 104.14 102.87 90)
@@ -3030,12 +3039,15 @@
     (property "JLCPCB Part #" "C1555" (at 99.06 101.6 90)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Comment" "50V 22pF C0G ±5% 0402" (at 99.06 101.6 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid c709b211-4b07-4d39-a21f-c9ddeeb5b24c))
     (pin "2" (uuid 06b4cbf4-c992-4ecc-b9cb-550629c94765))
     (instances
       (project "tiny-scarab"
         (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/90393844-9805-4207-88e8-abd4029c5b43"
-          (reference "C27") (unit 1)
+          (reference "C29") (unit 1)
         )
       )
     )
@@ -3340,7 +3352,7 @@
   (symbol (lib_id "Device:C") (at 140.97 30.48 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bf0276ef-305e-4d31-861e-30523f3a97ae)
-    (property "Reference" "C22" (at 140.97 27.94 0)
+    (property "Reference" "C24" (at 140.97 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 140.97 33.02 0)
@@ -3361,12 +3373,15 @@
     (property "JLCPCB Part #" "C1525" (at 140.97 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Comment" "16V 100nF X7R ±10% 0402" (at 140.97 30.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 08c549a0-93a1-4840-8c2d-50f463b61d02))
     (pin "2" (uuid b621e168-7460-4d91-808f-650927a6cdc6))
     (instances
       (project "tiny-scarab"
         (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/90393844-9805-4207-88e8-abd4029c5b43"
-          (reference "C22") (unit 1)
+          (reference "C24") (unit 1)
         )
       )
     )
@@ -3400,7 +3415,7 @@
   (symbol (lib_id "Device:C") (at 105.41 59.69 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c8e8c38d-b445-41b5-a729-16015b61897b)
-    (property "Reference" "C20" (at 105.41 57.15 0)
+    (property "Reference" "C22" (at 105.41 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 105.41 62.23 0)
@@ -3429,7 +3444,7 @@
     (instances
       (project "tiny-scarab"
         (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/90393844-9805-4207-88e8-abd4029c5b43"
-          (reference "C20") (unit 1)
+          (reference "C22") (unit 1)
         )
       )
     )
@@ -3553,7 +3568,7 @@
   (symbol (lib_id "Device:C") (at 76.2 104.14 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d1b35038-54b9-4d57-b931-176adc68bab4)
-    (property "Reference" "C25" (at 76.2 101.6 0)
+    (property "Reference" "C27" (at 76.2 101.6 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 76.2 106.68 0)
@@ -3574,12 +3589,15 @@
     (property "JLCPCB Part #" "C1525" (at 76.2 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Comment" "16V 100nF X7R ±10% 0402" (at 76.2 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 62fafae5-a825-4c2c-95e2-8160188f13db))
     (pin "2" (uuid feb4fd22-3254-48de-bbec-6239c96748d6))
     (instances
       (project "tiny-scarab"
         (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/90393844-9805-4207-88e8-abd4029c5b43"
-          (reference "C25") (unit 1)
+          (reference "C27") (unit 1)
         )
       )
     )
@@ -3863,7 +3881,7 @@
   (symbol (lib_id "Device:C") (at 100.33 59.69 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f4ee0247-2a89-4a41-b54e-a2f268d37e4a)
-    (property "Reference" "C19" (at 100.33 57.15 0)
+    (property "Reference" "C21" (at 100.33 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 100.33 62.23 0)
@@ -3892,7 +3910,7 @@
     (instances
       (project "tiny-scarab"
         (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/90393844-9805-4207-88e8-abd4029c5b43"
-          (reference "C19") (unit 1)
+          (reference "C21") (unit 1)
         )
       )
     )
@@ -3901,7 +3919,7 @@
   (symbol (lib_id "Device:C") (at 99.06 86.36 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fd76382d-7620-460c-89ca-863bf3bb34bf)
-    (property "Reference" "C26" (at 100.33 85.09 90)
+    (property "Reference" "C28" (at 100.33 85.09 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "22p" (at 104.14 87.63 90)
@@ -3922,12 +3940,15 @@
     (property "JLCPCB Part #" "C1555" (at 99.06 86.36 90)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Comment" "50V 22pF C0G ±5% 0402" (at 99.06 86.36 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 786e554b-80a3-41ce-9074-428d85a6c3d0))
     (pin "2" (uuid c783ed4b-5d89-46e8-a382-aecad4e4ee42))
     (instances
       (project "tiny-scarab"
         (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/90393844-9805-4207-88e8-abd4029c5b43"
-          (reference "C26") (unit 1)
+          (reference "C28") (unit 1)
         )
       )
     )
