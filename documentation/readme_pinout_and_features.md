@@ -6,7 +6,7 @@
 
 The Tiny Scarab draws 5V power from its USB-C connector:
 
-<img width="300" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/f0bccc82-101e-4d90-8ab1-25cdac235da0">
+<img width="300" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/102d7877-ca92-454d-8697-7cc354e7fe9e">
 
 &nbsp;<br>
 Two zener diodes protect the 5V rail. `SMAJ5.0A` is a TVS diode to protect against incoming voltage transients. `SMAZ5V6-TP` is a zener diode to short permanent overvoltage (eg. a faulty USB-C charger outputs 20V) such that fuse `F1` will blow:
