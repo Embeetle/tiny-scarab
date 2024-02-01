@@ -73,7 +73,9 @@ Almost all pins of the target `CH32V003F4P6` MCU are accessible through the pin 
 
 There are a few exceptions though. Signals `SWDIO_CH32V003` and `RST_CH32V003` (tied to pins `PD1` and `PD7`) are used to flash code to the target chip and run debug sessions. Also signals `RX` and `TX` (tied to pins `PD5` and `PD6`) are occupied. They are routed to the on-board flash/debug probe to provide UART communication:
 
-<img width="500" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/15f194e3-cb10-460c-b7c2-43b0cfea0ee0">
+<img width="500" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/06edcd62-baa4-4a5f-a76c-318897f1b4fe">
+
+Also pins `PA1` and `PA2` are not accessible on the pin headers. These are clock pins, routed to the crystal.
 
 
 
