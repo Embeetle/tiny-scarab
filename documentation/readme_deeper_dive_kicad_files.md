@@ -9,11 +9,13 @@ All the files in this GitHub repository work together to create the entirety of 
 &nbsp;<br>
 ## <img width="24" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/9bca8022-6bff-431c-b7eb-bea506ce30f7"> KiCAD Component Library
 
-KiCAD libraries come in two kinds: global and project libraries. Global libraries are available for each and every project you work on. Let's not mess with them. For the customized components, we created a project library. When you launch the Tiny Scarab project in KiCAD, the software should automatically recognize the presence of this project library and find all the components inside. To keep things simple, we decided to put all the customized components in this one project library.
+KiCAD libraries come in two kinds: global and project libraries.
+ - Global libraries are available for each and every project you work on. Let's not mess with them.
+  - For the customized components, we created a project library: `Tiny_Scarab.kicad_sym`. When you launch the Tiny Scarab project in KiCAD, the software should automatically recognize the presence of this project library and find all the components inside. To keep things simple, all the customized components are located in this one project library.
 
-The project library is stored in the file `Tiny_Scarab.kicad_sym`. Well, that is, all the schematic symbols are stored in there with their footprint *references*. The footprints themselves are located in the `Tiny_Scarab.pretty` folder. The 3D models from these footprints are in the `3d_models` folder.
+The project library is stored in the file `Tiny_Scarab.kicad_sym`. Well, that is, all the schematic symbols are stored in there with their footprint *references*. The footprints themselves are located in the `Tiny_Scarab.pretty` folder. The 3D models from these footprints are in the `3d_models` folder. So you could state that these three items together (the `Tiny_Scarab.kicad_sym` file, the `Tiny_Scarab.pretty` folder and the `3d_models` folder) compose our project library.
 
-Then what are `fp-lib-table` and `sym-lib-table` for? These files simply help KiCAD to know where to find the footprints and symbols from (one or more) project libraries. In our KiCAD project, it's pretty simple because there's only a single project library. But these two files come in handy if things would be more complicated.
+Then what are the `fp-lib-table` and `sym-lib-table` files for? They simply help KiCAD to know where to find the footprints and symbols from (one or more) project libraries. In our KiCAD project, it's pretty simple because there's only a single project library. But these two files come in handy if things would be more complicated.
 
 &nbsp;<br>
 ## <img width="24" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/700a40ca-2f0f-42db-b38c-136012c5b887"> KiCAD Schematic Pages
@@ -21,6 +23,9 @@ Then what are `fp-lib-table` and `sym-lib-table` for? These files simply help Ki
 The Tiny Scarab KiCAD project consists of several schematic pages. The root page is `tiny-scarab.kicad_sch` - it has the same name as the project file `tiny-scarab.kicad_pro` (which represents the entire project). Then there is the `USB.kicad_sch`, `WCH-LinkE-R0-1v3.kicad_sch` and two more. You can view these pages from within the Schematic Editor in KiCAD:
 
 <img width="300" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/095dba98-b6cf-4477-bdc9-2030523d3563">
+
+&nbsp;<br>
+> *Note: in the most recent version of the Tiny Scarab, you'll notice a few extra schematic pages.*
 
 &nbsp;<br>
 ## <img width="24" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/1df25eac-82e7-4247-9bed-7e46277bb1cb"> KiCAD PCB Layout
