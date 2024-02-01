@@ -61,9 +61,7 @@ The target MCU is a special case. It can operate on 5V *or* 3V3. Both voltages a
 
 <img width="400" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/8547f2b4-b0e3-4d9b-819a-1bbfd425dd60">
 
-Now, it's challenging to find a cheap slide switch that can carry 500mA and is readily available in the JLCPCB stock. For that reason, the slide switch simply toggles a few MOSFETs. In other words: the current doesn't flow through the slide switch, but through these MOSFETs instead. 
-
-
+Now, it's challenging to find a cheap slide switch that can carry 500mA and is readily available in the JLCPCB stock. For that reason, the slide switch simply toggles a few MOSFETs. In other words: the current doesn't flow through the slide switch, but through these MOSFETs instead. [Download the schematic](../tiny-scarab.pdf) to see more.
 
 
 &nbsp;<br>
@@ -71,7 +69,13 @@ Now, it's challenging to find a cheap slide switch that can carry 500mA and is r
 
 Almost all pins of the target `CH32V003F4P6` MCU are accessible through the pin headers at the bottom of the board:
 
-<img width="400" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/ed47ef23-bd5a-4d68-844b-f4df3d9bb480">
+<img width="400" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/ed7b0b07-a180-4669-8170-49d5b1041fca">
+
+There are a few exceptions though. Signals `SWDIO_CH32V003` and `RST_CH32V003` (tied to pins `PD1` and `PD7`) are used to flash code to the target chip and run debug sessions. Also signals `RX` and `TX` (tied to pins `PD5` and `PD6`) are occupied. They are routed to the on-board flash/debug probe to provide UART communication:
+
+<img width="500" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/15f194e3-cb10-460c-b7c2-43b0cfea0ee0">
+
+
 
 &nbsp;<br>
 ## 3. LEDs
