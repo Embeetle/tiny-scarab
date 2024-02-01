@@ -4,7 +4,8 @@
 
 With a few exceptions, the Tiny Scarab pinout is identical to the `CH32V003F4P6-EVT-R0-1v1` development board:
 
-<img width="800" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/9edd799f-8b77-4ab7-be1a-869cee57abe2">
+<img width="800" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/98e277fb-af1f-447e-bb3b-f28c79739687">
+
 
 The exceptions are:
 
