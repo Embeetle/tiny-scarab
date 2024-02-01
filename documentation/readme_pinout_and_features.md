@@ -57,26 +57,28 @@ Parts of the board - such as the flash/debug probe - operate on 3V3. So we need 
 
 <img width="400" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/db1cfe7c-594a-42d0-9886-90b77e779c02">
 
+The target MCU is a special case. It can operate on 5V *or* 3V3. Both voltages are present on the board, so it's easy to feed the chip with one or the other. To give you the choice, we added a slide switch:
+
+<img width="400" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/8547f2b4-b0e3-4d9b-819a-1bbfd425dd60">
+
+Now, it's challenging to find a cheap slide switch that can carry 500mA and is readily available in the JLCPCB stock. For that reason, the slide switch simply toggles a few MOSFETs. In other words: the current doesn't flow through the slide switch, but through these MOSFETs instead. 
+
+
 
 
 &nbsp;<br>
-That's because the flash/debug probe `CH32V305FBP6` MCU runs on 3V3. The target `CH32V003F4P6` MCU can run on both. The Tiny Scarab provides a switch to choose how you want to feed your target chip.
-
-&nbsp;<br>
-The switch is on the right side of the board:
-
-<img width="400" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/8229f6ea-ea41-497b-b088-8876300fb8c5">
-
 ## 2. Pinout
 
 Almost all pins of the target `CH32V003F4P6` MCU are accessible through the pin headers at the bottom of the board:
 
 <img width="400" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/ed47ef23-bd5a-4d68-844b-f4df3d9bb480">
 
+&nbsp;<br>
 ## 3. LEDs
 
 [UNDER CONSTRUCTION]
 
+&nbsp;<br>
 ## 4. Switches and Buttons
 
 [UNDER CONSTRUCTION]
