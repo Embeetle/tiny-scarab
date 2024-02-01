@@ -18,10 +18,12 @@ First install the JLCPCB plugin in KiCAD:
 
 <img width="800" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/dcd885ff-c29e-4df6-8e38-63975aa3dfd2">
 
+&nbsp;<br>
 Search for the `"JLC PCB Fabrication Toolkit"`:
 
 <img width="500" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/602b6b75-8781-4c30-8689-d8f3f521a85e">
 
+&nbsp;<br>
 Install the plugin.
 
 &nbsp;<br>
@@ -31,23 +33,20 @@ Once you've installed the JLCPCB plugin, you should see a new button in the PCB 
 
 <img width="500" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/ec97a4e5-2891-4716-9ab3-64f16c2dd888">
 
+&nbsp;<br>
+This button replaces the usual workflow to generate production files. In other words, do not generate files from `File` > `Fabrication Outputs`:
 
-
+<img width="500" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/81dca7cf-0175-4d19-8147-f31ec1c05c0b">
 
 &nbsp;<br>
-## 3. BOM
+Just click the new <img width="24" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/aa1c1b64-1541-4d4d-81dd-f0f72b053cee">JLCPCB button instead. You'll be prompted the following question:
 
-KiCAD outputs two BOM (Bill of Materials) files:
+<img width="400" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/40bec798-b465-4f7f-b887-1b599b5f8755">
 
-- [`tiny-scarab.csv`](../output/tiny-scarab.csv)
-- [`tiny-scarab.xml`](../output/tiny-scarab.xml)
+Make sure to check the `"Exclude DNP components"` box. "DNP" stands for "Do Not Place". By checking this box, you ensure that the components marked as "DNP" are indeed not placed on the board.
 
-They can be generated in the KiCAD Schematic Editor by clicking `Tools` > `Generate BOM`:
-
-<img width="400" src="https://github.com/Embeetle/tiny-scarab/assets/19362684/a2b37f38-c881-4602-8dc7-6ffaf24ca673">
-
-KiCAD then generates these two BOM files in the toplevel folder. I moved them to the `output/` subfolder to keep the toplevel folder tidy.
-
+&nbsp;<br>
+The KiCAD plugin should now create a new folder named `production` in the Tiny Scarab project. This is all you need for production at the JLCPCB manufacturing plant.
 
 
 &nbsp;<br>
