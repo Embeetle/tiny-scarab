@@ -10,7 +10,7 @@ FILE_DESCRIPTION(
 
 FILE_NAME(
 /* name */ 'tiny-scarab-v0.2-membrane.step',
-/* time_stamp */ '2024-02-16T14:45:02+01:00',
+/* time_stamp */ '2024-02-18T16:04:48+01:00',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v20',
@@ -1184,17 +1184,17 @@ SOLID_ANGLE_UNIT()
 #1127=SHAPE_REPRESENTATION('',(#681),#1119);
 #1128=PRODUCT_DEFINITION_CONTEXT('part definition',#1133,'design');
 #1129=PRODUCT_DEFINITION('tiny-scarab-v0.2-membrane',
-'tiny-scarab-v0.2-membrane v7',#1130,#1128);
+'tiny-scarab-v0.2-membrane v10',#1130,#1128);
 #1130=PRODUCT_DEFINITION_FORMATION('',$,#1135);
-#1131=PRODUCT_RELATED_PRODUCT_CATEGORY('tiny-scarab-v0.2-membrane v7',
-'tiny-scarab-v0.2-membrane v7',(#1135));
+#1131=PRODUCT_RELATED_PRODUCT_CATEGORY('tiny-scarab-v0.2-membrane v10',
+'tiny-scarab-v0.2-membrane v10',(#1135));
 #1132=APPLICATION_PROTOCOL_DEFINITION('international standard',
 'automotive_design',2009,#1133);
 #1133=APPLICATION_CONTEXT(
 'Core Data for Automotive Mechanical Design Process');
 #1134=PRODUCT_CONTEXT('part definition',#1133,'mechanical');
 #1135=PRODUCT('tiny-scarab-v0.2-membrane',
-'tiny-scarab-v0.2-membrane v7',$,(#1134));
+'tiny-scarab-v0.2-membrane v10',$,(#1134));
 #1136=PRESENTATION_STYLE_ASSIGNMENT((#1138));
 #1137=PRESENTATION_STYLE_ASSIGNMENT((#1139));
 #1138=SURFACE_STYLE_USAGE(.BOTH.,#1140);
