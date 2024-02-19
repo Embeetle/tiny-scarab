@@ -86,18 +86,20 @@ def process_file(filepath: str,
     #   'LED5': 2474,
     #   'R25': 2242,
     # }
+    p1 = re.compile(r'(\(property "Reference" )"([a-zA-Z]+[0-9]+)"')
+    p2 = re.compile(r'(\(reference )"([a-zA-Z]+[0-9]+)"')
+    p3 = re.compile(r'(fp_text reference )"([a-zA-Z]+[0-9]+)"')
+
+
+
     orig_designator_dict: Dict[str, int] = {}
     for i, line in enumerate(original_lines):
-        # .kicad_sch file
-        if '(property "Reference"' in line:
-            match = re.search(r'\(property "Reference" "([A-Z]+[0-9]+)"', line)
-            if match:
-                orig_designator_dict[match.group(1)] = i
-        # .kicad_pcb file
-        if 'fp_text reference' in line:
-            match = re.search(r'fp_text reference "([A-Z]+[0-9]+)"', line)
-            if match:
-                orig_designator_dict[match.group(1)] = i
+        for p in (p1, p2, p3):
+            m = p.search(line)
+            if m:
+                orig_designator_dict[m.group(2)] = i
+                break
+            continue
         continue
 
     if target_designator:
@@ -115,21 +117,17 @@ def process_file(filepath: str,
                 for d_inc, j in updated_designator_dict.items():
                     if i != j:
                         continue
-                    # .kicad_sch file
-                    match = re.search(r'\(property "Reference" "([A-Z]+[0-9]+)"', line)
-                    if match:
-                        d_orig = match.group(1)
-                        print(f"line {i}: {d_orig} -> {d_inc}")
-                        line = re.sub(r'("Reference" "[A-Z]+[0-9]+")', f'"Reference" "{d_inc}"', line)
+                    for p in (p1, p2, p3):
+                        m = p.search(line)
+                        if m:
+                            print(f"    line {i}: {line.strip()}", end=' => ')
+                            line = p.sub(rf'\1"{d_inc}"', line)
+                            print(f"    line {i}: {line.strip()}")
+                            break
                         continue
-                    # .kicad_pcb file
-                    match = re.search(r'fp_text reference "([A-Z]+[0-9]+)"', line)
-                    if match:
-                        d_orig = match.group(1)
-                        print(f"line {i}: {d_orig} -> {d_inc}")
-                        line = re.sub(r'fp_text reference "[A-Z]+[0-9]+"', f'fp_text reference "{d_inc}"', line)
-                        continue
-                    assert False, f"  Designator not found in line {i}"
+                    else:
+                        assert False, f"  Designator not found in line {i}"
+                    continue
                 file.write(line)
                 continue
     else:
