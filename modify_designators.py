@@ -123,7 +123,7 @@ def process_file(filepath: str,
                         if m:
                             print(f"    line {i}: {line.strip()}", end=' => ')
                             line = p.sub(rf'\1"{d_inc}"', line)
-                            print(f"    line {i}: {line.strip()}")
+                            print(f"{line.strip()}")
                             break
                         continue
                     else:
