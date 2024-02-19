@@ -18,8 +18,8 @@ def alphanumeric_sort_key(s: str) -> Tuple[str, int]:
     return (match.group(1), int(match.group(2))) if match else (s, 0)
 
 def increment_and_filter_designators_in_dict(target_designator: str,
-                                             orig_designator_dict: Dict[str, int],
-                                             ) -> Dict[str, int]:
+                                             orig_designator_dict: Dict[str, List[int]],
+                                             ) -> Dict[str, List[int]]:
     """
     Increment in the given dictionary the numerical part of a specified designator and all sub-
     sequent designators with the same prefix.
@@ -29,11 +29,11 @@ def increment_and_filter_designators_in_dict(target_designator: str,
         orig_designator_dict (Dict[str, int]):  A dictionary of designators with their positions
                                                 in the file. For example:
                                                 orig_designator_dict = {
-                                                    'C39': 2564,
-                                                    'C40': 2398,
-                                                    'C41': 1835,
-                                                    'LED5': 2474,
-                                                    'R25': 2242,
+                                                    'C39':  [2564, ]
+                                                    'C40':  [2398, ]
+                                                    'C41':  [1835, 2343, ]
+                                                    'LED5': [2474, ]
+                                                    'R25':  [2242, ]
                                                 }
         
     Returns:
@@ -46,7 +46,7 @@ def increment_and_filter_designators_in_dict(target_designator: str,
     # Create a dictionary in the image of the original, but with incremented designators. Also,
     # filter out the designators that are irrelevant. If the target designator would be 'C40', then
     # only the designators 'C40', 'C41', ... would be incremented, the rest gets filtered out.
-    updated_designator_dict: Dict[str, int] = {}
+    updated_designator_dict: Dict[str, List[int]] = {}
     for d in sorted(orig_designator_dict.keys(), key=alphanumeric_sort_key):
         d_prefix, d_num = re.match(r"([a-zA-Z]+)([0-9]+)", d).groups()
         d_num = int(d_num)
@@ -80,31 +80,32 @@ def process_file(filepath: str,
     # Create a dictionary of designators and their positions in the file. The keys are the desig-
     # nators and the values are the line numbers where they are found. For example:
     # orig_designator_dict = {
-    #   'C39': 2564,
-    #   'C40': 2398,
-    #   'C41': 1835,
-    #   'LED5': 2474,
-    #   'R25': 2242,
+    #   'C39':  [2564, ]
+    #   'C40':  [2398, 1343, ]
+    #   'C41':  [1835, ]
+    #   'LED5': [2474, ]
+    #   'R25':  [2242, ]
     # }
     p1 = re.compile(r'(\(property "Reference" )"([a-zA-Z]+[0-9]+)"')
     p2 = re.compile(r'(\(reference )"([a-zA-Z]+[0-9]+)"')
     p3 = re.compile(r'(fp_text reference )"([a-zA-Z]+[0-9]+)"')
 
-
-
-    orig_designator_dict: Dict[str, int] = {}
+    orig_designator_dict: Dict[str, List[int]] = {}
     for i, line in enumerate(original_lines):
         for p in (p1, p2, p3):
             m = p.search(line)
             if m:
-                orig_designator_dict[m.group(2)] = i
+                if m.group(2) in orig_designator_dict:
+                    orig_designator_dict[m.group(2)].append(i)
+                else:
+                    orig_designator_dict[m.group(2)] = [i]
                 break
             continue
         continue
 
     if target_designator:
         # Modify the designator dictionary
-        updated_designator_dict = increment_and_filter_designators_in_dict(
+        updated_designator_dict: Dict[str, List[int]] = increment_and_filter_designators_in_dict(
             target_designator    = target_designator,
             orig_designator_dict = orig_designator_dict,
         )
@@ -114,8 +115,8 @@ def process_file(filepath: str,
         # the file. Otherwise, just write the line back to the file as is.
         with open(filepath, 'w') as file:
             for i, line in enumerate(original_lines):
-                for d_inc, j in updated_designator_dict.items():
-                    if i != j:
+                for d_inc, j_list in updated_designator_dict.items():
+                    if i not in j_list:
                         continue
                     for p in (p1, p2, p3):
                         m = p.search(line)
