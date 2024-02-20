@@ -239,8 +239,9 @@ if __name__ == '__main__':
         )
         exit(1)
     if args.increment_designator or args.decrement_designator:
+        target = args.increment_designator if args.increment_designator else args.decrement_designator
         print(
-            f"\nYou are about to modify the designator '{args.increment_designator}' and all "
+            f"\nYou are about to modify the designator '{target}' and all "
             f"subsequent ones in the '.kicad_sch' and '.kicad_pcb' files in the directory "
             f"'{args.directory}'. This action is irreversible and your KiCAD project becomes "
             f"unusable if anything goes wrong.\n\n"
@@ -254,10 +255,10 @@ if __name__ == '__main__':
             print("Exiting...")
             exit(0)
         if args.increment_designator:
-            print(f"\nIncrementing designator {args.increment_designator}...")
-            process_all_files(args.directory, args.increment_designator, True)
+            print(f"\nIncrementing designator '{target}'...")
+            process_all_files(args.directory, target, True)
         if args.decrement_designator:
-            print(f"\nDecrementing designator {args.decrement_designator}...")
-            process_all_files(args.directory, args.decrement_designator, False)
+            print(f"\nDecrementing designator '{target}'...")
+            process_all_files(args.directory, target, False)
         exit(0)
     exit(0)
