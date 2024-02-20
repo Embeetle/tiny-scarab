@@ -187,14 +187,14 @@ if __name__ == '__main__':
         '-d',
         '--decrement-designator',
         action='store',
-        help='Designator to increment',
+        help='Designator to decrement',
         default=None,
     )
     parser.add_argument(
         '-s',
         '--show-designators',
-        action='store',
-        help='Designator to increment',
+        action='store_true',
+        help='Show designators and quit',
         default=None,
     )
 
