@@ -1,5 +1,6 @@
 import os
 import re
+import sys
 import argparse
 from typing import Dict, List, Tuple, Optional
 
@@ -19,10 +20,11 @@ def alphanumeric_sort_key(s: str) -> Tuple[str, int]:
 
 def increment_and_filter_designators_in_dict(target_designator: str,
                                              orig_designator_dict: Dict[str, List[int]],
+                                             increment: bool = True,
                                              ) -> Dict[str, List[int]]:
     """
-    Increment in the given dictionary the numerical part of a specified designator and all sub-
-    sequent designators with the same prefix.
+    Increment or decrement in the given dictionary the numerical part of a specified designator and
+    all subsequent designators with the same prefix.
     
     Args:
         target_designator (str):                The designator to increment.
@@ -51,7 +53,10 @@ def increment_and_filter_designators_in_dict(target_designator: str,
         d_prefix, d_num = re.match(r"([a-zA-Z]+)([0-9]+)", d).groups()
         d_num = int(d_num)
         if d_prefix == t_prefix and d_num >= t_num:
-            updated_designator_dict[f"{d_prefix}{d_num + 1}"] = orig_designator_dict[d]
+            if increment:
+                updated_designator_dict[f"{d_prefix}{d_num + 1}"] = orig_designator_dict[d]
+            else:
+                updated_designator_dict[f"{d_prefix}{d_num - 1}"] = orig_designator_dict[d]
         else:
             pass
             # updated_designator_dict[d] = orig_designator_dict[d]
@@ -62,6 +67,7 @@ def increment_and_filter_designators_in_dict(target_designator: str,
 
 def process_file(filepath: str,
                  target_designator: Optional[str] = None,
+                 increment: bool = True,
                  ) -> None:
     """
     Process a KiCAD schematic or PCB file to increment specified designators. If a target designator
@@ -108,6 +114,7 @@ def process_file(filepath: str,
         updated_designator_dict: Dict[str, List[int]] = increment_and_filter_designators_in_dict(
             target_designator    = target_designator,
             orig_designator_dict = orig_designator_dict,
+            increment            = increment,
         )
         # Modify the file with the updated designators. To do that, loop over the lines in the file.
         # If line number i corresponds to line number j in the updated designator dictionary, then
@@ -140,6 +147,7 @@ def process_file(filepath: str,
 
 def process_all_files(directory: str,
                       target_designator: Optional[str] = None,
+                      increment: bool = True,
                       ) -> None:
     """
     Processes KiCAD schematic files in a directory to increment specified designators.
@@ -153,15 +161,17 @@ def process_all_files(directory: str,
     files = [f for f in os.listdir(directory) if f.endswith(('.kicad_sch', '.kicad_pcb'))]
     for filename in files:
         filepath = os.path.join(directory, filename)
-        process_file(filepath, target_designator)
+        process_file(filepath, target_designator, increment)
         continue
     return
 
 if __name__ == '__main__':
     current_directory = os.getcwd()
     parser = argparse.ArgumentParser(description='Increment KiCAD designators.')
+
+    # Add arguments to the parser
     parser.add_argument(
-        '-d',
+        '-D',
         '--directory',
         help='Directory containing KiCAD schematic files to process',
         default=current_directory
@@ -173,11 +183,64 @@ if __name__ == '__main__':
         help='Designator to increment',
         default=None,
     )
-    args = parser.parse_args()
+    parser.add_argument(
+        '-d',
+        '--decrement-designator',
+        action='store',
+        help='Designator to increment',
+        default=None,
+    )
+    parser.add_argument(
+        '-s',
+        '--show-designators',
+        action='store',
+        help='Designator to increment',
+        default=None,
+    )
 
-    if args.increment_designator:
+    # Check if no arguments were provided. Show the help message in that case.
+    if len(sys.argv) == 1:
+        # Display the help message and exit
+        parser.print_help(sys.stderr)
+        sys.exit(1)
+
+    # Parse the arguments
+    args = parser.parse_args()
+    
+    # Check if the directory exists.
+    if not os.path.isdir(args.directory):
+        print(f"The directory '{args.directory}' does not exist.")
+        exit(1)
+
+    # If the --directory argument is provided, but none of the other arguments are provided, then
+    # show the help message and quit.
+    if not (args.increment_designator or args.decrement_designator or args.show_designators):
+        parser.print_help(sys.stderr)
+        exit(1)
+
+    # If --show-designators is provided, just list all designators in the files. This also assumes
+    # that --increment-designator and --decrement-designator are not provided. If they are provided
+    # then show an error message and quit.
+    if args.show_designators:
+        if args.increment_designator or args.decrement_designator:
+            print(
+                "The options --increment-designator and --decrement-designator cannot be used with "
+                "--show-designators."
+            )
+            exit(1)
+        process_all_files(args.directory)
+        exit(0)
+
+    # If --increment-designator or --decrement-designator is provided, then increment/decrement the
+    # designator and update the files. if both are provided, then show an error message and quit.
+    if args.increment_designator and args.decrement_designator:
         print(
-            f"\nYou are about to increment the designator '{args.increment_designator}' and all "
+            "The options --increment-designator and --decrement-designator cannot be used together."
+        )
+        exit(1)
+    if args.increment_designator or args.decrement_designator:
+        print(
+            f"\nYou are about to modify the designator '{args.increment_designator}' and all "
             f"subsequent ones in the '.kicad_sch' and '.kicad_pcb' files in the directory "
             f"'{args.directory}'. This action is irreversible and your KiCAD project becomes "
             f"unusable if anything goes wrong.\n\n"
@@ -186,10 +249,15 @@ if __name__ == '__main__':
         if response.lower() != 'yes':
             print("Exiting...")
             exit(0)
-        response = input("Type 'yes' again to confirm you want to proceed with the increment: ")
+        response = input("Type 'yes' again to confirm you want to proceed with the modification: ")
         if response.lower() != 'yes':
             print("Exiting...")
             exit(0)
-        print(f"\nIncrementing designator {args.increment_designator}...")
-    
-    process_all_files(args.directory, args.increment_designator)
+        if args.increment_designator:
+            print(f"\nIncrementing designator {args.increment_designator}...")
+            process_all_files(args.directory, args.increment_designator, True)
+        if args.decrement_designator:
+            print(f"\nDecrementing designator {args.decrement_designator}...")
+            process_all_files(args.directory, args.decrement_designator, False)
+        exit(0)
+    exit(0)
