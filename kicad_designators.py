@@ -269,19 +269,26 @@ def check_operation_permitted(directory: str,
     Returns:
         bool: True if the operation is permitted, False otherwise.
     """
-    all_designators = list_all_designators(directory)
     try:
         t_prefix, t_num = extract_designator_prefix_and_number(target_designator)
     except:
-        print(f"The designator '{target_designator}' is not valid.")
+        print(
+            f"The designator '{target_designator}' is not valid."
+        )
         return False
     if increment:
         return True
-    if t_num == 1:
-        print(f"The designator '{target_designator}' cannot be decremented.")
+    if t_num <= 1:
+        print(
+            f"The designator '{target_designator}' cannot be decremented. It would result in a "
+            f"negative number."
+        )
         return False
-    if f"{t_prefix}{t_num - 1}" in all_designators:
-        print(f"The designator '{target_designator}' cannot be decremented.")
+    if f"{t_prefix}{t_num - 1}" in list_all_designators(directory):
+        print(
+            f"The designator '{target_designator}' cannot be decremented. "
+            f"It would result in a duplicate."
+        )
         return False
     return True
 
