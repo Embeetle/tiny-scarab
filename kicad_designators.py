@@ -3,6 +3,7 @@ import re
 import sys
 import argparse
 from typing import Dict, List, Tuple, Optional
+from collections import defaultdict
 
 p1 = re.compile(r'(\(property "Reference" )"([a-zA-Z]+[0-9]+)"')
 p2 = re.compile(r'(\(reference )"([a-zA-Z]+[0-9]+)"')
@@ -296,6 +297,45 @@ def check_operation_permitted(directory: str,
     
     return True
 
+def check_designators_for_gaps(designator_list: List[str]) -> bool:
+    """
+    Check if the designators in the list have gaps. For example, if the list contains the
+    designators 'C1', 'C2', 'C3', 'C5', 'C6', then a gap is found between 'C3' and 'C5'.
+
+    Args:
+        designator_list (List[str]): A list of designators to check for gaps.
+
+    Returns:
+        bool: True if gaps are found, False otherwise.
+    """
+    # Group designators by prefix
+    grouped_designators = defaultdict(list)
+    for designator in designator_list:
+        prefix, number = extract_designator_prefix_and_number(designator)
+        grouped_designators[prefix].append(number)
+
+    # Check each group for gaps
+    has_gaps = False
+    for prefix, numbers in grouped_designators.items():
+        numbers.sort()
+        for i in range(1, len(numbers)):
+            if numbers[i] - numbers[i-1] != 1:
+                print(
+                    f"Warning: Gap found in {prefix} series between "
+                    f"'{prefix}{numbers[i-1]}' and '{prefix}{numbers[i]}'"
+                )
+                has_gaps = True
+
+        # Check if the series starts from 1
+        if numbers[0] != 1:
+            print(
+                f"Warning: {prefix} series starts from '{prefix}{numbers[0]}', number '1' is "
+                f"missing."
+            )
+            has_gaps = True
+
+    return has_gaps
+
 if __name__ == '__main__':
     current_directory = os.getcwd()
     parser = argparse.ArgumentParser(description='Increment KiCAD designators.')
@@ -364,6 +404,11 @@ if __name__ == '__main__':
         # process_all_files(args.directory)
         all_designators = list_all_designators(args.directory)
         print(all_designators)
+        print("\n")
+        print(f"Total designators found: {len(all_designators)}")
+        print("\n")
+        if not check_designators_for_gaps(all_designators):
+            print("No gaps found in designators.")
         exit(0)
 
     # If --increment-designator or --decrement-designator is provided, then increment/decrement the
