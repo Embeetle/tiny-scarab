@@ -2323,7 +2323,7 @@
   (symbol (lib_id "Device:R") (at 39.37 104.14 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1ba23763-e902-48e6-830c-962b7e9cfa83)
-    (property "Reference" "R15" (at 39.37 104.14 90)
+    (property "Reference" "R14" (at 39.37 104.14 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 36.83 104.14 90)
@@ -2349,7 +2349,7 @@
     (instances
       (project "tiny-scarab"
         (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/90393844-9805-4207-88e8-abd4029c5b43"
-          (reference "R15") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -2427,7 +2427,7 @@
   (symbol (lib_id "Device:R") (at 138.43 57.15 90) (unit 1)
     (in_bom no) (on_board yes) (dnp yes)
     (uuid 2f225033-87db-40fc-8576-dabdcddb34ba)
-    (property "Reference" "R9" (at 138.43 57.15 90)
+    (property "Reference" "R8" (at 138.43 57.15 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220" (at 133.35 58.42 90)
@@ -2453,7 +2453,7 @@
     (instances
       (project "tiny-scarab"
         (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/90393844-9805-4207-88e8-abd4029c5b43"
-          (reference "R9") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -2595,7 +2595,7 @@
   (symbol (lib_id "Device:R") (at 74.93 95.25 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 43379c95-d065-400e-8844-ed2ac0e1ef2d)
-    (property "Reference" "R21" (at 74.93 95.25 90)
+    (property "Reference" "R20" (at 74.93 95.25 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 74.93 92.71 90)
@@ -2621,7 +2621,7 @@
     (instances
       (project "tiny-scarab"
         (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/90393844-9805-4207-88e8-abd4029c5b43"
-          (reference "R21") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -2630,7 +2630,7 @@
   (symbol (lib_id "Device:R") (at 41.91 104.14 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 49e5616c-3089-4500-9d4e-4bd8c20a0d39)
-    (property "Reference" "R16" (at 41.91 104.14 90)
+    (property "Reference" "R15" (at 41.91 104.14 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22" (at 44.45 104.14 90)
@@ -2656,7 +2656,7 @@
     (instances
       (project "tiny-scarab"
         (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/90393844-9805-4207-88e8-abd4029c5b43"
-          (reference "R16") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -2665,7 +2665,7 @@
   (symbol (lib_id "Device:R") (at 50.8 104.14 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4b810e17-cec0-40a3-95a4-d5985c6e2fca)
-    (property "Reference" "R17" (at 50.8 104.14 90)
+    (property "Reference" "R16" (at 50.8 104.14 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 48.26 104.14 90)
@@ -2691,7 +2691,7 @@
     (instances
       (project "tiny-scarab"
         (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/90393844-9805-4207-88e8-abd4029c5b43"
-          (reference "R17") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -2815,7 +2815,7 @@
   (symbol (lib_id "Device:R") (at 76.2 118.11 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5cf70e35-d2e5-402a-a4d5-578986e4e0e3)
-    (property "Reference" "R20" (at 76.2 118.11 90)
+    (property "Reference" "R19" (at 76.2 118.11 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 76.2 115.57 90)
@@ -2841,7 +2841,7 @@
     (instances
       (project "tiny-scarab"
         (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/90393844-9805-4207-88e8-abd4029c5b43"
-          (reference "R20") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -2850,7 +2850,7 @@
   (symbol (lib_id "Device:R") (at 53.34 104.14 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 641741d1-e54e-42af-8545-328ca925c120)
-    (property "Reference" "R18" (at 53.34 104.14 90)
+    (property "Reference" "R17" (at 53.34 104.14 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22" (at 55.88 104.14 90)
@@ -2876,7 +2876,7 @@
     (instances
       (project "tiny-scarab"
         (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/90393844-9805-4207-88e8-abd4029c5b43"
-          (reference "R18") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -2974,7 +2974,7 @@
   (symbol (lib_id "Device:R") (at 121.92 86.36 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7e88ba50-854b-4462-bb7b-db22830047f3)
-    (property "Reference" "R23" (at 121.92 86.36 90)
+    (property "Reference" "R22" (at 121.92 86.36 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0" (at 125.73 87.63 90)
@@ -3000,7 +3000,7 @@
     (instances
       (project "tiny-scarab"
         (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/90393844-9805-4207-88e8-abd4029c5b43"
-          (reference "R23") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -3074,7 +3074,7 @@
   (symbol (lib_id "Device:R") (at 121.92 101.6 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8873ffc8-e648-4455-bcf0-88ec07a3a922)
-    (property "Reference" "R24" (at 121.92 101.6 90)
+    (property "Reference" "R23" (at 121.92 101.6 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0" (at 125.73 102.87 90)
@@ -3100,7 +3100,7 @@
     (instances
       (project "tiny-scarab"
         (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/90393844-9805-4207-88e8-abd4029c5b43"
-          (reference "R24") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -3231,7 +3231,7 @@
   (symbol (lib_id "Device:R") (at 121.92 83.82 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 920f3f4f-ff47-4edd-bac9-711c312abf12)
-    (property "Reference" "R22" (at 121.92 83.82 90)
+    (property "Reference" "R21" (at 121.92 83.82 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0" (at 125.73 85.09 90)
@@ -3257,7 +3257,7 @@
     (instances
       (project "tiny-scarab"
         (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/90393844-9805-4207-88e8-abd4029c5b43"
-          (reference "R22") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -3354,7 +3354,7 @@
   (symbol (lib_id "Device:R") (at 124.46 44.45 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9f734fff-e5d6-40d3-a355-3a56a39752ac)
-    (property "Reference" "R7" (at 124.46 44.45 90)
+    (property "Reference" "R6" (at 124.46 44.45 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 124.46 41.91 90)
@@ -3380,7 +3380,7 @@
     (instances
       (project "tiny-scarab"
         (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/90393844-9805-4207-88e8-abd4029c5b43"
-          (reference "R7") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -3701,7 +3701,7 @@
   (symbol (lib_id "Device:R") (at 190.5 34.29 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cad7d494-d6d9-4487-b046-b32cc45596f2)
-    (property "Reference" "R13" (at 190.5 34.29 90)
+    (property "Reference" "R12" (at 190.5 34.29 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 190.5 30.48 0)
@@ -3727,7 +3727,7 @@
     (instances
       (project "tiny-scarab"
         (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/90393844-9805-4207-88e8-abd4029c5b43"
-          (reference "R13") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -3781,7 +3781,7 @@
   (symbol (lib_id "Device:R") (at 138.43 67.31 90) (unit 1)
     (in_bom no) (on_board yes) (dnp yes)
     (uuid cf837d27-3853-44a4-a0eb-4bd098078578)
-    (property "Reference" "R12" (at 138.43 67.31 90)
+    (property "Reference" "R11" (at 138.43 67.31 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 133.35 68.58 90)
@@ -3807,7 +3807,7 @@
     (instances
       (project "tiny-scarab"
         (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/90393844-9805-4207-88e8-abd4029c5b43"
-          (reference "R12") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -3879,7 +3879,7 @@
   (symbol (lib_id "Device:R") (at 138.43 63.5 90) (unit 1)
     (in_bom no) (on_board yes) (dnp yes)
     (uuid d8ff155c-b99a-4210-9ccb-995bac6dee05)
-    (property "Reference" "R11" (at 138.43 63.5 90)
+    (property "Reference" "R10" (at 138.43 63.5 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220" (at 133.35 64.77 90)
@@ -3905,7 +3905,7 @@
     (instances
       (project "tiny-scarab"
         (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/90393844-9805-4207-88e8-abd4029c5b43"
-          (reference "R11") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -3914,7 +3914,7 @@
   (symbol (lib_id "Device:R") (at 27.94 120.65 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dd4a6031-6de7-490e-b7d5-6cef779225f3)
-    (property "Reference" "R19" (at 27.94 120.65 90)
+    (property "Reference" "R18" (at 27.94 120.65 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 31.75 119.38 90)
@@ -3940,7 +3940,7 @@
     (instances
       (project "tiny-scarab"
         (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/90393844-9805-4207-88e8-abd4029c5b43"
-          (reference "R19") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -3949,7 +3949,7 @@
   (symbol (lib_id "Device:R") (at 22.86 106.68 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid deebd046-6846-4659-ab93-3e6cf54645a7)
-    (property "Reference" "R14" (at 22.86 106.68 90)
+    (property "Reference" "R13" (at 22.86 106.68 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100k" (at 26.67 106.68 0)
@@ -3975,7 +3975,7 @@
     (instances
       (project "tiny-scarab"
         (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/90393844-9805-4207-88e8-abd4029c5b43"
-          (reference "R14") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -4034,7 +4034,7 @@
   (symbol (lib_id "Device:R") (at 138.43 60.96 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eed685e3-9298-4ad1-b152-c8d36ee3af1e)
-    (property "Reference" "R10" (at 138.43 60.96 90)
+    (property "Reference" "R9" (at 138.43 60.96 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220" (at 133.35 62.23 90)
@@ -4060,7 +4060,7 @@
     (instances
       (project "tiny-scarab"
         (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/90393844-9805-4207-88e8-abd4029c5b43"
-          (reference "R10") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -4094,7 +4094,7 @@
   (symbol (lib_id "Device:R") (at 138.43 54.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f3a6f3e9-b5cf-42f2-acfd-306638aa2baf)
-    (property "Reference" "R8" (at 138.43 54.61 90)
+    (property "Reference" "R7" (at 138.43 54.61 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220" (at 133.35 55.88 90)
@@ -4120,7 +4120,7 @@
     (instances
       (project "tiny-scarab"
         (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/90393844-9805-4207-88e8-abd4029c5b43"
-          (reference "R8") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )

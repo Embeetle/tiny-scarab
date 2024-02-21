@@ -358,7 +358,7 @@
     (property "ki_keywords" "R res resistor")
     (path "/90393844-9805-4207-88e8-abd4029c5b43/5cf70e35-d2e5-402a-a4d5-578986e4e0e3")
     (attr smd)
-    (fp_text reference "R20" (at 0 0 90) (layer "F.SilkS") hide
+    (fp_text reference "R19" (at 0 0 90) (layer "F.SilkS") hide
         (effects (font (size 0.5 0.5) (thickness 0.125)))
       (tstamp 5fd1c41f-f53f-4dd0-abb5-0c48d40beca1)
     )
@@ -497,7 +497,7 @@
     (property "ki_keywords" "R res resistor")
     (path "/90393844-9805-4207-88e8-abd4029c5b43/cf837d27-3853-44a4-a0eb-4bd098078578")
     (attr smd exclude_from_bom)
-    (fp_text reference "R12" (at -0.127 0.0635 90) (layer "F.SilkS") hide
+    (fp_text reference "R11" (at -0.127 0.0635 90) (layer "F.SilkS") hide
         (effects (font (size 0.5 0.5) (thickness 0.125)))
       (tstamp dfb41919-dcd9-4b74-b844-98e6ff157a41)
     )
@@ -1264,7 +1264,7 @@
     (property "ki_keywords" "R res resistor")
     (path "/90393844-9805-4207-88e8-abd4029c5b43/1ba23763-e902-48e6-830c-962b7e9cfa83")
     (attr smd)
-    (fp_text reference "R15" (at 0 -1.17 90) (layer "F.SilkS") hide
+    (fp_text reference "R14" (at 0 -1.17 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 089217c2-8b8c-40d0-a1f0-f56ac3d18d93)
     )
@@ -1557,7 +1557,7 @@
     (property "ki_keywords" "R res resistor")
     (path "/90393844-9805-4207-88e8-abd4029c5b43/dd4a6031-6de7-490e-b7d5-6cef779225f3")
     (attr smd)
-    (fp_text reference "R19" (at 2.0955 -0.8255 90) (layer "F.SilkS") hide
+    (fp_text reference "R18" (at 2.0955 -0.8255 90) (layer "F.SilkS") hide
         (effects (font (size 0.5 0.5) (thickness 0.125)))
       (tstamp 73712a74-227b-4811-9846-2912dd0da6a7)
     )
@@ -2789,7 +2789,7 @@
     (property "ki_keywords" "R res resistor")
     (path "/90393844-9805-4207-88e8-abd4029c5b43/4b810e17-cec0-40a3-95a4-d5985c6e2fca")
     (attr smd)
-    (fp_text reference "R17" (at 0 -1.17 90) (layer "F.SilkS") hide
+    (fp_text reference "R16" (at 0 -1.17 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a730d8eb-7568-4810-8520-98ad6c01aca3)
     )
@@ -3139,7 +3139,7 @@
     (property "ki_keywords" "R res resistor")
     (path "/90393844-9805-4207-88e8-abd4029c5b43/2f225033-87db-40fc-8576-dabdcddb34ba")
     (attr smd exclude_from_bom)
-    (fp_text reference "R9" (at 0 -1.17 90) (layer "F.SilkS") hide
+    (fp_text reference "R8" (at 0 -1.17 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ec01ea07-1e9b-4e28-8656-01c4556e60b3)
     )
@@ -3484,7 +3484,7 @@
     (property "ki_keywords" "R res resistor")
     (path "/90393844-9805-4207-88e8-abd4029c5b43/d8ff155c-b99a-4210-9ccb-995bac6dee05")
     (attr smd exclude_from_bom)
-    (fp_text reference "R11" (at 0 -1.17 90) (layer "F.SilkS") hide
+    (fp_text reference "R10" (at 0 -1.17 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0414f4d3-d5a8-4992-850d-c1e19f35c559)
     )
@@ -3541,7 +3541,7 @@
     (property "ki_keywords" "R res resistor")
     (path "/d0c4b0c3-1e7e-4a4c-add3-8d4a3a10843d/98e591dc-0707-49ab-8879-0919c8e5e65c")
     (attr smd)
-    (fp_text reference "R27" (at -0.0375 0) (layer "F.SilkS") hide
+    (fp_text reference "R26" (at -0.0375 0) (layer "F.SilkS") hide
         (effects (font (size 0.5 0.5) (thickness 0.125)))
       (tstamp a323d777-4b2a-4d41-9e5b-7cb8d17dc19a)
     )
@@ -3733,7 +3733,7 @@
     (property "ki_keywords" "R res resistor")
     (path "/90393844-9805-4207-88e8-abd4029c5b43/49e5616c-3089-4500-9d4e-4bd8c20a0d39")
     (attr smd)
-    (fp_text reference "R16" (at -0.0635 0 90) (layer "F.SilkS") hide
+    (fp_text reference "R15" (at -0.0635 0 90) (layer "F.SilkS") hide
         (effects (font (size 0.5 0.5) (thickness 0.125)))
       (tstamp 44589a30-a7c1-4517-99d1-af0b93a95861)
     )
@@ -3790,7 +3790,7 @@
     (property "ki_keywords" "R res resistor")
     (path "/90393844-9805-4207-88e8-abd4029c5b43/641741d1-e54e-42af-8545-328ca925c120")
     (attr smd)
-    (fp_text reference "R18" (at 0 0 90) (layer "F.SilkS") hide
+    (fp_text reference "R17" (at 0 0 90) (layer "F.SilkS") hide
         (effects (font (size 0.5 0.5) (thickness 0.125)))
       (tstamp 2c48677e-1dbd-4f72-b148-a3a54f2ec3e8)
     )
@@ -5577,7 +5577,7 @@
     (property "ki_keywords" "R res resistor")
     (path "/90393844-9805-4207-88e8-abd4029c5b43/f3a6f3e9-b5cf-42f2-acfd-306638aa2baf")
     (attr smd)
-    (fp_text reference "R8" (at 0 0 90) (layer "F.SilkS") hide
+    (fp_text reference "R7" (at 0 0 90) (layer "F.SilkS") hide
         (effects (font (size 0.5 0.5) (thickness 0.125)))
       (tstamp c53cc603-7ca5-4de1-bcd0-d1c572814806)
     )
@@ -5692,7 +5692,7 @@
     (property "ki_keywords" "R res resistor")
     (path "/90393844-9805-4207-88e8-abd4029c5b43/7e88ba50-854b-4462-bb7b-db22830047f3")
     (attr smd)
-    (fp_text reference "R23" (at -0.0635 0 90) (layer "F.SilkS") hide
+    (fp_text reference "R22" (at -0.0635 0 90) (layer "F.SilkS") hide
         (effects (font (size 0.5 0.5) (thickness 0.125)))
       (tstamp 0e2aded5-44ad-42f2-b66d-93db5b20a4ef)
     )
@@ -5888,7 +5888,7 @@
     (property "ki_keywords" "R res resistor")
     (path "/481ed0a2-b40b-451f-8f8b-138317026240/9e701483-e657-4555-9cb3-7c0aa17eb29d")
     (attr smd)
-    (fp_text reference "R26" (at 0 -1.17 90) (layer "F.SilkS") hide
+    (fp_text reference "R25" (at 0 -1.17 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 93d1664c-822c-4828-b47f-25483063d1ec)
     )
@@ -6000,7 +6000,7 @@
     (property "ki_keywords" "R res resistor")
     (path "/d0c4b0c3-1e7e-4a4c-add3-8d4a3a10843d/3ee6e688-fea2-4384-9896-6cdbbaf39948")
     (attr smd)
-    (fp_text reference "R29" (at 0 -1.17 90) (layer "F.SilkS") hide
+    (fp_text reference "R28" (at 0 -1.17 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ecad959d-ed8e-42b3-ba58-73d08bb66230)
     )
@@ -6107,7 +6107,7 @@
     (property "ki_keywords" "R res resistor")
     (path "/90393844-9805-4207-88e8-abd4029c5b43/eed685e3-9298-4ad1-b152-c8d36ee3af1e")
     (attr smd)
-    (fp_text reference "R10" (at 0 0 90) (layer "F.SilkS") hide
+    (fp_text reference "R9" (at 0 0 90) (layer "F.SilkS") hide
         (effects (font (size 0.5 0.5) (thickness 0.125)))
       (tstamp cd9d655f-f09a-4a69-bcf2-3b95d2efd964)
     )
@@ -6426,7 +6426,7 @@
     (property "ki_keywords" "R res resistor")
     (path "/d0c4b0c3-1e7e-4a4c-add3-8d4a3a10843d/eac7989d-9563-4847-81d5-df1c4a2fd9ef")
     (attr smd)
-    (fp_text reference "R31" (at 0.026 0.0215 90) (layer "F.SilkS") hide
+    (fp_text reference "R29" (at 0.026 0.0215 90) (layer "F.SilkS") hide
         (effects (font (size 0.5 0.5) (thickness 0.125)))
       (tstamp 123c62c6-f49f-4b3a-9500-92d206933147)
     )
@@ -6483,7 +6483,7 @@
     (property "ki_keywords" "R res resistor")
     (path "/481ed0a2-b40b-451f-8f8b-138317026240/3ad8559b-2c23-4264-b798-db44ffeb42e0")
     (attr smd)
-    (fp_text reference "R25" (at 0 -1.17 90) (layer "F.SilkS") hide
+    (fp_text reference "R24" (at 0 -1.17 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3157321c-458e-4fea-932c-34ebb62e9061)
     )
@@ -6590,7 +6590,7 @@
     (property "ki_keywords" "R res resistor")
     (path "/99c48f54-1f97-4ff9-8db4-28f0cf987802/7e2c8ee3-6b95-4ae6-8323-32f6fbb0a6e0")
     (attr smd)
-    (fp_text reference "R6" (at 0 0.8255 90) (layer "F.SilkS") hide
+    (fp_text reference "R5" (at 0 0.8255 90) (layer "F.SilkS") hide
         (effects (font (size 0.5 0.5) (thickness 0.125)))
       (tstamp 11b6c73a-1094-4554-9d35-833b864b62c8)
     )
@@ -7010,7 +7010,7 @@
     (property "ki_keywords" "R res resistor")
     (path "/90393844-9805-4207-88e8-abd4029c5b43/920f3f4f-ff47-4edd-bac9-711c312abf12")
     (attr smd)
-    (fp_text reference "R22" (at 0 0.0635 90) (layer "F.SilkS") hide
+    (fp_text reference "R21" (at 0 0.0635 90) (layer "F.SilkS") hide
         (effects (font (size 0.5 0.5) (thickness 0.125)))
       (tstamp 95fe4c64-4a0b-4d86-bd3a-c3e1aa751e71)
     )
@@ -7125,7 +7125,7 @@
     (property "ki_keywords" "R res resistor")
     (path "/d0c4b0c3-1e7e-4a4c-add3-8d4a3a10843d/3d70e6be-3a3c-46a0-9610-f333f5588e93")
     (attr smd)
-    (fp_text reference "R28" (at 0 0) (layer "F.SilkS") hide
+    (fp_text reference "R27" (at 0 0) (layer "F.SilkS") hide
         (effects (font (size 0.5 0.5) (thickness 0.125)))
       (tstamp cbabf41a-ba3d-4894-9df4-0268f87fde84)
     )
@@ -7570,7 +7570,7 @@
     (property "ki_keywords" "R res resistor")
     (path "/d0c4b0c3-1e7e-4a4c-add3-8d4a3a10843d/d3e8c64c-9a3c-49ee-b9aa-6d6912f64c2b")
     (attr smd)
-    (fp_text reference "R32" (at 0 -1.17) (layer "F.SilkS") hide
+    (fp_text reference "R30" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f5ec1588-b94d-4acb-a132-b55d6afffd67)
     )
@@ -7816,7 +7816,7 @@
     (property "ki_keywords" "R res resistor")
     (path "/99c48f54-1f97-4ff9-8db4-28f0cf987802/f568ad71-f5ce-45fb-b78e-3a5f3824a723")
     (attr smd)
-    (fp_text reference "R5" (at -0.0635 0 90) (layer "F.SilkS") hide
+    (fp_text reference "R4" (at -0.0635 0 90) (layer "F.SilkS") hide
         (effects (font (size 0.5 0.5) (thickness 0.125)))
       (tstamp b4930c44-6f6d-4613-9955-7ba130499c62)
     )
@@ -8155,7 +8155,7 @@
     (property "ki_keywords" "R res resistor")
     (path "/90393844-9805-4207-88e8-abd4029c5b43/deebd046-6846-4659-ab93-3e6cf54645a7")
     (attr smd)
-    (fp_text reference "R14" (at 1.9685 -0.8255 90) (layer "F.SilkS") hide
+    (fp_text reference "R13" (at 1.9685 -0.8255 90) (layer "F.SilkS") hide
         (effects (font (size 0.5 0.5) (thickness 0.125)))
       (tstamp c4972485-0d05-4cbb-8e1b-aadd01b113a1)
     )
@@ -8312,7 +8312,7 @@
     (property "ki_keywords" "R res resistor")
     (path "/90393844-9805-4207-88e8-abd4029c5b43/cad7d494-d6d9-4487-b046-b32cc45596f2")
     (attr smd)
-    (fp_text reference "R13" (at -0.0635 0 90) (layer "F.SilkS") hide
+    (fp_text reference "R12" (at -0.0635 0 90) (layer "F.SilkS") hide
         (effects (font (size 0.5 0.5) (thickness 0.125)))
       (tstamp 41bbcbcb-bec2-4939-acd5-3d0a5fd6fb1d)
     )
@@ -8966,7 +8966,7 @@
     (property "ki_keywords" "R res resistor")
     (path "/99c48f54-1f97-4ff9-8db4-28f0cf987802/31252ad2-dfc9-41ea-bdb9-d4385ccd320e")
     (attr smd)
-    (fp_text reference "R4" (at 0 -1.17 90) (layer "F.SilkS") hide
+    (fp_text reference "R3" (at 0 -1.17 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e942dca4-94e7-4d70-92fb-db725abea578)
     )
@@ -9606,7 +9606,7 @@
     (property "ki_keywords" "R res resistor")
     (path "/90393844-9805-4207-88e8-abd4029c5b43/8873ffc8-e648-4455-bcf0-88ec07a3a922")
     (attr smd)
-    (fp_text reference "R24" (at 0 0 90) (layer "F.SilkS") hide
+    (fp_text reference "R23" (at 0 0 90) (layer "F.SilkS") hide
         (effects (font (size 0.5 0.5) (thickness 0.125)))
       (tstamp ce495017-4526-42ee-a18f-3d030cbc5146)
     )
@@ -9663,7 +9663,7 @@
     (property "ki_keywords" "R res resistor")
     (path "/90393844-9805-4207-88e8-abd4029c5b43/9f734fff-e5d6-40d3-a355-3a56a39752ac")
     (attr smd)
-    (fp_text reference "R7" (at 0 0 90) (layer "F.SilkS") hide
+    (fp_text reference "R6" (at 0 0 90) (layer "F.SilkS") hide
         (effects (font (size 0.5 0.5) (thickness 0.125)))
       (tstamp 28e15ca6-c4a9-4123-84b8-f6fbf8241331)
     )
@@ -9855,7 +9855,7 @@
     (property "ki_keywords" "R res resistor")
     (path "/90393844-9805-4207-88e8-abd4029c5b43/43379c95-d065-400e-8844-ed2ac0e1ef2d")
     (attr smd)
-    (fp_text reference "R21" (at 0 -1.17 90) (layer "F.SilkS") hide
+    (fp_text reference "R20" (at 0 -1.17 90) (layer "F.SilkS") hide
         (effects (font (size 0.5 0.5) (thickness 0.125)))
       (tstamp 6a170b8b-8300-4ef3-9b35-2e23dc8b3ae9)
     )

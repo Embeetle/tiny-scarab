@@ -4,6 +4,51 @@ import sys
 import argparse
 from typing import Dict, List, Tuple, Optional
 
+def print_help(*args) -> str:
+    """
+    Show help text.
+    """
+    print(
+        "\n"
+        "kicad_designators.py\n"
+        "====================\n"
+        "This python script lists or modifies the designators in your KiCAD schematic and PCB\n"
+        "files.\n"
+        "\n"
+        "Usage: python kicad_designators.py [options]\n"
+        "\n"
+        "Options:\n"
+        "--------\n"
+        "  -h, --help                                   Show this help message and exit.\n"
+        "\n"
+        "  -D DIRECTORY,                                Directory containing KiCAD schematic\n"
+        "  --directory=DIRECTORY                        files to process. If not provided,\n"
+        "                                               the current directory is used.\n"
+        "\n"
+        "  -i INCREMENT_DESIGNATOR,                     Designator to increment, eg. 'C3'.\n"
+        "  --increment-designator=INCREMENT_DESIGNATOR\n"
+        "\n"
+        "  -d DECREMENT_DESIGNATOR,                     Designator to decrement, eg. 'C3'\n"
+        "  --decrement-designator=DECREMENT_DESIGNATOR\n"
+        "\n"
+        "  -s, --show-designators                       Show designators and quit\n"
+        "\n"
+        "Examples:\n"
+        "---------\n"
+        "  Show the designators found in the schematic and PCB files in the current\n"
+        "  directory:\n"
+        "      > python kicad_designators.py -s\n"
+        "\n"
+        "  Increment the designator 'C3' (and all subsequent ones) in the schematic and PCB\n"
+        "  files in the current directory:\n"
+        "      > python kicad_designators.py -i C3\n"
+        "\n"
+        "  Decrement the designator 'R7' (and all subsequent ones) in the schematic and PCB\n"
+        "  files in the current directory:\n"
+        "      > python kicad_designators.py -d R7\n"
+        "\n"
+    )
+
 def alphanumeric_sort_key(s: str) -> Tuple[str, int]:
     """
     Generate a sort key for alphanumeric strings by separating and identifying the alphabetical
@@ -17,6 +62,19 @@ def alphanumeric_sort_key(s: str) -> Tuple[str, int]:
     """
     match = re.match(r"([a-zA-Z]+)([0-9]+)", s)
     return (match.group(1), int(match.group(2))) if match else (s, 0)
+
+def extract_designator_prefix_and_number(designator: str) -> Tuple[str, int]:
+    """
+    Extract the prefix and numerical part of a designator.
+    
+    Args:
+        designator (str): The designator to extract the prefix and numerical part from.
+        
+    Returns:
+        Tuple[str, int]: A tuple containing the prefix and numerical part of the designator.
+    """
+    prefix, number = re.match(r"([a-zA-Z]+)([0-9]+)", designator).groups()
+    return prefix, int(number)
 
 def increment_and_filter_designators_in_dict(target_designator: str,
                                              orig_designator_dict: Dict[str, List[int]],
@@ -42,16 +100,14 @@ def increment_and_filter_designators_in_dict(target_designator: str,
         Dict[str, int]: The updated dictionary with incremented designators.
     """
     # Extract the prefix and numerical part of the target designator
-    t_prefix, t_num = re.match(r"([a-zA-Z]+)([0-9]+)", target_designator).groups()
-    t_num = int(t_num)
+    t_prefix, t_num = extract_designator_prefix_and_number(target_designator)
 
     # Create a dictionary in the image of the original, but with incremented designators. Also,
     # filter out the designators that are irrelevant. If the target designator would be 'C40', then
     # only the designators 'C40', 'C41', ... would be incremented, the rest gets filtered out.
     updated_designator_dict: Dict[str, List[int]] = {}
     for d in sorted(orig_designator_dict.keys(), key=alphanumeric_sort_key):
-        d_prefix, d_num = re.match(r"([a-zA-Z]+)([0-9]+)", d).groups()
-        d_num = int(d_num)
+        d_prefix, d_num = extract_designator_prefix_and_number(d)
         if d_prefix == t_prefix and d_num >= t_num:
             if increment:
                 updated_designator_dict[f"{d_prefix}{d_num + 1}"] = orig_designator_dict[d]
@@ -76,6 +132,7 @@ def process_file(filepath: str,
     Args:
         filepath (str): The file path of the KiCAD schematic file to process.
         target_designator (Optional[str]): The designator to increment, if provided.
+        increment (bool): If True, increment the designator. If False, decrement the designator.
     """
     print(f"\nProcessing {filepath}...")
 
@@ -110,6 +167,20 @@ def process_file(filepath: str,
         continue
 
     if target_designator:
+        # Check if operation is permitted. Decrementing a designator can be a problem if this would
+        # result in a designator that already exists.
+        if not increment:
+            t_prefix, t_num = extract_designator_prefix_and_number(target_designator)
+            for d in orig_designator_dict.keys():
+                d_prefix, d_num = extract_designator_prefix_and_number(d)
+                if d_prefix == t_prefix and d_num == t_num - 1:
+                    print(
+                        f"  Error: Decrementing designator '{target_designator}' would result in a "
+                        f"designator that already exists. Exiting..."
+                    )
+                    exit(1)
+                continue
+
         # Modify the designator dictionary
         updated_designator_dict: Dict[str, List[int]] = increment_and_filter_designators_in_dict(
             target_designator    = target_designator,
@@ -150,13 +221,14 @@ def process_all_files(directory: str,
                       increment: bool = True,
                       ) -> None:
     """
-    Processes KiCAD schematic files in a directory to increment specified designators.
-    If a target designator is provided, increments it and updates the files.
-    Otherwise, it simply lists all designators found.
+    Process KiCAD schematic or PCB files in a directory to increment/decrement specified
+    designators. If a target designator is provided, increment/decrement it and update the files.
+    Otherwise, simply list all designators found.
     
     Args:
         directory (str): The directory containing KiCAD schematic files to process.
         target_designator (Optional[str]): The designator to increment, if provided.
+        increment (bool): If True, increment the designator. If False, decrement the designator.
     """
     files = [f for f in os.listdir(directory) if f.endswith(('.kicad_sch', '.kicad_pcb'))]
     for filename in files:
@@ -197,6 +269,8 @@ if __name__ == '__main__':
         help='Show designators and quit',
         default=None,
     )
+    # Override the default help message with a custom one
+    parser.print_help = print_help
 
     # Check if no arguments were provided. Show the help message in that case.
     if len(sys.argv) == 1:
