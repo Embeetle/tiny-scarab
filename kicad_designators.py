@@ -229,6 +229,7 @@ def list_all_designators(directory: str) -> List[str]:
     Returns:
         List[str]: A list of all designators found in the files.
     """
+    global all_designators_cache
     if all_designators_cache:
         return all_designators_cache
     files = [f for f in os.listdir(directory) if f.endswith(('.kicad_sch', '.kicad_pcb'))]
