@@ -276,20 +276,24 @@ def check_operation_permitted(directory: str,
             f"The designator '{target_designator}' is not valid."
         )
         return False
+    
     if increment:
         return True
+    
     if t_num <= 1:
         print(
-            f"The designator '{target_designator}' cannot be decremented. It would result in a "
-            f"negative number."
+            f"The designator '{target_designator}' cannot be decremented. It would result in "
+            f"zero or a negative number."
         )
         return False
+    
     if f"{t_prefix}{t_num - 1}" in list_all_designators(directory):
         print(
             f"The designator '{target_designator}' cannot be decremented. "
             f"It would result in a duplicate."
         )
         return False
+    
     return True
 
 if __name__ == '__main__':
