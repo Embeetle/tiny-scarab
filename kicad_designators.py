@@ -4,6 +4,10 @@ import sys
 import argparse
 from typing import Dict, List, Tuple, Optional
 
+p1 = re.compile(r'(\(property "Reference" )"([a-zA-Z]+[0-9]+)"')
+p2 = re.compile(r'(\(reference )"([a-zA-Z]+[0-9]+)"')
+p3 = re.compile(r'(fp_text reference )"([a-zA-Z]+[0-9]+)"')
+
 def print_help(*args) -> str:
     """
     Show help text.
@@ -122,8 +126,8 @@ def increment_and_filter_designators_in_dict(target_designator: str,
     return updated_designator_dict
 
 def process_file(filepath: str,
-                 target_designator: Optional[str] = None,
-                 increment: bool = True,
+                 target_designator: Optional[str],
+                 increment: bool,
                  ) -> None:
     """
     Process a KiCAD schematic or PCB file to increment specified designators. If a target designator
@@ -131,7 +135,7 @@ def process_file(filepath: str,
     
     Args:
         filepath (str): The file path of the KiCAD schematic file to process.
-        target_designator (Optional[str]): The designator to increment, if provided.
+        target_designator (str): The designator to increment.
         increment (bool): If True, increment the designator. If False, decrement the designator.
     """
     print(f"\nProcessing {filepath}...")
@@ -149,10 +153,6 @@ def process_file(filepath: str,
     #   'LED5': [2474, ]
     #   'R25':  [2242, ]
     # }
-    p1 = re.compile(r'(\(property "Reference" )"([a-zA-Z]+[0-9]+)"')
-    p2 = re.compile(r'(\(reference )"([a-zA-Z]+[0-9]+)"')
-    p3 = re.compile(r'(fp_text reference )"([a-zA-Z]+[0-9]+)"')
-
     orig_designator_dict: Dict[str, List[int]] = {}
     for i, line in enumerate(original_lines):
         for p in (p1, p2, p3):
@@ -166,59 +166,40 @@ def process_file(filepath: str,
             continue
         continue
 
-    if target_designator:
-        # Check if operation is permitted. Decrementing a designator can be a problem if this would
-        # result in a designator that already exists.
-        if not increment:
-            t_prefix, t_num = extract_designator_prefix_and_number(target_designator)
-            for d in orig_designator_dict.keys():
-                d_prefix, d_num = extract_designator_prefix_and_number(d)
-                if d_prefix == t_prefix and d_num == t_num - 1:
-                    print(
-                        f"  Error: Decrementing designator '{target_designator}' would result in a "
-                        f"designator that already exists. Exiting..."
-                    )
-                    exit(1)
-                continue
+    # Modify the designator dictionary
+    updated_designator_dict: Dict[str, List[int]] = increment_and_filter_designators_in_dict(
+        target_designator    = target_designator,
+        orig_designator_dict = orig_designator_dict,
+        increment            = increment,
+    )
 
-        # Modify the designator dictionary
-        updated_designator_dict: Dict[str, List[int]] = increment_and_filter_designators_in_dict(
-            target_designator    = target_designator,
-            orig_designator_dict = orig_designator_dict,
-            increment            = increment,
-        )
-        # Modify the file with the updated designators. To do that, loop over the lines in the file.
-        # If line number i corresponds to line number j in the updated designator dictionary, then
-        # substitute the designator in the line with the new designator and write the line back to
-        # the file. Otherwise, just write the line back to the file as is.
-        with open(filepath, 'w') as file:
-            for i, line in enumerate(original_lines):
-                for d_inc, j_list in updated_designator_dict.items():
-                    if i not in j_list:
-                        continue
-                    for p in (p1, p2, p3):
-                        m = p.search(line)
-                        if m:
-                            print(f"    line {i}: {line.strip()}", end=' => ')
-                            line = p.sub(rf'\1"{d_inc}"', line)
-                            print(f"{line.strip()}")
-                            break
-                        continue
-                    else:
-                        assert False, f"  Designator not found in line {i}"
+    # Modify the file with the updated designators. To do that, loop over the lines in the file.
+    # If line number i corresponds to line number j in the updated designator dictionary, then
+    # substitute the designator in the line with the new designator and write the line back to
+    # the file. Otherwise, just write the line back to the file as is.
+    with open(filepath, 'w') as file:
+        for i, line in enumerate(original_lines):
+            for d_inc, j_list in updated_designator_dict.items():
+                if i not in j_list:
                     continue
-                file.write(line)
+                for p in (p1, p2, p3):
+                    m = p.search(line)
+                    if m:
+                        print(f"    line {i}: {line.strip()}", end=' => ')
+                        line = p.sub(rf'\1"{d_inc}"', line)
+                        print(f"{line.strip()}")
+                        break
+                    continue
+                else:
+                    assert False, f"  Designator not found in line {i}"
                 continue
-    else:
-        # Just list all designators without modifying anything
-        designators = list(orig_designator_dict.keys())
-        designators.sort(key=alphanumeric_sort_key)
-        print(designators)
+            file.write(line)
+            continue
     return
 
 def process_all_files(directory: str,
-                      target_designator: Optional[str] = None,
-                      increment: bool = True,
+                      target_designator: Optional[str],
+                      increment: bool,
                       ) -> None:
     """
     Process KiCAD schematic or PCB files in a directory to increment/decrement specified
@@ -236,6 +217,72 @@ def process_all_files(directory: str,
         process_file(filepath, target_designator, increment)
         continue
     return
+
+all_designators_cache: List[str] = []
+def list_all_designators(directory: str) -> List[str]:
+    """
+    List all designators in the KiCAD schematic and PCB files in a directory.
+    
+    Args:
+        directory (str): The directory containing KiCAD schematic files to process.
+        
+    Returns:
+        List[str]: A list of all designators found in the files.
+    """
+    if all_designators_cache:
+        return all_designators_cache
+    files = [f for f in os.listdir(directory) if f.endswith(('.kicad_sch', '.kicad_pcb'))]
+    all_designators: List[str] = []
+    for filename in files:
+        filepath = os.path.join(directory, filename)
+        with open(filepath, 'r') as file:
+            lines = file.readlines()
+        for line in lines:
+            for p in (p1, p2, p3):
+                m = p.search(line)
+                if m:
+                    all_designators.append(m.group(2))
+                    break
+                continue
+            continue
+        continue
+    all_designators = list(set(all_designators))
+    all_designators.sort(key=alphanumeric_sort_key)
+    all_designators_cache = all_designators
+    return all_designators
+
+def check_operation_permitted(directory: str,
+                              target_designator: str,
+                              increment: bool,
+                              ) -> bool:
+    """
+    Check if the operation is permitted. Decrementing the target designator is not permitted if this
+    would result in a negative number or a duplicate.
+
+    
+    Args:
+        directory (str): The directory containing KiCAD schematic files to process.
+        target_designator (str): The designator to modify.
+        increment (bool): If True, increment the designator. If False, decrement the designator.
+        
+    Returns:
+        bool: True if the operation is permitted, False otherwise.
+    """
+    all_designators = list_all_designators(directory)
+    try:
+        t_prefix, t_num = extract_designator_prefix_and_number(target_designator)
+    except:
+        print(f"The designator '{target_designator}' is not valid.")
+        return False
+    if increment:
+        return True
+    if t_num == 1:
+        print(f"The designator '{target_designator}' cannot be decremented.")
+        return False
+    if f"{t_prefix}{t_num - 1}" in all_designators:
+        print(f"The designator '{target_designator}' cannot be decremented.")
+        return False
+    return True
 
 if __name__ == '__main__':
     current_directory = os.getcwd()
@@ -302,7 +349,9 @@ if __name__ == '__main__':
                 "--show-designators."
             )
             exit(1)
-        process_all_files(args.directory)
+        # process_all_files(args.directory)
+        all_designators = list_all_designators(args.directory)
+        print(all_designators)
         exit(0)
 
     # If --increment-designator or --decrement-designator is provided, then increment/decrement the
@@ -314,6 +363,8 @@ if __name__ == '__main__':
         exit(1)
     if args.increment_designator or args.decrement_designator:
         target = args.increment_designator if args.increment_designator else args.decrement_designator
+        if not check_operation_permitted(args.directory, target, True if args.increment_designator else False):
+            exit(1)
         print(
             f"\nYou are about to modify the designator '{target}' and all "
             f"subsequent ones in the '.kicad_sch' and '.kicad_pcb' files in the directory "
