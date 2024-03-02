@@ -1,1892 +1,4852 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 6ae41875-cb9c-49e5-8782-8ec08f14d9e4)
-
-  (paper "A5")
-
-  (title_block
-    (title "Tiny Scarab")
-    (date "2024-01-30")
-    (rev "0.2")
-    (company "Embeetle")
-    (comment 1 "https://embeetle.com/tiny-scarab")
-    (comment 2 "https://github.com/Embeetle/tiny-scarab")
-  )
-
-  (lib_symbols
-    (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (at 0.635 2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "C" (at 0.635 -2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0.9652 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "cap capacitor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Unpolarized capacitor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "C_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "C_0_1"
-        (polyline
-          (pts
-            (xy -2.032 -0.762)
-            (xy 2.032 -0.762)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.032 0.762)
-            (xy 2.032 0.762)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "C_1_1"
-        (pin passive line (at 0 3.81 270) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (at 2.032 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "R" (at 0 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at -1.778 0 90)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "R res resistor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Resistor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "R_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "R_0_1"
-        (rectangle (start -1.016 -2.54) (end 1.016 2.54)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "R_1_1"
-        (pin passive line (at 0 3.81 270) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Tiny_Scarab:PMOS_DMP1045U-7" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "Q" (at 5.08 1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "DMP1045U-7" (at 5.08 -1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "Tiny_Scarab:SOT-23_DMP1045U-7" (at 0 25.4 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 -12.7 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Manufacturer" "Diodes Incorporated" (at 0 22.86 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "MPN" "DMP1045U-7" (at 0 20.32 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "JLCPCB Part #" "C177033" (at 0 17.78 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "DigiKey" "DMP1045U-7DITR-ND" (at 0 15.24 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Farnell" "3127351" (at 0 12.7 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Mouser" "621-DMP1045U-7" (at 0 10.16 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "PMOS 12V, 4A" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "PMOS_DMP1045U-7_0_1"
-        (polyline
-          (pts
-            (xy 0.254 0)
-            (xy -2.54 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.254 1.905)
-            (xy 0.254 -1.905)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 -1.27)
-            (xy 0.762 -2.286)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 0.508)
-            (xy 0.762 -0.508)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 2.286)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 2.54)
-            (xy 2.54 1.778)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -2.54)
-            (xy 2.54 0)
-            (xy 0.762 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 1.778)
-            (xy 3.302 1.778)
-            (xy 3.302 -1.778)
-            (xy 0.762 -1.778)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.286 0)
-            (xy 1.27 0.381)
-            (xy 1.27 -0.381)
-            (xy 2.286 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy 2.794 -0.508)
-            (xy 2.921 -0.381)
-            (xy 3.683 -0.381)
-            (xy 3.81 -0.254)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 3.302 -0.381)
-            (xy 2.921 0.254)
-            (xy 3.683 0.254)
-            (xy 3.302 -0.381)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (circle (center 1.651 0) (radius 2.794)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (circle (center 2.54 -1.778) (radius 0.254)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (circle (center 2.54 1.778) (radius 0.254)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-      )
-      (symbol "PMOS_DMP1045U-7_1_1"
-        (pin input line (at -5.08 0 0) (length 2.54)
-          (name "G" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 2.54 -5.08 90) (length 2.54)
-          (name "S" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 2.54 5.08 270) (length 2.54)
-          (name "D" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Tiny_Scarab:SW_SS-3235D-03-L3" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "SW" (at 0 4.318 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "12V 50mA" (at 0 -5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "Tiny_Scarab:SW_Slide_SPDT_XKB-Connectivity_SS-3235D-03-L3" (at 0 24.13 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 21.59 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Manufacturer" "XKB Connectivity" (at 0 19.05 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "MPN" "SS-3235D-03-L3" (at 0 16.51 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "JLCPCB Part #" "C2884764" (at 0 13.97 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "DigiKey" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Farnell" "" (at 0 11.43 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Mouser" "" (at 0 8.89 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "SPDT slide switch, 12V, 50mA" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "SW*DPDT*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "SW_SS-3235D-03-L3_0_0"
-        (circle (center -2.032 0) (radius 0.508)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (circle (center 2.032 -2.54) (radius 0.508)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "SW_SS-3235D-03-L3_0_1"
-        (polyline
-          (pts
-            (xy -1.524 0.254)
-            (xy 1.651 2.286)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (circle (center 2.032 2.54) (radius 0.508)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "SW_SS-3235D-03-L3_1_1"
-        (pin passive line (at 5.08 2.54 180) (length 2.54)
-          (name "A" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 0 0) (length 2.54)
-          (name "B" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 -2.54 180) (length 2.54)
-          (name "C" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Tiny_Scarab:TVS_SP1007-01ETG" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "TVS" (at 1.27 0 0)
-        (effects (font (size 1.27 1.27)) (justify left bottom))
-      )
-      (property "Value" "5V" (at 1.27 -2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left bottom))
-      )
-      (property "Footprint" "Tiny_Scarab:D_SOD-882_SP1007-01ETG" (at 0 22.86 0)
-        (effects (font (size 1.27 1.27)) (justify bottom) hide)
-      )
-      (property "Datasheet" "" (at -11.43 13.97 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Manufacturer" "Littelfuse" (at 0 20.32 0)
-        (effects (font (size 1.27 1.27)) (justify bottom) hide)
-      )
-      (property "MPN" "SP1007-01ETG" (at 0 17.78 0)
-        (effects (font (size 1.27 1.27)) (justify bottom) hide)
-      )
-      (property "JLCPCB Part #" "C126836" (at 0 16.51 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "DigiKey" "F6187TR-ND" (at 0 13.97 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Farnell" "2777317" (at 0 11.43 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Mouser" "576-SP1007-01ETG" (at 0 8.89 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "TVS bidirectional, 6V, 3.5pF" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "TVS_SP1007-01ETG_0_1"
-        (polyline
-          (pts
-            (xy -1.016 0.508)
-            (xy -1.016 0)
-            (xy 1.016 0)
-            (xy 1.016 -0.508)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.016 -1.27)
-            (xy 1.016 -1.27)
-            (xy -1.016 1.27)
-            (xy 1.016 1.27)
-            (xy -1.016 -1.27)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "TVS_SP1007-01ETG_1_0"
-        (pin passive line (at 0 2.54 270) (length 1.27)
-          (name "~" (effects (font (size 1.016 1.016))))
-          (number "1" (effects (font (size 1.016 1.016))))
-        )
-        (pin passive line (at 0 -2.54 90) (length 1.27)
-          (name "~" (effects (font (size 1.016 1.016))))
-          (number "2" (effects (font (size 1.016 1.016))))
-        )
-      )
-    )
-    (symbol "power:+3V3" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+3V3" (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"+3V3\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+3V3_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "+3V3_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+3V3" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+5V" (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"+5V\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+5V_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "+5V_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+5V" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_1_1"
-        (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:VDD" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "VDD" (at 0 3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"VDD\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "VDD_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "VDD_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "VDD" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-  (junction (at 163.83 67.31) (diameter 0) (color 0 0 0 0)
-    (uuid 28785d54-2328-43d7-bc4a-78eeb2ed7f44)
-  )
-  (junction (at 85.09 35.56) (diameter 0) (color 0 0 0 0)
-    (uuid 35c05d64-81c3-47d8-88c4-369a227dce89)
-  )
-  (junction (at 81.28 53.34) (diameter 0) (color 0 0 0 0)
-    (uuid 3879f400-3cc4-4602-b432-eaf930c5cbc5)
-  )
-  (junction (at 179.07 38.1) (diameter 0) (color 0 0 0 0)
-    (uuid 45394c51-be43-4ec4-a9d0-63e495f1f094)
-  )
-  (junction (at 78.74 40.64) (diameter 0) (color 0 0 0 0)
-    (uuid 454ffd31-47f3-4718-8d3c-39ea9aea9b9d)
-  )
-  (junction (at 144.78 38.1) (diameter 0) (color 0 0 0 0)
-    (uuid 4621fe55-fc8e-4eed-81f1-22d8e4e25c32)
-  )
-  (junction (at 168.91 67.31) (diameter 0) (color 0 0 0 0)
-    (uuid 4f2327a6-e7be-4215-bb65-3201783c5cd5)
-  )
-  (junction (at 189.23 55.88) (diameter 0) (color 0 0 0 0)
-    (uuid 51f9afd6-bec7-4862-8dff-eda4b0b1f7a9)
-  )
-  (junction (at 184.15 55.88) (diameter 0) (color 0 0 0 0)
-    (uuid 6f0bc37a-9a52-4c44-b3a1-2d4aeb3de87d)
-  )
-  (junction (at 158.75 26.67) (diameter 0) (color 0 0 0 0)
-    (uuid 9ab8d2d4-44bc-4c02-91bf-e02836e5fda7)
-  )
-  (junction (at 173.99 55.88) (diameter 0) (color 0 0 0 0)
-    (uuid aab88113-0a4d-483f-b333-2babc31d8c75)
-  )
-  (junction (at 173.99 67.31) (diameter 0) (color 0 0 0 0)
-    (uuid aaff70f9-7811-49c1-8cf0-015a8d7888a4)
-  )
-  (junction (at 158.75 55.88) (diameter 0) (color 0 0 0 0)
-    (uuid b2f34f8c-a023-436c-be2d-c7bb2fa5d251)
-  )
-  (junction (at 179.07 67.31) (diameter 0) (color 0 0 0 0)
-    (uuid b30697bd-6694-4850-8977-503dbd07adf6)
-  )
-  (junction (at 184.15 67.31) (diameter 0) (color 0 0 0 0)
-    (uuid be1e83f9-02d0-480a-94b4-a6c947e50401)
-  )
-  (junction (at 179.07 55.88) (diameter 0) (color 0 0 0 0)
-    (uuid c4446825-8dcb-4827-b219-5e31cfdea1ad)
-  )
-  (junction (at 163.83 55.88) (diameter 0) (color 0 0 0 0)
-    (uuid f4b7ebbd-e5f8-4d43-84b9-893963721d81)
-  )
-  (junction (at 168.91 55.88) (diameter 0) (color 0 0 0 0)
-    (uuid f527032d-ea60-434e-93ab-f9a5ab5c2e48)
-  )
-
-  (wire (pts (xy 173.99 55.88) (xy 179.07 55.88))
-    (stroke (width 0) (type default))
-    (uuid 08210492-15b0-4b32-81c9-a683aea26f7c)
-  )
-  (wire (pts (xy 81.28 53.34) (xy 85.09 53.34))
-    (stroke (width 0) (type default))
-    (uuid 0e083d3c-d1c2-4d93-8ca4-126f9a70cfd4)
-  )
-  (wire (pts (xy 85.09 35.56) (xy 85.09 46.99))
-    (stroke (width 0) (type default))
-    (uuid 1a459bf5-2e18-47da-874b-cb518d44ab71)
-  )
-  (wire (pts (xy 168.91 66.04) (xy 168.91 67.31))
-    (stroke (width 0) (type default))
-    (uuid 1b74c14d-1bbb-4070-be9b-3a4564ffb747)
-  )
-  (wire (pts (xy 163.83 55.88) (xy 163.83 58.42))
-    (stroke (width 0) (type default))
-    (uuid 1bf6efc6-78a8-49fa-b59b-0b2574067694)
-  )
-  (wire (pts (xy 189.23 55.88) (xy 189.23 58.42))
-    (stroke (width 0) (type default))
-    (uuid 1d06effa-434a-4e38-a6a5-d5d45fe959eb)
-  )
-  (wire (pts (xy 27.94 53.34) (xy 21.59 53.34))
-    (stroke (width 0) (type default))
-    (uuid 27b6e396-3d74-47a7-8bdc-348a5c80b30a)
-  )
-  (wire (pts (xy 179.07 38.1) (xy 181.61 38.1))
-    (stroke (width 0) (type default))
-    (uuid 2882f970-9b1d-4767-9fdb-33b811d6b2b4)
-  )
-  (wire (pts (xy 158.75 25.4) (xy 158.75 26.67))
-    (stroke (width 0) (type default))
-    (uuid 2c01673b-a2fb-4097-a65d-0cfbc7f23705)
-  )
-  (wire (pts (xy 173.99 55.88) (xy 173.99 58.42))
-    (stroke (width 0) (type default))
-    (uuid 2eb8c885-242b-4a52-ab96-3038252f3a41)
-  )
-  (wire (pts (xy 78.74 52.07) (xy 78.74 53.34))
-    (stroke (width 0) (type default))
-    (uuid 2fefc9b2-ef7f-47bf-8a2b-6b66ed0fa2bb)
-  )
-  (wire (pts (xy 158.75 67.31) (xy 163.83 67.31))
-    (stroke (width 0) (type default))
-    (uuid 32197b8b-ce2a-4c57-ab42-d071121be777)
-  )
-  (wire (pts (xy 173.99 52.07) (xy 173.99 55.88))
-    (stroke (width 0) (type default))
-    (uuid 322b24f6-f9c7-416b-be3b-0ff0559a4a48)
-  )
-  (wire (pts (xy 184.15 67.31) (xy 179.07 67.31))
-    (stroke (width 0) (type default))
-    (uuid 35c2c177-1775-42bd-b822-382647be1b8a)
-  )
-  (wire (pts (xy 60.96 38.1) (xy 60.96 40.64))
-    (stroke (width 0) (type default))
-    (uuid 35f1bdf7-a1c2-497f-acd5-014ccf4f99e5)
-  )
-  (wire (pts (xy 189.23 55.88) (xy 189.23 54.61))
-    (stroke (width 0) (type default))
-    (uuid 40d7377d-9017-4d05-9d04-d2ec9e44a3b8)
-  )
-  (wire (pts (xy 189.23 67.31) (xy 184.15 67.31))
-    (stroke (width 0) (type default))
-    (uuid 43ad9150-eac1-46e4-8832-f74b423d4628)
-  )
-  (wire (pts (xy 144.78 38.1) (xy 151.13 38.1))
-    (stroke (width 0) (type default))
-    (uuid 46f47360-6511-4bfe-ae76-a8e051c080bc)
-  )
-  (wire (pts (xy 184.15 66.04) (xy 184.15 67.31))
-    (stroke (width 0) (type default))
-    (uuid 492e6bd0-45c4-4220-955c-74ee560fb601)
-  )
-  (wire (pts (xy 144.78 27.94) (xy 144.78 26.67))
-    (stroke (width 0) (type default))
-    (uuid 4cdc94ea-9119-4131-8d50-5d4233c4e864)
-  )
-  (wire (pts (xy 27.94 48.26) (xy 21.59 48.26))
-    (stroke (width 0) (type default))
-    (uuid 51698286-8ee5-4e05-bc32-eda466e24ac1)
-  )
-  (wire (pts (xy 172.72 96.52) (xy 172.72 99.06))
-    (stroke (width 0) (type default))
-    (uuid 533f0996-6978-4304-8015-1b7fbb71c45f)
-  )
-  (wire (pts (xy 139.7 38.1) (xy 144.78 38.1))
-    (stroke (width 0) (type default))
-    (uuid 5591777e-ab85-4dc3-bc03-11790d36f3ea)
-  )
-  (wire (pts (xy 64.77 38.1) (xy 60.96 38.1))
-    (stroke (width 0) (type default))
-    (uuid 56912168-17c1-4fc4-89b7-f36cd94d4671)
-  )
-  (wire (pts (xy 184.15 55.88) (xy 184.15 58.42))
-    (stroke (width 0) (type default))
-    (uuid 59a55970-e5fb-4eac-be87-fe186c671f92)
-  )
-  (polyline (pts (xy 55.88 19.05) (xy 55.88 69.85))
-    (stroke (width 0) (type dash))
-    (uuid 602dde9f-6482-4d20-9b3b-5f948a042dfe)
-  )
-
-  (wire (pts (xy 179.07 55.88) (xy 179.07 58.42))
-    (stroke (width 0) (type default))
-    (uuid 625d7129-e825-4a31-b01d-450da5cd3aa3)
-  )
-  (wire (pts (xy 189.23 43.18) (xy 189.23 44.45))
-    (stroke (width 0) (type default))
-    (uuid 62ab790f-bcee-4deb-b66f-73f5a422b3f1)
-  )
-  (wire (pts (xy 85.09 35.56) (xy 90.17 35.56))
-    (stroke (width 0) (type default))
-    (uuid 63c5e4e6-31fb-4601-bca9-952258455e7d)
-  )
-  (wire (pts (xy 168.91 55.88) (xy 173.99 55.88))
-    (stroke (width 0) (type default))
-    (uuid 6941e2b6-f702-4792-80a9-c9d88d027ff2)
-  )
-  (wire (pts (xy 181.61 49.53) (xy 179.07 49.53))
-    (stroke (width 0) (type default))
-    (uuid 72d09e79-9b56-4e26-931f-b445bdd53488)
-  )
-  (wire (pts (xy 158.75 55.88) (xy 163.83 55.88))
-    (stroke (width 0) (type default))
-    (uuid 73d371a9-a72c-49cd-9485-8e0bb5637a7b)
-  )
-  (wire (pts (xy 74.93 35.56) (xy 85.09 35.56))
-    (stroke (width 0) (type default))
-    (uuid 76abd6a1-e0da-4b89-af8f-12a6f4faf07f)
-  )
-  (wire (pts (xy 78.74 40.64) (xy 90.17 40.64))
-    (stroke (width 0) (type default))
-    (uuid 77b4563f-9103-41a2-9a27-a5f7998ed2ff)
-  )
-  (wire (pts (xy 179.07 67.31) (xy 173.99 67.31))
-    (stroke (width 0) (type default))
-    (uuid 7afe1568-d110-42aa-89cb-99a50aa3f27f)
-  )
-  (wire (pts (xy 179.07 27.94) (xy 179.07 26.67))
-    (stroke (width 0) (type default))
-    (uuid 7e24a329-a884-49b1-ad67-e747b9337392)
-  )
-  (wire (pts (xy 168.91 55.88) (xy 168.91 58.42))
-    (stroke (width 0) (type default))
-    (uuid 80a0c36d-29df-4e3a-88c6-d826583f9b39)
-  )
-  (polyline (pts (xy 99.06 69.85) (xy 55.88 69.85))
-    (stroke (width 0) (type dash))
-    (uuid 80d34c5e-58a1-42e5-9a36-c212242d9d1e)
-  )
-
-  (wire (pts (xy 78.74 40.64) (xy 78.74 46.99))
-    (stroke (width 0) (type default))
-    (uuid 84b75c46-5272-4472-bbb7-42348d9b58fd)
-  )
-  (polyline (pts (xy 99.06 19.05) (xy 99.06 104.14))
-    (stroke (width 0) (type dash))
-    (uuid 87155915-478a-47c7-911f-510bb73e98a6)
-  )
-
-  (wire (pts (xy 163.83 55.88) (xy 168.91 55.88))
-    (stroke (width 0) (type default))
-    (uuid 8f993afc-921f-474a-8c7c-2465542d1d65)
-  )
-  (wire (pts (xy 179.07 35.56) (xy 179.07 38.1))
-    (stroke (width 0) (type default))
-    (uuid 94706c81-d341-4933-be91-1b3a8334eb9d)
-  )
-  (wire (pts (xy 158.75 43.18) (xy 158.75 55.88))
-    (stroke (width 0) (type default))
-    (uuid 9b6d5e74-f378-4704-9281-be06beb6d7bb)
-  )
-  (wire (pts (xy 81.28 53.34) (xy 81.28 55.88))
-    (stroke (width 0) (type default))
-    (uuid a267c5cd-4552-4c9a-988b-bafcac9eb06e)
-  )
-  (wire (pts (xy 78.74 53.34) (xy 81.28 53.34))
-    (stroke (width 0) (type default))
-    (uuid a34e0bd7-ba28-475f-b54c-48a82d271807)
-  )
-  (polyline (pts (xy 196.85 77.47) (xy 151.13 77.47))
-    (stroke (width 0) (type dash))
-    (uuid a533ba05-9044-407b-a520-55503b1db3b1)
-  )
-
-  (wire (pts (xy 158.75 55.88) (xy 158.75 58.42))
-    (stroke (width 0) (type default))
-    (uuid aea350e9-78f1-4814-996b-dd26e7e6d4ef)
-  )
-  (wire (pts (xy 144.78 35.56) (xy 144.78 38.1))
-    (stroke (width 0) (type default))
-    (uuid b1ae7301-6e15-4ccc-9bcd-c0a8dd83552e)
-  )
-  (wire (pts (xy 85.09 53.34) (xy 85.09 52.07))
-    (stroke (width 0) (type default))
-    (uuid b420c2ae-e4f9-4858-89f2-217e42746e29)
-  )
-  (wire (pts (xy 27.94 54.61) (xy 27.94 53.34))
-    (stroke (width 0) (type default))
-    (uuid b4d2b3af-2951-4cfb-8bf5-0975766fae63)
-  )
-  (wire (pts (xy 179.07 49.53) (xy 179.07 38.1))
-    (stroke (width 0) (type default))
-    (uuid b7d47985-2f00-42c9-8a0f-61fe5c4c136f)
-  )
-  (wire (pts (xy 144.78 26.67) (xy 158.75 26.67))
-    (stroke (width 0) (type default))
-    (uuid bc04ff42-47e6-44ef-b3f2-fff57ec1aa11)
-  )
-  (wire (pts (xy 74.93 40.64) (xy 78.74 40.64))
-    (stroke (width 0) (type default))
-    (uuid bdc6648a-5e88-4ba4-b946-1f8172277120)
-  )
-  (wire (pts (xy 189.23 25.4) (xy 189.23 33.02))
-    (stroke (width 0) (type default))
-    (uuid be0cdf55-a861-4806-a096-90e10b4a5216)
-  )
-  (wire (pts (xy 173.99 67.31) (xy 173.99 71.12))
-    (stroke (width 0) (type default))
-    (uuid ca953e31-96c0-4364-9bc2-79ef6f3b16fe)
-  )
-  (polyline (pts (xy 151.13 77.47) (xy 151.13 102.87))
-    (stroke (width 0) (type dash))
-    (uuid ce31299a-d4d8-46f5-9b72-ca2174d0b811)
-  )
-
-  (wire (pts (xy 179.07 66.04) (xy 179.07 67.31))
-    (stroke (width 0) (type default))
-    (uuid d0920966-c18d-49d7-a18f-b4046c9dae2b)
-  )
-  (wire (pts (xy 179.07 26.67) (xy 158.75 26.67))
-    (stroke (width 0) (type default))
-    (uuid d4b46452-e976-4933-ab48-88bda5f242b6)
-  )
-  (wire (pts (xy 163.83 66.04) (xy 163.83 67.31))
-    (stroke (width 0) (type default))
-    (uuid d4edc0fd-a47f-4958-8980-dca719666580)
-  )
-  (wire (pts (xy 163.83 67.31) (xy 168.91 67.31))
-    (stroke (width 0) (type default))
-    (uuid dac48600-89eb-497e-aa83-80766cab362f)
-  )
-  (polyline (pts (xy 55.88 69.85) (xy 12.7 69.85))
-    (stroke (width 0) (type dash))
-    (uuid db541dd2-e010-4101-a237-ae1a4e3f648d)
-  )
-  (polyline (pts (xy 196.85 19.05) (xy 12.7 19.05))
-    (stroke (width 0.4) (type default))
-    (uuid df88cbf0-3c64-4018-b4ed-199565678bfb)
-  )
-
-  (wire (pts (xy 168.91 67.31) (xy 173.99 67.31))
-    (stroke (width 0) (type default))
-    (uuid e00b8db5-8faa-4d98-b309-bdb163e8c467)
-  )
-  (wire (pts (xy 158.75 26.67) (xy 158.75 33.02))
-    (stroke (width 0) (type default))
-    (uuid e074d745-25e3-49d7-9192-943d7d96b7e3)
-  )
-  (wire (pts (xy 184.15 55.88) (xy 189.23 55.88))
-    (stroke (width 0) (type default))
-    (uuid e1631e48-7708-4d4a-9395-1930d9b016f6)
-  )
-  (wire (pts (xy 179.07 55.88) (xy 184.15 55.88))
-    (stroke (width 0) (type default))
-    (uuid e1fea2a3-ebf8-4a5c-b60a-3838e6d76e92)
-  )
-  (wire (pts (xy 172.72 38.1) (xy 179.07 38.1))
-    (stroke (width 0) (type default))
-    (uuid e2ae9cd5-a86c-47ce-a9e6-5bead396a342)
-  )
-  (wire (pts (xy 158.75 66.04) (xy 158.75 67.31))
-    (stroke (width 0) (type default))
-    (uuid e3795be2-8aff-4909-a3bc-58454dc79bfe)
-  )
-  (wire (pts (xy 173.99 66.04) (xy 173.99 67.31))
-    (stroke (width 0) (type default))
-    (uuid e937385e-d028-4d49-b1d9-587c412d6cfe)
-  )
-  (wire (pts (xy 189.23 66.04) (xy 189.23 67.31))
-    (stroke (width 0) (type default))
-    (uuid e94c40a5-45e4-4386-8db5-27f89ad58f2b)
-  )
-  (wire (pts (xy 172.72 99.06) (xy 181.61 99.06))
-    (stroke (width 0) (type default))
-    (uuid f2ae7c5b-346f-46a9-a193-f9b8d2b6a5fb)
-  )
-  (wire (pts (xy 27.94 50.8) (xy 21.59 50.8))
-    (stroke (width 0) (type default))
-    (uuid f9b2ed20-b53e-41ef-9123-f0fc72bcd4bc)
-  )
-
-  (text "Sheet Output" (at 153.67 81.28 0)
-    (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
-    (uuid 211ea1a1-0bba-4d21-a62a-abf7702a3e21)
-  )
-  (text "This circuit connects VDD to either\n5V or 3V3. When G1 is low, it makes\nPMOS Q4 conduct. When G2 is low,\nit makes PMOS Q5 and Q6 conduct.\n\nPMOS Q5 and Q6 are in anti-series\n(notice how Q6 is differently or-\niented than Q5) such that the body\ndiodes won't let the 5V flow into the\n3V3 when Q4 is conducting and Q5\nand Q6 are off."
-    (at 101.6 46.99 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 3095e286-48a4-4ab3-b52e-0c8fede60eb0)
-  )
-  (text "Voltage Selection Circuit" (at 101.6 22.86 0)
-    (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
-    (uuid 31de7d82-f527-4f24-96a7-a1dbc03625ad)
-  )
-  (text "The input to this schematic sheet is\nall the voltage levels:\n> GND\n> +5V\n> +3V3\n\nIt's not strictly necessary to input\nthem here, as they're global symbols."
-    (at 13.97 40.64 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 4d499293-f6b3-42ec-9439-942b1f033df7)
-  )
-  (text "Sheet Input" (at 13.97 22.86 0)
-    (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
-    (uuid 55d73327-eeb3-4554-9ccb-13c0a2413623)
-  )
-  (text "The slide switch pulls either\nsignal G1 or signal G2 to GND."
-    (at 58.42 27.94 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 5e1796e1-d4cb-4c48-aee8-1e4f2eb90600)
-  )
-  (text "VOLTAGE SELECTION" (at 90.17 17.78 0)
-    (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
-    (uuid a6b4e934-5792-4b98-b1ba-f38b606f9644)
-  )
-  (text "Slide Switch" (at 58.42 22.86 0)
-    (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
-    (uuid b29f0a18-e0d5-45c7-b236-2bc09c472a93)
-  )
-  (text "The selected PMOS is DMP1045U-7.\nThis PMOS has a low on-resistance.\nWhen the V_GS = 3V3, the resistance\nis less than 40mΩ.\n\nThis PMOS conducts 500mA without\nissues - it can actually go way\nhigher."
-    (at 101.6 66.04 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid c58eb6d2-91e3-4ca3-8b0f-ec217d3492da)
-  )
-  (text "The output of this sheet is the VDD\nvoltage level. As it's a global\nsymbol, it's strictly not necessary\nto output it here."
-    (at 153.67 90.17 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid f1978e29-977a-4d2c-8b25-5240e47cc7a7)
-  )
-
-  (label "G1" (at 90.17 35.56 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 576fda19-afcb-4549-8be7-9c2d337526b2)
-  )
-  (label "G2" (at 90.17 40.64 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid ba422f62-d330-4a33-8140-ab32439cd218)
-  )
-  (label "G2" (at 172.72 38.1 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid ba43b3cd-7472-438c-b833-90aeb6be48bc)
-  )
-  (label "G1" (at 139.7 38.1 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid d37db93b-eba1-4351-8383-68f8118efc5d)
-  )
-
-  (hierarchical_label "+3V3" (shape passive) (at 21.59 50.8 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 07cb4fc3-aec2-407f-b61e-81335709a5d2)
-  )
-  (hierarchical_label "+5V" (shape passive) (at 21.59 48.26 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 0c04fcfa-d2b2-4c38-9b46-2e1066aaae7c)
-  )
-  (hierarchical_label "VDD" (shape output) (at 181.61 99.06 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 426b685e-30bb-48dc-82fe-7785e438f30a)
-  )
-  (hierarchical_label "GND" (shape passive) (at 21.59 53.34 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 4f2008ee-e68e-4ce2-b72b-da783d57cdc5)
-  )
-
-  (symbol (lib_id "Device:C") (at 179.07 62.23 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 17d4349f-3c70-4925-8087-0aa4598d8054)
-    (property "Reference" "C34" (at 179.07 59.69 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "10u" (at 179.07 64.77 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 178.1048 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 179.07 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Samsung electro-mechanics" (at 179.07 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "CL21A106KAYNNNE" (at 179.07 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Part #" "C15850" (at 179.07 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Comment" "25V 10uF X5R ±10% 0805" (at 179.07 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 906c8693-2b42-4865-b5f2-37783e6cfb2b))
-    (pin "2" (uuid ceef82e4-20c6-4e01-8b15-e73c175db82b))
-    (instances
-      (project "tiny-scarab"
-        (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
-          (reference "C34") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 168.91 62.23 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 1b243793-1415-4cfd-81fd-1235d2a3c028)
-    (property "Reference" "C32" (at 168.91 59.69 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "10u" (at 168.91 64.77 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 167.9448 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 168.91 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Samsung electro-mechanics" (at 168.91 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "CL21A106KAYNNNE" (at 168.91 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Part #" "C15850" (at 168.91 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Comment" "25V 10uF X5R ±10% 0805" (at 168.91 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1f3fa671-c1d8-41f9-9c8f-ca323efa9774))
-    (pin "2" (uuid 95ff08ee-a9a2-4daf-838f-a43359955026))
-    (instances
-      (project "tiny-scarab"
-        (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
-          (reference "C32") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3V3") (at 27.94 50.8 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 1da00ecc-8d3b-43f6-87df-00e88a56ef30)
-    (property "Reference" "#PWR074" (at 24.13 50.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3V3" (at 30.48 50.8 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 27.94 50.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 27.94 50.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5b7d6883-85fe-4e8e-b020-2aa492e11013))
-    (instances
-      (project "tiny-scarab"
-        (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
-          (reference "#PWR074") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Tiny_Scarab:TVS_SP1007-01ETG") (at 78.74 49.53 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 29eae40b-0a57-4beb-8ba3-42b4038b6da2)
-    (property "Reference" "TVS7" (at 77.47 48.26 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "5V" (at 81.28 50.8 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "Tiny_Scarab:D_SOD-882_SP1007-01ETG" (at 67.31 22.86 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "Datasheet" "" (at 67.31 25.4 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer" "Littelfuse" (at 67.31 29.21 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "MPN" "SP1007-01ETG" (at 67.31 31.75 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "JLCPCB Part #" "C126836" (at 67.31 34.29 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "DigiKey" "F6187TR-ND" (at 67.31 36.83 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Farnell" "2777317" (at 78.74 38.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mouser" "576-SP1007-01ETG" (at 78.74 40.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7a9ca2c2-5e96-4e85-9eab-ed86ea17808c))
-    (pin "2" (uuid b8c8cb26-8a63-4612-b17e-0bdb73443044))
-    (instances
-      (project "tiny-scarab"
-        (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
-          (reference "TVS7") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Tiny_Scarab:PMOS_DMP1045U-7") (at 186.69 49.53 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 30d8adcd-cafd-41a0-844f-b7f0e52dbe98)
-    (property "Reference" "Q5" (at 190.5 53.34 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "DMP1045U-7" (at 193.04 50.8 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "Tiny_Scarab:SOT-23_DMP1045U-7" (at 186.69 27.94 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 186.69 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Diodes Incorporated" (at 186.69 30.48 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "DMP1045U-7" (at 186.69 35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Part #" "C177033" (at 186.69 33.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DigiKey" "DMP1045U-7DITR-ND" (at 186.69 34.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Farnell" "3127351" (at 186.69 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mouser" "621-DMP1045U-7" (at 186.69 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 53b2cc8f-dd9b-4a79-bdbf-047954c0968c))
-    (pin "3" (uuid c56d4885-71be-4776-b8b0-aaf7911838cc))
-    (pin "2" (uuid df9e4183-364f-455e-b3f6-086bddd0e573))
-    (instances
-      (project "tiny-scarab"
-        (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
-          (reference "Q5") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+5V") (at 158.75 25.4 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 3a7dace3-a69f-4d11-ae19-36675b8f6e0c)
-    (property "Reference" "#PWR068" (at 158.75 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 158.75 21.59 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 158.75 25.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 158.75 25.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9369b2be-f20b-4100-9256-9f03cc66789e))
-    (instances
-      (project "tiny-scarab"
-        (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
-          (reference "#PWR068") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 144.78 31.75 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 3ad8559b-2c23-4264-b798-db44ffeb42e0)
-    (property "Reference" "R24" (at 144.78 31.75 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100k" (at 148.59 31.75 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (at 146.558 31.75 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 144.78 31.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)" (at 144.78 31.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "0402WGF1003TCE" (at 144.78 31.75 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Part #" "C25741" (at 144.78 31.75 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid d20ce5f3-b3b3-4cb1-8b46-17e32e0b8d63))
-    (pin "1" (uuid d825f424-7349-4ea9-a117-91e6fd952550))
-    (instances
-      (project "tiny-scarab"
-        (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
-          (reference "R24") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 27.94 54.61 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 3c516ff6-141f-45f8-a869-0ce8617aff96)
-    (property "Reference" "#PWR072" (at 27.94 60.96 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 29.21 57.15 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "" (at 27.94 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 27.94 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 4951c8ff-5947-4754-b29a-95dd88aa99e0))
-    (instances
-      (project "tiny-scarab"
-        (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
-          (reference "#PWR072") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 81.28 55.88 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 4568ef43-bd3f-4d9e-9bfa-6023b6f07670)
-    (property "Reference" "#PWR071" (at 81.28 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 81.28 59.69 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 81.28 55.88 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 81.28 55.88 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 06a9a642-44ea-4abe-b30f-a156ead18cf3))
-    (instances
-      (project "tiny-scarab"
-        (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
-          (reference "#PWR071") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 184.15 62.23 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 4b9048f9-407e-44a2-8fb0-65efd6ebb0a0)
-    (property "Reference" "C35" (at 184.15 59.69 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "10u" (at 184.15 64.77 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 183.1848 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 184.15 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Samsung electro-mechanics" (at 184.15 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "CL21A106KAYNNNE" (at 184.15 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Part #" "C15850" (at 184.15 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Comment" "25V 10uF X5R ±10% 0805" (at 184.15 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid aea97a50-7f3b-4093-8d1d-4fe8db961719))
-    (pin "2" (uuid 81170714-e2dc-45fc-b72d-96165f990f0d))
-    (instances
-      (project "tiny-scarab"
-        (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
-          (reference "C35") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Tiny_Scarab:PMOS_DMP1045U-7") (at 186.69 38.1 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 4d07f87d-6cac-4d0a-b4c5-20e35853bf6e)
-    (property "Reference" "Q4" (at 190.5 41.91 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "DMP1045U-7" (at 193.04 36.83 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "Tiny_Scarab:SOT-23_DMP1045U-7" (at 186.69 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 186.69 25.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Diodes Incorporated" (at 186.69 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "DMP1045U-7" (at 186.69 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Part #" "C177033" (at 186.69 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DigiKey" "DMP1045U-7DITR-ND" (at 186.69 53.34 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Farnell" "3127351" (at 186.69 50.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mouser" "621-DMP1045U-7" (at 186.69 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid cd18f066-03ab-4dca-acc1-e176fba34dc1))
-    (pin "3" (uuid 6b4a7103-4cbe-413b-811f-3bfb45c7ae87))
-    (pin "2" (uuid 95742f50-20aa-4ec1-b0ae-cbdbc5f1df91))
-    (instances
-      (project "tiny-scarab"
-        (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
-          (reference "Q4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 163.83 62.23 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 5dd1c459-aacf-43b5-9580-80c5569879f5)
-    (property "Reference" "C31" (at 163.83 59.69 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100n" (at 163.83 64.77 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (at 162.8648 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 163.83 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Samsung electro-mechanics" (at 163.83 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "CL05B104KO5NNNC" (at 163.83 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Part #" "C1525" (at 163.83 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Comment" "16V 100nF X7R ±10% 0402" (at 163.83 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d4893020-dcf3-4ead-b72e-30e4737355df))
-    (pin "2" (uuid 39d4a063-14be-4228-808f-0d43e9b291cb))
-    (instances
-      (project "tiny-scarab"
-        (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
-          (reference "C31") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 189.23 62.23 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 6b6b4382-fdfe-4898-8ffb-3abb42ce5a40)
-    (property "Reference" "C36" (at 189.23 59.69 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "10u" (at 189.23 64.77 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 188.2648 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 189.23 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Samsung electro-mechanics" (at 189.23 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "CL21A106KAYNNNE" (at 189.23 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Part #" "C15850" (at 189.23 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Comment" "25V 10uF X5R ±10% 0805" (at 189.23 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 4ecb52ea-cabc-4e24-bb6a-de82fb38a1fc))
-    (pin "2" (uuid 9caaa606-df72-442a-ac6d-42052b493d75))
-    (instances
-      (project "tiny-scarab"
-        (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
-          (reference "C36") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Tiny_Scarab:TVS_SP1007-01ETG") (at 85.09 49.53 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 6fb47097-cf2e-452a-9023-0353a96425d2)
-    (property "Reference" "TVS8" (at 83.82 48.26 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "5V" (at 87.63 50.8 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "Tiny_Scarab:D_SOD-882_SP1007-01ETG" (at 73.66 22.86 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "Datasheet" "" (at 73.66 25.4 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer" "Littelfuse" (at 73.66 29.21 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "MPN" "SP1007-01ETG" (at 73.66 31.75 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "JLCPCB Part #" "C126836" (at 73.66 34.29 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "DigiKey" "F6187TR-ND" (at 73.66 36.83 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Farnell" "2777317" (at 85.09 38.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mouser" "576-SP1007-01ETG" (at 85.09 40.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 62fa6a29-ef91-42d3-b9f0-879cc6a77b35))
-    (pin "2" (uuid c0a099d8-0876-4ebe-aadc-03b6fd978b55))
-    (instances
-      (project "tiny-scarab"
-        (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
-          (reference "TVS8") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 60.96 40.64 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 752f5767-77ba-4b81-9fba-0674271dde7d)
-    (property "Reference" "#PWR036" (at 60.96 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 60.96 44.45 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 60.96 40.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 60.96 40.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1dbad59c-57a0-4dc1-8f71-71c22aa47487))
-    (instances
-      (project "tiny-scarab"
-        (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
-          (reference "#PWR036") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 158.75 62.23 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 8a1a4002-3ae7-4c60-853f-7763cc7f261e)
-    (property "Reference" "C30" (at 158.75 59.69 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100n" (at 158.75 64.77 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (at 157.7848 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 158.75 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Samsung electro-mechanics" (at 158.75 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "CL05B104KO5NNNC" (at 158.75 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Part #" "C1525" (at 158.75 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Comment" "16V 100nF X7R ±10% 0402" (at 158.75 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 093c2ec2-0f91-4a9f-a3fc-399a76216b21))
-    (pin "2" (uuid f5a07fdd-36ae-4269-b341-7a2c7d1edb60))
-    (instances
-      (project "tiny-scarab"
-        (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
-          (reference "C30") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3V3") (at 189.23 25.4 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 95a91211-890d-491c-84d7-e1dd96f4da34)
-    (property "Reference" "#PWR069" (at 189.23 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3V3" (at 189.23 21.59 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 189.23 25.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 189.23 25.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b6e8f5a5-b045-4ebd-8122-e003f6dee8c9))
-    (instances
-      (project "tiny-scarab"
-        (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
-          (reference "#PWR069") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 179.07 31.75 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 9e701483-e657-4555-9cb3-7c0aa17eb29d)
-    (property "Reference" "R25" (at 179.07 31.75 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100k" (at 182.88 31.75 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (at 180.848 31.75 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 179.07 31.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)" (at 179.07 31.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "0402WGF1003TCE" (at 179.07 31.75 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Part #" "C25741" (at 179.07 31.75 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 0c798c23-a1fb-41a2-9fcf-6ac178bbbe3d))
-    (pin "1" (uuid c5c3068b-236f-485c-9ce2-59321bd0ce97))
-    (instances
-      (project "tiny-scarab"
-        (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
-          (reference "R25") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Tiny_Scarab:SW_SS-3235D-03-L3") (at 69.85 38.1 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid c2187b8f-859a-4ce8-8476-3147522bf6b9)
-    (property "Reference" "SW4" (at 69.85 30.48 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "12V 50mA" (at 69.85 33.02 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Tiny_Scarab:SW_Slide_SPDT_XKB-Connectivity_SS-3235D-03-L3" (at 69.85 13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 69.85 16.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "XKB Connectivity" (at 69.85 19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "SS-3235D-03-L3" (at 69.85 21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Part #" "C2884764" (at 69.85 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DigiKey" "" (at 69.85 38.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Farnell" "" (at 69.85 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mouser" "" (at 69.85 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 22c9f7c8-903e-4f66-90b9-86cb903b51d5))
-    (pin "2" (uuid 2efff236-dffc-4a86-9800-6cf50a5d6cb9))
-    (pin "3" (uuid 3a39e92f-fd77-4d5f-85b6-f2c286cc2e18))
-    (instances
-      (project "tiny-scarab"
-        (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
-          (reference "SW4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:VDD") (at 173.99 52.07 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid c26c61dc-3adc-4142-9de4-fedd0bb65816)
-    (property "Reference" "#PWR070" (at 173.99 55.88 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VDD" (at 173.99 52.07 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "" (at 173.99 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 173.99 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f9d70d9c-e035-482c-ba52-be531363762a))
-    (instances
-      (project "tiny-scarab"
-        (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
-          (reference "#PWR070") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 173.99 71.12 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid c672549b-3661-458b-8d63-2595b8760b48)
-    (property "Reference" "#PWR04" (at 173.99 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 173.99 71.12 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "" (at 173.99 71.12 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 173.99 71.12 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 2200198d-a64c-48ce-8efb-f2c271abad45))
-    (instances
-      (project "tiny-scarab"
-        (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
-          (reference "#PWR04") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Tiny_Scarab:PMOS_DMP1045U-7") (at 156.21 38.1 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid c95de9aa-e97e-4127-a776-439f94eb9a45)
-    (property "Reference" "Q3" (at 160.02 41.91 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "DMP1045U-7" (at 162.56 36.83 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "Tiny_Scarab:SOT-23_DMP1045U-7" (at 156.21 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 156.21 25.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Diodes Incorporated" (at 156.21 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "DMP1045U-7" (at 156.21 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Part #" "C177033" (at 156.21 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DigiKey" "DMP1045U-7DITR-ND" (at 156.21 53.34 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Farnell" "3127351" (at 156.21 50.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mouser" "621-DMP1045U-7" (at 156.21 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e6216503-6dbd-4d8a-b55d-b5b6bc9c27e3))
-    (pin "3" (uuid 142e2cb3-a430-48ce-aab5-9b6d00fe2a18))
-    (pin "2" (uuid 7b34f1a4-fff4-451f-8efc-04b9d4dc05fb))
-    (instances
-      (project "tiny-scarab"
-        (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
-          (reference "Q3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:VDD") (at 172.72 96.52 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid cb45dcc7-c87e-4217-8e3b-7a0477832110)
-    (property "Reference" "#PWR075" (at 172.72 100.33 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VDD" (at 175.26 93.98 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 172.72 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 172.72 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 54ce1828-0dd0-42e0-a7ca-0e2819ad99e7))
-    (instances
-      (project "tiny-scarab"
-        (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
-          (reference "#PWR075") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 173.99 62.23 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid d3abb423-f893-4465-a9d4-a7e23b75e9e3)
-    (property "Reference" "C33" (at 173.99 59.69 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "10u" (at 173.99 64.77 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 173.0248 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 173.99 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Samsung electro-mechanics" (at 173.99 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "CL21A106KAYNNNE" (at 173.99 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Part #" "C15850" (at 173.99 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Comment" "25V 10uF X5R ±10% 0805" (at 173.99 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f4fc9fba-0501-4430-8195-d8df7dcd14a9))
-    (pin "2" (uuid 5f1c9ea4-9c48-4d89-98a5-97a946ef54f4))
-    (instances
-      (project "tiny-scarab"
-        (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
-          (reference "C33") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+5V") (at 27.94 48.26 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid d6e6bb1b-e260-4729-b086-49cf3a8c8d11)
-    (property "Reference" "#PWR073" (at 24.13 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 30.48 48.26 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 27.94 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 27.94 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 944a05ca-d317-4e34-ba72-541774425d56))
-    (instances
-      (project "tiny-scarab"
-        (path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
-          (reference "#PWR073") (unit 1)
-        )
-      )
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "6ae41875-cb9c-49e5-8782-8ec08f14d9e4")
+	(paper "A5")
+	(title_block
+		(title "Tiny Scarab")
+		(date "2024-01-30")
+		(rev "0.2")
+		(company "Embeetle")
+		(comment 1 "https://embeetle.com/tiny-scarab")
+		(comment 2 "https://github.com/Embeetle/tiny-scarab")
+	)
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Tiny_Scarab:PMOS_DMP1045U-7"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "DMP1045U-7"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Tiny_Scarab:SOT-23_DMP1045U-7"
+				(at 0 25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "PMOS 12V, 4A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Diodes Incorporated"
+				(at 0 22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "DMP1045U-7"
+				(at 0 20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part #" "C177033"
+				(at 0 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey" "DMP1045U-7DITR-ND"
+				(at 0 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Farnell" "3127351"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "621-DMP1045U-7"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PMOS_DMP1045U-7_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "PMOS_DMP1045U-7_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Tiny_Scarab:SW_SS-3235D-03-L3"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "12V 50mA"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Tiny_Scarab:SW_Slide_SPDT_XKB-Connectivity_SS-3235D-03-L3"
+				(at 0 24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SPDT slide switch, 12V, 50mA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "XKB Connectivity"
+				(at 0 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "SS-3235D-03-L3"
+				(at 0 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part #" "C2884764"
+				(at 0 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Farnell" ""
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" ""
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SW*DPDT*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SS-3235D-03-L3_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SS-3235D-03-L3_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SS-3235D-03-L3_1_1"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Tiny_Scarab:TVS_SP1007-01ETG"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TVS"
+				(at 1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "5V"
+				(at 1.27 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Tiny_Scarab:D_SOD-882_SP1007-01ETG"
+				(at 0 22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -11.43 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "TVS bidirectional, 6V, 3.5pF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Littelfuse"
+				(at 0 20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "SP1007-01ETG"
+				(at 0 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part #" "C126836"
+				(at 0 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey" "F6187TR-ND"
+				(at 0 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Farnell" "2777317"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "576-SP1007-01ETG"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TVS_SP1007-01ETG_0_1"
+				(polyline
+					(pts
+						(xy -1.016 0.508) (xy -1.016 0) (xy 1.016 0) (xy 1.016 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -1.27) (xy 1.016 -1.27) (xy -1.016 1.27) (xy 1.016 1.27) (xy -1.016 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TVS_SP1007-01ETG_1_0"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:VDD"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VDD"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VDD\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VDD_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDD_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 163.83 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28785d54-2328-43d7-bc4a-78eeb2ed7f44")
+	)
+	(junction
+		(at 85.09 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35c05d64-81c3-47d8-88c4-369a227dce89")
+	)
+	(junction
+		(at 81.28 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3879f400-3cc4-4602-b432-eaf930c5cbc5")
+	)
+	(junction
+		(at 179.07 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45394c51-be43-4ec4-a9d0-63e495f1f094")
+	)
+	(junction
+		(at 78.74 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "454ffd31-47f3-4718-8d3c-39ea9aea9b9d")
+	)
+	(junction
+		(at 144.78 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4621fe55-fc8e-4eed-81f1-22d8e4e25c32")
+	)
+	(junction
+		(at 168.91 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f2327a6-e7be-4215-bb65-3201783c5cd5")
+	)
+	(junction
+		(at 189.23 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51f9afd6-bec7-4862-8dff-eda4b0b1f7a9")
+	)
+	(junction
+		(at 184.15 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f0bc37a-9a52-4c44-b3a1-2d4aeb3de87d")
+	)
+	(junction
+		(at 158.75 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ab8d2d4-44bc-4c02-91bf-e02836e5fda7")
+	)
+	(junction
+		(at 173.99 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aab88113-0a4d-483f-b333-2babc31d8c75")
+	)
+	(junction
+		(at 173.99 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aaff70f9-7811-49c1-8cf0-015a8d7888a4")
+	)
+	(junction
+		(at 158.75 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2f34f8c-a023-436c-be2d-c7bb2fa5d251")
+	)
+	(junction
+		(at 179.07 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b30697bd-6694-4850-8977-503dbd07adf6")
+	)
+	(junction
+		(at 184.15 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be1e83f9-02d0-480a-94b4-a6c947e50401")
+	)
+	(junction
+		(at 179.07 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4446825-8dcb-4827-b219-5e31cfdea1ad")
+	)
+	(junction
+		(at 163.83 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4b7ebbd-e5f8-4d43-84b9-893963721d81")
+	)
+	(junction
+		(at 168.91 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f527032d-ea60-434e-93ab-f9a5ab5c2e48")
+	)
+	(wire
+		(pts
+			(xy 173.99 55.88) (xy 179.07 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08210492-15b0-4b32-81c9-a683aea26f7c")
+	)
+	(wire
+		(pts
+			(xy 81.28 53.34) (xy 85.09 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e083d3c-d1c2-4d93-8ca4-126f9a70cfd4")
+	)
+	(wire
+		(pts
+			(xy 85.09 35.56) (xy 85.09 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a459bf5-2e18-47da-874b-cb518d44ab71")
+	)
+	(wire
+		(pts
+			(xy 168.91 66.04) (xy 168.91 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b74c14d-1bbb-4070-be9b-3a4564ffb747")
+	)
+	(wire
+		(pts
+			(xy 163.83 55.88) (xy 163.83 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bf6efc6-78a8-49fa-b59b-0b2574067694")
+	)
+	(wire
+		(pts
+			(xy 189.23 55.88) (xy 189.23 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d06effa-434a-4e38-a6a5-d5d45fe959eb")
+	)
+	(wire
+		(pts
+			(xy 27.94 53.34) (xy 21.59 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27b6e396-3d74-47a7-8bdc-348a5c80b30a")
+	)
+	(wire
+		(pts
+			(xy 179.07 38.1) (xy 181.61 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2882f970-9b1d-4767-9fdb-33b811d6b2b4")
+	)
+	(wire
+		(pts
+			(xy 158.75 25.4) (xy 158.75 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c01673b-a2fb-4097-a65d-0cfbc7f23705")
+	)
+	(wire
+		(pts
+			(xy 173.99 55.88) (xy 173.99 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eb8c885-242b-4a52-ab96-3038252f3a41")
+	)
+	(wire
+		(pts
+			(xy 78.74 52.07) (xy 78.74 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fefc9b2-ef7f-47bf-8a2b-6b66ed0fa2bb")
+	)
+	(wire
+		(pts
+			(xy 158.75 67.31) (xy 163.83 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32197b8b-ce2a-4c57-ab42-d071121be777")
+	)
+	(wire
+		(pts
+			(xy 173.99 52.07) (xy 173.99 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "322b24f6-f9c7-416b-be3b-0ff0559a4a48")
+	)
+	(wire
+		(pts
+			(xy 184.15 67.31) (xy 179.07 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35c2c177-1775-42bd-b822-382647be1b8a")
+	)
+	(wire
+		(pts
+			(xy 60.96 38.1) (xy 60.96 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35f1bdf7-a1c2-497f-acd5-014ccf4f99e5")
+	)
+	(wire
+		(pts
+			(xy 189.23 55.88) (xy 189.23 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40d7377d-9017-4d05-9d04-d2ec9e44a3b8")
+	)
+	(wire
+		(pts
+			(xy 189.23 67.31) (xy 184.15 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43ad9150-eac1-46e4-8832-f74b423d4628")
+	)
+	(wire
+		(pts
+			(xy 144.78 38.1) (xy 151.13 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46f47360-6511-4bfe-ae76-a8e051c080bc")
+	)
+	(wire
+		(pts
+			(xy 184.15 66.04) (xy 184.15 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "492e6bd0-45c4-4220-955c-74ee560fb601")
+	)
+	(wire
+		(pts
+			(xy 144.78 27.94) (xy 144.78 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cdc94ea-9119-4131-8d50-5d4233c4e864")
+	)
+	(wire
+		(pts
+			(xy 27.94 48.26) (xy 21.59 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51698286-8ee5-4e05-bc32-eda466e24ac1")
+	)
+	(wire
+		(pts
+			(xy 172.72 96.52) (xy 172.72 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "533f0996-6978-4304-8015-1b7fbb71c45f")
+	)
+	(wire
+		(pts
+			(xy 139.7 38.1) (xy 144.78 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5591777e-ab85-4dc3-bc03-11790d36f3ea")
+	)
+	(wire
+		(pts
+			(xy 64.77 38.1) (xy 60.96 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56912168-17c1-4fc4-89b7-f36cd94d4671")
+	)
+	(wire
+		(pts
+			(xy 184.15 55.88) (xy 184.15 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59a55970-e5fb-4eac-be87-fe186c671f92")
+	)
+	(polyline
+		(pts
+			(xy 55.88 19.05) (xy 55.88 69.85)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "602dde9f-6482-4d20-9b3b-5f948a042dfe")
+	)
+	(wire
+		(pts
+			(xy 179.07 55.88) (xy 179.07 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "625d7129-e825-4a31-b01d-450da5cd3aa3")
+	)
+	(wire
+		(pts
+			(xy 189.23 43.18) (xy 189.23 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62ab790f-bcee-4deb-b66f-73f5a422b3f1")
+	)
+	(wire
+		(pts
+			(xy 85.09 35.56) (xy 90.17 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63c5e4e6-31fb-4601-bca9-952258455e7d")
+	)
+	(wire
+		(pts
+			(xy 168.91 55.88) (xy 173.99 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6941e2b6-f702-4792-80a9-c9d88d027ff2")
+	)
+	(wire
+		(pts
+			(xy 181.61 49.53) (xy 179.07 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72d09e79-9b56-4e26-931f-b445bdd53488")
+	)
+	(wire
+		(pts
+			(xy 158.75 55.88) (xy 163.83 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73d371a9-a72c-49cd-9485-8e0bb5637a7b")
+	)
+	(wire
+		(pts
+			(xy 74.93 35.56) (xy 85.09 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76abd6a1-e0da-4b89-af8f-12a6f4faf07f")
+	)
+	(wire
+		(pts
+			(xy 78.74 40.64) (xy 90.17 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77b4563f-9103-41a2-9a27-a5f7998ed2ff")
+	)
+	(wire
+		(pts
+			(xy 179.07 67.31) (xy 173.99 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7afe1568-d110-42aa-89cb-99a50aa3f27f")
+	)
+	(wire
+		(pts
+			(xy 179.07 27.94) (xy 179.07 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e24a329-a884-49b1-ad67-e747b9337392")
+	)
+	(wire
+		(pts
+			(xy 168.91 55.88) (xy 168.91 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80a0c36d-29df-4e3a-88c6-d826583f9b39")
+	)
+	(polyline
+		(pts
+			(xy 99.06 69.85) (xy 55.88 69.85)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "80d34c5e-58a1-42e5-9a36-c212242d9d1e")
+	)
+	(wire
+		(pts
+			(xy 78.74 40.64) (xy 78.74 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84b75c46-5272-4472-bbb7-42348d9b58fd")
+	)
+	(polyline
+		(pts
+			(xy 99.06 19.05) (xy 99.06 104.14)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "87155915-478a-47c7-911f-510bb73e98a6")
+	)
+	(wire
+		(pts
+			(xy 163.83 55.88) (xy 168.91 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f993afc-921f-474a-8c7c-2465542d1d65")
+	)
+	(wire
+		(pts
+			(xy 179.07 35.56) (xy 179.07 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94706c81-d341-4933-be91-1b3a8334eb9d")
+	)
+	(wire
+		(pts
+			(xy 158.75 43.18) (xy 158.75 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b6d5e74-f378-4704-9281-be06beb6d7bb")
+	)
+	(wire
+		(pts
+			(xy 81.28 53.34) (xy 81.28 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a267c5cd-4552-4c9a-988b-bafcac9eb06e")
+	)
+	(wire
+		(pts
+			(xy 78.74 53.34) (xy 81.28 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a34e0bd7-ba28-475f-b54c-48a82d271807")
+	)
+	(polyline
+		(pts
+			(xy 196.85 77.47) (xy 151.13 77.47)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "a533ba05-9044-407b-a520-55503b1db3b1")
+	)
+	(wire
+		(pts
+			(xy 158.75 55.88) (xy 158.75 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aea350e9-78f1-4814-996b-dd26e7e6d4ef")
+	)
+	(wire
+		(pts
+			(xy 144.78 35.56) (xy 144.78 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1ae7301-6e15-4ccc-9bcd-c0a8dd83552e")
+	)
+	(wire
+		(pts
+			(xy 85.09 53.34) (xy 85.09 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b420c2ae-e4f9-4858-89f2-217e42746e29")
+	)
+	(wire
+		(pts
+			(xy 27.94 54.61) (xy 27.94 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4d2b3af-2951-4cfb-8bf5-0975766fae63")
+	)
+	(wire
+		(pts
+			(xy 179.07 49.53) (xy 179.07 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7d47985-2f00-42c9-8a0f-61fe5c4c136f")
+	)
+	(wire
+		(pts
+			(xy 144.78 26.67) (xy 158.75 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc04ff42-47e6-44ef-b3f2-fff57ec1aa11")
+	)
+	(wire
+		(pts
+			(xy 74.93 40.64) (xy 78.74 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdc6648a-5e88-4ba4-b946-1f8172277120")
+	)
+	(wire
+		(pts
+			(xy 189.23 25.4) (xy 189.23 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be0cdf55-a861-4806-a096-90e10b4a5216")
+	)
+	(wire
+		(pts
+			(xy 173.99 67.31) (xy 173.99 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca953e31-96c0-4364-9bc2-79ef6f3b16fe")
+	)
+	(polyline
+		(pts
+			(xy 151.13 77.47) (xy 151.13 102.87)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "ce31299a-d4d8-46f5-9b72-ca2174d0b811")
+	)
+	(wire
+		(pts
+			(xy 179.07 66.04) (xy 179.07 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0920966-c18d-49d7-a18f-b4046c9dae2b")
+	)
+	(wire
+		(pts
+			(xy 179.07 26.67) (xy 158.75 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4b46452-e976-4933-ab48-88bda5f242b6")
+	)
+	(wire
+		(pts
+			(xy 163.83 66.04) (xy 163.83 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4edc0fd-a47f-4958-8980-dca719666580")
+	)
+	(wire
+		(pts
+			(xy 163.83 67.31) (xy 168.91 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dac48600-89eb-497e-aa83-80766cab362f")
+	)
+	(polyline
+		(pts
+			(xy 55.88 69.85) (xy 12.7 69.85)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "db541dd2-e010-4101-a237-ae1a4e3f648d")
+	)
+	(polyline
+		(pts
+			(xy 196.85 19.05) (xy 12.7 19.05)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(uuid "df88cbf0-3c64-4018-b4ed-199565678bfb")
+	)
+	(wire
+		(pts
+			(xy 168.91 67.31) (xy 173.99 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e00b8db5-8faa-4d98-b309-bdb163e8c467")
+	)
+	(wire
+		(pts
+			(xy 158.75 26.67) (xy 158.75 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e074d745-25e3-49d7-9192-943d7d96b7e3")
+	)
+	(wire
+		(pts
+			(xy 184.15 55.88) (xy 189.23 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1631e48-7708-4d4a-9395-1930d9b016f6")
+	)
+	(wire
+		(pts
+			(xy 179.07 55.88) (xy 184.15 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1fea2a3-ebf8-4a5c-b60a-3838e6d76e92")
+	)
+	(wire
+		(pts
+			(xy 172.72 38.1) (xy 179.07 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2ae9cd5-a86c-47ce-a9e6-5bead396a342")
+	)
+	(wire
+		(pts
+			(xy 158.75 66.04) (xy 158.75 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3795be2-8aff-4909-a3bc-58454dc79bfe")
+	)
+	(wire
+		(pts
+			(xy 173.99 66.04) (xy 173.99 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e937385e-d028-4d49-b1d9-587c412d6cfe")
+	)
+	(wire
+		(pts
+			(xy 189.23 66.04) (xy 189.23 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e94c40a5-45e4-4386-8db5-27f89ad58f2b")
+	)
+	(wire
+		(pts
+			(xy 172.72 99.06) (xy 181.61 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2ae7c5b-346f-46a9-a193-f9b8d2b6a5fb")
+	)
+	(wire
+		(pts
+			(xy 27.94 50.8) (xy 21.59 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9b2ed20-b53e-41ef-9123-f0fc72bcd4bc")
+	)
+	(text "Sheet Output"
+		(exclude_from_sim no)
+		(at 153.67 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "211ea1a1-0bba-4d21-a62a-abf7702a3e21")
+	)
+	(text "This circuit connects VDD to either\n5V or 3V3. When G1 is low, it makes\nPMOS Q4 conduct. When G2 is low,\nit makes PMOS Q5 and Q6 conduct.\n\nPMOS Q5 and Q6 are in anti-series\n(notice how Q6 is differently or-\niented than Q5) such that the body\ndiodes won't let the 5V flow into the\n3V3 when Q4 is conducting and Q5\nand Q6 are off."
+		(exclude_from_sim no)
+		(at 101.6 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3095e286-48a4-4ab3-b52e-0c8fede60eb0")
+	)
+	(text "Voltage Selection Circuit"
+		(exclude_from_sim no)
+		(at 101.6 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "31de7d82-f527-4f24-96a7-a1dbc03625ad")
+	)
+	(text "The input to this schematic sheet is\nall the voltage levels:\n> GND\n> +5V\n> +3V3\n\nIt's not strictly necessary to input\nthem here, as they're global symbols."
+		(exclude_from_sim no)
+		(at 13.97 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d499293-f6b3-42ec-9439-942b1f033df7")
+	)
+	(text "Sheet Input"
+		(exclude_from_sim no)
+		(at 13.97 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "55d73327-eeb3-4554-9ccb-13c0a2413623")
+	)
+	(text "The slide switch pulls either\nsignal G1 or signal G2 to GND."
+		(exclude_from_sim no)
+		(at 58.42 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e1796e1-d4cb-4c48-aee8-1e4f2eb90600")
+	)
+	(text "VOLTAGE SELECTION"
+		(exclude_from_sim no)
+		(at 90.17 17.78 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6b4e934-5792-4b98-b1ba-f38b606f9644")
+	)
+	(text "Slide Switch"
+		(exclude_from_sim no)
+		(at 58.42 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "b29f0a18-e0d5-45c7-b236-2bc09c472a93")
+	)
+	(text "The selected PMOS is DMP1045U-7.\nThis PMOS has a low on-resistance.\nWhen the V_GS = 3V3, the resistance\nis less than 40mΩ.\n\nThis PMOS conducts 500mA without\nissues - it can actually go way\nhigher."
+		(exclude_from_sim no)
+		(at 101.6 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c58eb6d2-91e3-4ca3-8b0f-ec217d3492da")
+	)
+	(text "The output of this sheet is the VDD\nvoltage level. As it's a global\nsymbol, it's strictly not necessary\nto output it here."
+		(exclude_from_sim no)
+		(at 153.67 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1978e29-977a-4d2c-8b25-5240e47cc7a7")
+	)
+	(label "G1"
+		(at 90.17 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "576fda19-afcb-4549-8be7-9c2d337526b2")
+	)
+	(label "G2"
+		(at 90.17 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ba422f62-d330-4a33-8140-ab32439cd218")
+	)
+	(label "G2"
+		(at 172.72 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba43b3cd-7472-438c-b833-90aeb6be48bc")
+	)
+	(label "G1"
+		(at 139.7 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d37db93b-eba1-4351-8383-68f8118efc5d")
+	)
+	(hierarchical_label "+3V3"
+		(shape passive)
+		(at 21.59 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "07cb4fc3-aec2-407f-b61e-81335709a5d2")
+	)
+	(hierarchical_label "+5V"
+		(shape passive)
+		(at 21.59 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0c04fcfa-d2b2-4c38-9b46-2e1066aaae7c")
+	)
+	(hierarchical_label "VDD"
+		(shape output)
+		(at 181.61 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "426b685e-30bb-48dc-82fe-7785e438f30a")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 21.59 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4f2008ee-e68e-4ce2-b72b-da783d57cdc5")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 179.07 62.23 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17d4349f-3c70-4925-8087-0aa4598d8054")
+		(property "Reference" "C34"
+			(at 179.07 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 179.07 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 178.1048 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung electro-mechanics"
+			(at 179.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21A106KAYNNNE"
+			(at 179.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C15850"
+			(at 179.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "25V 10uF X5R ±10% 0805"
+			(at 179.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "906c8693-2b42-4865-b5f2-37783e6cfb2b")
+		)
+		(pin "2"
+			(uuid "ceef82e4-20c6-4e01-8b15-e73c175db82b")
+		)
+		(instances
+			(project "tiny-scarab"
+				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 168.91 62.23 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b243793-1415-4cfd-81fd-1235d2a3c028")
+		(property "Reference" "C32"
+			(at 168.91 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 168.91 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 167.9448 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung electro-mechanics"
+			(at 168.91 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21A106KAYNNNE"
+			(at 168.91 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C15850"
+			(at 168.91 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "25V 10uF X5R ±10% 0805"
+			(at 168.91 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f3fa671-c1d8-41f9-9c8f-ca323efa9774")
+		)
+		(pin "2"
+			(uuid "95ff08ee-a9a2-4daf-838f-a43359955026")
+		)
+		(instances
+			(project "tiny-scarab"
+				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 27.94 50.8 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1da00ecc-8d3b-43f6-87df-00e88a56ef30")
+		(property "Reference" "#PWR074"
+			(at 24.13 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 30.48 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b7d6883-85fe-4e8e-b020-2aa492e11013")
+		)
+		(instances
+			(project "tiny-scarab"
+				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Tiny_Scarab:TVS_SP1007-01ETG")
+		(at 78.74 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "29eae40b-0a57-4beb-8ba3-42b4038b6da2")
+		(property "Reference" "TVS7"
+			(at 77.47 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5V"
+			(at 81.28 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Tiny_Scarab:D_SOD-882_SP1007-01ETG"
+			(at 67.31 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Littelfuse"
+			(at 67.31 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SP1007-01ETG"
+			(at 67.31 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C126836"
+			(at 67.31 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "F6187TR-ND"
+			(at 67.31 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Farnell" "2777317"
+			(at 78.74 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "576-SP1007-01ETG"
+			(at 78.74 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a9ca2c2-5e96-4e85-9eab-ed86ea17808c")
+		)
+		(pin "2"
+			(uuid "b8c8cb26-8a63-4612-b17e-0bdb73443044")
+		)
+		(instances
+			(project "tiny-scarab"
+				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
+					(reference "TVS7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Tiny_Scarab:PMOS_DMP1045U-7")
+		(at 186.69 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30d8adcd-cafd-41a0-844f-b7f0e52dbe98")
+		(property "Reference" "Q5"
+			(at 190.5 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMP1045U-7"
+			(at 193.04 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Tiny_Scarab:SOT-23_DMP1045U-7"
+			(at 186.69 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 186.69 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DMP1045U-7"
+			(at 186.69 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C177033"
+			(at 186.69 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "DMP1045U-7DITR-ND"
+			(at 186.69 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell" "3127351"
+			(at 186.69 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "621-DMP1045U-7"
+			(at 186.69 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53b2cc8f-dd9b-4a79-bdbf-047954c0968c")
+		)
+		(pin "3"
+			(uuid "c56d4885-71be-4776-b8b0-aaf7911838cc")
+		)
+		(pin "2"
+			(uuid "df9e4183-364f-455e-b3f6-086bddd0e573")
+		)
+		(instances
+			(project "tiny-scarab"
+				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 158.75 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a7dace3-a69f-4d11-ae19-36675b8f6e0c")
+		(property "Reference" "#PWR068"
+			(at 158.75 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 158.75 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9369b2be-f20b-4100-9256-9f03cc66789e")
+		)
+		(instances
+			(project "tiny-scarab"
+				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 144.78 31.75 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ad8559b-2c23-4264-b798-db44ffeb42e0")
+		(property "Reference" "R24"
+			(at 144.78 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 148.59 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 146.558 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 144.78 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1003TCE"
+			(at 144.78 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25741"
+			(at 144.78 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d20ce5f3-b3b3-4cb1-8b46-17e32e0b8d63")
+		)
+		(pin "1"
+			(uuid "d825f424-7349-4ea9-a117-91e6fd952550")
+		)
+		(instances
+			(project "tiny-scarab"
+				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 27.94 54.61 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c516ff6-141f-45f8-a869-0ce8617aff96")
+		(property "Reference" "#PWR072"
+			(at 27.94 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 29.21 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4951c8ff-5947-4754-b29a-95dd88aa99e0")
+		)
+		(instances
+			(project "tiny-scarab"
+				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 81.28 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4568ef43-bd3f-4d9e-9bfa-6023b6f07670")
+		(property "Reference" "#PWR071"
+			(at 81.28 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06a9a642-44ea-4abe-b30f-a156ead18cf3")
+		)
+		(instances
+			(project "tiny-scarab"
+				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 184.15 62.23 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b9048f9-407e-44a2-8fb0-65efd6ebb0a0")
+		(property "Reference" "C35"
+			(at 184.15 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 184.15 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 183.1848 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung electro-mechanics"
+			(at 184.15 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21A106KAYNNNE"
+			(at 184.15 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C15850"
+			(at 184.15 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "25V 10uF X5R ±10% 0805"
+			(at 184.15 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aea97a50-7f3b-4093-8d1d-4fe8db961719")
+		)
+		(pin "2"
+			(uuid "81170714-e2dc-45fc-b72d-96165f990f0d")
+		)
+		(instances
+			(project "tiny-scarab"
+				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Tiny_Scarab:PMOS_DMP1045U-7")
+		(at 186.69 38.1 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d07f87d-6cac-4d0a-b4c5-20e35853bf6e")
+		(property "Reference" "Q4"
+			(at 190.5 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMP1045U-7"
+			(at 193.04 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Tiny_Scarab:SOT-23_DMP1045U-7"
+			(at 186.69 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 186.69 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DMP1045U-7"
+			(at 186.69 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C177033"
+			(at 186.69 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "DMP1045U-7DITR-ND"
+			(at 186.69 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell" "3127351"
+			(at 186.69 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "621-DMP1045U-7"
+			(at 186.69 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd18f066-03ab-4dca-acc1-e176fba34dc1")
+		)
+		(pin "3"
+			(uuid "6b4a7103-4cbe-413b-811f-3bfb45c7ae87")
+		)
+		(pin "2"
+			(uuid "95742f50-20aa-4ec1-b0ae-cbdbc5f1df91")
+		)
+		(instances
+			(project "tiny-scarab"
+				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 163.83 62.23 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5dd1c459-aacf-43b5-9580-80c5569879f5")
+		(property "Reference" "C31"
+			(at 163.83 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 163.83 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 162.8648 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung electro-mechanics"
+			(at 163.83 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 163.83 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1525"
+			(at 163.83 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "16V 100nF X7R ±10% 0402"
+			(at 163.83 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4893020-dcf3-4ead-b72e-30e4737355df")
+		)
+		(pin "2"
+			(uuid "39d4a063-14be-4228-808f-0d43e9b291cb")
+		)
+		(instances
+			(project "tiny-scarab"
+				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 189.23 62.23 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b6b4382-fdfe-4898-8ffb-3abb42ce5a40")
+		(property "Reference" "C36"
+			(at 189.23 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 189.23 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 188.2648 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 189.23 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung electro-mechanics"
+			(at 189.23 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21A106KAYNNNE"
+			(at 189.23 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C15850"
+			(at 189.23 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "25V 10uF X5R ±10% 0805"
+			(at 189.23 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ecb52ea-cabc-4e24-bb6a-de82fb38a1fc")
+		)
+		(pin "2"
+			(uuid "9caaa606-df72-442a-ac6d-42052b493d75")
+		)
+		(instances
+			(project "tiny-scarab"
+				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Tiny_Scarab:TVS_SP1007-01ETG")
+		(at 85.09 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6fb47097-cf2e-452a-9023-0353a96425d2")
+		(property "Reference" "TVS8"
+			(at 83.82 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5V"
+			(at 87.63 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Tiny_Scarab:D_SOD-882_SP1007-01ETG"
+			(at 73.66 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Littelfuse"
+			(at 73.66 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SP1007-01ETG"
+			(at 73.66 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C126836"
+			(at 73.66 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "F6187TR-ND"
+			(at 73.66 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Farnell" "2777317"
+			(at 85.09 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "576-SP1007-01ETG"
+			(at 85.09 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62fa6a29-ef91-42d3-b9f0-879cc6a77b35")
+		)
+		(pin "2"
+			(uuid "c0a099d8-0876-4ebe-aadc-03b6fd978b55")
+		)
+		(instances
+			(project "tiny-scarab"
+				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
+					(reference "TVS8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "752f5767-77ba-4b81-9fba-0674271dde7d")
+		(property "Reference" "#PWR036"
+			(at 60.96 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1dbad59c-57a0-4dc1-8f71-71c22aa47487")
+		)
+		(instances
+			(project "tiny-scarab"
+				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 158.75 62.23 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a1a4002-3ae7-4c60-853f-7763cc7f261e")
+		(property "Reference" "C30"
+			(at 158.75 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 158.75 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 157.7848 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung electro-mechanics"
+			(at 158.75 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 158.75 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1525"
+			(at 158.75 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "16V 100nF X7R ±10% 0402"
+			(at 158.75 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "093c2ec2-0f91-4a9f-a3fc-399a76216b21")
+		)
+		(pin "2"
+			(uuid "f5a07fdd-36ae-4269-b341-7a2c7d1edb60")
+		)
+		(instances
+			(project "tiny-scarab"
+				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 189.23 25.4 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95a91211-890d-491c-84d7-e1dd96f4da34")
+		(property "Reference" "#PWR069"
+			(at 189.23 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 189.23 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 189.23 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6e8f5a5-b045-4ebd-8122-e003f6dee8c9")
+		)
+		(instances
+			(project "tiny-scarab"
+				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 179.07 31.75 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e701483-e657-4555-9cb3-7c0aa17eb29d")
+		(property "Reference" "R25"
+			(at 179.07 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 182.88 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 180.848 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 179.07 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1003TCE"
+			(at 179.07 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25741"
+			(at 179.07 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0c798c23-a1fb-41a2-9fcf-6ac178bbbe3d")
+		)
+		(pin "1"
+			(uuid "c5c3068b-236f-485c-9ce2-59321bd0ce97")
+		)
+		(instances
+			(project "tiny-scarab"
+				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Tiny_Scarab:SW_SS-3235D-03-L3")
+		(at 69.85 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2187b8f-859a-4ce8-8476-3147522bf6b9")
+		(property "Reference" "SW4"
+			(at 69.85 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12V 50mA"
+			(at 69.85 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Tiny_Scarab:SW_Slide_SPDT_XKB-Connectivity_SS-3235D-03-L3"
+			(at 69.85 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XKB Connectivity"
+			(at 69.85 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SS-3235D-03-L3"
+			(at 69.85 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C2884764"
+			(at 69.85 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" ""
+			(at 69.85 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell" ""
+			(at 69.85 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 69.85 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22c9f7c8-903e-4f66-90b9-86cb903b51d5")
+		)
+		(pin "2"
+			(uuid "2efff236-dffc-4a86-9800-6cf50a5d6cb9")
+		)
+		(pin "3"
+			(uuid "3a39e92f-fd77-4d5f-85b6-f2c286cc2e18")
+		)
+		(instances
+			(project "tiny-scarab"
+				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 173.99 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c26c61dc-3adc-4142-9de4-fedd0bb65816")
+		(property "Reference" "#PWR070"
+			(at 173.99 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 173.99 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9d70d9c-e035-482c-ba52-be531363762a")
+		)
+		(instances
+			(project "tiny-scarab"
+				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 173.99 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c672549b-3661-458b-8d63-2595b8760b48")
+		(property "Reference" "#PWR04"
+			(at 173.99 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.99 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2200198d-a64c-48ce-8efb-f2c271abad45")
+		)
+		(instances
+			(project "tiny-scarab"
+				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Tiny_Scarab:PMOS_DMP1045U-7")
+		(at 156.21 38.1 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c95de9aa-e97e-4127-a776-439f94eb9a45")
+		(property "Reference" "Q3"
+			(at 160.02 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMP1045U-7"
+			(at 162.56 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Tiny_Scarab:SOT-23_DMP1045U-7"
+			(at 156.21 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 156.21 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DMP1045U-7"
+			(at 156.21 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C177033"
+			(at 156.21 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "DMP1045U-7DITR-ND"
+			(at 156.21 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell" "3127351"
+			(at 156.21 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "621-DMP1045U-7"
+			(at 156.21 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6216503-6dbd-4d8a-b55d-b5b6bc9c27e3")
+		)
+		(pin "3"
+			(uuid "142e2cb3-a430-48ce-aab5-9b6d00fe2a18")
+		)
+		(pin "2"
+			(uuid "7b34f1a4-fff4-451f-8efc-04b9d4dc05fb")
+		)
+		(instances
+			(project "tiny-scarab"
+				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 172.72 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb45dcc7-c87e-4217-8e3b-7a0477832110")
+		(property "Reference" "#PWR075"
+			(at 172.72 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 175.26 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54ce1828-0dd0-42e0-a7ca-0e2819ad99e7")
+		)
+		(instances
+			(project "tiny-scarab"
+				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 173.99 62.23 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3abb423-f893-4465-a9d4-a7e23b75e9e3")
+		(property "Reference" "C33"
+			(at 173.99 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 173.99 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 173.0248 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung electro-mechanics"
+			(at 173.99 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21A106KAYNNNE"
+			(at 173.99 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C15850"
+			(at 173.99 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "25V 10uF X5R ±10% 0805"
+			(at 173.99 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4fc9fba-0501-4430-8195-d8df7dcd14a9")
+		)
+		(pin "2"
+			(uuid "5f1c9ea4-9c48-4d89-98a5-97a946ef54f4")
+		)
+		(instances
+			(project "tiny-scarab"
+				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 27.94 48.26 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d6e6bb1b-e260-4729-b086-49cf3a8c8d11")
+		(property "Reference" "#PWR073"
+			(at 24.13 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 30.48 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "944a05ca-d317-4e34-ba72-541774425d56")
+		)
+		(instances
+			(project "tiny-scarab"
+				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
