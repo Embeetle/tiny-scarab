@@ -6,7 +6,7 @@
 	(paper "A5")
 	(title_block
 		(title "Tiny Scarab")
-		(date "2024-01-30")
+		(date "2024-03-04")
 		(rev "0.2")
 		(company "Embeetle")
 		(comment 1 "https://embeetle.com/tiny-scarab")
@@ -470,7 +470,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+			(property "Footprint" "Tiny_Scarab:TSSOP-20_4.4x6.5mm_P0.65mm"
 				(at 1.27 -30.48 0)
 				(effects
 					(font
@@ -1252,6 +1252,15 @@
 					(hide yes)
 				)
 			)
+			(property "JLCPCB Rotation Offset" "180"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "NMOS_DMG1012UW-7_0_1"
 				(polyline
 					(pts
@@ -1574,6 +1583,15 @@
 			)
 			(property "Mouser" ""
 				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Rotation Offset" "90"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2183,9 +2201,9 @@
 		)
 		(symbol "power:+3V3"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2283,8 +2301,8 @@
 			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+3V3"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2303,9 +2321,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2379,8 +2397,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5671,7 +5689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 116.84 96.52 0)
 			(effects
 				(font
@@ -5738,7 +5756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 146.05 30.48 0)
 			(effects
 				(font
@@ -5843,7 +5861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 132.08 36.83 0)
 			(effects
 				(font
@@ -5910,7 +5928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 100.33 66.04 0)
 			(effects
 				(font
@@ -5974,7 +5992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 39.37 104.14 0)
 			(effects
 				(font
@@ -6070,7 +6088,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED blue 0603"
 			(at 52.07 92.71 0)
 			(effects
 				(font
@@ -6192,7 +6210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 46.99 85.09 0)
 			(effects
 				(font
@@ -6256,7 +6274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 138.43 57.15 0)
 			(effects
 				(font
@@ -6351,7 +6369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Solder Jumper, 2-pole, open"
 			(at 115.57 44.45 0)
 			(effects
 				(font
@@ -6420,7 +6438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED blue 0603"
 			(at 40.64 92.71 0)
 			(effects
 				(font
@@ -6544,7 +6562,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 95.25 59.69 0)
 			(effects
 				(font
@@ -6649,7 +6667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 100.33 53.34 0)
 			(effects
 				(font
@@ -6713,7 +6731,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 74.93 95.25 0)
 			(effects
 				(font
@@ -6807,7 +6825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 41.91 104.14 0)
 			(effects
 				(font
@@ -6901,7 +6919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 50.8 104.14 0)
 			(effects
 				(font
@@ -6997,7 +7015,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "NO push button, 12V, 50mA, short handle"
 			(at 80.01 104.14 0)
 			(effects
 				(font
@@ -7053,6 +7071,15 @@
 		)
 		(property "Mouser" ""
 			(at 87.63 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "90"
+			(at 80.01 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7129,7 +7156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TVS bidirectional, 6V, 3.5pF"
 			(at 69.85 104.14 0)
 			(effects
 				(font
@@ -7257,7 +7284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 86.36 132.08 0)
 			(effects
 				(font
@@ -7322,7 +7349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 76.2 118.11 0)
 			(effects
 				(font
@@ -7416,7 +7443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 53.34 104.14 0)
 			(effects
 				(font
@@ -7513,7 +7540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "NMOS 20V, 1A"
 			(at 49.53 120.65 0)
 			(effects
 				(font
@@ -7569,6 +7596,15 @@
 		)
 		(property "Mouser" "621-DMG1012UW-7"
 			(at 49.53 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "180"
+			(at 49.53 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7642,7 +7678,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TVS bidirectional, 6V, 3.5pF"
 			(at 71.12 128.27 0)
 			(effects
 				(font
@@ -7767,7 +7803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 121.92 86.36 0)
 			(effects
 				(font
@@ -7861,7 +7897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "32-bit Interconnectivity RISC-V MCU"
 			(at 166.37 45.72 0)
 			(effects
 				(font
@@ -8045,7 +8081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 121.92 101.6 0)
 			(effects
 				(font
@@ -8141,7 +8177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "NO push button, 12V, 50mA, short handle"
 			(at 81.28 128.27 0)
 			(effects
 				(font
@@ -8197,6 +8233,15 @@
 		)
 		(property "Mouser" ""
 			(at 88.9 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "90"
+			(at 81.28 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8271,7 +8316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 77.47 128.27 0)
 			(effects
 				(font
@@ -8377,7 +8422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 135.89 30.48 0)
 			(effects
 				(font
@@ -8480,7 +8525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 121.92 83.82 0)
 			(effects
 				(font
@@ -8576,7 +8621,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 99.06 101.6 0)
 			(effects
 				(font
@@ -8680,7 +8725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 104.14 96.52 0)
 			(effects
 				(font
@@ -8746,7 +8791,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 95.25 95.25 0)
 			(effects
 				(font
@@ -8810,7 +8855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 124.46 44.45 0)
 			(effects
 				(font
@@ -8906,7 +8951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 132.08 24.13 0)
 			(effects
 				(font
@@ -8972,7 +9017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 36.83 54.61 0)
 			(effects
 				(font
@@ -9041,7 +9086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TVS bidirectional, 6V, 3.5pF"
 			(at 137.16 92.71 0)
 			(effects
 				(font
@@ -9167,7 +9212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 139.7 100.33 0)
 			(effects
 				(font
@@ -9235,7 +9280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Crystal 12MHz 20pF ±20ppm"
 			(at 110.49 93.98 0)
 			(effects
 				(font
@@ -9365,7 +9410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 140.97 30.48 0)
 			(effects
 				(font
@@ -9469,7 +9514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 85.09 107.95 0)
 			(effects
 				(font
@@ -9535,7 +9580,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "NO push button, 12V, 50mA, short handle"
 			(at 139.7 92.71 0)
 			(effects
 				(font
@@ -9591,6 +9636,15 @@
 		)
 		(property "Mouser" ""
 			(at 147.32 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "90"
+			(at 139.7 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9665,7 +9719,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 105.41 59.69 0)
 			(effects
 				(font
@@ -9769,7 +9823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 190.5 34.29 0)
 			(effects
 				(font
@@ -9866,7 +9920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "NMOS 20V, 1A"
 			(at 38.1 120.65 0)
 			(effects
 				(font
@@ -9922,6 +9976,15 @@
 		)
 		(property "Mouser" "621-DMG1012UW-7"
 			(at 38.1 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "180"
+			(at 38.1 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9990,7 +10053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 138.43 67.31 0)
 			(effects
 				(font
@@ -10087,7 +10150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 76.2 104.14 0)
 			(effects
 				(font
@@ -10192,7 +10255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 69.85 116.84 0)
 			(effects
 				(font
@@ -10256,7 +10319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 138.43 63.5 0)
 			(effects
 				(font
@@ -10350,7 +10413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 27.94 120.65 0)
 			(effects
 				(font
@@ -10444,7 +10507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 22.86 106.68 0)
 			(effects
 				(font
@@ -10540,7 +10603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 36.83 128.27 0)
 			(effects
 				(font
@@ -10605,7 +10668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 69.85 93.98 0)
 			(effects
 				(font
@@ -10669,7 +10732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 138.43 60.96 0)
 			(effects
 				(font
@@ -10765,7 +10828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 36.83 52.07 0)
 			(effects
 				(font
@@ -10829,7 +10892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 138.43 54.61 0)
 			(effects
 				(font
@@ -10926,7 +10989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 100.33 59.69 0)
 			(effects
 				(font
@@ -11031,7 +11094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 99.06 86.36 0)
 			(effects
 				(font

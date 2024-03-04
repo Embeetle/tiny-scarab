@@ -6,7 +6,7 @@
 	(paper "A5")
 	(title_block
 		(title "Tiny Scarab")
-		(date "2024-01-30")
+		(date "2024-03-04")
 		(rev "0.2")
 		(company "Embeetle")
 		(comment 1 "https://embeetle.com/tiny-scarab")
@@ -997,9 +997,9 @@
 		)
 		(symbol "power:+3V3"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1097,8 +1097,8 @@
 			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+3V3"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1117,9 +1117,9 @@
 		)
 		(symbol "power:+5V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1217,8 +1217,8 @@
 			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+5V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1237,9 +1237,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1313,8 +1313,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1333,9 +1333,9 @@
 		)
 		(symbol "power:VDD"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1349,7 +1349,7 @@
 				)
 			)
 			(property "Value" "VDD"
-				(at 0 3.81 0)
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1433,8 +1433,8 @@
 			(symbol "VDD_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "VDD"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2538,7 +2538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 179.07 62.23 0)
 			(effects
 				(font
@@ -2644,7 +2644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 168.91 62.23 0)
 			(effects
 				(font
@@ -2750,7 +2750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 27.94 50.8 0)
 			(effects
 				(font
@@ -2819,7 +2819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TVS bidirectional, 6V, 3.5pF"
 			(at 78.74 49.53 0)
 			(effects
 				(font
@@ -2947,7 +2947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PMOS 12V, 4A"
 			(at 186.69 49.53 0)
 			(effects
 				(font
@@ -3072,7 +3072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 158.75 25.4 0)
 			(effects
 				(font
@@ -3136,7 +3136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 144.78 31.75 0)
 			(effects
 				(font
@@ -3233,7 +3233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 27.94 54.61 0)
 			(effects
 				(font
@@ -3298,7 +3298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 81.28 55.88 0)
 			(effects
 				(font
@@ -3365,7 +3365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 184.15 62.23 0)
 			(effects
 				(font
@@ -3472,7 +3472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PMOS 12V, 4A"
 			(at 186.69 38.1 0)
 			(effects
 				(font
@@ -3599,7 +3599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 163.83 62.23 0)
 			(effects
 				(font
@@ -3705,7 +3705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 189.23 62.23 0)
 			(effects
 				(font
@@ -3813,7 +3813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TVS bidirectional, 6V, 3.5pF"
 			(at 85.09 49.53 0)
 			(effects
 				(font
@@ -3939,7 +3939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 60.96 40.64 0)
 			(effects
 				(font
@@ -4006,7 +4006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 158.75 62.23 0)
 			(effects
 				(font
@@ -4111,7 +4111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 189.23 25.4 0)
 			(effects
 				(font
@@ -4175,7 +4175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 179.07 31.75 0)
 			(effects
 				(font
@@ -4270,7 +4270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SPDT slide switch, 12V, 50mA"
 			(at 69.85 38.1 0)
 			(effects
 				(font
@@ -4396,7 +4396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
 			(at 173.99 52.07 0)
 			(effects
 				(font
@@ -4462,7 +4462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 173.99 71.12 0)
 			(effects
 				(font
@@ -4530,7 +4530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PMOS 12V, 4A"
 			(at 156.21 38.1 0)
 			(effects
 				(font
@@ -4655,7 +4655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
 			(at 172.72 96.52 0)
 			(effects
 				(font
@@ -4722,7 +4722,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 173.99 62.23 0)
 			(effects
 				(font
@@ -4828,7 +4828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 27.94 48.26 0)
 			(effects
 				(font
