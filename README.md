@@ -36,4 +36,13 @@ There's no need to wire up anything. Just plug the Tiny Scarab's USB-C port in y
   - [Flash/Debug Probe Firmware](documentation/readme_flash_debug_probe_firmware.md)
   - [Target MCU Firmware](documentation/readme_target_mcu_firmware.md)
 
+NOTES FOR MYSELF
+================
+Improvement points:
+- Bulges in encasing don't fit board.
+- Tag Connect needs a recess in the enclosure.
+- Light bleeds between lightpipes. Lightpipes and LEDs too expensive.
+- Graphical membrane needs 1.2mm edge.
+- 3/5V indication on board is wrong. On graphical membrane it's correct.
+
 

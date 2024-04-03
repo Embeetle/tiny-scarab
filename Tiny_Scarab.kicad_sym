@@ -949,7 +949,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Position Offset" "0,1.26"
+		(property "JLCPCB Position Offset" "0,1.22"
 			(at 0 0 0)
 			(effects
 				(font
