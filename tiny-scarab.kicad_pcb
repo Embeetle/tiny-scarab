@@ -27168,7 +27168,7 @@
 		)
 		(fp_arc
 			(start 2.55 -1.468826)
-			(mid 2.41619 -1.51953)
+			(mid 2.416179 -1.519539)
 			(end 2.357361 -1.65)
 			(stroke
 				(width 0.05)
@@ -27190,7 +27190,7 @@
 		)
 		(fp_arc
 			(start 2.357826 1.65)
-			(mid 2.416295 1.519379)
+			(mid 2.416295 1.519383)
 			(end 2.55 1.468361)
 			(stroke
 				(width 0.05)
@@ -50374,7 +50374,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "3V3"
+	(gr_text "5V"
 		(at 110.49 63.08725 0)
 		(layer "F.SilkS")
 		(uuid "78b53df7-c7da-4bb3-8b4c-7eb01c4dbaaa")
@@ -50641,7 +50641,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "5V"
+	(gr_text "3V3"
 		(at 110.49 58.42 0)
 		(layer "F.SilkS")
 		(uuid "b4798a82-208f-48ea-af97-e0c44c4e2a5b")
