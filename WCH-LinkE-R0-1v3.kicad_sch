@@ -271,10 +271,11 @@
 			)
 		)
 		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers hide)
 			(pin_names
 				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
+			(exclude_from_sim yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "JP"
 				(at 0 2.032 0)
@@ -931,7 +932,7 @@
 				)
 			)
 		)
-		(symbol "Tiny_Scarab:LED_BLUE_CSL0902BT"
+		(symbol "Tiny_Scarab:LED_BLUE_XSW24061003"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -954,8 +955,8 @@
 					)
 				)
 			)
-			(property "Footprint" "Tiny_Scarab:LED_0603_CSL0902BT"
-				(at 0 25.4 0)
+			(property "Footprint" "Tiny_Scarab:LED_D3.0mm_blue"
+				(at 0 13.716 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -964,7 +965,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 15.24 0)
+				(at 0.254 5.334 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -972,8 +973,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "LED blue 0603"
-				(at 0 0 0)
+			(property "Description" "LED BLUE XSW24061003"
+				(at 0.254 5.334 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -981,8 +982,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "ROHM Semicon"
-				(at 0 22.86 0)
+			(property "Manufacturer" "Shenzhen Xisheng Microelectronics"
+				(at 0 11.684 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -990,8 +991,8 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "CSL0902BT"
-				(at 0 20.32 0)
+			(property "MPN" "xsw24061003"
+				(at 0 9.398 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -999,8 +1000,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB Part #" "C6538602"
-				(at 0 17.78 0)
+			(property "JLCPCB Part #" "C9900122774"
+				(at 0 7.366 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1008,8 +1009,8 @@
 					(hide yes)
 				)
 			)
-			(property "DigiKey" "846-CSL0902BT1TR-ND"
-				(at 0 17.78 0)
+			(property "DigiKey" ""
+				(at 0 5.842 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1017,8 +1018,8 @@
 					(hide yes)
 				)
 			)
-			(property "Farnell" "3954417"
-				(at 0 15.24 0)
+			(property "Farnell" ""
+				(at 0.254 9.906 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1026,8 +1027,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser" "755-CSL0902BT1"
-				(at 0 12.7 0)
+			(property "Mouser" ""
+				(at 0.508 7.874 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1044,7 +1045,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_BLUE_CSL0902BT_0_1"
+			(symbol "LED_BLUE_XSW24061003_0_1"
 				(polyline
 					(pts
 						(xy -1.27 -1.27) (xy -1.27 1.27)
@@ -1106,7 +1107,7 @@
 					)
 				)
 			)
-			(symbol "LED_BLUE_CSL0902BT_1_1"
+			(symbol "LED_BLUE_XSW24061003_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -2447,12 +2448,6 @@
 		(uuid "244fa38b-3876-4a3a-9da9-30671180e392")
 	)
 	(junction
-		(at 40.64 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "262304bb-e804-43fd-b0e2-43c192bd8e3a")
-	)
-	(junction
 		(at 92.71 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2469,12 +2464,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30eb8049-9c84-4bf9-8d46-e03387b3a6e0")
-	)
-	(junction
-		(at 52.07 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "32ade073-6db1-4b36-8683-40b022da0c0c")
 	)
 	(junction
 		(at 77.47 134.62)
@@ -2573,12 +2562,6 @@
 		(uuid "ad967350-7903-4fb8-a2ef-49dd262734c6")
 	)
 	(junction
-		(at 40.64 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bc5b02d3-21fb-4615-a8b2-e6a93451a4a6")
-	)
-	(junction
 		(at 40.64 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2615,12 +2598,6 @@
 		(uuid "eae537e6-3791-450b-9028-19fd569d2fdb")
 	)
 	(junction
-		(at 52.07 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ee5b4ec3-0099-4465-ba72-bd69b167ed11")
-	)
-	(junction
 		(at 125.73 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2646,16 +2623,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 96.52) (xy 52.07 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00ffa3de-7763-4bcb-9b91-d96926daa128")
-	)
-	(wire
-		(pts
 			(xy 22.86 87.63) (xy 22.86 102.87)
 		)
 		(stroke
@@ -2673,16 +2640,6 @@
 			(type default)
 		)
 		(uuid "03ffdc6a-854b-4ba4-8c40-6214d504cbbf")
-	)
-	(wire
-		(pts
-			(xy 53.34 99.06) (xy 53.34 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0447cfa2-3d4e-4278-9e3e-c23c2bb0d582")
 	)
 	(wire
 		(pts
@@ -2713,16 +2670,6 @@
 			(type default)
 		)
 		(uuid "05b8c2f5-738c-4c1e-9b0f-255f97a969d8")
-	)
-	(wire
-		(pts
-			(xy 52.07 109.22) (xy 52.07 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06b267b5-8fe4-40fb-b2a8-54cd7539af38")
 	)
 	(wire
 		(pts
@@ -2924,26 +2871,6 @@
 		)
 		(uuid "1f3015b6-babf-4df1-b025-94bcc8781abe")
 	)
-	(wire
-		(pts
-			(xy 53.34 99.06) (xy 52.07 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f4b7e5d-701a-4911-b289-df59930488ad")
-	)
-	(wire
-		(pts
-			(xy 39.37 100.33) (xy 39.37 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f5502e6-fcdb-4c37-9994-c53f8a2b3a09")
-	)
 	(polyline
 		(pts
 			(xy 149.86 81.28) (xy 149.86 104.14)
@@ -3026,16 +2953,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 99.06) (xy 40.64 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "256adca2-3e81-4fd6-a651-71ce6a9db29f")
-	)
-	(wire
-		(pts
 			(xy 80.01 118.11) (xy 81.28 118.11)
 		)
 		(stroke
@@ -3093,16 +3010,6 @@
 			(type default)
 		)
 		(uuid "28de15d8-10bb-40fc-bbaa-d9bfc5f87930")
-	)
-	(wire
-		(pts
-			(xy 50.8 109.22) (xy 52.07 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29053de5-e221-415f-977f-f280fae1bd8b")
 	)
 	(wire
 		(pts
@@ -3166,16 +3073,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 99.06) (xy 40.64 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f6f5849-99ec-485f-a27f-f209b930be31")
-	)
-	(wire
-		(pts
 			(xy 143.51 57.15) (xy 142.24 57.15)
 		)
 		(stroke
@@ -3236,16 +3133,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 109.22) (xy 52.07 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a5d71d2-ab9e-47d5-9c1e-f1a54a1eab1c")
-	)
-	(wire
-		(pts
 			(xy 149.86 46.99) (xy 149.86 49.53)
 		)
 		(stroke
@@ -3293,16 +3180,6 @@
 			(type dash)
 		)
 		(uuid "3f594dbb-9cd6-4f5e-b2f9-c7f78c0cbdc1")
-	)
-	(wire
-		(pts
-			(xy 39.37 109.22) (xy 40.64 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42de6420-bbf9-4443-8fac-1ee9a0e25f68")
 	)
 	(wire
 		(pts
@@ -3426,7 +3303,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 100.33) (xy 50.8 99.06)
+			(xy 52.07 96.52) (xy 52.07 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3616,16 +3493,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 107.95) (xy 53.34 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b1fe42e-3878-43c2-b680-ddcc9efaf030")
-	)
-	(wire
-		(pts
 			(xy 72.39 118.11) (xy 69.85 118.11)
 		)
 		(stroke
@@ -3676,7 +3543,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 107.95) (xy 39.37 109.22)
+			(xy 40.64 107.95) (xy 40.64 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3713,16 +3580,6 @@
 			(type default)
 		)
 		(uuid "7736400d-b567-48d4-b16c-afc199be1f14")
-	)
-	(wire
-		(pts
-			(xy 40.64 109.22) (xy 40.64 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77a1b8c9-7711-4e33-b266-1cbab38bb741")
 	)
 	(wire
 		(pts
@@ -3826,26 +3683,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 107.95) (xy 41.91 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8293d223-07f9-447b-bf82-03634759f6ae")
-	)
-	(wire
-		(pts
-			(xy 41.91 99.06) (xy 41.91 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84234f5f-e63b-439c-bd8b-667c727f8fec")
-	)
-	(wire
-		(pts
 			(xy 80.01 95.25) (xy 78.74 95.25)
 		)
 		(stroke
@@ -3946,7 +3783,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 107.95) (xy 50.8 109.22)
+			(xy 52.07 107.95) (xy 52.07 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3973,16 +3810,6 @@
 			(type dash)
 		)
 		(uuid "9346689d-4381-452b-8007-f6470eb0818a")
-	)
-	(wire
-		(pts
-			(xy 41.91 109.22) (xy 40.64 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93e812ba-42d9-4bba-a4e1-6a0ef03ffa65")
 	)
 	(wire
 		(pts
@@ -4236,16 +4063,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 99.06) (xy 52.07 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b03bd290-0f05-43b7-9248-557ba6375f9b")
-	)
-	(wire
-		(pts
 			(xy 143.51 57.15) (xy 143.51 59.69)
 		)
 		(stroke
@@ -4346,7 +4163,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 96.52) (xy 40.64 99.06)
+			(xy 40.64 96.52) (xy 40.64 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5711,6 +5528,129 @@
 		)
 	)
 	(symbol
+		(lib_id "Tiny_Scarab:LED_BLUE_XSW24061003")
+		(at 40.64 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0551f16d-640b-47e6-9218-bebbb71251af")
+		(property "Reference" "LED4"
+			(at 40.64 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BLUE"
+			(at 41.783 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Tiny_Scarab:LED_D3.0mm_blue"
+			(at 26.924 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.306 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED BLUE XSW24061003"
+			(at 35.306 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Shenzhen Xisheng Microelectronics"
+			(at 28.956 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "xsw24061003"
+			(at 31.242 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C9900122774"
+			(at 33.274 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" ""
+			(at 34.798 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell" ""
+			(at 30.734 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 32.766 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f15f4b9-7921-41dc-a471-1ed8742e5286")
+		)
+		(pin "2"
+			(uuid "bfb61781-38ae-44bb-a0a4-9ff036d377d3")
+		)
+		(instances
+			(project "tiny-scarab"
+				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/90393844-9805-4207-88e8-abd4029c5b43"
+					(reference "LED4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 146.05 30.48 0)
 		(mirror y)
@@ -5950,223 +5890,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 39.37 104.14 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1ba23763-e902-48e6-830c-962b7e9cfa83")
-		(property "Reference" "R14"
-			(at 39.37 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 36.83 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 41.148 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 39.37 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 39.37 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 39.37 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0402WGF1000TCE"
-			(at 39.37 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C25076"
-			(at 39.37 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8196a94e-bbb6-433b-81f6-fb509d7f5dca")
-		)
-		(pin "1"
-			(uuid "3f559b09-7cb3-4be8-954c-e9daf855a184")
-		)
-		(instances
-			(project "tiny-scarab"
-				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/90393844-9805-4207-88e8-abd4029c5b43"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Tiny_Scarab:LED_BLUE_CSL0902BT")
-		(at 52.07 92.71 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2c2eaa4e-9741-499f-89f2-a8b8d5237bc5")
-		(property "Reference" "LED3"
-			(at 52.07 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "BLUE"
-			(at 53.34 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Tiny_Scarab:LED_0603_CSL0902BT"
-			(at 31.75 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 41.91 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "LED blue 0603"
-			(at 52.07 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "ROHM Semicon"
-			(at 34.29 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CSL0902BT"
-			(at 36.83 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C6538602"
-			(at 39.37 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "755-CSL0902BT1"
-			(at 44.45 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Farnell" "3954417"
-			(at 46.99 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" "846-CSL0902BT1TR-ND"
-			(at 34.29 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fe048ead-2b20-4803-877b-ef3f668e7dbb")
-		)
-		(pin "2"
-			(uuid "95455f36-b07b-4d08-9fcc-5345df8c36a0")
-		)
-		(instances
-			(project "tiny-scarab"
-				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/90393844-9805-4207-88e8-abd4029c5b43"
-					(reference "LED3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 46.99 85.09 0)
 		(unit 1)
@@ -6388,129 +6111,6 @@
 			(project "tiny-scarab"
 				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/90393844-9805-4207-88e8-abd4029c5b43"
 					(reference "JP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Tiny_Scarab:LED_BLUE_CSL0902BT")
-		(at 40.64 92.71 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "37da1bc8-1bc2-4613-99fc-bcfa2660ca3f")
-		(property "Reference" "LED4"
-			(at 40.64 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "BLUE"
-			(at 41.91 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Tiny_Scarab:LED_0603_CSL0902BT"
-			(at 20.32 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 30.48 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "LED blue 0603"
-			(at 40.64 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "ROHM Semicon"
-			(at 22.86 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CSL0902BT"
-			(at 25.4 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C6538602"
-			(at 27.94 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "755-CSL0902BT1"
-			(at 33.02 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Farnell" "3954417"
-			(at 35.56 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" "846-CSL0902BT1TR-ND"
-			(at 22.86 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "df42ea3f-d951-456c-94e1-a86e2d3c9315")
-		)
-		(pin "2"
-			(uuid "05939c4a-8279-4f91-a8fb-95696d48286d")
-		)
-		(instances
-			(project "tiny-scarab"
-				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/90393844-9805-4207-88e8-abd4029c5b43"
-					(reference "LED4")
 					(unit 1)
 				)
 			)
@@ -6784,101 +6384,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 41.91 104.14 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "49e5616c-3089-4500-9d4e-4bd8c20a0d39")
-		(property "Reference" "R15"
-			(at 41.91 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22"
-			(at 44.45 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 43.688 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 41.91 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 41.91 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 41.91 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0402WGF220JTCE"
-			(at 41.91 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C25092"
-			(at 41.91 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7242d353-4008-49bf-b069-23e529d1b8ac")
-		)
-		(pin "1"
-			(uuid "57a3388d-bd70-462f-b233-9b74f8445a55")
-		)
-		(instances
-			(project "tiny-scarab"
-				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/90393844-9805-4207-88e8-abd4029c5b43"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 50.8 104.14 180)
+		(at 52.07 104.14 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6886,15 +6392,15 @@
 		(dnp no)
 		(uuid "4b810e17-cec0-40a3-95a4-d5985c6e2fca")
 		(property "Reference" "R16"
-			(at 50.8 104.14 90)
+			(at 52.07 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100"
-			(at 48.26 104.14 90)
+		(property "Value" "33"
+			(at 49.53 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6902,7 +6408,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 52.578 104.14 90)
+			(at 53.848 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6911,7 +6417,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 104.14 0)
+			(at 52.07 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6920,7 +6426,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 50.8 104.14 0)
+			(at 52.07 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6929,7 +6435,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 50.8 104.14 0)
+			(at 52.07 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6937,8 +6443,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0402WGF1000TCE"
-			(at 50.8 104.14 90)
+		(property "MPN" "0402WGF330JTCE"
+			(at 52.07 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6946,8 +6452,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25076"
-			(at 50.8 104.14 90)
+		(property "JLCPCB Part #" "C25105"
+			(at 52.07 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7401,100 +6907,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 53.34 104.14 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "641741d1-e54e-42af-8545-328ca925c120")
-		(property "Reference" "R17"
-			(at 53.34 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22"
-			(at 55.88 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 55.118 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 53.34 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 53.34 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 53.34 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0402WGF220JTCE"
-			(at 53.34 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C25092"
-			(at 53.34 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "17179dc5-d31b-4a4e-89dd-d85e3f71d400")
-		)
-		(pin "1"
-			(uuid "531275db-8e04-4342-b739-727b52af6427")
-		)
-		(instances
-			(project "tiny-scarab"
-				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/90393844-9805-4207-88e8-abd4029c5b43"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Tiny_Scarab:NMOS_DMG1012UW-7")
 		(at 49.53 120.65 0)
 		(unit 1)
@@ -7849,6 +7261,129 @@
 			(project "tiny-scarab"
 				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/90393844-9805-4207-88e8-abd4029c5b43"
 					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Tiny_Scarab:LED_BLUE_XSW24061003")
+		(at 52.07 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8187ac6c-4ca2-4ed6-ae43-1e3f78fff99d")
+		(property "Reference" "LED3"
+			(at 52.07 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BLUE"
+			(at 53.213 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Tiny_Scarab:LED_D3.0mm_blue"
+			(at 38.354 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.736 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED BLUE XSW24061003"
+			(at 46.736 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Shenzhen Xisheng Microelectronics"
+			(at 40.386 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "xsw24061003"
+			(at 42.672 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C9900122774"
+			(at 44.704 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" ""
+			(at 46.228 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell" ""
+			(at 42.164 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 44.196 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b63462c4-96a0-460f-94e9-c054f8183139")
+		)
+		(pin "2"
+			(uuid "50535ccd-ca8d-4235-a84e-facf697f6379")
+		)
+		(instances
+			(project ""
+				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/90393844-9805-4207-88e8-abd4029c5b43"
+					(reference "LED3")
 					(unit 1)
 				)
 			)
@@ -10778,6 +10313,100 @@
 			(project "tiny-scarab"
 				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/90393844-9805-4207-88e8-abd4029c5b43"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 40.64 104.14 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef682cb2-2e78-41dd-bdfa-f8689741e09b")
+		(property "Reference" "R14"
+			(at 40.64 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 38.1 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 42.418 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 40.64 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 40.64 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
+			(at 40.64 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25105"
+			(at 40.64 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bf4b7a7d-8594-43a4-b447-91e5eb5a6580")
+		)
+		(pin "1"
+			(uuid "ab88ee2b-cf98-4e7c-a371-e3f65bd4d1f2")
+		)
+		(instances
+			(project "tiny-scarab"
+				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/90393844-9805-4207-88e8-abd4029c5b43"
+					(reference "R14")
 					(unit 1)
 				)
 			)

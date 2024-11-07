@@ -37,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -49,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,23 +63,14 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr through_hole)
 	(fp_line
-		(start -5.2705 -4.6)
-		(end 5.2705 -4.6)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "14240999-156c-43e2-9dbf-4e46deb632e8")
-	)
-	(fp_line
 		(start -5.2705 4.18)
-		(end -5.2705 -4.6)
+		(end -5.2705 -2.2)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -86,7 +79,17 @@
 		(uuid "4944d8d9-19a5-444c-879f-aa8d3d7632e5")
 	)
 	(fp_line
-		(start 5.2705 -4.6)
+		(start -2.8705 -4.6)
+		(end 2.8705 -4.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "14240999-156c-43e2-9dbf-4e46deb632e8")
+	)
+	(fp_line
+		(start 5.2705 -2.2)
 		(end 5.2705 4.18)
 		(stroke
 			(width 0.05)
@@ -104,6 +107,28 @@
 		)
 		(layer "F.CrtYd")
 		(uuid "2cf67b56-6901-430c-bcf1-767961a48715")
+	)
+	(fp_arc
+		(start -5.2705 -2.2)
+		(mid -4.567556 -3.897056)
+		(end -2.8705 -4.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "1bc80763-bab9-4882-ae04-378d4cad1ea3")
+	)
+	(fp_arc
+		(start 2.8705 -4.6)
+		(mid 4.567556 -3.897056)
+		(end 5.2705 -2.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "22da776d-7062-4398-93b9-c5c0917e694f")
 	)
 	(fp_line
 		(start -3.7 -3.675)
