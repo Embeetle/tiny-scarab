@@ -4846,7 +4846,7 @@
 		)
 		(uuid "aab56477-872a-4028-b7f3-8be794fed972")
 	)
-	(text "10mA\n3V1"
+	(text "10mA\n3V0"
 		(exclude_from_sim no)
 		(at 38.1 93.98 0)
 		(effects

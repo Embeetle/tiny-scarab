@@ -1957,7 +1957,7 @@
 				)
 			)
 		)
-		(symbol "Tiny_Scarab:LED_GREEN_CSL0902ET"
+		(symbol "Tiny_Scarab:LED_GREEN_XSW24061001"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -1973,15 +1973,15 @@
 				)
 			)
 			(property "Value" "GREEN"
-				(at 1.27 -2.54 0)
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Tiny_Scarab:LED_0603_CSL0902ET"
-				(at 0 20.32 0)
+			(property "Footprint" "Tiny_Scarab:LED_D3.0mm_green"
+				(at 0 13.716 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1990,7 +1990,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 10.16 0)
+				(at 0.254 5.334 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1998,8 +1998,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "LED green 0603"
-				(at 0 0 0)
+			(property "Description" "LED GREEN XSW24061001"
+				(at 0.254 5.334 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2007,8 +2007,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "ROHM Semicon"
-				(at 0 17.78 0)
+			(property "Manufacturer" "Shenzhen Xisheng Microelectronics"
+				(at 0 11.684 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2016,8 +2016,8 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "CSL0902ET"
-				(at 0 15.24 0)
+			(property "MPN" "xsw24061001"
+				(at 0 9.398 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2025,8 +2025,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB Part #" "C7115899"
-				(at 0 12.7 0)
+			(property "JLCPCB Part #" "C9900122772"
+				(at 0 7.366 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2034,8 +2034,8 @@
 					(hide yes)
 				)
 			)
-			(property "DigiKey" "846-CSL0902ET1TR-ND"
-				(at 0 12.7 0)
+			(property "DigiKey" ""
+				(at 0 5.842 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2043,8 +2043,8 @@
 					(hide yes)
 				)
 			)
-			(property "Farnell" "4129807"
-				(at 0 10.16 0)
+			(property "Farnell" ""
+				(at 0.254 9.906 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2052,8 +2052,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser" "755-CSL0902ET1"
-				(at 0 7.62 0)
+			(property "Mouser" ""
+				(at 0.508 7.874 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2070,7 +2070,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_GREEN_CSL0902ET_0_1"
+			(symbol "LED_GREEN_XSW24061001_0_1"
 				(polyline
 					(pts
 						(xy -1.27 -1.27) (xy -1.27 1.27)
@@ -2132,7 +2132,7 @@
 					)
 				)
 			)
-			(symbol "LED_GREEN_CSL0902ET_1_1"
+			(symbol "LED_GREEN_XSW24061001_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -2171,7 +2171,7 @@
 				)
 			)
 		)
-		(symbol "Tiny_Scarab:LED_RED_CSL0902UT"
+		(symbol "Tiny_Scarab:LED_RED_XSW24061002"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -2194,8 +2194,8 @@
 					)
 				)
 			)
-			(property "Footprint" "Tiny_Scarab:LED_0603_CSL0902UT"
-				(at 0 20.32 0)
+			(property "Footprint" "Tiny_Scarab:LED_D3.0mm_red"
+				(at 0 13.716 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2204,7 +2204,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 10.16 0)
+				(at 0.254 5.334 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2212,8 +2212,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "LED red 0603"
-				(at 0 0 0)
+			(property "Description" "LED RED XSW24061002"
+				(at 0.254 5.334 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2221,8 +2221,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "ROHM Semicon"
-				(at 0 17.78 0)
+			(property "Manufacturer" "Shenzhen Xisheng Microelectronics"
+				(at 0 11.684 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2230,8 +2230,8 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "CSL0902UT"
-				(at 0 15.24 0)
+			(property "MPN" "xsw24061002"
+				(at 0 9.398 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2239,8 +2239,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB Part #" "C5579175"
-				(at 0 12.7 0)
+			(property "JLCPCB Part #" "C9900122773"
+				(at 0 7.366 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2248,8 +2248,8 @@
 					(hide yes)
 				)
 			)
-			(property "DigiKey" "846-CSL0902UT1TR-ND"
-				(at 0 12.7 0)
+			(property "DigiKey" ""
+				(at 0 5.842 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2257,8 +2257,8 @@
 					(hide yes)
 				)
 			)
-			(property "Farnell" "3954422"
-				(at 0 10.16 0)
+			(property "Farnell" ""
+				(at 0.254 9.906 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2266,8 +2266,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser" "755-CSL0902UT1"
-				(at 0 7.62 0)
+			(property "Mouser" ""
+				(at 0.508 7.874 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2284,7 +2284,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_RED_CSL0902UT_0_1"
+			(symbol "LED_RED_XSW24061002_0_1"
 				(polyline
 					(pts
 						(xy -1.27 -1.27) (xy -1.27 1.27)
@@ -2346,7 +2346,7 @@
 					)
 				)
 			)
-			(symbol "LED_RED_CSL0902UT_1_1"
+			(symbol "LED_RED_XSW24061002_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -3078,13 +3078,19 @@
 		)
 	)
 	(junction
+		(at 62.23 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ca55715-7335-4d78-8e4f-62d9f1777fdd")
+	)
+	(junction
 		(at 44.45 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0faf8179-119b-447a-8a4f-2f5ef1ee9c37")
 	)
 	(junction
-		(at 36.83 124.46)
+		(at 58.42 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "112bb739-07b2-42c5-9b7b-3b0cc1e7ec2a")
@@ -3096,7 +3102,7 @@
 		(uuid "139f16ac-d789-4e97-90d1-7c57eb7ad370")
 	)
 	(junction
-		(at 49.53 124.46)
+		(at 71.12 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30726d7a-190f-4025-8f91-fc5e9636f127")
@@ -3126,12 +3132,6 @@
 		(uuid "38856ec4-31c0-45e4-b443-5700d7327844")
 	)
 	(junction
-		(at 24.13 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a936a9e-2e73-4a16-a372-b83fa4d2c4c6")
-	)
-	(junction
 		(at 99.06 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3156,13 +3156,19 @@
 		(uuid "506b80b1-c9b5-485d-9638-7701ed1d94cd")
 	)
 	(junction
+		(at 25.4 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "554a3554-84c6-4f08-b94f-e28681b491a6")
+	)
+	(junction
 		(at 99.06 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58657f62-4bbc-4274-9c0e-b93f5389de9e")
 	)
 	(junction
-		(at 43.18 111.76)
+		(at 64.77 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58f5065e-c13b-499a-a979-c31870456d6c")
@@ -3204,7 +3210,7 @@
 		(uuid "755af494-ccb3-427b-bc6b-3df520dfb36c")
 	)
 	(junction
-		(at 43.18 124.46)
+		(at 64.77 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "761467f4-2bb4-4cbd-9a73-b56670d79383")
@@ -3228,7 +3234,7 @@
 		(uuid "8351d1f3-8d22-4d5b-a75e-5b629f7b6f21")
 	)
 	(junction
-		(at 49.53 111.76)
+		(at 71.12 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85bc1323-5f6d-4171-9f95-1eb3d6b1d05d")
@@ -3238,12 +3244,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "876c8dc4-a13d-480d-bc83-144fb5e0ab84")
-	)
-	(junction
-		(at 30.48 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "97b99878-ec1c-4995-866b-283785405713")
 	)
 	(junction
 		(at 25.4 86.36)
@@ -3258,7 +3258,7 @@
 		(uuid "ab5740be-1df7-415d-8a48-2118a312eff2")
 	)
 	(junction
-		(at 36.83 111.76)
+		(at 58.42 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac23e5cc-17e7-4043-b4f9-45f8f636f014")
@@ -3268,12 +3268,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b95cbb71-83e0-4f4c-ac18-75437228c9b0")
-	)
-	(junction
-		(at 30.48 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c12e4cad-7e3b-4694-80c6-71d75e575128")
 	)
 	(junction
 		(at 92.71 97.79)
@@ -3294,6 +3288,12 @@
 		(uuid "c444b4a8-6456-4e3d-b45b-d9a81dfb8003")
 	)
 	(junction
+		(at 62.23 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8dcef11-63a2-464f-ae54-045a6caf5ca5")
+	)
+	(junction
 		(at 48.26 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3312,16 +3312,16 @@
 		(uuid "d5de30bd-bf00-4ab3-ad94-b2a4c782a686")
 	)
 	(junction
-		(at 24.13 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ddf5d9a8-8b6b-43b4-9f34-7974dd3c8fe1")
-	)
-	(junction
 		(at 105.41 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e23d68bb-117d-455d-847f-35086aed4cdb")
+	)
+	(junction
+		(at 29.21 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eaaa5aea-4510-4a27-83cf-e461b8f980ac")
 	)
 	(junction
 		(at 67.31 49.53)
@@ -3375,16 +3375,6 @@
 		)
 		(uuid "044b487e-c3b2-4ef9-8a8b-1ccd9000c425")
 	)
-	(wire
-		(pts
-			(xy 17.78 121.92) (xy 17.78 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0609c903-53e3-4c23-ad2d-a24ab0e96aec")
-	)
 	(polyline
 		(pts
 			(xy 60.96 92.71) (xy 12.7 92.71)
@@ -3415,16 +3405,6 @@
 		)
 		(uuid "0cd7b8e5-d10e-474e-9987-80798d0ef46b")
 	)
-	(wire
-		(pts
-			(xy 24.13 121.92) (xy 24.13 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f4a1726-ac93-4b37-9eb1-e8041d69286d")
-	)
 	(polyline
 		(pts
 			(xy 90.17 104.14) (xy 60.96 104.14)
@@ -3444,16 +3424,6 @@
 			(type default)
 		)
 		(uuid "10236717-e090-4f49-b24d-56fcfe51e775")
-	)
-	(wire
-		(pts
-			(xy 30.48 124.46) (xy 24.13 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10907eb2-ab7c-4f52-89d5-555205cf4517")
 	)
 	(wire
 		(pts
@@ -3537,7 +3507,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 124.46) (xy 43.18 124.46)
+			(xy 71.12 125.73) (xy 64.77 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3547,7 +3517,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 121.92) (xy 49.53 124.46)
+			(xy 71.12 123.19) (xy 71.12 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3577,7 +3547,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 121.92) (xy 36.83 124.46)
+			(xy 58.42 123.19) (xy 58.42 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3587,7 +3557,27 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 110.49) (xy 24.13 111.76)
+			(xy 17.78 111.76) (xy 25.4 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "295a6c0c-dc88-4973-9094-d4b25e7d7738")
+	)
+	(wire
+		(pts
+			(xy 29.21 125.73) (xy 31.75 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b8a1ddf-6aac-4a3b-b99a-9285292835a9")
+	)
+	(wire
+		(pts
+			(xy 62.23 110.49) (xy 62.23 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3627,7 +3617,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 111.76) (xy 36.83 111.76)
+			(xy 64.77 113.03) (xy 62.23 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3647,7 +3637,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 121.92) (xy 43.18 124.46)
+			(xy 64.77 123.19) (xy 64.77 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3737,7 +3727,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 114.3) (xy 55.88 111.76)
+			(xy 77.47 115.57) (xy 77.47 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3877,7 +3867,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 111.76) (xy 49.53 111.76)
+			(xy 77.47 113.03) (xy 71.12 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3977,7 +3967,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 114.3) (xy 43.18 111.76)
+			(xy 64.77 115.57) (xy 64.77 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4014,16 +4004,6 @@
 			(type default)
 		)
 		(uuid "681e732d-a5d7-4aa9-b188-5bcc437e8c6c")
-	)
-	(wire
-		(pts
-			(xy 24.13 114.3) (xy 24.13 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "684e8bdf-7790-4f5b-82bf-01abe0688ee1")
 	)
 	(wire
 		(pts
@@ -4077,7 +4057,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 121.92) (xy 30.48 124.46)
+			(xy 52.07 123.19) (xy 52.07 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4127,6 +4107,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 125.73) (xy 31.75 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75431d61-17a8-4378-bdca-156a502f6e5c")
+	)
+	(wire
+		(pts
 			(xy 138.43 85.09) (xy 138.43 80.01)
 		)
 		(stroke
@@ -4137,13 +4127,23 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 54.61) (xy 147.32 49.53)
+			(xy 147.32 40.64) (xy 147.32 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7ad25895-e206-48c4-8d8b-1586382d37fc")
+	)
+	(wire
+		(pts
+			(xy 25.4 123.19) (xy 25.4 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c4b0aa6-8b0c-4ead-9180-470be442daa4")
 	)
 	(wire
 		(pts
@@ -4187,6 +4187,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 125.73) (xy 29.21 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "840f85c5-0e2a-4c36-ac70-70b22f42e163")
+	)
+	(wire
+		(pts
 			(xy 144.78 50.8) (xy 144.78 40.64)
 		)
 		(stroke
@@ -4197,13 +4207,13 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 40.64) (xy 147.32 41.91)
+			(xy 62.23 113.03) (xy 58.42 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8580f8b9-fd71-4472-a4a7-054ce335f447")
+		(uuid "86ea422c-c304-42a0-82df-d0351b811d4e")
 	)
 	(wire
 		(pts
@@ -4227,16 +4237,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 111.76) (xy 17.78 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8bf6bc33-35e9-4c96-b13e-1b6a69452370")
-	)
-	(wire
-		(pts
 			(xy 123.19 73.66) (xy 132.08 73.66)
 		)
 		(stroke
@@ -4257,16 +4257,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 124.46) (xy 30.48 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90731cbb-2e9d-43bd-bacc-1f82fd1e8895")
-	)
-	(wire
-		(pts
 			(xy 170.18 95.25) (xy 176.53 95.25)
 		)
 		(stroke
@@ -4277,7 +4267,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 124.46) (xy 24.13 125.73)
+			(xy 62.23 125.73) (xy 62.23 128.27)
 		)
 		(stroke
 			(width 0)
@@ -4297,7 +4287,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 124.46) (xy 49.53 124.46)
+			(xy 77.47 125.73) (xy 71.12 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4357,7 +4347,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 124.46) (xy 36.83 124.46)
+			(xy 64.77 125.73) (xy 62.23 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4387,13 +4377,23 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 111.76) (xy 43.18 111.76)
+			(xy 71.12 113.03) (xy 64.77 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a62d6735-7999-4933-ba7a-151462f61e58")
+	)
+	(wire
+		(pts
+			(xy 31.75 111.76) (xy 25.4 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6fab418-019d-4a59-b65b-bf2ebb5c15b2")
 	)
 	(wire
 		(pts
@@ -4444,6 +4444,16 @@
 			(type default)
 		)
 		(uuid "ad066ab1-fc74-4060-8d4d-4229f55c496f")
+	)
+	(wire
+		(pts
+			(xy 58.42 125.73) (xy 52.07 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad926c43-5908-42d0-8656-388920d2dbd3")
 	)
 	(wire
 		(pts
@@ -4517,13 +4527,23 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 114.3) (xy 49.53 111.76)
+			(xy 71.12 115.57) (xy 71.12 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "be0bc8b3-13a3-4ea0-9334-70f80b68ad65")
+	)
+	(wire
+		(pts
+			(xy 25.4 111.76) (xy 25.4 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be74b1be-322e-48af-b03a-31741f35aa9f")
 	)
 	(wire
 		(pts
@@ -4534,6 +4554,16 @@
 			(type default)
 		)
 		(uuid "bebb67a1-c5ac-43e6-989d-55d42b4cf1ad")
+	)
+	(wire
+		(pts
+			(xy 29.21 125.73) (xy 29.21 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c06425c5-3f6c-4489-8ea5-b1b4fc50ba63")
 	)
 	(wire
 		(pts
@@ -4557,7 +4587,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 114.3) (xy 36.83 111.76)
+			(xy 58.42 115.57) (xy 58.42 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4627,7 +4657,27 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 114.3) (xy 30.48 111.76)
+			(xy 62.23 125.73) (xy 58.42 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf973fa0-0029-46af-b7e2-c6be8da1e331")
+	)
+	(wire
+		(pts
+			(xy 31.75 115.57) (xy 31.75 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0d79b05-ffbf-4b6d-adb9-1213fa971295")
+	)
+	(wire
+		(pts
+			(xy 52.07 115.57) (xy 52.07 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4664,16 +4714,6 @@
 			(type default)
 		)
 		(uuid "d1fbfd37-3cd4-44ac-90cb-b132fce7ecd5")
-	)
-	(wire
-		(pts
-			(xy 24.13 124.46) (xy 17.78 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1fcb5ea-ea0b-42b6-bacf-f473c4dc2a6f")
 	)
 	(wire
 		(pts
@@ -4724,16 +4764,6 @@
 			(type default)
 		)
 		(uuid "dcb05181-6ba9-47a3-8cac-427084fa316b")
-	)
-	(wire
-		(pts
-			(xy 17.78 111.76) (xy 17.78 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcf67320-b34c-499a-9f5d-9465c63d698d")
 	)
 	(wire
 		(pts
@@ -4794,16 +4824,6 @@
 			(type default)
 		)
 		(uuid "e3bbe58d-3698-4fb2-bf02-091f9dd79ae5")
-	)
-	(wire
-		(pts
-			(xy 30.48 111.76) (xy 24.13 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e782e99a-9b84-4220-8561-cf5f1f9aa80d")
 	)
 	(wire
 		(pts
@@ -4907,7 +4927,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 111.76) (xy 30.48 111.76)
+			(xy 58.42 113.03) (xy 52.07 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4957,7 +4977,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 121.92) (xy 55.88 124.46)
+			(xy 77.47 123.19) (xy 77.47 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5020,7 +5040,7 @@
 		)
 		(uuid "353013cb-1113-4b30-841d-43305ccccb7d")
 	)
-	(text "10mA\n3V2"
+	(text "10mA\n2V9"
 		(exclude_from_sim no)
 		(at 185.42 52.07 0)
 		(effects
@@ -5131,7 +5151,7 @@
 		)
 		(uuid "ac7690b1-d693-4c60-9855-4f0fed152875")
 	)
-	(text "10mA\n2V"
+	(text "10mA\n1V9"
 		(exclude_from_sim no)
 		(at 146.05 59.69 0)
 		(effects
@@ -5240,6 +5260,17 @@
 			(justify left bottom)
 		)
 		(uuid "6cab8378-93df-4303-a8b7-218a8a6c8c1c")
+	)
+	(label "VBUS"
+		(at 17.78 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "77061807-9349-4117-b522-76f130e21f67")
 	)
 	(label "CC2"
 		(at 46.99 54.61 180)
@@ -5355,6 +5386,129 @@
 			(justify left)
 		)
 		(uuid "e63e328c-7365-4efb-847e-dcee3d6a5bd1")
+	)
+	(symbol
+		(lib_id "Tiny_Scarab:LED_GREEN_XSW24061001")
+		(at 186.69 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d3b49ff-ab00-4690-96d8-ee0bffc250c0")
+		(property "Reference" "LED1"
+			(at 188.595 49.022 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 188.468 51.181 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Tiny_Scarab:LED_D3.0mm_green"
+			(at 172.974 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.356 50.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED GREEN XSW24061001"
+			(at 181.356 50.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Shenzhen Xisheng Microelectronics"
+			(at 175.006 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "xsw24061001"
+			(at 177.292 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C9900122772"
+			(at 179.324 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" ""
+			(at 180.848 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell" ""
+			(at 176.784 50.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 178.816 50.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc55ae7a-5e7e-4800-9169-00e7a92af4b8")
+		)
+		(pin "2"
+			(uuid "6f2c04d2-9894-4f96-97d5-bbc899a38638")
+		)
+		(instances
+			(project ""
+				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/99c48f54-1f97-4ff9-8db4-28f0cf987802"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -6028,8 +6182,8 @@
 				)
 			)
 		)
-		(property "Value" "1k"
-			(at 194.31 40.64 90)
+		(property "Value" "210"
+			(at 194.056 41.275 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6073,7 +6227,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0402WGF1001TCE"
+		(property "MPN" "0402WGF2100TCE"
 			(at 191.77 39.37 90)
 			(effects
 				(font
@@ -6082,7 +6236,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C11702"
+		(property "JLCPCB Part #" "C25090"
 			(at 191.77 39.37 90)
 			(effects
 				(font
@@ -6174,7 +6328,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 30.48 118.11 0)
+		(at 52.07 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6182,7 +6336,7 @@
 		(dnp no)
 		(uuid "37fb79c3-8c25-4f6c-bd91-c759e4bae975")
 		(property "Reference" "C7"
-			(at 30.48 115.57 0)
+			(at 52.07 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6191,7 +6345,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 30.48 120.65 0)
+			(at 52.07 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6200,7 +6354,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 31.4452 121.92 0)
+			(at 53.0352 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6209,7 +6363,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 30.48 118.11 0)
+			(at 52.07 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6218,7 +6372,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 30.48 118.11 0)
+			(at 52.07 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6227,7 +6381,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung electro-mechanics"
-			(at 30.48 118.11 0)
+			(at 52.07 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6236,7 +6390,7 @@
 			)
 		)
 		(property "MPN" "CL05B104KO5NNNC"
-			(at 30.48 118.11 0)
+			(at 52.07 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6245,7 +6399,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C1525"
-			(at 30.48 118.11 0)
+			(at 52.07 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6254,7 +6408,7 @@
 			)
 		)
 		(property "Comment" "16V 100nF X7R ±10% 0402"
-			(at 30.48 118.11 0)
+			(at 52.07 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6279,7 +6433,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 43.18 118.11 0)
+		(at 64.77 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6287,7 +6441,7 @@
 		(dnp no)
 		(uuid "3912c436-e965-4cd7-ad6c-541d9f13dd6b")
 		(property "Reference" "C9"
-			(at 43.18 115.57 0)
+			(at 64.77 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6296,7 +6450,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 43.18 120.65 0)
+			(at 64.77 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6305,7 +6459,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 44.1452 121.92 0)
+			(at 65.7352 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6314,7 +6468,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 118.11 0)
+			(at 64.77 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6323,7 +6477,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 43.18 118.11 0)
+			(at 64.77 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6332,7 +6486,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung electro-mechanics"
-			(at 43.18 118.11 0)
+			(at 64.77 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6341,7 +6495,7 @@
 			)
 		)
 		(property "MPN" "CL05B104KO5NNNC"
-			(at 43.18 118.11 0)
+			(at 64.77 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6350,7 +6504,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C1525"
-			(at 43.18 118.11 0)
+			(at 64.77 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6359,7 +6513,7 @@
 			)
 		)
 		(property "Comment" "16V 100nF X7R ±10% 0402"
-			(at 43.18 118.11 0)
+			(at 64.77 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6448,8 +6602,129 @@
 		)
 	)
 	(symbol
+		(lib_id "Tiny_Scarab:LED_RED_XSW24061002")
+		(at 138.43 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a4008e1-7132-41d6-a7a3-966d1cbc9053")
+		(property "Reference" "LED2"
+			(at 138.684 52.451 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RED"
+			(at 138.43 57.023 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Tiny_Scarab:LED_D3.0mm_red"
+			(at 138.43 40.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.684 49.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED RED XSW24061002"
+			(at 138.684 49.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Shenzhen Xisheng Microelectronics"
+			(at 138.43 42.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "xsw24061002"
+			(at 138.43 45.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C9900122773"
+			(at 138.43 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" ""
+			(at 138.43 48.768 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell" ""
+			(at 138.684 44.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 138.938 46.736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "948eeca9-e524-4a05-89ef-cd9a3a7b1601")
+		)
+		(pin "2"
+			(uuid "b44fe9e6-e6c3-497b-a215-83640a65669a")
+		)
+		(instances
+			(project ""
+				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/99c48f54-1f97-4ff9-8db4-28f0cf987802"
+					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
-		(at 49.53 118.11 0)
+		(at 71.12 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6457,7 +6732,7 @@
 		(dnp no)
 		(uuid "42ca1dc1-2778-44e3-9aba-3d5a91da85a1")
 		(property "Reference" "C10"
-			(at 49.53 115.57 0)
+			(at 71.12 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6466,7 +6741,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 49.53 120.65 0)
+			(at 71.12 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6475,7 +6750,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 50.4952 121.92 0)
+			(at 72.0852 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6484,7 +6759,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 118.11 0)
+			(at 71.12 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6493,7 +6768,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 49.53 118.11 0)
+			(at 71.12 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6502,7 +6777,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung electro-mechanics"
-			(at 49.53 118.11 0)
+			(at 71.12 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6511,7 +6786,7 @@
 			)
 		)
 		(property "MPN" "CL05B104KO5NNNC"
-			(at 49.53 118.11 0)
+			(at 71.12 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6520,7 +6795,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C1525"
-			(at 49.53 118.11 0)
+			(at 71.12 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6529,7 +6804,7 @@
 			)
 		)
 		(property "Comment" "16V 100nF X7R ±10% 0402"
-			(at 49.53 118.11 0)
+			(at 71.12 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6830,7 +7105,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 36.83 118.11 0)
+		(at 58.42 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6838,7 +7113,7 @@
 		(dnp no)
 		(uuid "58d7dc99-b4f5-49ac-a681-b552f60776db")
 		(property "Reference" "C8"
-			(at 36.83 115.57 0)
+			(at 58.42 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6847,7 +7122,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 36.83 120.65 0)
+			(at 58.42 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6856,7 +7131,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 37.7952 121.92 0)
+			(at 59.3852 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6865,7 +7140,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 118.11 0)
+			(at 58.42 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6874,7 +7149,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 36.83 118.11 0)
+			(at 58.42 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6883,7 +7158,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung electro-mechanics"
-			(at 36.83 118.11 0)
+			(at 58.42 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6892,7 +7167,7 @@
 			)
 		)
 		(property "MPN" "CL05B104KO5NNNC"
-			(at 36.83 118.11 0)
+			(at 58.42 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6901,7 +7176,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C1525"
-			(at 36.83 118.11 0)
+			(at 58.42 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6910,7 +7185,7 @@
 			)
 		)
 		(property "Comment" "16V 100nF X7R ±10% 0402"
-			(at 36.83 118.11 0)
+			(at 58.42 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6935,7 +7210,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 24.13 125.73 0)
+		(at 62.23 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6943,7 +7218,7 @@
 		(dnp no)
 		(uuid "5aa34fa3-2388-43b3-be41-e821ce9a0c33")
 		(property "Reference" "#PWR064"
-			(at 24.13 132.08 0)
+			(at 62.23 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6952,7 +7227,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 26.67 128.27 0)
+			(at 64.77 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6960,7 +7235,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 125.73 0)
+			(at 62.23 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6969,7 +7244,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 125.73 0)
+			(at 62.23 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6978,7 +7253,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 24.13 125.73 0)
+			(at 62.23 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7164,6 +7439,72 @@
 			(project "tiny-scarab"
 				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/99c48f54-1f97-4ff9-8db4-28f0cf987802"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 29.21 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6bae7356-96f2-4c94-bd12-f1d569ccbf43")
+		(property "Reference" "#PWR049"
+			(at 29.21 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 29.21 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 29.21 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16637cdd-2b09-4f74-8f78-753d7a452d5f")
+		)
+		(instances
+			(project "tiny-scarab"
+				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/99c48f54-1f97-4ff9-8db4-28f0cf987802"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -7374,100 +7715,6 @@
 			(project "tiny-scarab"
 				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/99c48f54-1f97-4ff9-8db4-28f0cf987802"
 					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 147.32 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6ec36308-855f-4555-8cd2-63a5c12ca52d")
-		(property "Reference" "R2"
-			(at 147.32 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "200"
-			(at 149.86 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 145.542 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.32 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 147.32 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 147.32 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0402WGF2000TCE"
-			(at 147.32 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C25087"
-			(at 147.32 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "52c68bde-6232-4b02-a579-c7cd6a3c6b45")
-		)
-		(pin "1"
-			(uuid "fccf197b-c26b-4278-abd5-ba4367536baf")
-		)
-		(instances
-			(project "tiny-scarab"
-				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/99c48f54-1f97-4ff9-8db4-28f0cf987802"
-					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -8037,7 +8284,7 @@
 				)
 			)
 		)
-		(property "Value" "470"
+		(property "Value" "330"
 			(at 139.7 45.72 90)
 			(effects
 				(font
@@ -8081,7 +8328,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0402WGF4700TCE"
+		(property "MPN" "0402WGF3300TCE"
 			(at 142.24 45.72 90)
 			(effects
 				(font
@@ -8090,7 +8337,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25117"
+		(property "JLCPCB Part #" "C25104"
 			(at 142.24 45.72 90)
 			(effects
 				(font
@@ -8181,7 +8428,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 55.88 118.11 0)
+		(at 77.47 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8189,7 +8436,7 @@
 		(dnp no)
 		(uuid "a436a8b4-d1fc-433b-a24e-5eb3aff8b5f0")
 		(property "Reference" "C11"
-			(at 55.88 115.57 0)
+			(at 77.47 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8198,7 +8445,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 55.88 120.65 0)
+			(at 77.47 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8207,7 +8454,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 56.8452 121.92 0)
+			(at 78.4352 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8216,7 +8463,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 118.11 0)
+			(at 77.47 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8225,7 +8472,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 55.88 118.11 0)
+			(at 77.47 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8234,7 +8481,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung electro-mechanics"
-			(at 55.88 118.11 0)
+			(at 77.47 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8243,7 +8490,7 @@
 			)
 		)
 		(property "MPN" "CL05A105KA5NQNC"
-			(at 55.88 118.11 0)
+			(at 77.47 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8252,7 +8499,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C52923"
-			(at 55.88 118.11 0)
+			(at 77.47 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8261,7 +8508,7 @@
 			)
 		)
 		(property "Comment" "25V 1uF X5R ±10% 0402"
-			(at 55.88 118.11 0)
+			(at 77.47 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8352,7 +8599,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 24.13 110.49 0)
+		(at 62.23 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8360,7 +8607,7 @@
 		(dnp no)
 		(uuid "ab0562ff-d23c-48bd-81ab-4ee5931f8b02")
 		(property "Reference" "#PWR063"
-			(at 24.13 114.3 0)
+			(at 62.23 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8369,7 +8616,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 26.67 107.95 0)
+			(at 64.77 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8377,7 +8624,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 110.49 0)
+			(at 62.23 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8386,7 +8633,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 110.49 0)
+			(at 62.23 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8395,7 +8642,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 24.13 110.49 0)
+			(at 62.23 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8750,7 +8997,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 24.13 118.11 0)
+		(at 31.75 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8758,7 +9005,7 @@
 		(dnp no)
 		(uuid "cb49e6b1-9cbf-4646-8feb-edece1cf5bd9")
 		(property "Reference" "C6"
-			(at 24.13 115.57 0)
+			(at 31.75 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8767,7 +9014,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 24.13 120.65 0)
+			(at 31.75 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8776,7 +9023,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 25.0952 121.92 0)
+			(at 32.7152 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8785,7 +9032,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 118.11 0)
+			(at 31.75 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8794,7 +9041,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 24.13 118.11 0)
+			(at 31.75 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8803,7 +9050,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung electro-mechanics"
-			(at 24.13 118.11 0)
+			(at 31.75 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8812,7 +9059,7 @@
 			)
 		)
 		(property "MPN" "CL05B104KO5NNNC"
-			(at 24.13 118.11 0)
+			(at 31.75 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8821,7 +9068,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C1525"
-			(at 24.13 118.11 0)
+			(at 31.75 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8830,7 +9077,7 @@
 			)
 		)
 		(property "Comment" "16V 100nF X7R ±10% 0402"
-			(at 24.13 118.11 0)
+			(at 31.75 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9036,129 +9283,6 @@
 			(project "tiny-scarab"
 				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/99c48f54-1f97-4ff9-8db4-28f0cf987802"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Tiny_Scarab:LED_GREEN_CSL0902ET")
-		(at 186.69 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dc9d437d-2e94-4786-8dda-93174894750c")
-		(property "Reference" "LED1"
-			(at 186.69 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "GREEN"
-			(at 187.96 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Tiny_Scarab:LED_0603_CSL0902ET"
-			(at 166.37 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 176.53 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "LED green 0603"
-			(at 186.69 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "ROHM Semicon"
-			(at 168.91 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CSL0902ET"
-			(at 171.45 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C7115899"
-			(at 173.99 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "755-CSL0902ET1"
-			(at 179.07 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Farnell" "4129807"
-			(at 181.61 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" "846-CSL0902ET1TR-ND"
-			(at 173.99 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ade17af-b894-4dab-8dca-3aac1a4f79e5")
-		)
-		(pin "2"
-			(uuid "41d066ff-093c-47dc-bca5-cd38571b448d")
-		)
-		(instances
-			(project "tiny-scarab"
-				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/99c48f54-1f97-4ff9-8db4-28f0cf987802"
-					(reference "LED1")
 					(unit 1)
 				)
 			)
@@ -9622,7 +9746,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 17.78 118.11 0)
+		(at 25.4 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9630,7 +9754,7 @@
 		(dnp no)
 		(uuid "f4d4f4d0-5c65-46d6-8caa-a1b4de5e86fa")
 		(property "Reference" "C5"
-			(at 17.78 115.57 0)
+			(at 25.4 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9639,7 +9763,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 17.78 120.65 0)
+			(at 25.4 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9648,7 +9772,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 18.7452 121.92 0)
+			(at 26.3652 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9657,7 +9781,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 17.78 118.11 0)
+			(at 25.4 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9666,7 +9790,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 17.78 118.11 0)
+			(at 25.4 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9675,7 +9799,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung electro-mechanics"
-			(at 17.78 118.11 0)
+			(at 25.4 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9684,7 +9808,7 @@
 			)
 		)
 		(property "MPN" "CL05B104KO5NNNC"
-			(at 17.78 118.11 0)
+			(at 25.4 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9693,7 +9817,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C1525"
-			(at 17.78 118.11 0)
+			(at 25.4 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9702,7 +9826,7 @@
 			)
 		)
 		(property "Comment" "16V 100nF X7R ±10% 0402"
-			(at 17.78 118.11 0)
+			(at 25.4 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9984,127 +10108,6 @@
 			(project "tiny-scarab"
 				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/99c48f54-1f97-4ff9-8db4-28f0cf987802"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Tiny_Scarab:LED_RED_CSL0902UT")
-		(at 138.43 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f7f0f568-9380-485d-9199-3d61507d3e6a")
-		(property "Reference" "LED2"
-			(at 138.43 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RED"
-			(at 138.43 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Tiny_Scarab:LED_0603_CSL0902UT"
-			(at 138.43 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "LED red 0603"
-			(at 138.43 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "ROHM Semicon"
-			(at 138.43 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CSL0902UT"
-			(at 138.43 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C5579175"
-			(at 138.43 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "755-CSL0902UT1"
-			(at 138.43 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Farnell" "3954422"
-			(at 138.43 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" "846-CSL0902UT1TR-ND"
-			(at 138.43 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8c82927d-724f-4354-b537-24331578d9be")
-		)
-		(pin "1"
-			(uuid "d33c4e76-aa14-458a-91a7-66f1a493fe48")
-		)
-		(instances
-			(project "tiny-scarab"
-				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/99c48f54-1f97-4ff9-8db4-28f0cf987802"
-					(reference "LED2")
 					(unit 1)
 				)
 			)
