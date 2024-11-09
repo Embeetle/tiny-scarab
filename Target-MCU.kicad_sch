@@ -5003,8 +5003,26 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GPR04021K"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 29.21 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1001TCE"
+			(at 29.21 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C11702"
+			(at 29.21 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
