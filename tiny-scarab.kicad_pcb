@@ -2525,7 +2525,7 @@
 				)
 			)
 		)
-		(property "Description" "TVS bidirectional, 6V, 3.5pF"
+		(property "Description" "TVS bidirectional, 5V, 2.7-3.5pF"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2538,7 +2538,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "F6187TR-ND"
+		(property "DigiKey" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2550,7 +2550,7 @@
 				)
 			)
 		)
-		(property "Farnell" "2777317"
+		(property "Farnell" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2562,7 +2562,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C126836"
+		(property "JLCPCB Part #" "C3001954"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2574,7 +2574,7 @@
 				)
 			)
 		)
-		(property "MPN" "SP1007-01ETG"
+		(property "MPN" "LESD8LH5.0CT5G"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2586,7 +2586,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Littelfuse"
+		(property "Manufacturer" "UMW(Youtai Semiconductor Co., Ltd.)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2598,7 +2598,7 @@
 				)
 			)
 		)
-		(property "Mouser" "576-SP1007-01ETG"
+		(property "Mouser" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2610,7 +2610,7 @@
 				)
 			)
 		)
-		(path "/7c007a24-fa35-49c4-aab1-fc25fd43ba8e")
+		(path "/ca160c19-d8b6-4f70-bfd9-0205632e9665")
 		(sheetname "Root")
 		(sheetfile "tiny-scarab.kicad_sch")
 		(attr smd)
@@ -3833,7 +3833,7 @@
 				)
 			)
 		)
-		(property "Description" "TVS bidirectional, 6V, 3.5pF"
+		(property "Description" "TVS bidirectional, 5V, 2.7-3.5pF"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3846,7 +3846,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "F6187TR-ND"
+		(property "DigiKey" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3858,7 +3858,7 @@
 				)
 			)
 		)
-		(property "Farnell" "2777317"
+		(property "Farnell" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3870,7 +3870,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C126836"
+		(property "JLCPCB Part #" "C3001954"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3882,7 +3882,7 @@
 				)
 			)
 		)
-		(property "MPN" "SP1007-01ETG"
+		(property "MPN" "LESD8LH5.0CT5G"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3894,7 +3894,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Littelfuse"
+		(property "Manufacturer" "UMW(Youtai Semiconductor Co., Ltd.)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3906,7 +3906,7 @@
 				)
 			)
 		)
-		(property "Mouser" "576-SP1007-01ETG"
+		(property "Mouser" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3918,7 +3918,7 @@
 				)
 			)
 		)
-		(path "/930f7735-5c14-43d1-af39-872115eda88f")
+		(path "/1b1e90a3-b6cb-45e6-a4c0-b7c3763b5b5a")
 		(sheetname "Root")
 		(sheetfile "tiny-scarab.kicad_sch")
 		(attr smd)
@@ -4524,7 +4524,7 @@
 				)
 			)
 		)
-		(property "Description" "TVS bidirectional, 6V, 3.5pF"
+		(property "Description" "TVS bidirectional, 5V, 2.7-3.5pF"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4537,7 +4537,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "F6187TR-ND"
+		(property "DigiKey" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4549,7 +4549,7 @@
 				)
 			)
 		)
-		(property "Farnell" "2777317"
+		(property "Farnell" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4561,7 +4561,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C126836"
+		(property "JLCPCB Part #" "C3001954"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4573,7 +4573,7 @@
 				)
 			)
 		)
-		(property "MPN" "SP1007-01ETG"
+		(property "MPN" "LESD8LH5.0CT5G"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4585,7 +4585,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Littelfuse"
+		(property "Manufacturer" "UMW(Youtai Semiconductor Co., Ltd.)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4597,7 +4597,7 @@
 				)
 			)
 		)
-		(property "Mouser" "576-SP1007-01ETG"
+		(property "Mouser" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4609,7 +4609,7 @@
 				)
 			)
 		)
-		(path "/bdc28859-5cad-4081-941c-957b1191f27d")
+		(path "/8347ba55-0027-4c74-a9fc-bc0a75f85ec1")
 		(sheetname "Root")
 		(sheetfile "tiny-scarab.kicad_sch")
 		(attr smd)
@@ -4780,7 +4780,7 @@
 				)
 			)
 		)
-		(property "Description" "TVS bidirectional, 6V, 3.5pF"
+		(property "Description" "TVS bidirectional, 5V, 2.7-3.5pF"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4793,7 +4793,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "F6187TR-ND"
+		(property "DigiKey" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4805,7 +4805,7 @@
 				)
 			)
 		)
-		(property "Farnell" "2777317"
+		(property "Farnell" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4817,7 +4817,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C126836"
+		(property "JLCPCB Part #" "C3001954"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4829,7 +4829,7 @@
 				)
 			)
 		)
-		(property "MPN" "SP1007-01ETG"
+		(property "MPN" "LESD8LH5.0CT5G"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4841,7 +4841,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Littelfuse"
+		(property "Manufacturer" "UMW(Youtai Semiconductor Co., Ltd.)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4853,7 +4853,7 @@
 				)
 			)
 		)
-		(property "Mouser" "576-SP1007-01ETG"
+		(property "Mouser" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4865,7 +4865,7 @@
 				)
 			)
 		)
-		(path "/e105ba37-47ec-461f-affc-179ead1dc160")
+		(path "/b5cfef20-0fa4-45bd-be0f-4ec481aba303")
 		(sheetname "Root")
 		(sheetfile "tiny-scarab.kicad_sch")
 		(attr smd)
@@ -5036,7 +5036,7 @@
 				)
 			)
 		)
-		(property "Description" "TVS bidirectional, 6V, 3.5pF"
+		(property "Description" "TVS bidirectional, 5V, 2.7-3.5pF"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5049,7 +5049,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "F6187TR-ND"
+		(property "DigiKey" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5061,7 +5061,7 @@
 				)
 			)
 		)
-		(property "Farnell" "2777317"
+		(property "Farnell" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5073,7 +5073,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C126836"
+		(property "JLCPCB Part #" "C3001954"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5085,7 +5085,7 @@
 				)
 			)
 		)
-		(property "MPN" "SP1007-01ETG"
+		(property "MPN" "LESD8LH5.0CT5G"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5097,7 +5097,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Littelfuse"
+		(property "Manufacturer" "UMW(Youtai Semiconductor Co., Ltd.)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5109,7 +5109,7 @@
 				)
 			)
 		)
-		(property "Mouser" "576-SP1007-01ETG"
+		(property "Mouser" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5121,7 +5121,7 @@
 				)
 			)
 		)
-		(path "/200fc6db-0f55-4d06-b0b9-67d9280a6d8a")
+		(path "/aec502bb-dceb-410b-8e5f-1c538d51e0ce")
 		(sheetname "Root")
 		(sheetfile "tiny-scarab.kicad_sch")
 		(attr smd)
@@ -6959,7 +6959,7 @@
 				)
 			)
 		)
-		(property "Description" "TVS bidirectional, 6V, 3.5pF"
+		(property "Description" "TVS bidirectional, 5V, 2.7-3.5pF"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6972,7 +6972,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "F6187TR-ND"
+		(property "DigiKey" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6984,7 +6984,7 @@
 				)
 			)
 		)
-		(property "Farnell" "2777317"
+		(property "Farnell" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6996,7 +6996,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C126836"
+		(property "JLCPCB Part #" "C3001954"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7008,7 +7008,7 @@
 				)
 			)
 		)
-		(property "MPN" "SP1007-01ETG"
+		(property "MPN" "LESD8LH5.0CT5G"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7020,7 +7020,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Littelfuse"
+		(property "Manufacturer" "UMW(Youtai Semiconductor Co., Ltd.)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7032,7 +7032,7 @@
 				)
 			)
 		)
-		(property "Mouser" "576-SP1007-01ETG"
+		(property "Mouser" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7044,7 +7044,7 @@
 				)
 			)
 		)
-		(path "/90393844-9805-4207-88e8-abd4029c5b43/7a5ee0ef-85e1-478e-a794-9545e26470cd")
+		(path "/90393844-9805-4207-88e8-abd4029c5b43/9d64ad74-442e-4c6e-bf1d-05da6fff6a2d")
 		(sheetname "WCH-LinkE-R0-1v3")
 		(sheetfile "WCH-LinkE-R0-1v3.kicad_sch")
 		(attr smd exclude_from_bom dnp)
@@ -7478,7 +7478,7 @@
 				)
 			)
 		)
-		(property "Description" "TVS bidirectional, 6V, 3.5pF"
+		(property "Description" "TVS bidirectional, 5V, 2.7-3.5pF"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7491,7 +7491,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "F6187TR-ND"
+		(property "DigiKey" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7503,7 +7503,7 @@
 				)
 			)
 		)
-		(property "Farnell" "2777317"
+		(property "Farnell" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7515,7 +7515,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C126836"
+		(property "JLCPCB Part #" "C3001954"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7527,7 +7527,7 @@
 				)
 			)
 		)
-		(property "MPN" "SP1007-01ETG"
+		(property "MPN" "LESD8LH5.0CT5G"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7539,7 +7539,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Littelfuse"
+		(property "Manufacturer" "UMW(Youtai Semiconductor Co., Ltd.)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7551,7 +7551,7 @@
 				)
 			)
 		)
-		(property "Mouser" "576-SP1007-01ETG"
+		(property "Mouser" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7563,7 +7563,7 @@
 				)
 			)
 		)
-		(path "/66ab4ff0-6e21-4069-a717-d091a7f99d23")
+		(path "/b90f90db-8f57-4afe-873a-9424f88ae165")
 		(sheetname "Root")
 		(sheetfile "tiny-scarab.kicad_sch")
 		(attr smd)
@@ -7682,10 +7682,10 @@
 	(footprint "Tiny_Scarab:D_SOD-882_SP1007-01ETG"
 		(layer "F.Cu")
 		(uuid "39647597-4975-4e87-94af-afb5a048da6d")
-		(at 104.775 37.75075)
+		(at 104.775 37.75075 180)
 		(descr "SOD-882 for TVS_SP1007-01ETG")
 		(property "Reference" "TVS30"
-			(at 0 -1.143 0)
+			(at 0 -1.143 360)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "ef254b4b-b479-4dd5-9fe7-566210c0cc49")
@@ -7697,7 +7697,7 @@
 			)
 		)
 		(property "Value" "5V"
-			(at 0 1.2065 0)
+			(at 0 1.2065 360)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "de8be85d-ce52-40ff-bd80-9c231f2767d6")
@@ -7709,7 +7709,7 @@
 			)
 		)
 		(property "Footprint" "Tiny_Scarab:D_SOD-882_SP1007-01ETG"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7722,7 +7722,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7734,8 +7734,8 @@
 				)
 			)
 		)
-		(property "Description" "TVS bidirectional, 6V, 3.5pF"
-			(at 0 0 0)
+		(property "Description" "TVS bidirectional, 5V, 2.7-3.5pF"
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7747,8 +7747,8 @@
 				)
 			)
 		)
-		(property "DigiKey" "F6187TR-ND"
-			(at 0 0 0)
+		(property "DigiKey" ""
+			(at 0 0 360)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "efb23ebc-af5f-4bbb-8397-23833081d9e4")
@@ -7759,8 +7759,8 @@
 				)
 			)
 		)
-		(property "Farnell" "2777317"
-			(at 0 0 0)
+		(property "Farnell" ""
+			(at 0 0 360)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2dd2e222-ca65-4668-a2cc-9d8c8db1e385")
@@ -7771,8 +7771,8 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C126836"
-			(at 0 0 0)
+		(property "JLCPCB Part #" "C3001954"
+			(at 0 0 360)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1d5b7f37-a5c8-44b2-b46c-11a91adf74a3")
@@ -7783,8 +7783,8 @@
 				)
 			)
 		)
-		(property "MPN" "SP1007-01ETG"
-			(at 0 0 0)
+		(property "MPN" "LESD8LH5.0CT5G"
+			(at 0 0 360)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6bc21e35-dbbd-4729-a492-e147b52c967a")
@@ -7795,8 +7795,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Littelfuse"
-			(at 0 0 0)
+		(property "Manufacturer" "UMW(Youtai Semiconductor Co., Ltd.)"
+			(at 0 0 360)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0ae4da8e-5020-4237-911c-dec6feae6eb7")
@@ -7807,8 +7807,8 @@
 				)
 			)
 		)
-		(property "Mouser" "576-SP1007-01ETG"
-			(at 0 0 0)
+		(property "Mouser" ""
+			(at 0 0 360)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c2f40c3e-9c9e-4023-96b6-55c8e41625a0")
@@ -7819,29 +7819,19 @@
 				)
 			)
 		)
-		(path "/53446478-2b7a-4b40-96fb-2f2d2b34b712")
+		(path "/f037b71a-dfb6-4afd-9020-bcb6cee41eaf")
 		(sheetname "Root")
 		(sheetfile "tiny-scarab.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.6985 -0.508)
-			(end 0.6985 -0.508)
+			(start 0.6985 0.508)
+			(end -0.6985 0.508)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "6ea4acfb-d0d4-4f77-a3ba-bef14a33fda8")
-		)
-		(fp_line
-			(start -0.6985 0.508)
-			(end -0.6985 -0.508)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "7da548f9-01e8-4bef-9dcb-1b67e4f83b6d")
+			(uuid "d60f2d1d-278f-405c-b903-130da47308b2")
 		)
 		(fp_line
 			(start 0.6985 -0.508)
@@ -7854,34 +7844,34 @@
 			(uuid "665bb3a9-25aa-4ee9-9025-1beeeb390869")
 		)
 		(fp_line
-			(start 0.6985 0.508)
-			(end -0.6985 0.508)
+			(start -0.6985 0.508)
+			(end -0.6985 -0.508)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "d60f2d1d-278f-405c-b903-130da47308b2")
+			(uuid "7da548f9-01e8-4bef-9dcb-1b67e4f83b6d")
 		)
 		(fp_line
-			(start -0.55 -0.35)
-			(end 0.55 -0.35)
+			(start -0.6985 -0.508)
+			(end 0.6985 -0.508)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6ea4acfb-d0d4-4f77-a3ba-bef14a33fda8")
+		)
+		(fp_line
+			(start 0.55 0.35)
+			(end -0.55 0.35)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "0002c258-cc82-4cca-8f3a-f1df92004754")
-		)
-		(fp_line
-			(start -0.55 0.35)
-			(end -0.55 -0.35)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "483ae00c-c9d0-41ad-a5b6-3d3154ed95b0")
+			(uuid "3d54624e-44cf-4d30-b9db-4d973d5641ec")
 		)
 		(fp_line
 			(start 0.55 -0.35)
@@ -7894,31 +7884,41 @@
 			(uuid "1fb26b14-fe71-4b61-ac35-db5c259d57e3")
 		)
 		(fp_line
-			(start 0.55 0.35)
-			(end -0.55 0.35)
+			(start -0.55 0.35)
+			(end -0.55 -0.35)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "3d54624e-44cf-4d30-b9db-4d973d5641ec")
+			(uuid "483ae00c-c9d0-41ad-a5b6-3d3154ed95b0")
+		)
+		(fp_line
+			(start -0.55 -0.35)
+			(end 0.55 -0.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0002c258-cc82-4cca-8f3a-f1df92004754")
 		)
 		(pad "1" smd roundrect
-			(at -0.325 0)
+			(at -0.325 0 180)
 			(size 0.325 0.65)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.06)
-			(net 2 "GND")
+			(net 1 "+5V")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "cbbfe747-a5f6-4393-b1bb-51aa1221996f")
 		)
 		(pad "2" smd roundrect
-			(at 0.325 0)
+			(at 0.325 0 180)
 			(size 0.325 0.65)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.06)
-			(net 1 "+5V")
+			(net 2 "GND")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "a040621f-b29d-4e8a-94b8-26d58cb13db3")
@@ -8779,7 +8779,7 @@
 				)
 			)
 		)
-		(property "Description" "TVS bidirectional, 6V, 3.5pF"
+		(property "Description" "TVS bidirectional, 5V, 2.7-3.5pF"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8792,7 +8792,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "F6187TR-ND"
+		(property "DigiKey" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8804,7 +8804,7 @@
 				)
 			)
 		)
-		(property "Farnell" "2777317"
+		(property "Farnell" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8816,7 +8816,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C126836"
+		(property "JLCPCB Part #" "C3001954"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8828,7 +8828,7 @@
 				)
 			)
 		)
-		(property "MPN" "SP1007-01ETG"
+		(property "MPN" "LESD8LH5.0CT5G"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8840,7 +8840,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Littelfuse"
+		(property "Manufacturer" "UMW(Youtai Semiconductor Co., Ltd.)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8852,7 +8852,7 @@
 				)
 			)
 		)
-		(property "Mouser" "576-SP1007-01ETG"
+		(property "Mouser" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8864,7 +8864,7 @@
 				)
 			)
 		)
-		(path "/50bd724f-732a-4b8b-9d43-a3e47b412fc5")
+		(path "/8c24a322-daae-4c6b-a1a8-e650a9065399")
 		(sheetname "Root")
 		(sheetfile "tiny-scarab.kicad_sch")
 		(attr smd)
@@ -12957,7 +12957,7 @@
 				)
 			)
 		)
-		(property "Description" "TVS bidirectional, 6V, 3.5pF"
+		(property "Description" "TVS bidirectional, 5V, 2.7-3.5pF"
 			(at 0 0 -45)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12970,7 +12970,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "F6187TR-ND"
+		(property "DigiKey" ""
 			(at 0 0 45)
 			(layer "F.Fab")
 			(hide yes)
@@ -12982,7 +12982,7 @@
 				)
 			)
 		)
-		(property "Farnell" "2777317"
+		(property "Farnell" ""
 			(at 0 0 45)
 			(layer "F.Fab")
 			(hide yes)
@@ -12994,7 +12994,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C126836"
+		(property "JLCPCB Part #" "C3001954"
 			(at 0 0 45)
 			(layer "F.Fab")
 			(hide yes)
@@ -13006,7 +13006,7 @@
 				)
 			)
 		)
-		(property "MPN" "SP1007-01ETG"
+		(property "MPN" "LESD8LH5.0CT5G"
 			(at 0 0 45)
 			(layer "F.Fab")
 			(hide yes)
@@ -13018,7 +13018,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Littelfuse"
+		(property "Manufacturer" "UMW(Youtai Semiconductor Co., Ltd.)"
 			(at 0 0 45)
 			(layer "F.Fab")
 			(hide yes)
@@ -13030,7 +13030,7 @@
 				)
 			)
 		)
-		(property "Mouser" "576-SP1007-01ETG"
+		(property "Mouser" ""
 			(at 0 0 45)
 			(layer "F.Fab")
 			(hide yes)
@@ -13042,7 +13042,7 @@
 				)
 			)
 		)
-		(path "/90393844-9805-4207-88e8-abd4029c5b43/adf7905b-9552-42bc-b727-091e1985de0e")
+		(path "/90393844-9805-4207-88e8-abd4029c5b43/9aa93c90-f090-49db-be3a-2e921540f764")
 		(sheetname "WCH-LinkE-R0-1v3")
 		(sheetfile "WCH-LinkE-R0-1v3.kicad_sch")
 		(attr smd exclude_from_bom dnp)
@@ -17003,7 +17003,7 @@
 				)
 			)
 		)
-		(property "Description" "TVS bidirectional, 6V, 3.5pF"
+		(property "Description" "TVS bidirectional, 5V, 2.7-3.5pF"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17016,7 +17016,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "F6187TR-ND"
+		(property "DigiKey" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17028,7 +17028,7 @@
 				)
 			)
 		)
-		(property "Farnell" "2777317"
+		(property "Farnell" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17040,7 +17040,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C126836"
+		(property "JLCPCB Part #" "C3001954"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17052,7 +17052,7 @@
 				)
 			)
 		)
-		(property "MPN" "SP1007-01ETG"
+		(property "MPN" "LESD8LH5.0CT5G"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17064,7 +17064,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Littelfuse"
+		(property "Manufacturer" "UMW(Youtai Semiconductor Co., Ltd.)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17076,7 +17076,7 @@
 				)
 			)
 		)
-		(property "Mouser" "576-SP1007-01ETG"
+		(property "Mouser" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17088,7 +17088,7 @@
 				)
 			)
 		)
-		(path "/99196d17-e2ee-4287-b5bf-e080954c112a")
+		(path "/6396ae0f-976c-4185-9d0e-6cc7854cbdbf")
 		(sheetname "Root")
 		(sheetfile "tiny-scarab.kicad_sch")
 		(attr smd)
@@ -18215,7 +18215,7 @@
 				)
 			)
 		)
-		(property "Description" "TVS bidirectional, 6V, 3.5pF"
+		(property "Description" "TVS bidirectional, 5V, 2.7-3.5pF"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18228,7 +18228,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "F6187TR-ND"
+		(property "DigiKey" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18240,7 +18240,7 @@
 				)
 			)
 		)
-		(property "Farnell" "2777317"
+		(property "Farnell" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18252,7 +18252,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C126836"
+		(property "JLCPCB Part #" "C3001954"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18264,7 +18264,7 @@
 				)
 			)
 		)
-		(property "MPN" "SP1007-01ETG"
+		(property "MPN" "LESD8LH5.0CT5G"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18276,7 +18276,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Littelfuse"
+		(property "Manufacturer" "UMW(Youtai Semiconductor Co., Ltd.)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18288,7 +18288,7 @@
 				)
 			)
 		)
-		(property "Mouser" "576-SP1007-01ETG"
+		(property "Mouser" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18300,7 +18300,7 @@
 				)
 			)
 		)
-		(path "/4740c1c2-8632-416b-a960-3e6237df04d4")
+		(path "/aff3b17a-99db-4710-9b85-76f480b8b286")
 		(sheetname "Root")
 		(sheetfile "tiny-scarab.kicad_sch")
 		(attr smd)
@@ -22430,7 +22430,7 @@
 				)
 			)
 		)
-		(property "Description" "TVS bidirectional, 6V, 3.5pF"
+		(property "Description" "TVS bidirectional, 5V, 2.7-3.5pF"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22443,7 +22443,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "F6187TR-ND"
+		(property "DigiKey" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22455,7 +22455,7 @@
 				)
 			)
 		)
-		(property "Farnell" "2777317"
+		(property "Farnell" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22467,7 +22467,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C126836"
+		(property "JLCPCB Part #" "C3001954"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22479,7 +22479,7 @@
 				)
 			)
 		)
-		(property "MPN" "SP1007-01ETG"
+		(property "MPN" "LESD8LH5.0CT5G"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22491,7 +22491,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Littelfuse"
+		(property "Manufacturer" "UMW(Youtai Semiconductor Co., Ltd.)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22503,7 +22503,7 @@
 				)
 			)
 		)
-		(property "Mouser" "576-SP1007-01ETG"
+		(property "Mouser" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22515,7 +22515,7 @@
 				)
 			)
 		)
-		(path "/8a680321-913f-4632-8ee8-81c8fcd4863c")
+		(path "/b449f19a-4a7c-4a63-bb40-fd8189c655e2")
 		(sheetname "Root")
 		(sheetfile "tiny-scarab.kicad_sch")
 		(attr smd)
@@ -23043,7 +23043,7 @@
 				)
 			)
 		)
-		(property "Description" "TVS bidirectional, 6V, 3.5pF"
+		(property "Description" "TVS bidirectional, 5V, 2.7-3.5pF"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23056,7 +23056,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "F6187TR-ND"
+		(property "DigiKey" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23068,7 +23068,7 @@
 				)
 			)
 		)
-		(property "Farnell" "2777317"
+		(property "Farnell" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23080,7 +23080,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C126836"
+		(property "JLCPCB Part #" "C3001954"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23092,7 +23092,7 @@
 				)
 			)
 		)
-		(property "MPN" "SP1007-01ETG"
+		(property "MPN" "LESD8LH5.0CT5G"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23104,7 +23104,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Littelfuse"
+		(property "Manufacturer" "UMW(Youtai Semiconductor Co., Ltd.)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23116,7 +23116,7 @@
 				)
 			)
 		)
-		(property "Mouser" "576-SP1007-01ETG"
+		(property "Mouser" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23128,7 +23128,7 @@
 				)
 			)
 		)
-		(path "/481ed0a2-b40b-451f-8f8b-138317026240/6fb47097-cf2e-452a-9023-0353a96425d2")
+		(path "/481ed0a2-b40b-451f-8f8b-138317026240/cb90de93-d374-4ea0-ba52-efea23b854d2")
 		(sheetname "Voltage-selection")
 		(sheetfile "Voltage-selection.kicad_sch")
 		(attr smd)
@@ -23562,7 +23562,7 @@
 				)
 			)
 		)
-		(property "Description" "TVS bidirectional, 6V, 3.5pF"
+		(property "Description" "TVS bidirectional, 5V, 2.7-3.5pF"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23575,7 +23575,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "F6187TR-ND"
+		(property "DigiKey" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23587,7 +23587,7 @@
 				)
 			)
 		)
-		(property "Farnell" "2777317"
+		(property "Farnell" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23599,7 +23599,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C126836"
+		(property "JLCPCB Part #" "C3001954"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23611,7 +23611,7 @@
 				)
 			)
 		)
-		(property "MPN" "SP1007-01ETG"
+		(property "MPN" "LESD8LH5.0CT5G"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23623,7 +23623,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Littelfuse"
+		(property "Manufacturer" "UMW(Youtai Semiconductor Co., Ltd.)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23635,7 +23635,7 @@
 				)
 			)
 		)
-		(property "Mouser" "576-SP1007-01ETG"
+		(property "Mouser" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23647,7 +23647,7 @@
 				)
 			)
 		)
-		(path "/d0c4b0c3-1e7e-4a4c-add3-8d4a3a10843d/6aa6e773-a109-46fd-8286-f1b8cb117828")
+		(path "/d0c4b0c3-1e7e-4a4c-add3-8d4a3a10843d/88e472e8-43ce-4fa0-affd-ef7afacde6a0")
 		(sheetname "Target-MCU")
 		(sheetfile "Target-MCU.kicad_sch")
 		(attr smd)
@@ -24719,7 +24719,7 @@
 				)
 			)
 		)
-		(property "Description" "TVS bidirectional, 6V, 3.5pF"
+		(property "Description" "TVS bidirectional, 5V, 2.7-3.5pF"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24732,7 +24732,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "F6187TR-ND"
+		(property "DigiKey" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24744,7 +24744,7 @@
 				)
 			)
 		)
-		(property "Farnell" "2777317"
+		(property "Farnell" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24756,7 +24756,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C126836"
+		(property "JLCPCB Part #" "C3001954"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24768,7 +24768,7 @@
 				)
 			)
 		)
-		(property "MPN" "SP1007-01ETG"
+		(property "MPN" "LESD8LH5.0CT5G"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24780,7 +24780,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Littelfuse"
+		(property "Manufacturer" "UMW(Youtai Semiconductor Co., Ltd.)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24792,7 +24792,7 @@
 				)
 			)
 		)
-		(property "Mouser" "576-SP1007-01ETG"
+		(property "Mouser" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24804,7 +24804,7 @@
 				)
 			)
 		)
-		(path "/4d2d25f6-27de-4448-9e85-9f4c2111a5f3")
+		(path "/f08fbb85-6ffa-4607-b4de-c553e64a62e2")
 		(sheetname "Root")
 		(sheetfile "tiny-scarab.kicad_sch")
 		(attr smd)
@@ -25625,7 +25625,7 @@
 				)
 			)
 		)
-		(property "Description" "TVS bidirectional, 6V, 3.5pF"
+		(property "Description" "TVS bidirectional, 5V, 2.7-3.5pF"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25638,7 +25638,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "F6187TR-ND"
+		(property "DigiKey" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25650,7 +25650,7 @@
 				)
 			)
 		)
-		(property "Farnell" "2777317"
+		(property "Farnell" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25662,7 +25662,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C126836"
+		(property "JLCPCB Part #" "C3001954"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25674,7 +25674,7 @@
 				)
 			)
 		)
-		(property "MPN" "SP1007-01ETG"
+		(property "MPN" "LESD8LH5.0CT5G"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25686,7 +25686,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Littelfuse"
+		(property "Manufacturer" "UMW(Youtai Semiconductor Co., Ltd.)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25698,7 +25698,7 @@
 				)
 			)
 		)
-		(property "Mouser" "576-SP1007-01ETG"
+		(property "Mouser" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25710,7 +25710,7 @@
 				)
 			)
 		)
-		(path "/641bcdec-1439-4537-b075-699a668c3295")
+		(path "/235e504b-2fc3-4955-9917-1cd60d7ec697")
 		(sheetname "Root")
 		(sheetfile "tiny-scarab.kicad_sch")
 		(attr smd)
@@ -25881,7 +25881,7 @@
 				)
 			)
 		)
-		(property "Description" "TVS bidirectional, 6V, 3.5pF"
+		(property "Description" "TVS bidirectional, 5V, 2.7-3.5pF"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25894,7 +25894,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "F6187TR-ND"
+		(property "DigiKey" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25906,7 +25906,7 @@
 				)
 			)
 		)
-		(property "Farnell" "2777317"
+		(property "Farnell" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25918,7 +25918,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C126836"
+		(property "JLCPCB Part #" "C3001954"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25930,7 +25930,7 @@
 				)
 			)
 		)
-		(property "MPN" "SP1007-01ETG"
+		(property "MPN" "LESD8LH5.0CT5G"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25942,7 +25942,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Littelfuse"
+		(property "Manufacturer" "UMW(Youtai Semiconductor Co., Ltd.)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25954,7 +25954,7 @@
 				)
 			)
 		)
-		(property "Mouser" "576-SP1007-01ETG"
+		(property "Mouser" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25966,7 +25966,7 @@
 				)
 			)
 		)
-		(path "/d397a2a2-e15f-4206-b480-4388cb4c72cb")
+		(path "/6f663fc5-5009-4663-8c97-6e5a48609b62")
 		(sheetname "Root")
 		(sheetfile "tiny-scarab.kicad_sch")
 		(attr smd)
@@ -26402,7 +26402,7 @@
 		)
 		(fp_arc
 			(start 2.55 -1.468826)
-			(mid 2.416157 -1.519524)
+			(mid 2.41619 -1.51953)
 			(end 2.357361 -1.65)
 			(stroke
 				(width 0.05)
@@ -26424,7 +26424,7 @@
 		)
 		(fp_arc
 			(start 2.357826 1.65)
-			(mid 2.416295 1.519379)
+			(mid 2.416295 1.519383)
 			(end 2.55 1.468361)
 			(stroke
 				(width 0.05)
@@ -26815,7 +26815,7 @@
 				)
 			)
 		)
-		(property "Description" "TVS bidirectional, 6V, 3.5pF"
+		(property "Description" "TVS bidirectional, 5V, 2.7-3.5pF"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26828,7 +26828,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "F6187TR-ND"
+		(property "DigiKey" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26840,7 +26840,7 @@
 				)
 			)
 		)
-		(property "Farnell" "2777317"
+		(property "Farnell" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26852,7 +26852,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C126836"
+		(property "JLCPCB Part #" "C3001954"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26864,7 +26864,7 @@
 				)
 			)
 		)
-		(property "MPN" "SP1007-01ETG"
+		(property "MPN" "LESD8LH5.0CT5G"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26876,7 +26876,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Littelfuse"
+		(property "Manufacturer" "UMW(Youtai Semiconductor Co., Ltd.)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26888,7 +26888,7 @@
 				)
 			)
 		)
-		(property "Mouser" "576-SP1007-01ETG"
+		(property "Mouser" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26900,7 +26900,7 @@
 				)
 			)
 		)
-		(path "/96b779bf-a8d7-4617-aee4-ac1f8f2620d7")
+		(path "/85076eec-29c2-444c-b9ab-176c5a255c4b")
 		(sheetname "Root")
 		(sheetfile "tiny-scarab.kicad_sch")
 		(attr smd)
@@ -28462,7 +28462,7 @@
 				)
 			)
 		)
-		(property "Description" "TVS bidirectional, 6V, 3.5pF"
+		(property "Description" "TVS bidirectional, 5V, 2.7-3.5pF"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28475,7 +28475,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "F6187TR-ND"
+		(property "DigiKey" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28487,7 +28487,7 @@
 				)
 			)
 		)
-		(property "Farnell" "2777317"
+		(property "Farnell" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28499,7 +28499,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C126836"
+		(property "JLCPCB Part #" "C3001954"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28511,7 +28511,7 @@
 				)
 			)
 		)
-		(property "MPN" "SP1007-01ETG"
+		(property "MPN" "LESD8LH5.0CT5G"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28523,7 +28523,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Littelfuse"
+		(property "Manufacturer" "UMW(Youtai Semiconductor Co., Ltd.)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28535,7 +28535,7 @@
 				)
 			)
 		)
-		(property "Mouser" "576-SP1007-01ETG"
+		(property "Mouser" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28547,7 +28547,7 @@
 				)
 			)
 		)
-		(path "/86081d49-44cc-447d-b5b5-6b208765578e")
+		(path "/8fbb2ca9-40da-404b-af67-e5d7f3013c7a")
 		(sheetname "Root")
 		(sheetfile "tiny-scarab.kicad_sch")
 		(attr smd)
@@ -29012,7 +29012,7 @@
 				)
 			)
 		)
-		(property "Description" "TVS bidirectional, 6V, 3.5pF"
+		(property "Description" "TVS bidirectional, 5V, 2.7-3.5pF"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29025,7 +29025,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "F6187TR-ND"
+		(property "DigiKey" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -29037,7 +29037,7 @@
 				)
 			)
 		)
-		(property "Farnell" "2777317"
+		(property "Farnell" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -29049,7 +29049,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C126836"
+		(property "JLCPCB Part #" "C3001954"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -29061,7 +29061,7 @@
 				)
 			)
 		)
-		(property "MPN" "SP1007-01ETG"
+		(property "MPN" "LESD8LH5.0CT5G"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -29073,7 +29073,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Littelfuse"
+		(property "Manufacturer" "UMW(Youtai Semiconductor Co., Ltd.)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -29085,7 +29085,7 @@
 				)
 			)
 		)
-		(property "Mouser" "576-SP1007-01ETG"
+		(property "Mouser" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -29097,7 +29097,7 @@
 				)
 			)
 		)
-		(path "/949bd5b3-9ce1-44b2-ac6d-a7fabaa6f3dd")
+		(path "/11fc0cf1-73f6-4bdb-9f0a-6354397a9f9f")
 		(sheetname "Root")
 		(sheetfile "tiny-scarab.kicad_sch")
 		(attr smd)
@@ -30626,7 +30626,7 @@
 				)
 			)
 		)
-		(property "Description" "TVS bidirectional, 6V, 3.5pF"
+		(property "Description" "TVS bidirectional, 5V, 2.7-3.5pF"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30639,7 +30639,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "F6187TR-ND"
+		(property "DigiKey" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30651,7 +30651,7 @@
 				)
 			)
 		)
-		(property "Farnell" "2777317"
+		(property "Farnell" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30663,7 +30663,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C126836"
+		(property "JLCPCB Part #" "C3001954"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30675,7 +30675,7 @@
 				)
 			)
 		)
-		(property "MPN" "SP1007-01ETG"
+		(property "MPN" "LESD8LH5.0CT5G"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30687,7 +30687,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Littelfuse"
+		(property "Manufacturer" "UMW(Youtai Semiconductor Co., Ltd.)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30699,7 +30699,7 @@
 				)
 			)
 		)
-		(property "Mouser" "576-SP1007-01ETG"
+		(property "Mouser" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30711,7 +30711,7 @@
 				)
 			)
 		)
-		(path "/debdc9ac-d742-4d0c-a1f0-8f27ee5862f5")
+		(path "/04cb0c49-86b5-4b49-b314-67c71672f2f7")
 		(sheetname "Root")
 		(sheetfile "tiny-scarab.kicad_sch")
 		(attr smd)
@@ -31987,7 +31987,7 @@
 				)
 			)
 		)
-		(property "Description" "TVS bidirectional, 6V, 3.5pF"
+		(property "Description" "TVS bidirectional, 5V, 2.7-3.5pF"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32000,7 +32000,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "F6187TR-ND"
+		(property "DigiKey" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32012,7 +32012,7 @@
 				)
 			)
 		)
-		(property "Farnell" "2777317"
+		(property "Farnell" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32024,7 +32024,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C126836"
+		(property "JLCPCB Part #" "C3001954"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32036,7 +32036,7 @@
 				)
 			)
 		)
-		(property "MPN" "SP1007-01ETG"
+		(property "MPN" "LESD8LH5.0CT5G"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32048,7 +32048,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Littelfuse"
+		(property "Manufacturer" "UMW(Youtai Semiconductor Co., Ltd.)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32060,7 +32060,7 @@
 				)
 			)
 		)
-		(property "Mouser" "576-SP1007-01ETG"
+		(property "Mouser" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32072,7 +32072,7 @@
 				)
 			)
 		)
-		(path "/9eaa9d13-307b-40e1-b737-ec201409f5f1")
+		(path "/49fc52cd-9b5a-4515-a8de-feca87b599f7")
 		(sheetname "Root")
 		(sheetfile "tiny-scarab.kicad_sch")
 		(attr smd)
@@ -32243,7 +32243,7 @@
 				)
 			)
 		)
-		(property "Description" "TVS bidirectional, 6V, 3.5pF"
+		(property "Description" "TVS bidirectional, 5V, 2.7-3.5pF"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32256,7 +32256,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "F6187TR-ND"
+		(property "DigiKey" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32268,7 +32268,7 @@
 				)
 			)
 		)
-		(property "Farnell" "2777317"
+		(property "Farnell" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32280,7 +32280,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C126836"
+		(property "JLCPCB Part #" "C3001954"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32292,7 +32292,7 @@
 				)
 			)
 		)
-		(property "MPN" "SP1007-01ETG"
+		(property "MPN" "LESD8LH5.0CT5G"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32304,7 +32304,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Littelfuse"
+		(property "Manufacturer" "UMW(Youtai Semiconductor Co., Ltd.)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32316,7 +32316,7 @@
 				)
 			)
 		)
-		(property "Mouser" "576-SP1007-01ETG"
+		(property "Mouser" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32328,7 +32328,7 @@
 				)
 			)
 		)
-		(path "/942f4405-88f7-441e-9c0d-4620bf0588c9")
+		(path "/ad273785-9868-4daf-b864-767bf303ac00")
 		(sheetname "Root")
 		(sheetfile "tiny-scarab.kicad_sch")
 		(attr smd)
@@ -32750,7 +32750,7 @@
 				)
 			)
 		)
-		(property "Description" "TVS bidirectional, 6V, 3.5pF"
+		(property "Description" "TVS bidirectional, 5V, 2.7-3.5pF"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32763,7 +32763,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "F6187TR-ND"
+		(property "DigiKey" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32775,7 +32775,7 @@
 				)
 			)
 		)
-		(property "Farnell" "2777317"
+		(property "Farnell" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32787,7 +32787,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C126836"
+		(property "JLCPCB Part #" "C3001954"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32799,7 +32799,7 @@
 				)
 			)
 		)
-		(property "MPN" "SP1007-01ETG"
+		(property "MPN" "LESD8LH5.0CT5G"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32811,7 +32811,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Littelfuse"
+		(property "Manufacturer" "UMW(Youtai Semiconductor Co., Ltd.)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32823,7 +32823,7 @@
 				)
 			)
 		)
-		(property "Mouser" "576-SP1007-01ETG"
+		(property "Mouser" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32835,7 +32835,7 @@
 				)
 			)
 		)
-		(path "/6f5759bf-d31b-4389-b9e4-d40541e5f9aa")
+		(path "/7dd5cbd9-8207-4192-a144-001f1190d00f")
 		(sheetname "Root")
 		(sheetfile "tiny-scarab.kicad_sch")
 		(attr smd)
@@ -33006,7 +33006,7 @@
 				)
 			)
 		)
-		(property "Description" "TVS bidirectional, 6V, 3.5pF"
+		(property "Description" "TVS bidirectional, 5V, 2.7-3.5pF"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33019,7 +33019,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "F6187TR-ND"
+		(property "DigiKey" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -33031,7 +33031,7 @@
 				)
 			)
 		)
-		(property "Farnell" "2777317"
+		(property "Farnell" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -33043,7 +33043,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C126836"
+		(property "JLCPCB Part #" "C3001954"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -33055,7 +33055,7 @@
 				)
 			)
 		)
-		(property "MPN" "SP1007-01ETG"
+		(property "MPN" "LESD8LH5.0CT5G"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -33067,7 +33067,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Littelfuse"
+		(property "Manufacturer" "UMW(Youtai Semiconductor Co., Ltd.)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -33079,7 +33079,7 @@
 				)
 			)
 		)
-		(property "Mouser" "576-SP1007-01ETG"
+		(property "Mouser" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -33091,7 +33091,7 @@
 				)
 			)
 		)
-		(path "/428132c0-79f1-486c-9dc0-1d1d3706084e")
+		(path "/ff62d72e-1aa5-4193-adbf-47fec03f7d2b")
 		(sheetname "Root")
 		(sheetfile "tiny-scarab.kicad_sch")
 		(attr smd)
@@ -35088,7 +35088,7 @@
 				)
 			)
 		)
-		(property "Description" "TVS bidirectional, 6V, 3.5pF"
+		(property "Description" "TVS bidirectional, 5V, 2.7-3.5pF"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35101,7 +35101,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "F6187TR-ND"
+		(property "DigiKey" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35113,7 +35113,7 @@
 				)
 			)
 		)
-		(property "Farnell" "2777317"
+		(property "Farnell" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35125,7 +35125,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C126836"
+		(property "JLCPCB Part #" "C3001954"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35137,7 +35137,7 @@
 				)
 			)
 		)
-		(property "MPN" "SP1007-01ETG"
+		(property "MPN" "LESD8LH5.0CT5G"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35149,7 +35149,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Littelfuse"
+		(property "Manufacturer" "UMW(Youtai Semiconductor Co., Ltd.)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35161,7 +35161,7 @@
 				)
 			)
 		)
-		(property "Mouser" "576-SP1007-01ETG"
+		(property "Mouser" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35173,7 +35173,7 @@
 				)
 			)
 		)
-		(path "/6bc1f037-2791-471d-8829-3847709f9d74")
+		(path "/0f6db314-e8c7-4d29-90fc-c2676b004861")
 		(sheetname "Root")
 		(sheetfile "tiny-scarab.kicad_sch")
 		(attr smd)
@@ -35960,7 +35960,7 @@
 				)
 			)
 		)
-		(property "Description" "TVS bidirectional, 6V, 3.5pF"
+		(property "Description" "TVS bidirectional, 5V, 2.7-3.5pF"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35973,7 +35973,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "F6187TR-ND"
+		(property "DigiKey" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35985,7 +35985,7 @@
 				)
 			)
 		)
-		(property "Farnell" "2777317"
+		(property "Farnell" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35997,7 +35997,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C126836"
+		(property "JLCPCB Part #" "C3001954"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -36009,7 +36009,7 @@
 				)
 			)
 		)
-		(property "MPN" "SP1007-01ETG"
+		(property "MPN" "LESD8LH5.0CT5G"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -36021,7 +36021,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Littelfuse"
+		(property "Manufacturer" "UMW(Youtai Semiconductor Co., Ltd.)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -36033,7 +36033,7 @@
 				)
 			)
 		)
-		(property "Mouser" "576-SP1007-01ETG"
+		(property "Mouser" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -36045,7 +36045,7 @@
 				)
 			)
 		)
-		(path "/c06852fb-696c-4fbd-87dc-9104a10686f9")
+		(path "/2282c56d-ebad-418e-933e-90dbda3bf4eb")
 		(sheetname "Root")
 		(sheetfile "tiny-scarab.kicad_sch")
 		(attr smd)
@@ -36216,7 +36216,7 @@
 				)
 			)
 		)
-		(property "Description" "TVS bidirectional, 6V, 3.5pF"
+		(property "Description" "TVS bidirectional, 5V, 2.7-3.5pF"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36229,7 +36229,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "F6187TR-ND"
+		(property "DigiKey" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -36241,7 +36241,7 @@
 				)
 			)
 		)
-		(property "Farnell" "2777317"
+		(property "Farnell" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -36253,7 +36253,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C126836"
+		(property "JLCPCB Part #" "C3001954"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -36265,7 +36265,7 @@
 				)
 			)
 		)
-		(property "MPN" "SP1007-01ETG"
+		(property "MPN" "LESD8LH5.0CT5G"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -36277,7 +36277,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Littelfuse"
+		(property "Manufacturer" "UMW(Youtai Semiconductor Co., Ltd.)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -36289,7 +36289,7 @@
 				)
 			)
 		)
-		(property "Mouser" "576-SP1007-01ETG"
+		(property "Mouser" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -36301,7 +36301,7 @@
 				)
 			)
 		)
-		(path "/90393844-9805-4207-88e8-abd4029c5b43/53e0668a-9c55-42b1-b563-5257b719e250")
+		(path "/90393844-9805-4207-88e8-abd4029c5b43/ed874c8e-8579-4c14-905c-bc6dae4b4846")
 		(sheetname "WCH-LinkE-R0-1v3")
 		(sheetfile "WCH-LinkE-R0-1v3.kicad_sch")
 		(attr smd exclude_from_bom dnp)
@@ -38220,7 +38220,7 @@
 				)
 			)
 		)
-		(property "Description" "TVS bidirectional, 6V, 3.5pF"
+		(property "Description" "TVS bidirectional, 5V, 2.7-3.5pF"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38233,7 +38233,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "F6187TR-ND"
+		(property "DigiKey" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -38245,7 +38245,7 @@
 				)
 			)
 		)
-		(property "Farnell" "2777317"
+		(property "Farnell" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -38257,7 +38257,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C126836"
+		(property "JLCPCB Part #" "C3001954"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -38269,7 +38269,7 @@
 				)
 			)
 		)
-		(property "MPN" "SP1007-01ETG"
+		(property "MPN" "LESD8LH5.0CT5G"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -38281,7 +38281,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Littelfuse"
+		(property "Manufacturer" "UMW(Youtai Semiconductor Co., Ltd.)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -38293,7 +38293,7 @@
 				)
 			)
 		)
-		(property "Mouser" "576-SP1007-01ETG"
+		(property "Mouser" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -38305,7 +38305,7 @@
 				)
 			)
 		)
-		(path "/c8540dbf-07ce-4759-8e67-a713d65b61b8")
+		(path "/41dd114d-5d54-44a5-b623-55a1d87b5904")
 		(sheetname "Root")
 		(sheetfile "tiny-scarab.kicad_sch")
 		(attr smd)
@@ -40404,7 +40404,7 @@
 				)
 			)
 		)
-		(property "Description" "TVS bidirectional, 6V, 3.5pF"
+		(property "Description" "TVS bidirectional, 5V, 2.7-3.5pF"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40417,7 +40417,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "F6187TR-ND"
+		(property "DigiKey" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -40429,7 +40429,7 @@
 				)
 			)
 		)
-		(property "Farnell" "2777317"
+		(property "Farnell" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -40441,7 +40441,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C126836"
+		(property "JLCPCB Part #" "C3001954"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -40453,7 +40453,7 @@
 				)
 			)
 		)
-		(property "MPN" "SP1007-01ETG"
+		(property "MPN" "LESD8LH5.0CT5G"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -40465,7 +40465,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Littelfuse"
+		(property "Manufacturer" "UMW(Youtai Semiconductor Co., Ltd.)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -40477,7 +40477,7 @@
 				)
 			)
 		)
-		(property "Mouser" "576-SP1007-01ETG"
+		(property "Mouser" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -40489,7 +40489,7 @@
 				)
 			)
 		)
-		(path "/481ed0a2-b40b-451f-8f8b-138317026240/29eae40b-0a57-4beb-8ba3-42b4038b6da2")
+		(path "/481ed0a2-b40b-451f-8f8b-138317026240/1ade54a2-66f1-4233-a28d-948e41d7e27d")
 		(sheetname "Voltage-selection")
 		(sheetfile "Voltage-selection.kicad_sch")
 		(attr smd)
@@ -43331,7 +43331,7 @@
 				)
 			)
 		)
-		(property "Description" "TVS bidirectional, 6V, 3.5pF"
+		(property "Description" "TVS bidirectional, 5V, 2.7-3.5pF"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43344,7 +43344,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "F6187TR-ND"
+		(property "DigiKey" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -43356,7 +43356,7 @@
 				)
 			)
 		)
-		(property "Farnell" "2777317"
+		(property "Farnell" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -43368,7 +43368,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C126836"
+		(property "JLCPCB Part #" "C3001954"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -43380,7 +43380,7 @@
 				)
 			)
 		)
-		(property "MPN" "SP1007-01ETG"
+		(property "MPN" "LESD8LH5.0CT5G"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -43392,7 +43392,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Littelfuse"
+		(property "Manufacturer" "UMW(Youtai Semiconductor Co., Ltd.)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -43404,7 +43404,7 @@
 				)
 			)
 		)
-		(property "Mouser" "576-SP1007-01ETG"
+		(property "Mouser" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -43416,7 +43416,7 @@
 				)
 			)
 		)
-		(path "/c0562f60-3f19-4ae2-b0ea-403dbf86fe2f")
+		(path "/10ba194c-b52b-4c03-9f60-5a45fe1a9da7")
 		(sheetname "Root")
 		(sheetfile "tiny-scarab.kicad_sch")
 		(attr smd)

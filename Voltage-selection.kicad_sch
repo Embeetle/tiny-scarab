@@ -819,7 +819,7 @@
 				)
 			)
 		)
-		(symbol "Tiny_Scarab:TVS_SP1007-01ETG"
+		(symbol "Tiny_Scarab:TVS_LESD8LH5.0CT5G"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016)
@@ -846,7 +846,7 @@
 				)
 			)
 			(property "Footprint" "Tiny_Scarab:D_SOD-882_SP1007-01ETG"
-				(at 0 22.86 0)
+				(at -0.254 17.272 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -856,7 +856,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at -11.43 13.97 0)
+				(at -11.684 8.382 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -865,8 +865,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "TVS bidirectional, 6V, 3.5pF"
-				(at 0 0 0)
+			(property "Description" "TVS bidirectional, 5V, 2.7-3.5pF"
+				(at -0.254 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -874,18 +874,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Littelfuse"
-				(at 0 20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MPN" "SP1007-01ETG"
-				(at 0 17.78 0)
+			(property "Manufacturer" "UMW(Youtai Semiconductor Co., Ltd.)"
+				(at -0.254 14.732 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -894,8 +884,18 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB Part #" "C126836"
-				(at 0 16.51 0)
+			(property "MPN" "LESD8LH5.0CT5G"
+				(at -0.254 12.192 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part #" "C3001954"
+				(at -0.254 10.922 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -903,8 +903,8 @@
 					(hide yes)
 				)
 			)
-			(property "DigiKey" "F6187TR-ND"
-				(at 0 13.97 0)
+			(property "DigiKey" ""
+				(at -0.254 8.382 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -912,8 +912,8 @@
 					(hide yes)
 				)
 			)
-			(property "Farnell" "2777317"
-				(at 0 11.43 0)
+			(property "Farnell" ""
+				(at 0 13.462 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -921,8 +921,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser" "576-SP1007-01ETG"
-				(at 0 8.89 0)
+			(property "Mouser" ""
+				(at 0 10.922 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -930,7 +930,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TVS_SP1007-01ETG_0_1"
+			(symbol "TVS_LESD8LH5.0CT5G_0_1"
 				(polyline
 					(pts
 						(xy -1.016 0.508) (xy -1.016 0) (xy 1.016 0) (xy 1.016 -0.508)
@@ -956,7 +956,7 @@
 					)
 				)
 			)
-			(symbol "TVS_SP1007-01ETG_1_0"
+			(symbol "TVS_LESD8LH5.0CT5G_1_0"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 1.27)
@@ -2599,6 +2599,134 @@
 		)
 	)
 	(symbol
+		(lib_id "Tiny_Scarab:TVS_LESD8LH5.0CT5G")
+		(at 78.74 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ade54a2-66f1-4233-a28d-948e41d7e27d")
+		(property "Reference" "TVS7"
+			(at 77.597 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5V"
+			(at 81.28 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Tiny_Scarab:D_SOD-882_SP1007-01ETG"
+			(at 78.486 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.056 41.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "TVS bidirectional, 5V, 2.7-3.5pF"
+			(at 78.486 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UMW(Youtai Semiconductor Co., Ltd.)"
+			(at 78.486 34.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LESD8LH5.0CT5G"
+			(at 78.486 37.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C3001954"
+			(at 78.486 38.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" ""
+			(at 78.486 41.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell" ""
+			(at 78.74 36.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 78.74 38.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "16b52c98-f551-4c56-934f-6c6c3c4631c4")
+		)
+		(pin "1"
+			(uuid "d60332a3-bed8-45d7-82ff-dbeda03fe2a5")
+		)
+		(instances
+			(project "tiny-scarab"
+				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
+					(reference "TVS7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 168.91 62.23 0)
 		(mirror y)
@@ -2766,136 +2894,6 @@
 			(project "tiny-scarab"
 				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
 					(reference "#PWR074")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Tiny_Scarab:TVS_SP1007-01ETG")
-		(at 78.74 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "29eae40b-0a57-4beb-8ba3-42b4038b6da2")
-		(property "Reference" "TVS7"
-			(at 77.47 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5V"
-			(at 81.28 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Tiny_Scarab:D_SOD-882_SP1007-01ETG"
-			(at 67.31 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "TVS bidirectional, 6V, 3.5pF"
-			(at 78.74 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Littelfuse"
-			(at 67.31 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SP1007-01ETG"
-			(at 67.31 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C126836"
-			(at 67.31 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" "F6187TR-ND"
-			(at 67.31 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Farnell" "2777317"
-			(at 78.74 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "576-SP1007-01ETG"
-			(at 78.74 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7a9ca2c2-5e96-4e85-9eab-ed86ea17808c")
-		)
-		(pin "2"
-			(uuid "b8c8cb26-8a63-4612-b17e-0bdb73443044")
-		)
-		(instances
-			(project "tiny-scarab"
-				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
-					(reference "TVS7")
 					(unit 1)
 				)
 			)
@@ -3766,136 +3764,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Tiny_Scarab:TVS_SP1007-01ETG")
-		(at 85.09 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6fb47097-cf2e-452a-9023-0353a96425d2")
-		(property "Reference" "TVS8"
-			(at 83.82 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5V"
-			(at 87.63 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Tiny_Scarab:D_SOD-882_SP1007-01ETG"
-			(at 73.66 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "TVS bidirectional, 6V, 3.5pF"
-			(at 85.09 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Littelfuse"
-			(at 73.66 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SP1007-01ETG"
-			(at 73.66 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C126836"
-			(at 73.66 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" "F6187TR-ND"
-			(at 73.66 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Farnell" "2777317"
-			(at 85.09 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "576-SP1007-01ETG"
-			(at 85.09 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "62fa6a29-ef91-42d3-b9f0-879cc6a77b35")
-		)
-		(pin "2"
-			(uuid "c0a099d8-0876-4ebe-aadc-03b6fd978b55")
-		)
-		(instances
-			(project "tiny-scarab"
-				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
-					(reference "TVS8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 60.96 40.64 0)
 		(unit 1)
@@ -4671,6 +4539,134 @@
 			(project "tiny-scarab"
 				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
 					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Tiny_Scarab:TVS_LESD8LH5.0CT5G")
+		(at 85.09 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb90de93-d374-4ea0-ba52-efea23b854d2")
+		(property "Reference" "TVS8"
+			(at 83.947 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5V"
+			(at 87.63 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Tiny_Scarab:D_SOD-882_SP1007-01ETG"
+			(at 84.836 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.406 41.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "TVS bidirectional, 5V, 2.7-3.5pF"
+			(at 84.836 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UMW(Youtai Semiconductor Co., Ltd.)"
+			(at 84.836 34.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LESD8LH5.0CT5G"
+			(at 84.836 37.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C3001954"
+			(at 84.836 38.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" ""
+			(at 84.836 41.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell" ""
+			(at 85.09 36.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 85.09 38.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b0af708d-bc20-414d-9ee6-7afafc2f1253")
+		)
+		(pin "1"
+			(uuid "24112dea-75e4-47fe-b007-65fd7c33d068")
+		)
+		(instances
+			(project "tiny-scarab"
+				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/481ed0a2-b40b-451f-8f8b-138317026240"
+					(reference "TVS8")
 					(unit 1)
 				)
 			)
