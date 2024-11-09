@@ -4076,7 +4076,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/CDSOD323-TxxLC.pdf"
+		(property "Datasheet" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4102,7 +4102,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "CDSOD323-T05LCTR-ND"
+		(property "DigiKey" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4114,7 +4114,7 @@
 				)
 			)
 		)
-		(property "Farnell" "1824861"
+		(property "Farnell" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4126,7 +4126,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C840637"
+		(property "JLCPCB Part #" "C20884"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4138,7 +4138,7 @@
 				)
 			)
 		)
-		(property "MPN" "CDSOD323-T05LC"
+		(property "MPN" "RLSD32A051LC"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4150,7 +4150,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" "RUILON(Shenzhen Ruilongyuan Elec)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4162,7 +4162,7 @@
 				)
 			)
 		)
-		(property "Mouser" "652-CDSOD323-T05LC"
+		(property "Mouser" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4174,7 +4174,7 @@
 				)
 			)
 		)
-		(path "/99c48f54-1f97-4ff9-8db4-28f0cf987802/2c9f2e24-e140-4c89-8ffe-b2d1b833b820")
+		(path "/99c48f54-1f97-4ff9-8db4-28f0cf987802/95ef30de-3e3f-4b3f-bd5f-b03bfb9ffc5c")
 		(sheetname "USB")
 		(sheetfile "USB.kicad_sch")
 		(attr smd)
@@ -26402,7 +26402,7 @@
 		)
 		(fp_arc
 			(start 2.55 -1.468826)
-			(mid 2.416179 -1.519539)
+			(mid 2.416157 -1.519524)
 			(end 2.357361 -1.65)
 			(stroke
 				(width 0.05)
@@ -26424,7 +26424,7 @@
 		)
 		(fp_arc
 			(start 2.357826 1.65)
-			(mid 2.416295 1.519383)
+			(mid 2.416295 1.519379)
 			(end 2.55 1.468361)
 			(stroke
 				(width 0.05)
@@ -36973,7 +36973,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/CDSOD323-TxxLC.pdf"
+		(property "Datasheet" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36999,7 +36999,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "CDSOD323-T05LCTR-ND"
+		(property "DigiKey" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -37011,7 +37011,7 @@
 				)
 			)
 		)
-		(property "Farnell" "1824861"
+		(property "Farnell" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -37023,7 +37023,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C840637"
+		(property "JLCPCB Part #" "C20884"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -37035,7 +37035,7 @@
 				)
 			)
 		)
-		(property "MPN" "CDSOD323-T05LC"
+		(property "MPN" "RLSD32A051LC"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -37047,7 +37047,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" "RUILON(Shenzhen Ruilongyuan Elec)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -37059,7 +37059,7 @@
 				)
 			)
 		)
-		(property "Mouser" "652-CDSOD323-T05LC"
+		(property "Mouser" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -37071,7 +37071,7 @@
 				)
 			)
 		)
-		(path "/99c48f54-1f97-4ff9-8db4-28f0cf987802/edc777c0-7ce2-4492-9d1d-02dbcbd63289")
+		(path "/99c48f54-1f97-4ff9-8db4-28f0cf987802/790d9b42-5ae9-4e72-944e-f9a5f4090215")
 		(sheetname "USB")
 		(sheetfile "USB.kicad_sch")
 		(attr smd)

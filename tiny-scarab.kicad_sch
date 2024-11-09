@@ -4480,6 +4480,17 @@
 		)
 		(uuid "0f641fbc-4d67-4f44-87ec-22956cc2fde9")
 	)
+	(text "ALTERNATIVE PARTS\n=================\n- XTAL2:\n   - M24000J054(C279615)\n   - L327S240V11L(C5261157)\n\n- TVS1, TVS2:\n   - CDSOD323-T05LC(C840637)\n   - RLSD32A051LC(C20884)"
+		(exclude_from_sim no)
+		(at 142.24 105.41 0)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+			(justify left top)
+		)
+		(uuid "2e2abac1-a652-496f-a827-5b37d5424ab2")
+	)
 	(text "USB"
 		(exclude_from_sim no)
 		(at 12.7 16.51 0)

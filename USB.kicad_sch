@@ -2385,7 +2385,7 @@
 				)
 			)
 		)
-		(symbol "Tiny_Scarab:TVS_CDSOD323-T05LC"
+		(symbol "Tiny_Scarab:TVS_RLSD32A051LC"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016)
@@ -2412,7 +2412,7 @@
 				)
 			)
 			(property "Footprint" "Tiny_Scarab:D_SOD-323_CDSOD323-T05LC"
-				(at 0 26.67 0)
+				(at 0 20.066 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2421,8 +2421,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/CDSOD323-TxxLC.pdf"
-				(at 0 25.4 0)
+			(property "Datasheet" ""
+				(at 0 20.574 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2431,7 +2431,7 @@
 				)
 			)
 			(property "Description" "TVS diode bidirectional 5V, 1pF"
-				(at 0 0 0)
+				(at 0.254 12.192 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2439,18 +2439,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Bourns"
-				(at 0 22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MPN" "CDSOD323-T05LC"
-				(at 0 20.32 0)
+			(property "Manufacturer" "RUILON(Shenzhen Ruilongyuan Elec)"
+				(at 0 18.034 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2459,8 +2449,18 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB Part #" "C840637"
-				(at 0 19.05 0)
+			(property "MPN" "RLSD32A051LC"
+				(at 0 15.494 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part #" "C20884"
+				(at 0 14.224 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2468,8 +2468,8 @@
 					(hide yes)
 				)
 			)
-			(property "DigiKey" "CDSOD323-T05LCTR-ND"
-				(at 0 16.51 0)
+			(property "DigiKey" ""
+				(at 0 11.684 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2477,8 +2477,8 @@
 					(hide yes)
 				)
 			)
-			(property "Farnell" "1824861"
-				(at 0 13.97 0)
+			(property "Farnell" ""
+				(at -0.254 17.018 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2486,8 +2486,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser" "652-CDSOD323-T05LC"
-				(at 0 11.43 0)
+			(property "Mouser" ""
+				(at -0.254 14.478 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2495,7 +2495,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TVS_CDSOD323-T05LC_0_0"
+			(symbol "TVS_RLSD32A051LC_0_0"
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.54)
@@ -2515,7 +2515,7 @@
 					)
 				)
 			)
-			(symbol "TVS_CDSOD323-T05LC_0_1"
+			(symbol "TVS_RLSD32A051LC_0_1"
 				(polyline
 					(pts
 						(xy -1.27 0.508) (xy -1.27 0) (xy 1.27 0) (xy 1.27 -0.508)
@@ -2541,7 +2541,7 @@
 					)
 				)
 			)
-			(symbol "TVS_CDSOD323-T05LC_1_0"
+			(symbol "TVS_RLSD32A051LC_1_0"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.54)
@@ -5803,133 +5803,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Tiny_Scarab:TVS_CDSOD323-T05LC")
-		(at 48.26 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2c9f2e24-e140-4c89-8ffe-b2d1b833b820")
-		(property "Reference" "TVS1"
-			(at 45.72 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V"
-			(at 49.53 76.2 0)
-			(effects
-				(font
-					(size 0.5 0.5)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Tiny_Scarab:D_SOD-323_CDSOD323-T05LC"
-			(at 48.26 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/CDSOD323-TxxLC.pdf"
-			(at 48.26 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "TVS diode bidirectional 5V, 1pF"
-			(at 48.26 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 48.26 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CDSOD323-T05LC"
-			(at 48.26 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C840637"
-			(at 48.26 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" "CDSOD323-T05LCTR-ND"
-			(at 48.26 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Farnell" "1824861"
-			(at 48.26 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "652-CDSOD323-T05LC"
-			(at 48.26 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "60cd6f94-f174-4ed2-8b3e-20222d90e747")
-		)
-		(pin "1"
-			(uuid "3943c4e5-3e44-4274-811d-61ea69a2be40")
-		)
-		(instances
-			(project "tiny-scarab"
-				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/99c48f54-1f97-4ff9-8db4-28f0cf987802"
-					(reference "TVS1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 67.31 55.88 180)
 		(unit 1)
@@ -7721,6 +7594,133 @@
 		)
 	)
 	(symbol
+		(lib_id "Tiny_Scarab:TVS_RLSD32A051LC")
+		(at 53.34 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "790d9b42-5ae9-4e72-944e-f9a5f4090215")
+		(property "Reference" "TVS2"
+			(at 53.34 70.231 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5V"
+			(at 55.88 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Tiny_Scarab:D_SOD-323_CDSOD323-T05LC"
+			(at 53.34 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TVS diode bidirectional 5V, 1pF"
+			(at 53.594 60.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "RUILON(Shenzhen Ruilongyuan Elec)"
+			(at 53.34 54.356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RLSD32A051LC"
+			(at 53.34 56.896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C20884"
+			(at 53.34 58.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" ""
+			(at 53.34 60.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell" ""
+			(at 53.086 55.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 53.086 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7e9530f-cae9-4aa6-ba52-52d9c296368d")
+		)
+		(pin "2"
+			(uuid "4339295b-f70c-445b-8b5c-8dcfcd33b492")
+		)
+		(instances
+			(project ""
+				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/99c48f54-1f97-4ff9-8db4-28f0cf987802"
+					(reference "TVS2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 144.78 91.44 0)
 		(unit 1)
@@ -8356,6 +8356,133 @@
 			(project "tiny-scarab"
 				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/99c48f54-1f97-4ff9-8db4-28f0cf987802"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Tiny_Scarab:TVS_RLSD32A051LC")
+		(at 48.26 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95ef30de-3e3f-4b3f-bd5f-b03bfb9ffc5c")
+		(property "Reference" "TVS1"
+			(at 48.26 70.231 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5V"
+			(at 50.8 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Tiny_Scarab:D_SOD-323_CDSOD323-T05LC"
+			(at 48.26 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TVS diode bidirectional 5V, 1pF"
+			(at 48.514 60.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "RUILON(Shenzhen Ruilongyuan Elec)"
+			(at 48.26 54.356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RLSD32A051LC"
+			(at 48.26 56.896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C20884"
+			(at 48.26 58.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" ""
+			(at 48.26 60.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell" ""
+			(at 48.006 55.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 48.006 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "19dbd435-6f33-4ae4-8326-be3d17452e2f")
+		)
+		(pin "1"
+			(uuid "40ef01b6-95f6-42da-bde7-a24de4b2743d")
+		)
+		(instances
+			(project ""
+				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/99c48f54-1f97-4ff9-8db4-28f0cf987802"
+					(reference "TVS1")
 					(unit 1)
 				)
 			)
@@ -9547,133 +9674,6 @@
 			(project "tiny-scarab"
 				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/99c48f54-1f97-4ff9-8db4-28f0cf987802"
 					(reference "TVS3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Tiny_Scarab:TVS_CDSOD323-T05LC")
-		(at 53.34 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "edc777c0-7ce2-4492-9d1d-02dbcbd63289")
-		(property "Reference" "TVS2"
-			(at 55.88 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V"
-			(at 54.61 76.2 0)
-			(effects
-				(font
-					(size 0.5 0.5)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Tiny_Scarab:D_SOD-323_CDSOD323-T05LC"
-			(at 53.34 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/CDSOD323-TxxLC.pdf"
-			(at 53.34 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "TVS diode bidirectional 5V, 1pF"
-			(at 53.34 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 53.34 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CDSOD323-T05LC"
-			(at 53.34 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C840637"
-			(at 53.34 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" "CDSOD323-T05LCTR-ND"
-			(at 53.34 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Farnell" "1824861"
-			(at 53.34 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "652-CDSOD323-T05LC"
-			(at 53.34 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3ea91cd8-a07a-418a-9727-f89f477949e4")
-		)
-		(pin "1"
-			(uuid "cd33a2e4-7442-4af1-97b0-31b269b73ba5")
-		)
-		(instances
-			(project "tiny-scarab"
-				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/99c48f54-1f97-4ff9-8db4-28f0cf987802"
-					(reference "TVS2")
 					(unit 1)
 				)
 			)
