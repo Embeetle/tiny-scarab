@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="74mm"
+   height="74mm"
+   viewBox="0 0 74 74"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="design.svg"
+   xml:space="preserve"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.9999999"
+     inkscape:cx="160.50001"
+     inkscape:cy="173.75001"
+     inkscape:window-width="2560"
+     inkscape:window-height="1334"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g211"
+     showgrid="true"><inkscape:grid
+       id="grid1"
+       units="mm"
+       originx="0"
+       originy="0"
+       spacingx="0.99999998"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="true" /></sodipodi:namedview><defs
+     id="defs1" /><g
+     inkscape:groupmode="layer"
+     id="g211"
+     inkscape:label="membrane_drawing"
+     style="display:inline"><path
+       id="path211"
+       style="display:inline;opacity:1;fill:#ffd100;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="M 8.5002563 0 C 5.0785503 -9.9999963e-07 1.9905309 2.0515348 0.66455892 5.2058838 C -0.66141238 8.3602318 0.033198155 12.002468 2.427242 14.44718 L 2.4303426 14.450281 C 4.0778166 16.132349 5.0007294 18.392773 5.0007284 20.747054 L 5.0007284 53.25308 C 5.0007324 55.607371 4.0778166 57.867778 2.4303426 59.549854 L 2.427242 59.552954 C 0.033198155 61.997674 -0.66141238 65.639386 0.66455892 68.793734 C 1.9905309 71.948083 5.0785493 74.000137 8.5002563 74.000134 L 39.500431 74.000134 C 42.922091 74.000138 46.010149 71.948083 47.336129 68.793734 C 48.662109 65.639386 47.967506 61.997674 45.573446 59.552954 L 45.570345 59.549854 C 43.922854 57.867779 43.000476 55.60737 43.000476 53.25308 L 43.000476 20.747054 C 43.000476 18.392771 43.922855 16.132349 45.570345 14.450281 L 45.573446 14.44718 C 47.967507 12.002467 48.662109 8.3602318 47.336129 5.2058838 C 46.010149 2.0515348 42.922091 -4e-06 39.500431 0 L 8.5002563 0 z M 17.000513 3.5000448 A 1.5 1.5 0 0 1 18.500163 5.0002116 A 1.5 1.5 0 0 1 17.000513 6.5003784 A 1.5 1.5 0 0 1 15.500346 5.0002116 A 1.5 1.5 0 0 1 17.000513 3.5000448 z M 31.000175 3.5000448 A 1.5 1.5 0 0 1 32.500342 5.0002116 A 1.5 1.5 0 0 1 31.000175 6.5003784 A 1.5 1.5 0 0 1 29.500008 5.0002116 A 1.5 1.5 0 0 1 31.000175 3.5000448 z M 17.000513 8.5002563 A 1.5 1.5 0 0 1 18.500163 10.000423 A 1.5 1.5 0 0 1 17.000513 11.500073 A 1.5 1.5 0 0 1 15.500346 10.000423 A 1.5 1.5 0 0 1 17.000513 8.5002563 z M 31.000175 8.5002563 A 1.5 1.5 0 0 1 32.500342 10.000423 A 1.5 1.5 0 0 1 31.000175 11.500073 A 1.5 1.5 0 0 1 29.500008 10.000423 A 1.5 1.5 0 0 1 31.000175 8.5002563 z M 34.180343 37.580135 L 36.680448 37.580135 L 36.680448 42.080119 L 34.180343 42.080119 L 34.180343 37.580135 z M 16.500285 40.499854 A 1.5 1.5 0 0 1 17.999935 42.00002 A 1.5 1.5 0 0 1 16.500285 43.500187 A 1.5 1.5 0 0 1 15.000118 42.00002 A 1.5 1.5 0 0 1 16.500285 40.499854 z M 12.780098 44.386955 L 19.980176 44.386955 L 19.980176 64.387284 L 12.780098 64.387284 L 12.780098 44.386955 z M 28.019995 44.386955 L 35.220072 44.386955 L 35.220072 64.387284 L 28.019995 64.387284 L 28.019995 44.386955 z "
+       inkscape:export-filename="design.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" /><path
+       id="path32"
+       clip-path="none"
+       style="fill:#dddbd1;fill-opacity:1;stroke:none;stroke-width:0.0999999;stroke-linejoin:round"
+       inkscape:transform-center-x="1.6377953e-06"
+       d="M 8.5064575 1.1988932 C 6.2339435 1.1988922 4.1455586 2.2571455 2.7832926 3.9852865 L 2.7832926 5.7500366 L 6.6802124 8.0000285 L 10.577132 5.7500366 L 10.577132 1.2500529 L 10.488765 1.1988932 L 8.5069743 1.1988932 L 8.5064575 1.1988932 z M 11.531596 1.1988932 L 11.443229 1.2500529 L 11.443229 5.7500366 L 11.443229 5.7505534 L 15.340149 8.0000285 L 15.340666 8.0005452 L 19.237585 5.7505534 L 19.237585 5.7500366 L 19.237585 1.2500529 L 19.149219 1.1988932 L 11.531596 1.1988932 z M 20.192049 1.1988932 L 20.103682 1.2500529 L 20.103682 5.7500366 L 24.000602 8.0000285 L 27.898039 5.7500366 L 27.898039 1.2500529 L 27.809672 1.1988932 L 20.192049 1.1988932 z M 28.851986 1.1988932 L 28.763619 1.2500529 L 28.763619 5.7500366 L 28.763619 5.7505534 L 28.764136 5.7505534 L 32.661056 8.0005452 L 36.557975 5.7505534 L 36.558492 5.7505534 L 36.558492 2.4256917 L 36.557975 2.4256917 L 36.557975 1.2500529 L 36.469609 1.1988932 L 28.851986 1.1988932 z M 37.512439 1.1988932 L 37.424072 1.2500529 L 37.424072 5.7500366 L 41.320992 8.0000285 L 45.218429 5.7500366 L 45.218429 3.9713338 C 43.856466 2.2511278 41.77381 1.1988892 39.507149 1.1988932 L 37.512439 1.1988932 z M 17.000513 3.5000448 A 1.5 1.5 0 0 1 18.500163 5.0002116 A 1.5 1.5 0 0 1 17.000513 6.5003784 A 1.5 1.5 0 0 1 15.500346 5.0002116 A 1.5 1.5 0 0 1 17.000513 3.5000448 z M 31.000175 3.5000448 A 1.5 1.5 0 0 1 32.500342 5.0002116 A 1.5 1.5 0 0 1 31.000175 6.5003784 A 1.5 1.5 0 0 1 29.500008 5.0002116 A 1.5 1.5 0 0 1 31.000175 3.5000448 z M 46.084526 5.376416 L 46.084526 5.7500366 L 46.30415 5.8766439 C 46.27805 5.8090339 46.263641 5.7391382 46.235421 5.6720052 C 46.192041 5.5688192 46.132193 5.476804 46.084526 5.376416 z M 1.9171956 5.3960531 C 1.8729356 5.4899731 1.816625 5.5756442 1.776119 5.6720052 C 1.748839 5.7369052 1.7352731 5.8045809 1.7099731 5.8699259 L 1.9171956 5.7500366 L 1.9171956 5.3960531 z M 2.3502441 6.4998617 L 1.3647746 7.0683024 C 0.89487553 9.4056974 1.5770637 11.858524 3.2897217 13.607438 C 3.2910217 13.608638 3.2925558 13.609856 3.2938558 13.611056 C 3.5720018 13.895042 3.8254945 14.197858 4.0664185 14.509192 L 6.2471639 13.249837 L 6.2471639 8.7498535 L 2.3502441 6.4998617 z M 11.010181 6.4998617 L 7.1132609 8.7498535 L 7.1132609 13.249837 L 11.010181 15.499829 L 14.907617 13.249837 L 14.907617 8.7498535 L 11.010181 6.4998617 z M 19.670634 6.4998617 L 15.773714 8.7498535 L 15.773714 9.1420776 A 1.5 1.5 0 0 1 17.000513 8.5002563 A 1.5 1.5 0 0 1 18.500163 10.000423 A 1.5 1.5 0 0 1 17.000513 11.500073 A 1.5 1.5 0 0 1 15.773714 10.858252 L 15.773714 13.249837 L 18.495512 14.821318 C 18.881039 14.452949 19.330421 14.173595 19.848918 14.036869 C 20.071418 13.978209 20.297261 13.948202 20.520711 13.945402 C 20.744571 13.942702 20.966823 13.966615 21.184753 14.013615 C 21.415484 14.063375 21.63969 14.140152 21.857581 14.236857 L 23.567554 13.249837 L 23.56807 13.249837 L 23.56807 8.7498535 L 23.567554 8.7498535 L 19.670634 6.4998617 z M 28.331087 6.4998617 L 24.434167 8.7498535 L 24.433651 8.7498535 L 24.433651 13.249837 L 24.434167 13.249837 L 28.17089 15.407328 C 28.24503 15.224596 28.326415 15.043754 28.425138 14.86886 C 28.157108 13.924338 28.663378 12.89999 29.589408 12.603365 C 29.805598 12.534115 30.025815 12.503864 30.241565 12.507764 C 30.904453 12.519834 31.548519 12.844004 31.920015 13.427604 L 32.228007 13.249837 L 32.228524 13.249837 L 32.228524 10.856185 A 1.5 1.5 0 0 1 31.000175 11.500073 A 1.5 1.5 0 0 1 29.500008 10.000423 A 1.5 1.5 0 0 1 31.000175 8.5002563 A 1.5 1.5 0 0 1 32.228524 9.1394938 L 32.228524 8.7498535 L 28.331087 6.4998617 z M 36.991024 6.4998617 L 33.094104 8.7498535 L 33.094104 13.249837 L 36.991024 15.499829 L 40.887944 13.249837 L 40.88846 8.7498535 L 36.991024 6.4998617 z M 45.651477 6.4998617 L 41.754041 8.7498535 L 41.754041 13.249837 L 43.943571 14.513843 C 44.185546 14.200895 44.440273 13.896403 44.719751 13.611056 L 44.721818 13.607438 C 46.43282 11.860172 47.11502 9.4104113 46.647799 7.0750203 L 45.651477 6.4998617 z M 6.6802124 13.999662 L 4.5728475 15.216642 C 5.6295085 16.853714 6.2058228 18.771417 6.2058228 20.748088 L 6.2058228 22.726261 L 6.6802124 23.000146 L 10.577132 20.749638 L 10.577132 16.249654 L 6.6802124 13.999662 z M 15.340666 13.999662 L 11.443229 16.249654 L 11.443229 20.750155 L 15.340666 23.000146 L 19.237585 20.750155 L 19.237585 18.934245 C 18.374893 19.027475 17.516945 18.577564 17.163293 17.722432 C 16.817225 16.8857 17.182884 15.941124 17.898649 15.476575 L 15.340666 13.999662 z M 24.000602 13.999662 L 22.712826 14.743286 C 23.904451 15.624096 24.952512 17.131031 26.003064 19.193144 C 26.096914 19.189844 26.186166 19.165755 26.280566 19.165755 C 26.809506 19.165755 27.266115 19.331642 27.753345 19.431372 C 27.733745 18.997271 27.712138 18.552762 27.716138 18.068148 C 27.720638 17.491791 27.767048 16.886791 27.898039 16.292546 L 27.898039 16.249654 L 24.000602 13.999662 z M 32.661056 13.999662 L 32.204753 14.263212 C 32.267863 15.1001 31.72453 15.922519 30.909741 16.183508 C 30.759941 16.231488 30.620575 16.147914 30.469975 16.160254 C 30.321195 16.507345 30.115757 17.181732 30.108757 18.087785 C 30.105857 18.45798 30.124929 18.828144 30.141829 19.195211 C 31.713039 19.208061 33.191585 20.125154 33.753495 21.662244 L 33.753495 21.664311 C 33.827405 21.868302 33.877051 22.073887 33.909041 22.279777 L 36.557975 20.750155 L 36.557975 16.249654 L 32.661056 13.999662 z M 41.320992 13.999662 L 37.424072 16.250171 L 37.424072 20.750155 L 41.320992 23.000146 L 41.805717 22.720577 L 41.805717 20.748088 C 41.805717 18.77345 42.382489 16.857777 43.437659 15.22181 L 41.320992 13.999662 z M 20.821468 16.461011 C 21.119015 17.27333 20.781437 18.1694 20.103682 18.62677 L 20.103682 19.740914 C 20.50258 19.383315 20.97879 19.095161 21.517033 18.909957 C 21.938203 18.765176 22.385634 18.744987 22.829614 18.734257 C 22.205534 17.830085 21.536126 16.815403 21.128426 16.554545 C 20.950146 16.440475 20.919868 16.488841 20.821468 16.461011 z M 11.010181 21.49998 L 7.1132609 23.749972 L 7.1132609 28.249955 L 11.010181 30.499947 L 14.907617 28.249955 L 14.907617 23.749972 L 11.010181 21.49998 z M 36.991024 21.49998 L 33.912142 23.277649 C 33.814692 23.946533 33.520945 24.585808 33.094104 25.145235 L 33.094104 28.249955 L 36.991024 30.499947 L 40.887944 28.249955 L 40.887944 23.749972 L 36.991024 21.49998 z M 18.848462 21.974886 L 15.773714 23.749972 L 15.773714 28.249955 L 16.987594 28.950688 C 17.743975 28.364197 18.532822 27.87906 19.302181 27.5177 C 19.062051 26.871535 18.848979 26.209229 18.848979 25.484233 C 18.848979 24.975857 18.98332 24.503907 19.11873 24.035225 C 19.09183 23.975505 19.058197 23.918548 19.034497 23.857458 L 19.034497 23.855391 C 18.794718 23.232857 18.743489 22.588657 18.848462 21.974886 z M 41.805717 23.719999 L 41.754041 23.749972 L 41.754041 28.249955 L 41.805717 28.279928 L 41.805717 23.719999 z M 6.2058228 23.7262 L 6.2058228 28.273726 L 6.2471639 28.249955 L 6.2471639 23.749972 L 6.2058228 23.7262 z M 32.228007 28.119731 C 32.194177 28.183481 32.160777 28.247384 32.124654 28.3099 L 32.228007 28.249955 L 32.228007 28.119731 z M 6.6802124 28.99978 L 6.2058228 29.273665 L 6.2058228 37.725863 L 6.6802124 37.999748 L 10.577132 35.749756 L 10.577132 31.249772 L 6.6802124 28.99978 z M 15.340666 28.99978 L 11.443229 31.249772 L 11.443229 35.749756 L 15.340666 37.999748 L 19.237585 35.749756 L 19.237585 33.396411 L 14.921053 33.386593 C 14.215343 33.384393 13.788724 32.605663 14.167094 32.009932 C 14.263734 31.857585 14.36903 31.696776 14.48387 31.535026 C 15.012757 30.790437 15.62549 30.126157 16.278076 29.540833 L 15.340666 28.99978 z M 32.661056 28.99978 L 30.21676 30.410547 C 30.566285 30.940466 30.870546 31.506703 31.075623 32.13654 C 31.263333 32.713147 30.836049 33.306128 30.229679 33.310628 L 28.763619 33.31993 L 28.763619 35.749756 L 32.661056 37.999748 L 36.557975 35.749756 L 36.557975 31.249772 L 32.661056 28.99978 z M 41.320992 28.99978 L 37.424072 31.249772 L 37.424072 35.749756 L 41.320992 37.999748 L 41.805717 37.720178 L 41.805717 29.27935 L 41.320992 28.99978 z M 27.898039 33.325098 L 20.103682 33.37419 L 20.103682 35.749756 L 24.000602 37.999748 L 27.898039 35.749756 L 27.898039 33.325098 z M 28.331087 36.499581 L 28.33057 36.500098 L 24.433651 38.749573 L 24.433651 38.75009 L 24.433651 43.250073 L 28.019995 45.320231 L 28.019995 44.386955 L 30.259135 44.386955 L 32.228007 43.250073 L 32.228007 38.75009 L 32.228007 38.749573 L 28.331087 36.499581 z M 11.010181 36.500098 L 7.1132609 38.75009 L 7.1132609 43.250073 L 11.010181 45.500065 L 12.780098 44.478422 L 12.780098 44.386955 L 12.938228 44.386955 L 14.907617 43.250073 L 14.907617 38.75009 L 11.010181 36.500098 z M 19.670117 36.500098 L 15.773197 38.75009 L 15.773197 40.651265 L 15.773197 40.652816 L 15.773197 40.69209 A 1.5 1.5 0 0 1 16.500285 40.499854 A 1.5 1.5 0 0 1 17.999935 42.00002 A 1.5 1.5 0 0 1 16.500285 43.500187 A 1.5 1.5 0 0 1 16.114262 43.44696 L 16.2264 43.512073 L 16.226917 43.512073 L 16.701823 43.786475 L 17.741553 44.386955 L 19.980176 44.386955 L 19.980176 45.321781 L 23.567554 43.25059 L 23.567554 43.250073 L 23.567554 38.75009 L 19.670117 36.500098 z M 36.991024 36.500098 L 35.120337 37.580135 L 36.680448 37.580135 L 36.680448 42.080119 L 34.180343 42.080119 L 34.180343 38.122738 L 33.094104 38.75009 L 33.094104 43.250073 L 33.094104 43.25059 L 35.062459 44.386955 L 35.220072 44.386955 L 35.220072 44.477905 L 36.991024 45.500065 L 36.991541 45.500582 L 40.88846 43.25059 L 40.88846 38.75009 L 40.887944 38.75009 L 36.991024 36.500098 z M 41.805717 38.720117 L 41.754041 38.75009 L 41.754041 43.250073 L 41.805717 43.280046 L 41.805717 38.720117 z M 6.2058228 38.726318 L 6.2058228 43.273844 L 6.2471639 43.250073 L 6.2471639 38.75009 L 6.2058228 38.726318 z M 6.6802124 43.999898 L 6.2058228 44.273783 L 6.2058228 52.725981 L 6.6802124 52.999866 L 10.577132 50.749874 L 10.577132 46.24989 L 6.6802124 43.999898 z M 15.340666 43.999898 L 14.670422 44.386955 L 16.010909 44.386955 L 15.340666 43.999898 z M 24.000602 43.999898 L 20.103682 46.24989 L 20.103682 50.749874 L 24.000602 52.999866 L 27.898039 50.749874 L 27.898039 46.24989 L 24.000602 43.999898 z M 32.661056 43.999898 L 31.990812 44.386955 L 33.331299 44.386955 L 32.661056 43.999898 z M 41.320992 43.999898 L 37.424072 46.24989 L 37.424072 50.749874 L 41.320992 52.999866 L 41.805717 52.720296 L 41.805717 44.279468 L 41.320992 43.999898 z M 35.220072 45.477327 L 35.220072 51.522953 L 36.557975 50.750391 L 36.557975 50.749874 L 36.557975 46.24989 L 35.220072 45.477327 z M 12.780098 45.478361 L 11.443229 46.24989 L 11.443229 50.749874 L 11.443229 50.750391 L 12.780098 51.52192 L 12.780098 45.478361 z M 11.010181 51.499699 L 7.1132609 53.749691 L 7.1132609 58.249674 L 7.1132609 58.250191 L 11.010181 60.499666 L 11.010697 60.500183 L 12.780098 59.47854 L 12.780098 52.521342 L 11.010181 51.499699 z M 36.991024 51.499699 L 35.220072 52.522375 L 35.220072 59.478023 L 36.991024 60.500183 L 40.887944 58.250191 L 40.887944 58.249674 L 40.887944 53.749691 L 36.991024 51.499699 z M 19.980176 51.678499 L 19.980176 60.321383 L 23.567554 58.250191 L 23.567554 58.249674 L 23.567554 53.749691 L 19.980176 51.678499 z M 28.019995 51.679016 L 24.433651 53.749691 L 24.433651 58.249674 L 24.433651 58.250191 L 28.019995 60.320349 L 28.019995 51.679016 z M 41.827938 53.707316 L 41.754041 53.749691 L 41.754041 58.249674 L 43.97561 59.532284 C 42.672788 57.865954 41.922942 55.831037 41.827938 53.707316 z M 6.1836019 53.713 C 6.0879119 55.82973 5.3419506 57.857716 4.0462646 59.520398 L 6.2471639 58.249674 L 6.2471639 53.749691 L 6.1836019 53.713 z M 6.6802124 59.000016 L 2.7832926 61.250008 L 2.7832926 65.749992 L 6.6802124 67.999984 L 10.577132 65.749992 L 10.577132 61.250008 L 6.6802124 59.000016 z M 24.000602 59.000016 L 20.103682 61.250008 L 20.103682 65.749992 L 24.000602 67.999984 L 27.898039 65.749992 L 27.898039 61.250008 L 24.000602 59.000016 z M 41.320992 59.000016 L 37.424072 61.250008 L 37.424072 65.749992 L 41.320992 67.999984 L 45.218429 65.749992 L 45.218429 61.250008 L 41.320992 59.000016 z M 35.220072 60.476929 L 35.220072 64.387284 L 28.763619 64.387284 L 28.763619 65.749992 L 32.092615 67.671838 C 32.561893 66.824661 33.465504 66.249703 34.50022 66.249703 C 34.822217 66.249703 35.131061 66.305583 35.41851 66.407833 L 36.557975 65.749992 L 36.557975 61.250008 L 36.557975 61.249491 L 35.220072 60.476929 z M 12.780098 60.477962 L 11.443229 61.249491 L 11.443229 61.250008 L 11.443229 65.749992 L 15.340666 67.999984 L 19.237585 65.749992 L 19.237585 64.387284 L 12.780098 64.387284 L 12.780098 60.477962 z M 46.084526 62.365186 L 46.084526 65.749992 L 46.771822 66.146867 C 46.888118 64.846196 46.645672 63.542329 46.084526 62.365186 z M 1.9171956 62.38689 C 1.3642086 63.55689 1.1247008 64.850137 1.2392008 66.141182 L 1.9171956 65.749992 L 1.9171956 62.38689 z M 2.3502441 66.499817 L 1.3875122 67.055855 C 1.4817122 67.485638 1.6018947 67.91244 1.7766357 68.328129 C 2.6134007 70.31871 4.2656989 71.788836 6.2471639 72.434338 L 6.2471639 68.749809 L 2.3502441 66.499817 z M 11.010181 66.499817 L 7.1132609 68.749809 L 7.1132609 72.650346 C 7.5683349 72.738926 8.0314173 72.800725 8.5069743 72.800724 L 14.907617 72.800724 L 14.907617 68.749809 L 11.010181 66.499817 z M 19.670634 66.499817 L 15.773197 68.749809 L 15.773197 72.800724 L 23.567554 72.800724 L 23.567554 68.749809 L 19.670634 66.499817 z M 28.33057 66.499817 L 24.433651 68.749809 L 24.433651 72.800724 L 32.228007 72.800724 L 32.228007 70.546598 C 31.926558 70.105452 31.75 69.572602 31.75 68.999406 C 31.75 68.828917 31.766122 68.662219 31.795992 68.500212 L 28.33057 66.499817 z M 36.991024 66.499817 L 36.28254 66.908577 C 36.873795 67.413454 37.249923 68.163204 37.249923 68.999406 C 37.249923 70.515228 36.016042 71.749626 34.50022 71.749626 C 33.986834 71.749626 33.505871 71.607669 33.094104 71.361536 L 33.094104 72.800724 L 39.507149 72.800724 C 39.978359 72.800725 40.436887 72.739924 40.887944 72.65293 L 40.887944 68.749809 L 36.991024 66.499817 z M 45.651477 66.499817 L 41.754041 68.749809 L 41.754041 72.438989 C 43.740493 71.795645 45.396892 70.322906 46.235421 68.328129 C 46.409489 67.914035 46.52938 67.489107 46.623511 67.061023 L 45.651477 66.499817 z M 34.193778 66.770601 C 34.188978 66.771252 34.184079 66.771177 34.179309 66.772152 C 34.184109 66.771471 34.189008 66.771546 34.193778 66.770601 z M 33.894055 66.832096 C 33.889555 66.833396 33.885159 66.83493 33.880619 66.83623 C 33.885119 66.83493 33.889515 66.833296 33.894055 66.832096 z M 32.87758 67.439294 C 32.87478 67.442194 32.872112 67.445079 32.869312 67.448079 C 32.872112 67.445179 32.87478 67.442194 32.87758 67.439294 z M 36.683032 68.452669 C 36.683463 68.454369 36.683833 68.456037 36.684583 68.457837 C 36.684151 68.456037 36.683782 68.454469 36.683032 68.452669 z M 34.103861 71.214258 C 34.107961 71.21499 34.112164 71.215625 34.116264 71.216325 C 34.112164 71.215618 34.107961 71.215058 34.103861 71.214258 z " /><g
+       id="g210"
+       transform="translate(4.2983168)" /><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;line-height:0.9;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:start;text-anchor:start;display:inline;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:round;stroke-dasharray:0.600001, 0.600001;stroke-dashoffset:0;stroke-opacity:1"
+       x="37.14624"
+       y="66.721085"
+       id="text1-8"><tspan
+         sodipodi:role="line"
+         id="tspan1-4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:start;text-anchor:start;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.1"
+         x="37.14624"
+         y="66.721085">RESET</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:start;text-anchor:start;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.1"
+         x="37.14624"
+         y="68.943581"
+         id="tspan29-3">TARGET</tspan></text><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;line-height:0.9;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;display:inline;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:round;stroke-dasharray:0.600001, 0.600001;stroke-dashoffset:0;stroke-opacity:1"
+       x="33.533073"
+       y="5.8113589"
+       id="text1-4-0-4"><tspan
+         sodipodi:role="line"
+         id="tspan1-3-9-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.1"
+         x="33.533073"
+         y="5.8113589">PWR</tspan></text><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;line-height:0.9;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;display:inline;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:round;stroke-dasharray:0.600001, 0.600001;stroke-dashoffset:0;stroke-opacity:1"
+       x="7.0017214"
+       y="5.810123"
+       id="text1-4-0-4-5"><tspan
+         sodipodi:role="line"
+         id="tspan1-3-9-9-08"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.1"
+         x="7.0017214"
+         y="5.810123">FLASH</tspan></text><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;line-height:0.9;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;display:inline;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:round;stroke-dasharray:0.600001, 0.600001;stroke-dashoffset:0;stroke-opacity:1"
+       x="33.503441"
+       y="10.809953"
+       id="text1-4-0-4-0"><tspan
+         sodipodi:role="line"
+         id="tspan1-3-9-9-0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.1"
+         x="33.503441"
+         y="10.809953">ERR</tspan></text><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;line-height:0.9;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;display:inline;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:round;stroke-dasharray:0.600001, 0.600001;stroke-dashoffset:0;stroke-opacity:1"
+       x="18.762394"
+       y="41.232506"
+       id="text70-7"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.1"
+         x="18.762394"
+         y="41.232506"
+         id="tspan71">USR</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.1"
+         x="18.762394"
+         y="43.455002"
+         id="tspan35">LED</tspan></text><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;line-height:0.9;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;display:inline;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:round;stroke-dasharray:0.600001, 0.600001;stroke-dashoffset:0;stroke-opacity:1"
+       x="37.689201"
+       y="38.325306"
+       id="text70-7-0"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.1"
+         x="37.689201"
+         y="38.325306"
+         id="tspan71-4">3V3</tspan></text><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;line-height:0.9;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;display:inline;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:round;stroke-dasharray:0.600001, 0.600001;stroke-dashoffset:0;stroke-opacity:1"
+       x="37.691673"
+       y="42.925312"
+       id="text72"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.1"
+         x="37.691673"
+         y="42.925312"
+         id="tspan72">5V</tspan></text><g
+       id="g1"
+       transform="matrix(0.8,0,0,1,-52.633963,-20.544999)"
+       style="stroke-width:1.11803"><text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;stroke-linejoin:round;stroke-dasharray:0.670821, 0.670821;stroke-dashoffset:0;stroke-opacity:1;font-variation-settings:'wght' 500"
+         x="91.736244"
+         y="72.82856"
+         id="text94"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;font-variation-settings:'wght' 500"
+           x="91.736244"
+           y="72.82856"
+           id="tspan94">GND</tspan></text><text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;stroke-linejoin:round;stroke-dasharray:0.670821, 0.670821;stroke-dashoffset:0;stroke-opacity:1;font-variation-settings:'wght' 500"
+         x="91.736244"
+         y="75.57856"
+         id="text95"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;font-variation-settings:'wght' 500"
+           x="91.736244"
+           y="75.57856"
+           id="tspan95">GND</tspan></text><text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;stroke-linejoin:round;stroke-dasharray:0.670821, 0.670821;stroke-dashoffset:0;stroke-opacity:1;font-variation-settings:'wght' 500"
+         x="91.736244"
+         y="81.07856"
+         id="text96"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;font-variation-settings:'wght' 500"
+           x="91.736244"
+           y="81.07856"
+           id="tspan96">GND</tspan></text><text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;stroke-linejoin:round;stroke-dasharray:0.670821, 0.670821;stroke-dashoffset:0;stroke-opacity:1;font-variation-settings:'wght' 500"
+         x="91.736244"
+         y="83.82856"
+         id="text97"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;font-variation-settings:'wght' 500"
+           x="91.736244"
+           y="83.82856"
+           id="tspan97">GND</tspan></text><text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;stroke-linejoin:round;stroke-dasharray:0.670821, 0.670821;stroke-dashoffset:0;stroke-opacity:1;font-variation-settings:'wght' 500"
+         x="91.649811"
+         y="78.32856"
+         id="text98"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;font-variation-settings:'wght' 500"
+           x="91.649811"
+           y="78.32856"
+           id="tspan98">PC0</tspan></text><text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;stroke-linejoin:round;stroke-dasharray:0.670821, 0.670821;stroke-dashoffset:0;stroke-opacity:1;font-variation-settings:'wght' 500"
+         x="91.730949"
+         y="69.459435"
+         id="text2"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;font-variation-settings:'wght' 500"
+           x="91.730949"
+           y="69.459435"
+           id="tspan2">5V/</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;font-variation-settings:'wght' 500"
+           x="91.730949"
+           y="70.69416"
+           id="tspan3">3V3</tspan></text><text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;stroke-linejoin:round;stroke-dasharray:0.670821, 0.670821;stroke-dashoffset:0;stroke-opacity:1;font-variation-settings:'wght' 500"
+         x="91.730949"
+         y="66.709435"
+         id="text5"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;font-variation-settings:'wght' 500"
+           x="91.730949"
+           y="66.709435"
+           id="tspan4">5V/</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;font-variation-settings:'wght' 500"
+           x="91.730949"
+           y="67.94416"
+           id="tspan5">3V3</tspan></text></g><g
+       id="g2"
+       transform="matrix(0.8,0,0,1,-51.841711,-20.544999)"
+       style="stroke-width:1.11803"><text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;stroke-linejoin:round;stroke-dasharray:0.670821, 0.670821;stroke-dashoffset:0;stroke-opacity:1;font-variation-settings:'wght' 500"
+         x="95.677628"
+         y="70.046806"
+         id="text94-6"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;font-variation-settings:'wght' 500"
+           x="95.677628"
+           y="70.046806"
+           id="tspan94-2">GND</tspan></text><text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;stroke-linejoin:round;stroke-dasharray:0.670821, 0.670821;stroke-dashoffset:0;stroke-opacity:1;font-variation-settings:'wght' 500"
+         x="95.739365"
+         y="66.709435"
+         id="text7"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;font-variation-settings:'wght' 500"
+           x="95.739365"
+           y="66.709435"
+           id="tspan6">5V/</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;font-variation-settings:'wght' 500"
+           x="95.739365"
+           y="67.94416"
+           id="tspan7">3V3</tspan></text><text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;stroke-linejoin:round;stroke-dasharray:0.670821, 0.670821;stroke-dashoffset:0;stroke-opacity:1;font-variation-settings:'wght' 500"
+         x="95.739365"
+         y="72.796806"
+         id="text8"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;font-variation-settings:'wght' 500"
+           x="95.739365"
+           y="72.796806"
+           id="tspan8">PD3</tspan></text><text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;stroke-linejoin:round;stroke-dasharray:0.670821, 0.670821;stroke-dashoffset:0;stroke-opacity:1;font-variation-settings:'wght' 500"
+         x="95.731483"
+         y="75.546806"
+         id="text9"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;font-variation-settings:'wght' 500"
+           x="95.731483"
+           y="75.546806"
+           id="tspan9">PD2</tspan></text><text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;stroke-linejoin:round;stroke-dasharray:0.670821, 0.670821;stroke-dashoffset:0;stroke-opacity:1;font-variation-settings:'wght' 500"
+         x="95.731483"
+         y="78.296806"
+         id="text10"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;font-variation-settings:'wght' 500"
+           x="95.731483"
+           y="78.296806"
+           id="tspan10">PC6</tspan></text><text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;stroke-linejoin:round;stroke-dasharray:0.670821, 0.670821;stroke-dashoffset:0;stroke-opacity:1;font-variation-settings:'wght' 500"
+         x="95.731483"
+         y="81.046806"
+         id="text11"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;font-variation-settings:'wght' 500"
+           x="95.731483"
+           y="81.046806"
+           id="tspan11">PC4</tspan></text><text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;stroke-linejoin:round;stroke-dasharray:0.670821, 0.670821;stroke-dashoffset:0;stroke-opacity:1;font-variation-settings:'wght' 500"
+         x="95.731483"
+         y="83.796806"
+         id="text12"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;font-variation-settings:'wght' 500"
+           x="95.731483"
+           y="83.796806"
+           id="tspan12">PC2</tspan></text></g><g
+       id="g3"
+       transform="matrix(0.8,0,0,1,-49.585963,-20.544999)"
+       style="stroke-width:1.11803"><text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;stroke-linejoin:round;stroke-dasharray:0.670821, 0.670821;stroke-dashoffset:0;stroke-opacity:1;font-variation-settings:'wght' 500"
+         x="106.97095"
+         y="66.709435"
+         id="text14"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;font-variation-settings:'wght' 500"
+           x="106.97095"
+           y="66.709435"
+           id="tspan13">5V/</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;font-variation-settings:'wght' 500"
+           x="106.97095"
+           y="67.94416"
+           id="tspan14">3V3</tspan></text><text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;stroke-linejoin:round;stroke-dasharray:0.670821, 0.670821;stroke-dashoffset:0;stroke-opacity:1;font-variation-settings:'wght' 500"
+         x="106.97624"
+         y="70.046806"
+         id="text15"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;font-variation-settings:'wght' 500"
+           x="106.97624"
+           y="70.046806"
+           id="tspan15">GND</tspan></text><text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;stroke-linejoin:round;stroke-dasharray:0.670821, 0.670821;stroke-dashoffset:0;stroke-opacity:1;font-variation-settings:'wght' 500"
+         x="106.97624"
+         y="72.796806"
+         id="text16"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;font-variation-settings:'wght' 500"
+           x="106.97624"
+           y="72.796806"
+           id="tspan16">GND</tspan></text><text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;stroke-linejoin:round;stroke-dasharray:0.670821, 0.670821;stroke-dashoffset:0;stroke-opacity:1;font-variation-settings:'wght' 500"
+         x="106.88982"
+         y="75.546806"
+         id="text17"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;font-variation-settings:'wght' 500"
+           x="106.88982"
+           y="75.546806"
+           id="tspan17">PC7</tspan></text><text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;stroke-linejoin:round;stroke-dasharray:0.670821, 0.670821;stroke-dashoffset:0;stroke-opacity:1;font-variation-settings:'wght' 500"
+         x="106.88982"
+         y="78.296806"
+         id="text18"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;font-variation-settings:'wght' 500"
+           x="106.88982"
+           y="78.296806"
+           id="tspan18">PC5</tspan></text><text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;stroke-linejoin:round;stroke-dasharray:0.670821, 0.670821;stroke-dashoffset:0;stroke-opacity:1;font-variation-settings:'wght' 500"
+         x="106.88982"
+         y="81.046806"
+         id="text19"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;font-variation-settings:'wght' 500"
+           x="106.88982"
+           y="81.046806"
+           id="tspan19">PC3</tspan></text><text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;stroke-linejoin:round;stroke-dasharray:0.670821, 0.670821;stroke-dashoffset:0;stroke-opacity:1;font-variation-settings:'wght' 500"
+         x="106.88982"
+         y="83.796806"
+         id="text20"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;font-variation-settings:'wght' 500"
+           x="106.88982"
+           y="83.796806"
+           id="tspan20">PC1</tspan></text></g><g
+       id="g4"
+       transform="matrix(0.8,0,0,1,-55.293685,-20.544999)"
+       style="stroke-width:1.11803"><text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;stroke-linejoin:round;stroke-dasharray:0.670821, 0.670821;stroke-dashoffset:0;stroke-opacity:1;font-variation-settings:'wght' 500"
+         x="80.951736"
+         y="70.046806"
+         id="text94-1"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;font-variation-settings:'wght' 500"
+           x="80.951736"
+           y="70.046806"
+           id="tspan94-5">PD4</tspan></text><text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;stroke-linejoin:round;stroke-dasharray:0.670821, 0.670821;stroke-dashoffset:0;stroke-opacity:1;font-variation-settings:'wght' 500"
+         x="80.999367"
+         y="66.709435"
+         id="text22"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;font-variation-settings:'wght' 500"
+           x="80.999367"
+           y="66.709435"
+           id="tspan21">5V/</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;font-variation-settings:'wght' 500"
+           x="80.999367"
+           y="67.94416"
+           id="tspan22">3V3</tspan></text><text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;stroke-linejoin:round;stroke-dasharray:0.670821, 0.670821;stroke-dashoffset:0;stroke-opacity:1;font-variation-settings:'wght' 500"
+         x="80.93763"
+         y="72.796806"
+         id="text23"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;font-variation-settings:'wght' 500"
+           x="80.93763"
+           y="72.796806"
+           id="tspan23">GND</tspan></text><text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;stroke-linejoin:round;stroke-dasharray:0.670821, 0.670821;stroke-dashoffset:0;stroke-opacity:1;font-variation-settings:'wght' 500"
+         x="80.93763"
+         y="75.546806"
+         id="text24"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;font-variation-settings:'wght' 500"
+           x="80.93763"
+           y="75.546806"
+           id="tspan24">GND</tspan></text><text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;stroke-linejoin:round;stroke-dasharray:0.670821, 0.670821;stroke-dashoffset:0;stroke-opacity:1;font-variation-settings:'wght' 500"
+         x="80.979965"
+         y="78.296806"
+         id="text25"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;font-variation-settings:'wght' 500"
+           x="80.979965"
+           y="78.296806"
+           id="tspan25">PD0</tspan></text><text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;stroke-linejoin:round;stroke-dasharray:0.670821, 0.670821;stroke-dashoffset:0;stroke-opacity:1;font-variation-settings:'wght' 500"
+         x="80.93763"
+         y="81.046806"
+         id="text26"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;font-variation-settings:'wght' 500"
+           x="80.93763"
+           y="81.046806"
+           id="tspan26">GND</tspan></text><text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;stroke-linejoin:round;stroke-dasharray:0.670821, 0.670821;stroke-dashoffset:0;stroke-opacity:1;font-variation-settings:'wght' 500"
+         x="80.93763"
+         y="83.796806"
+         id="text27"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76389009px;line-height:0.7;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.111803;font-variation-settings:'wght' 500"
+           x="80.93763"
+           y="83.796806"
+           id="tspan27">GND</tspan></text></g><path
+       id="path34"
+       style="color:#000000;fill:#ffffff;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none"
+       d="m 30.241565,12.507764 c -0.21575,-0.0039 -0.435967,0.02635 -0.652157,0.0956 -0.92603,0.296625 -1.4323,1.320973 -1.16427,2.265495 -0.56402,0.999197 -0.70071,2.148012 -0.709,3.199288 -0.004,0.484614 0.01761,0.929123 0.03721,1.363224 -0.48723,-0.09973 -0.943839,-0.265617 -1.472779,-0.265617 -0.0944,0 -0.183652,0.02408 -0.277502,0.02739 -1.1361,-2.230033 -2.268711,-3.812572 -3.583761,-4.65398 -0.38673,-0.247445 -0.79999,-0.431829 -1.23455,-0.525549 -0.21793,-0.047 -0.440182,-0.07089 -0.664042,-0.06821 -0.22345,0.0028 -0.449293,0.03281 -0.671793,0.09147 -0.777312,0.204975 -1.400494,0.728649 -1.882056,1.397848 -0.760384,0.447441 -1.160449,1.424842 -0.803569,2.287715 0.41072,0.993123 1.501728,1.441651 2.490288,1.124996 0.96656,-0.309648 1.525667,-1.40966 1.167887,-2.386417 0.0984,0.02783 0.128678,-0.02054 0.306958,0.09353 0.4077,0.260858 1.077108,1.27554 1.701188,2.179712 -0.44398,0.01073 -0.891411,0.03092 -1.312581,0.1757 -2.07968,0.715596 -3.253876,2.942817 -2.482536,4.945434 v 0.0021 c 0.0237,0.06109 0.05733,0.118045 0.08423,0.177767 -0.13541,0.468682 -0.269751,0.940632 -0.269751,1.449008 0,0.724996 0.213072,1.387302 0.453202,2.033467 -1.70296,0.799862 -3.510831,2.176598 -4.818311,4.017326 -0.11484,0.16175 -0.220136,0.322559 -0.316776,0.474906 -0.37837,0.595731 0.04825,1.374493 0.753959,1.376661 l 4.418335,0.0098 c 0.0119,-0.0056 0.02354,-0.01145 0.03514,-0.01757 l 10.855151,-0.06821 c 0.60637,-0.0045 1.033654,-0.597481 0.845944,-1.174088 -0.2056,-0.631445 -0.510797,-1.199043 -0.861447,-1.730127 1.58817,-1.17 2.677873,-2.887388 2.677873,-4.92218 0,-0.02675 -0.0021,-0.05343 -0.0021,-0.0801 0.91251,-1.037389 1.340093,-2.42452 0.863513,-3.739823 v -0.0021 c -0.56191,-1.53709 -2.040456,-2.454182 -3.611666,-2.467033 -0.0169,-0.367067 -0.03597,-0.737231 -0.03307,-1.107426 0.007,-0.906053 0.212438,-1.58044 0.361218,-1.927531 0.1506,-0.01234 0.289966,0.07123 0.439766,0.02325 0.98879,-0.316725 1.580585,-1.460252 1.169955,-2.45308 -0.32062,-0.775245 -1.067691,-1.208639 -1.838131,-1.222664 z m -3.961515,7.554061 c 3.382866,0 5.716447,2.370925 5.716447,5.421891 0,3.050965 -2.742345,5.52421 -6.125208,5.52421 -3.382875,0 -6.125207,-2.473244 -6.125207,-5.52421 0,-3.050967 3.151093,-5.421891 6.533968,-5.421891 z m -4.960938,9.947713 c 1.994113,1.676848 4.712099,1.973394 6.961849,1.174605 0.37625,-0.133593 0.741414,-0.297734 1.089339,-0.490926 0.360277,0.498435 0.644645,1.079345 0.853695,1.721342 l -10.893392,0.06821 c 0.246017,-0.280159 -0.270628,-1.073033 0.07235,-1.314649 0.613687,-0.432381 1.258786,-0.824307 1.916162,-1.158585 z" /><path
+       id="path3729"
+       style="color:#000000;fill:#934d11;fill-opacity:1;stroke-width:1.41111;stroke-linecap:round"
+       d="M 20.531047 14.841988 C 20.377549 14.843926 20.225532 14.86376 20.076811 14.902966 C 19.494368 15.056551 18.99081 15.486632 18.571476 16.134416 C 18.052676 16.320739 17.78058 16.86892 17.991667 17.379301 C 18.207517 17.901223 18.839346 18.167831 19.381246 17.99425 C 19.923101 17.820669 20.212045 17.258893 19.996195 16.736963 C 19.873501 16.440305 19.61672 16.22646 19.318201 16.128731 C 19.612094 15.773002 19.919358 15.566313 20.23029 15.484326 C 20.636815 15.377126 21.085713 15.463076 21.611601 15.799552 C 22.438426 16.328578 23.395627 17.489448 24.37629 19.278927 C 24.729165 19.418747 25.058836 19.608521 25.351424 19.84375 C 24.201199 17.526086 23.059683 16.011671 21.936646 15.293123 C 21.625433 15.094001 21.309139 14.95744 20.996651 14.890047 C 20.840576 14.856385 20.685071 14.840191 20.531563 14.841988 L 20.531047 14.841988 z " /><path
+       id="path3731"
+       style="color:#000000;fill:#934d11;fill-opacity:1;stroke-width:1.41111;stroke-linecap:round"
+       d="M 30.225028 13.40435 C 30.10319 13.402132 29.980284 13.419088 29.861743 13.45706 C 29.31984 13.630641 29.030427 14.192417 29.246277 14.714347 C 29.274858 14.783452 29.311262 14.847894 29.353247 14.907617 C 28.726907 15.669823 28.621539 16.891129 28.612207 18.074866 C 28.607207 18.668949 28.634136 19.262282 28.660266 19.785872 C 28.724396 19.758442 28.789266 19.732398 28.855603 19.708358 C 28.988553 19.660168 29.122567 19.620134 29.257129 19.587952 C 29.232259 19.111577 29.209204 18.59772 29.213204 18.080033 C 29.222313 16.938691 29.392589 15.838433 29.826086 15.285889 C 30.077067 15.393371 30.367498 15.415257 30.635856 15.329297 C 31.177769 15.155715 31.466668 14.593939 31.250806 14.072009 C 31.082172 13.664251 30.660164 13.412271 30.225028 13.40435 z " /><ellipse
+       transform="matrix(-0.9456025,0.32532433,0.35933722,0.93320778,0,0)"
+       inkscape:export-ydpi="928.942"
+       inkscape:export-xdpi="928.942"
+       inkscape:export-filename="C:\Users\Kristof\Dropbox (Personal)\EMBEDOFFICE\embedoffice_com\homepage\chip_bee_01.png"
+       ry="2.9414883"
+       rx="3.1684802"
+       cy="28.736153"
+       cx="-13.261366"
+       id="ellipse3739"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.92605;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" /><path
+       id="path3741"
+       style="fill:#212322;fill-opacity:1;stroke:none;stroke-width:1.58263;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 22.648907,21.689938 a 0.86184434,0.92980312 84.248669 0 0 -0.311187,0.05426 0.86184434,0.92980312 84.248669 0 0 -0.564238,1.109427 0.86184434,0.92980312 84.248669 0 0 1.186776,0.507075 0.86184434,0.92980312 84.248669 0 0 0.56425,-1.10959 0.86184434,0.92980312 84.248669 0 0 -0.875601,-0.561175 z m -0.07625,0.282929 a 0.2323986,0.29652777 74.333389 0 1 0.234,0.141141 0.2323986,0.29652777 74.333389 0 1 -0.196362,0.313611 0.2323986,0.29652777 74.333389 0 1 -0.363838,-0.120787 0.2323986,0.29652777 74.333389 0 1 0.196525,-0.313611 0.2323986,0.29652777 74.333389 0 1 0.129675,-0.02035 z" /><ellipse
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.92542;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="ellipse3743"
+       cx="-20.337282"
+       cy="31.869736"
+       rx="3.0314932"
+       ry="2.9289618"
+       inkscape:export-filename="C:\Users\Kristof\Dropbox (Personal)\EMBEDOFFICE\embedoffice_com\homepage\chip_bee_01.png"
+       inkscape:export-xdpi="928.942"
+       inkscape:export-ydpi="928.942"
+       transform="matrix(-0.94014926,0.34076292,0.3432808,0.93923282,0,0)" /><path
+       id="path3745"
+       style="fill:#212322;fill-opacity:1;stroke:none;stroke-width:1.54524;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 30.05156,22.045698 a 0.86235851,0.88586474 72.859541 0 0 -0.302625,0.05442 0.86235851,0.88586474 72.859541 0 0 -0.53679,1.11185 0.86235851,0.88586474 72.859541 0 0 1.128802,0.508206 0.86235851,0.88586474 72.859541 0 0 0.5368,-1.111851 0.86235851,0.88586474 72.859541 0 0 -0.826187,-0.562627 z m -0.07912,0.283737 a 0.23180166,0.28341167 70.386871 0 1 0.222538,0.141463 0.23180166,0.28341167 70.386871 0 1 -0.18685,0.314258 0.23180166,0.28341167 70.386871 0 1 -0.346063,-0.121113 0.23180166,0.28341167 70.386871 0 1 0.187,-0.314257 0.23180166,0.28341167 70.386871 0 1 0.123375,-0.02035 z" /><path
+       style="color:#000000;fill:#ffffff;fill-opacity:1;stroke-width:1.41111;stroke-linecap:round;stroke-linejoin:round"
+       d="m 24.700195,27.174368 c -0.136513,-0.06849 -0.302713,-0.01335 -0.371213,0.123163 -0.08612,0.170876 -0.06062,0.324105 -0.0215,0.478868 0.039,0.154764 0.108876,0.316042 0.203263,0.480592 0.188887,0.329098 0.4769,0.671243 0.850937,0.908643 0.37405,0.237399 0.854913,0.363588 1.347038,0.201538 0.492125,-0.16205 0.961575,-0.588763 1.387512,-1.349616 0.155013,-0.27706 -0.202762,-0.554305 -0.432362,-0.335035 -0.1458,0.139646 -0.356637,0.208103 -0.632175,0.215317 -0.275537,0.0072 -0.602525,-0.05207 -0.9207,-0.143831 -0.636337,-0.183508 -1.225862,-0.486857 -1.410762,-0.579639 z"
+       id="path3747"
+       sodipodi:nodetypes="scssssccssss" /><path
+       id="path3751"
+       style="fill:#00337f;fill-opacity:1;stroke:none;stroke-width:1.62663;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 19.82232,28.239346 c -1.5891,0.715593 -3.36985,2.070116 -4.608425,3.813822 -0.100375,0.14139 -0.197387,0.291069 -0.290275,0.437505 l 4.4172,0.0086 c 0.624412,-0.884998 1.313013,-1.713277 2.045338,-2.434486 -0.593451,-0.486005 -1.124925,-1.092074 -1.563838,-1.825404 z" /><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;line-height:0.8;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="3.3969545"
+       y="68.962067"
+       id="text1208-2"><tspan
+         sodipodi:role="line"
+         id="tspan1206-8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;line-height:0.8;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2"
+         x="3.3969545"
+         y="68.962067">https://embeetle.com/</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;line-height:0.8;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2"
+         x="3.3969545"
+         y="70.655403"
+         id="tspan9-8">tiny-scarab</tspan></text><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;line-height:0.8;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;display:inline;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="12.128194"
+       y="35.626003"
+       id="text1208-2-5"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;line-height:0.8;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.2"
+         x="12.128194"
+         y="35.626003"
+         id="tspan9-2">tiny-scarab-v0.3</tspan></text><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;line-height:0.9;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;display:inline;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:round;stroke-dasharray:0.600001, 0.600001;stroke-dashoffset:0;stroke-opacity:1"
+       x="8.4611635"
+       y="10.809953"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.1"
+         x="8.4611635"
+         y="10.809953">IDLE</tspan></text><rect
+       style="display:inline;fill:#ffd100;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:round"
+       id="rect28"
+       width="1.9999957"
+       height="0.99999946"
+       x="53.700233"
+       y="38" /><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;line-height:0.9;font-family:Inconsolata;-inkscape-font-specification:'Inconsolata, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:round;stroke-dasharray:0.600001, 0.600001;stroke-dashoffset:0;stroke-opacity:1"
+       x="56.554184"
+       y="39.155106"
+       id="text28"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:Inconsolata;-inkscape-font-specification:'Inconsolata, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.1"
+         x="56.554184"
+         y="39.155106"
+         id="tspan28">109</tspan></text><rect
+       style="display:inline;fill:#00337f;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:round"
+       id="rect29"
+       width="2"
+       height="1"
+       x="53.700233"
+       y="40" /><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;line-height:0.9;font-family:Inconsolata;-inkscape-font-specification:'Inconsolata, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:round;stroke-dasharray:0.600001, 0.600001;stroke-dashoffset:0;stroke-opacity:1"
+       x="56.554184"
+       y="41.155106"
+       id="text29"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:Inconsolata;-inkscape-font-specification:'Inconsolata, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.1"
+         x="56.554184"
+         y="41.155106"
+         id="tspan29">288</tspan></text><rect
+       style="display:inline;fill:#212322;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:round"
+       id="rect30"
+       width="2"
+       height="1"
+       x="53.700233"
+       y="36" /><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;line-height:0.9;font-family:Inconsolata;-inkscape-font-specification:'Inconsolata, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:round;stroke-dasharray:0.600001, 0.600001;stroke-dashoffset:0;stroke-opacity:1"
+       x="56.554184"
+       y="37.155106"
+       id="text30"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:Inconsolata;-inkscape-font-specification:'Inconsolata, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.1"
+         x="56.554184"
+         y="37.155106"
+         id="tspan30">419</tspan></text><rect
+       style="display:inline;fill:#934d11;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:round"
+       id="rect31"
+       width="2"
+       height="1"
+       x="53.700233"
+       y="34" /><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;line-height:0.9;font-family:Inconsolata;-inkscape-font-specification:'Inconsolata, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:round;stroke-dasharray:0.600001, 0.600001;stroke-dashoffset:0;stroke-opacity:1"
+       x="56.554184"
+       y="35.155106"
+       id="text31"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:Inconsolata;-inkscape-font-specification:'Inconsolata, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.1"
+         x="56.554184"
+         y="35.155106"
+         id="tspan31">724</tspan></text><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;line-height:0.9;font-family:Inconsolata;-inkscape-font-specification:'Inconsolata, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:round;stroke-dasharray:0.600001, 0.600001;stroke-dashoffset:0;stroke-opacity:1"
+       x="53.554184"
+       y="28.110107"
+       id="text32"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:Inconsolata;-inkscape-font-specification:'Inconsolata, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.1"
+         x="53.554184"
+         y="28.110107"
+         id="tspan32">Pantone Colors</tspan></text><rect
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5"
+       width="2"
+       height="1"
+       x="53.700233"
+       y="29.999998" /><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;line-height:0.9;font-family:Inconsolata;-inkscape-font-specification:'Inconsolata, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:round;stroke-dasharray:0.600001, 0.600001;stroke-dashoffset:0;stroke-opacity:1"
+       x="56.554184"
+       y="31.155104"
+       id="text34"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:Inconsolata;-inkscape-font-specification:'Inconsolata, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.1"
+         x="56.554184"
+         y="31.155104"
+         id="tspan34">white</tspan></text><rect
+       style="display:inline;fill:#dddbd1;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="rect44"
+       width="2"
+       height="1"
+       x="53.700233"
+       y="31.999998" /><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;line-height:0.9;font-family:Inconsolata;-inkscape-font-specification:'Inconsolata, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:round;stroke-dasharray:0.600001, 0.600001;stroke-dashoffset:0;stroke-opacity:1"
+       x="56.554184"
+       y="33.155106"
+       id="text44"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:Inconsolata;-inkscape-font-specification:'Inconsolata, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.1"
+         x="56.554184"
+         y="33.155106"
+         id="tspan44">427</tspan></text><path
+       id="circle45"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 34.50022,66.749414 c -1.245602,10e-7 -2.249992,1.004391 -2.249992,2.249992 0,1.245602 1.00439,2.249992 2.249992,2.249992 1.245602,0 2.249992,-1.00439 2.249992,-2.249992 0,-1.245601 -1.00439,-2.249992 -2.249992,-2.249992 z" /><g
+       style="fill:#385e9d;fill-opacity:1;stroke-width:25.4027"
+       id="g43"
+       transform="matrix(0.0555498,0,0,0.0555498,33.166765,67.662816)"><path
+         fill="#4e9a06"
+         d="M 29.1027,8.46026 C 28.5011,9.62641 27.1126,9.79648 25.8102,9.63706 18.7519,8.77311 11.9537,13.2149 10.0604,20.2808 c -0.94363,3.5217 -0.12771,7.7848 1.4184,10.9483 1.0395,-0.5645 1.9098,-1.0162 2.6341,-1.3774 1.6564,-0.8259 3.2234,0.277 3.01,2.1155 -0.1317,1.1357 -0.3371,2.5783 -0.6558,4.3727 -0.4616,2.5998 -0.9818,4.3311 -1.4138,5.4484 -0.4766,1.2329 -1.6414,1.9055 -2.9475,1.7019 -1.1836,-0.1845 -2.94315,-0.5996 -5.42539,-1.5 C 4.96762,41.369 3.61597,40.8257 2.56662,40.372 0.86736,39.6373 0.69562,37.7284 2.23942,36.7067 2.84737,36.3044 3.57824,35.8362 4.45445,35.2955 2.03846,30.052 1.82577,23.967 3.29893,18.469 6.19363,7.66589 16.821,0.99965 27.6304,2.82962 c 1.2937,0.21902 2.3904,1.12513 2.3283,2.43581 -0.022,0.46531 -0.0993,1.01204 -0.2677,1.64038 -0.1684,0.62834 -0.3748,1.14045 -0.5883,1.55445 z"
+         id="path2"
+         style="fill:#00337f;fill-opacity:1;stroke-width:25.4027" /><path
+         fill="#4e9a06"
+         d="m 22.1895,38.3625 c -1.3024,-0.1594 -2.6909,0.0107 -3.2925,1.1768 -0.2135,0.414 -0.42,0.9262 -0.5883,1.5545 -0.1684,0.6283 -0.2457,1.1751 -0.2677,1.6404 -0.0622,1.3106 1.0346,2.2168 2.3283,2.4358 C 31.1787,47 41.806,40.3337 44.7007,29.5306 46.1739,24.0327 45.9612,17.9477 43.5452,12.7041 44.4214,12.1634 45.1523,11.6952 45.7602,11.2929 47.3041,10.2712 47.1323,8.36226 45.4331,7.6276 44.3837,7.17393 43.0321,6.63062 41.3193,6.00938 38.837,5.10905 37.0775,4.6939 35.8939,4.50939 34.5878,4.30578 33.423,4.97838 32.9463,6.21132 c -0.4319,1.11727 -0.9521,2.84856 -1.4138,5.44838 -0.3186,1.7944 -0.524,3.237 -0.6558,4.3727 -0.2133,1.8386 1.3537,2.9414 3.0101,2.1155 0.7243,-0.3612 1.5946,-0.8129 2.6341,-1.3774 1.5461,3.1635 2.362,7.4266 1.4184,10.9483 -1.8933,7.0659 -8.6915,11.5077 -15.7498,10.6437 z"
+         id="path4"
+         style="fill:#00337f;fill-opacity:1;stroke-width:25.4027" /></g></g></svg>

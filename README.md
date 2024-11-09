@@ -39,10 +39,10 @@ There's no need to wire up anything. Just plug the Tiny Scarab's USB-C port in y
 NOTES FOR MYSELF
 ================
 Improvement points:
-- Bulges in encasing don't fit board.
-- Tag Connect needs a recess in the enclosure.
-- Light bleeds between lightpipes. Lightpipes and LEDs too expensive.
-- Graphical membrane needs 1.2mm edge.
-- 3/5V indication on board is wrong. On graphical membrane it's correct.
+- Bulges in encasing don't fit board. (fixed)
+- Tag Connect needs a recess in the enclosure. (fixed)
+- Light bleeds between lightpipes. Lightpipes and LEDs too expensive. (fixed)
+- Graphical membrane needs 1.2mm edge. (fixed)
+- 3/5V indication on board is wrong. On graphical membrane it's correct. (fixed)
 
 
