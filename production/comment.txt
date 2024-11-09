@@ -1,0 +1,1 @@
+The THT LEDs on the board (xsw24061001, xsw24061002 and xsw24061003) should be separated 3mm from the board with the LED spacer LEDLEDS4*3 (JLCPCB part #: C92325). The board has 5 such LEDs in total. Please consult the figure I attached for more information.

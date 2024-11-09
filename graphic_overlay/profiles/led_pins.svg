@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="led_pins.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="5.6290382"
+     inkscape:cx="134.83653"
+     inkscape:cy="250.39802"
+     inkscape:window-width="2560"
+     inkscape:window-height="1334"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="font-variation-settings:'wght' 500;fill:#ffffff;stroke:#000000;stroke-width:0.2;stroke-linejoin:round"
+       d="M 11.433303,51.250447 V 68.533348"
+       id="path1" />
+    <path
+       style="font-variation-settings:'wght' 500;fill:#ffffff;stroke:#000000;stroke-width:0.2;stroke-linejoin:round"
+       d="M 15.089302,51.117502 V 68.367166"
+       id="path2" />
+    <path
+       style="font-variation-settings:'wght' 500;fill:#ffffff;stroke:#000000;stroke-width:0.2;stroke-linejoin:round"
+       d="m 16.784355,70.178548 -3.606143,0.08309 -1.778145,-1.811383 3.672616,-0.116326 z"
+       id="path3" />
+    <path
+       style="font-variation-settings:'wght' 500;fill:#ffffff;stroke:#000000;stroke-width:0.2;stroke-linejoin:round"
+       d="M 16.85068,70.128912 V 53.137223"
+       id="path4" />
+    <path
+       style="font-variation-settings:'wght' 500;fill:#ffffff;stroke:#000000;stroke-width:0.2;stroke-linejoin:round"
+       d="M 54.390726,51.537138 V 68.820039"
+       id="path1-7" />
+    <path
+       style="font-variation-settings:'wght' 500;fill:#ffffff;stroke:#000000;stroke-width:0.2;stroke-linejoin:round"
+       d="M 57.012653,50.840153 V 68.089817"
+       id="path2-1" />
+    <path
+       style="font-variation-settings:'wght' 500;fill:#ffffff;stroke:#000000;stroke-width:0.2;stroke-linejoin:round"
+       d="M 59.385073,69.311026 V 52.319337"
+       id="path4-5" />
+    <path
+       style="font-variation-settings:'wght' 500;fill:#ffffff;stroke:#000000;stroke-width:0.2;stroke-linejoin:round"
+       d="M 31.343004,51.946071 V 69.228972"
+       id="path1-8" />
+    <path
+       style="font-variation-settings:'wght' 500;fill:#ffffff;stroke:#000000;stroke-width:0.2;stroke-linejoin:round"
+       d="M 35.563043,51.884609 V 68.569255"
+       id="path2-8"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="font-variation-settings:'wght' 500;fill:#ffffff;stroke:#000000;stroke-width:0.2;stroke-linejoin:round"
+       d="M 37.770952,69.437939 V 53.576286"
+       id="path4-4"
+       sodipodi:nodetypes="cc" />
+    <ellipse
+       style="font-variation-settings:'wght' 500;fill:#ffffff;stroke:#000000;stroke-width:0.2;stroke-linejoin:round"
+       id="path5"
+       cx="34.524017"
+       cy="69.318382"
+       rx="3.2820892"
+       ry="0.92230862" />
+    <ellipse
+       style="font-variation-settings:'wght' 500;fill:#ffffff;stroke:#000000;stroke-width:0.200001;stroke-linejoin:round"
+       id="path5-7"
+       cx="34.582211"
+       cy="79.419441"
+       rx="3.2820892"
+       ry="2.0357263" />
+    <ellipse
+       style="font-variation-settings:'wght' 500;fill:#ffffff;stroke:#000000;stroke-width:0.2;stroke-linejoin:round"
+       id="path6"
+       cx="56.897228"
+       cy="69.059929"
+       rx="2.5146761"
+       ry="1.5511087" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;line-height:0.9;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 500;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linejoin:round"
+       x="4.6000414"
+       y="48.20071"
+       id="text6"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 500;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2"
+         x="4.6000414"
+         y="48.20071"
+         id="tspan7">rectangular/</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 500;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2"
+         x="4.6000414"
+         y="50.105713"
+         id="tspan8">square</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;line-height:0.9;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 500;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linejoin:round"
+       x="31.888243"
+       y="48.11071"
+       id="text6-1"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 500;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2"
+         x="31.888243"
+         y="48.11071"
+         id="tspan8-2">oval</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;line-height:0.9;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 500;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linejoin:round"
+       x="52.904755"
+       y="47.643562"
+       id="text6-1-1"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 500;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2"
+         x="52.904755"
+         y="47.643562"
+         id="tspan8-2-6">circular</tspan></text>
+    <rect
+       style="font-variation-settings:'wght' 500;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linejoin:round;stroke-opacity:1"
+       id="rect9"
+       width="4.1127887"
+       height="3.9952798"
+       x="12.079844"
+       y="77.390923" />
+    <g
+       id="g13">
+      <path
+         style="font-variation-settings:'wght' 500;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linejoin:round;stroke-opacity:1"
+         d="m 10.152711,77.414423 0.0235,3.98353"
+         id="path9" />
+      <path
+         style="font-variation-settings:'wght' 500;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linejoin:round;stroke-opacity:1"
+         d="M 9.7061799,80.845664 10.164462,81.3627"
+         id="path10" />
+      <path
+         style="font-variation-settings:'wght' 500;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linejoin:round;stroke-opacity:1"
+         d="m 10.528737,80.857414 -0.340773,0.540539"
+         id="path11" />
+      <path
+         style="font-variation-settings:'wght' 500;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linejoin:round;stroke-opacity:1"
+         d="M 9.6356751,77.790449 10.117459,77.39092"
+         id="path12" />
+      <path
+         style="font-variation-settings:'wght' 500;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linejoin:round;stroke-opacity:1"
+         d="M 10.610994,77.79045 10.117459,77.308667"
+         id="path13"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <g
+       id="g13-79"
+       transform="translate(20.061051,0.08366278)">
+      <path
+         style="font-variation-settings:'wght' 500;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linejoin:round;stroke-opacity:1"
+         d="m 10.152711,77.414423 0.0235,3.98353"
+         id="path9-3" />
+      <path
+         style="font-variation-settings:'wght' 500;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linejoin:round;stroke-opacity:1"
+         d="M 9.7061799,80.845664 10.164462,81.3627"
+         id="path10-1" />
+      <path
+         style="font-variation-settings:'wght' 500;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linejoin:round;stroke-opacity:1"
+         d="m 10.528737,80.857414 -0.340773,0.540539"
+         id="path11-9" />
+      <path
+         style="font-variation-settings:'wght' 500;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linejoin:round;stroke-opacity:1"
+         d="M 9.6356751,77.790449 10.117459,77.39092"
+         id="path12-8" />
+      <path
+         style="font-variation-settings:'wght' 500;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linejoin:round;stroke-opacity:1"
+         d="M 10.610994,77.79045 10.117459,77.308667"
+         id="path13-6"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <g
+       id="g13-7"
+       transform="rotate(-90,10.451656,75.67027)">
+      <path
+         style="font-variation-settings:'wght' 500;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linejoin:round;stroke-opacity:1"
+         d="m 10.152711,77.414423 0.0235,3.98353"
+         id="path9-9" />
+      <path
+         style="font-variation-settings:'wght' 500;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linejoin:round;stroke-opacity:1"
+         d="M 9.7061799,80.845664 10.164462,81.3627"
+         id="path10-5" />
+      <path
+         style="font-variation-settings:'wght' 500;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linejoin:round;stroke-opacity:1"
+         d="m 10.528737,80.857414 -0.340773,0.540539"
+         id="path11-4" />
+      <path
+         style="font-variation-settings:'wght' 500;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linejoin:round;stroke-opacity:1"
+         d="M 9.6356751,77.790449 10.117459,77.39092"
+         id="path12-3" />
+      <path
+         style="font-variation-settings:'wght' 500;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linejoin:round;stroke-opacity:1"
+         d="M 10.610994,77.79045 10.117459,77.308667"
+         id="path13-1"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;line-height:0.9;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 500;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linejoin:round;stroke-opacity:1"
+       x="5.6834149"
+       y="79.800468"
+       id="text13"><tspan
+         sodipodi:role="line"
+         id="tspan13"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2"
+         x="5.6834149"
+         y="79.800468">0.5</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;line-height:0.9;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 500;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linejoin:round;stroke-opacity:1"
+       x="26.09243"
+       y="80.053032"
+       id="text13-8"><tspan
+         sodipodi:role="line"
+         id="tspan13-6"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2"
+         x="26.09243"
+         y="80.053032">0.5</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;line-height:0.9;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 500;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linejoin:round;stroke-opacity:1"
+       x="12.358799"
+       y="74.915756"
+       id="text13-4"><tspan
+         sodipodi:role="line"
+         id="tspan13-1"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2"
+         x="12.358799"
+         y="74.915756">0.5</tspan></text>
+    <g
+       id="g13-7-8"
+       transform="rotate(-90,20.003927,66.036881)">
+      <path
+         style="font-variation-settings:'wght' 500;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linejoin:round;stroke-opacity:1"
+         d="m 10.152711,77.414423 0.0235,6.380698"
+         id="path9-9-6"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="font-variation-settings:'wght' 500;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linejoin:round;stroke-opacity:1"
+         d="m 9.7061799,83.242832 0.4582821,0.517036"
+         id="path10-5-5"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="font-variation-settings:'wght' 500;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linejoin:round;stroke-opacity:1"
+         d="m 10.528737,83.254582 -0.340773,0.540539"
+         id="path11-4-0"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="font-variation-settings:'wght' 500;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linejoin:round;stroke-opacity:1"
+         d="M 9.6356751,77.790449 10.117459,77.39092"
+         id="path12-3-9" />
+      <path
+         style="font-variation-settings:'wght' 500;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linejoin:round;stroke-opacity:1"
+         d="M 10.610994,77.79045 10.117459,77.308667"
+         id="path13-1-0"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;line-height:0.9;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 500;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linejoin:round;stroke-opacity:1"
+       x="32.555031"
+       y="75.257668"
+       id="text13-4-0"><tspan
+         sodipodi:role="line"
+         id="tspan13-1-6"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2"
+         x="32.555031"
+         y="75.257668">0.8</tspan></text>
+    <ellipse
+       style="font-variation-settings:'wght' 500;fill:#ffffff;stroke:#000000;stroke-width:0.200001;stroke-linejoin:round"
+       id="path5-7-9"
+       cx="56.693707"
+       cy="79.184143"
+       rx="2.1520534"
+       ry="2.0357263" />
+    <g
+       id="g13-79-3"
+       transform="translate(43.30258,-0.1516403)">
+      <path
+         style="font-variation-settings:'wght' 500;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linejoin:round;stroke-opacity:1"
+         d="m 10.152711,77.414423 0.0235,3.98353"
+         id="path9-3-4" />
+      <path
+         style="font-variation-settings:'wght' 500;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linejoin:round;stroke-opacity:1"
+         d="M 9.7061799,80.845664 10.164462,81.3627"
+         id="path10-1-4" />
+      <path
+         style="font-variation-settings:'wght' 500;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linejoin:round;stroke-opacity:1"
+         d="m 10.528737,80.857414 -0.340773,0.540539"
+         id="path11-9-6" />
+      <path
+         style="font-variation-settings:'wght' 500;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linejoin:round;stroke-opacity:1"
+         d="M 9.6356751,77.790449 10.117459,77.39092"
+         id="path12-8-0" />
+      <path
+         style="font-variation-settings:'wght' 500;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linejoin:round;stroke-opacity:1"
+         d="M 10.610994,77.79045 10.117459,77.308667"
+         id="path13-6-6"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;line-height:0.9;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 500;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linejoin:round;stroke-opacity:1"
+       x="49.333961"
+       y="79.817734"
+       id="text13-8-6"><tspan
+         sodipodi:role="line"
+         id="tspan13-6-1"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2"
+         x="49.333961"
+         y="79.817734">0.5</tspan></text>
+    <g
+       id="g13-7-3"
+       transform="rotate(-90,31.70121,54.398302)">
+      <path
+         style="font-variation-settings:'wght' 500;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linejoin:round;stroke-opacity:1"
+         d="m 10.152711,77.414423 0.0235,3.98353"
+         id="path9-9-5" />
+      <path
+         style="font-variation-settings:'wght' 500;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linejoin:round;stroke-opacity:1"
+         d="M 9.7061799,80.845664 10.164462,81.3627"
+         id="path10-5-9" />
+      <path
+         style="font-variation-settings:'wght' 500;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linejoin:round;stroke-opacity:1"
+         d="m 10.528737,80.857414 -0.340773,0.540539"
+         id="path11-4-8" />
+      <path
+         style="font-variation-settings:'wght' 500;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linejoin:round;stroke-opacity:1"
+         d="M 9.6356751,77.790449 10.117459,77.39092"
+         id="path12-3-4" />
+      <path
+         style="font-variation-settings:'wght' 500;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linejoin:round;stroke-opacity:1"
+         d="M 10.610994,77.79045 10.117459,77.308667"
+         id="path13-1-07"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;line-height:0.9;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 500;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linejoin:round;stroke-opacity:1"
+       x="54.880322"
+       y="74.893341"
+       id="text13-4-6"><tspan
+         sodipodi:role="line"
+         id="tspan13-1-3"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2"
+         x="54.880322"
+         y="74.893341">0.5</tspan></text>
+  </g>
+</svg>
