@@ -1709,7 +1709,7 @@
 				)
 			)
 		)
-		(symbol "Tiny_Scarab:XTAL_M24000J054"
+		(symbol "Tiny_Scarab:XTAL_L327S240V11L"
 			(pin_names
 				(offset 0.254)
 			)
@@ -1735,7 +1735,7 @@
 				)
 			)
 			(property "Footprint" "Tiny_Scarab:CRYSTAL-SMD3225-4P"
-				(at 0 31.75 0)
+				(at 0.254 23.876 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1745,7 +1745,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 1.27 29.21 0)
+				(at 1.524 21.336 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1754,8 +1754,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Crystal 24MHz 20pF ±20ppm"
-				(at 0 0 0)
+			(property "Description" "Crystal 24MHz 22pF ±10ppm"
+				(at 0.254 13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1763,8 +1763,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "ECEC(ZheJiang E ast Crystal Elec)"
-				(at 0 29.21 0)
+			(property "Manufacturer" "Lucki"
+				(at 0.254 21.336 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1772,8 +1772,8 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "M24000J054"
-				(at 0 26.67 0)
+			(property "MPN" "L327S240V11L"
+				(at 0.254 18.796 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1781,8 +1781,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB Part #" "C279615"
-				(at 0 24.13 0)
+			(property "JLCPCB Part #" "C5261157"
+				(at 0.254 16.256 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1826,7 +1826,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "XTAL_M24000J054_0_1"
+			(symbol "XTAL_L327S240V11L_0_1"
 				(rectangle
 					(start -1.143 2.54)
 					(end 1.143 -2.54)
@@ -1935,7 +1935,7 @@
 					)
 				)
 			)
-			(symbol "XTAL_M24000J054_1_1"
+			(symbol "XTAL_L327S240V11L_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.27)
@@ -5818,137 +5818,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Tiny_Scarab:XTAL_M24000J054")
-		(at 140.97 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a181d953-af65-4f28-be6c-43e88835e9b5")
-		(property "Reference" "XTAL2"
-			(at 142.24 87.63 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "24MHz"
-			(at 142.24 90.17 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Tiny_Scarab:CRYSTAL-SMD3225-4P"
-			(at 109.22 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Crystal 24MHz 20pF ±20ppm"
-			(at 140.97 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "ECEC(ZheJiang E ast Crystal Elec)"
-			(at 111.76 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "M24000J054"
-			(at 114.3 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C279615"
-			(at 116.84 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" ""
-			(at 140.97 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Farnell" ""
-			(at 140.97 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
-			(at 140.97 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "4c4301d7-1b4e-4cb8-bb04-62272634e196")
-		)
-		(pin "4"
-			(uuid "4f4c8258-7376-406c-8b1b-825cecc7c841")
-		)
-		(pin "1"
-			(uuid "fe9eb6e2-44d4-4c08-8123-d7e688a09444")
-		)
-		(pin "2"
-			(uuid "705a6c83-fafb-49a8-b931-8b65e5ad6ec6")
-		)
-		(instances
-			(project "tiny-scarab"
-				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/d0c4b0c3-1e7e-4a4c-add3-8d4a3a10843d"
-					(reference "XTAL2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 147.32 95.25 0)
 		(unit 1)
@@ -6074,6 +5943,135 @@
 			(project "tiny-scarab"
 				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/d0c4b0c3-1e7e-4a4c-add3-8d4a3a10843d"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Tiny_Scarab:XTAL_L327S240V11L")
+		(at 140.97 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b60009f3-785f-4542-96ea-013b08d998f1")
+		(property "Reference" "XTAL2"
+			(at 148.082 88.646 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "24MHz"
+			(at 148.463 90.678 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Tiny_Scarab:CRYSTAL-SMD3225-4P"
+			(at 117.094 93.726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.634 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Crystal 24MHz 22pF ±10ppm"
+			(at 127 93.726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Lucki"
+			(at 119.634 93.726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "L327S240V11L"
+			(at 122.174 93.726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5261157"
+			(at 124.714 93.726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" ""
+			(at 140.97 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell" ""
+			(at 140.97 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 140.97 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0a581a69-61ae-4161-8d7a-f8955259ced8")
+		)
+		(pin "1"
+			(uuid "ab6a0edd-e59c-4d0e-8bfd-a4849399f209")
+		)
+		(pin "2"
+			(uuid "d0390db3-3486-40c6-808a-70001add3f21")
+		)
+		(pin "4"
+			(uuid "ef778936-b651-4a43-accf-35a606d1716c")
+		)
+		(instances
+			(project ""
+				(path "/156c5422-ee07-49a4-8263-a2dbd26b90bd/d0c4b0c3-1e7e-4a4c-add3-8d4a3a10843d"
+					(reference "XTAL2")
 					(unit 1)
 				)
 			)

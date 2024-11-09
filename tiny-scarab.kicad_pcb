@@ -26402,7 +26402,7 @@
 		)
 		(fp_arc
 			(start 2.55 -1.468826)
-			(mid 2.41619 -1.51953)
+			(mid 2.416179 -1.519539)
 			(end 2.357361 -1.65)
 			(stroke
 				(width 0.05)
@@ -26424,7 +26424,7 @@
 		)
 		(fp_arc
 			(start 2.357826 1.65)
-			(mid 2.416295 1.519379)
+			(mid 2.416295 1.519383)
 			(end 2.55 1.468361)
 			(stroke
 				(width 0.05)
@@ -41176,7 +41176,7 @@
 				)
 			)
 		)
-		(property "Description" "Crystal 24MHz 20pF ±20ppm"
+		(property "Description" "Crystal 24MHz 22pF ±10ppm"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41213,7 +41213,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C279615"
+		(property "JLCPCB Part #" "C5261157"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -41225,7 +41225,7 @@
 				)
 			)
 		)
-		(property "MPN" "M24000J054"
+		(property "MPN" "L327S240V11L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -41237,7 +41237,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "ECEC(ZheJiang E ast Crystal Elec)"
+		(property "Manufacturer" "Lucki"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -41262,7 +41262,7 @@
 			)
 		)
 		(property ki_fp_filters "CRYSTAL4_ECS-240-20-30B-TR_ECS")
-		(path "/d0c4b0c3-1e7e-4a4c-add3-8d4a3a10843d/a181d953-af65-4f28-be6c-43e88835e9b5")
+		(path "/d0c4b0c3-1e7e-4a4c-add3-8d4a3a10843d/b60009f3-785f-4542-96ea-013b08d998f1")
 		(sheetname "Target-MCU")
 		(sheetfile "Target-MCU.kicad_sch")
 		(attr smd)

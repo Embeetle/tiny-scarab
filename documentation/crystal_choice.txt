@@ -1,0 +1,32 @@
+
+
+
+ 4---------------[3]
+  |             /|
+  |  ,---| |---' |
+  | /            |
+  |/             |
+[1]---------------2
+
+
+- XS-3225 [M24000J054]
+  C279615
+  ORIGINAL ONE
+  DRIVE LEVEL: 1 - 10 - 100 uW
+  10.53$
+  
+- YSX321SL [X322524MRB4SI]
+  C70571
+  DRIVE LEVEL: 10 - 100 - 200 uW
+  4.95$
+
+- XXCCCLNANF-24M
+  C124301
+  DRIVE LEVEL: 10 - 10 - 200 uW
+  8.77$
+
+- L327S240V11L
+  C5261157
+  DRIVE LEVEL: 10 - 100 - 300 uW
+  3.35$
+  Very low ESR!
