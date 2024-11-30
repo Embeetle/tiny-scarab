@@ -1,3 +1,6 @@
+Download WCH-LinkUtility:
+https://www.wch.cn/downloads/wch-linkutility_zip.html
+
 FIRST FLASH
 ===========
 - Click Target => 'Clear All Code Flash-By Power off'
